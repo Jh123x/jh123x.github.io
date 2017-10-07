@@ -17,6 +17,7 @@ p{
 	width:33%;
 	padding:10px;
 	margin:1%;
+	font-size:80%;
 }
 
 #main-nav .nav-link{
@@ -30,4 +31,13 @@ p{
 
 #disabled.disabled{
 	color:grey;
+}
+
+.tab-content.nav-tabcontent{
+	clear:both;
+}
+
+.aboutus-title{
+	font: comic Sans;
+	color:white;
 }
