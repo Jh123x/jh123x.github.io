@@ -1,0 +1,33 @@
+body{
+	background:#9f9f9f;
+	padding:10px;
+}
+
+h1{
+	color:white;
+	box-shadow: 1px;
+	margin:0px 0px 5px 10px;
+}
+
+p{
+	margin:0px 0px 5px 10px;
+}
+
+.list-group#mainlist{
+	width:33%;
+	padding:10px;
+	margin:1%;
+}
+
+#main-nav .nav-link{
+	color:white;
+}
+
+#main-nav .nav-link:hover{
+	color:grey;
+	box-shadow:2px;
+}
+
+#disabled.disabled{
+	color:grey;
+}
