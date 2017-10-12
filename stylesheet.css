@@ -14,10 +14,11 @@ p{
 }
 
 .list-group#mainlist{
-	width:33%;
-	padding:10px;
+	width:125px;
+	padding:1%;
 	margin:1%;
 	font-size:80%;
+	clear:both;
 }
 
 #main-nav .nav-link{
@@ -41,7 +42,39 @@ p{
 	font: comic Sans;
 	color:white;
 }
+
 .googleform{
-	padding:10px;
+	padding:1%;
 	background:#999;
+	width:600px;
+	height:1110px;
+}
+
+@media screen and (max-width: 1000px) {
+    .googleform {
+        width:100%;
+        padding:1%;
+		background:#999;
+		height:1110px;
+
+    }
+}
+
+footer{
+	position:fixed;
+	bottom:0;
+	width:98%;
+	height:100px;
+	background:#343a40;
+	padding:1% 0%;
+	border-radius:10px;
+	color:white;
+	margin:1px;
+}
+
+.footerwords{
+	margin:1px;
+	color:white;
+	padding: 0px 5px;
+	margin:1px;
 }
