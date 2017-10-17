@@ -39,7 +39,6 @@ p{
 }
 
 .aboutus-title{
-	font: comic Sans;
 	color:white;
 }
 
@@ -64,7 +63,7 @@ footer{
 	position:fixed;
 	bottom:0;
 	width:98%;
-	height:100px;
+	height:5%;
 	background:#343a40;
 	padding:1% 0%;
 	border-radius:10px;
