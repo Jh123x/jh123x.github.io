@@ -72,8 +72,29 @@ footer{
 }
 
 .footerwords{
-	margin:1px;
 	color:white;
 	padding: 0px 5px;
 	margin:1px;
+}
+
+input:hover {
+	box-shadow:1px;
+	border:1px;
+
+}
+
+input {
+	border:1px;
+	background:#ffffff;
+	padding:3px;
+	margin:1px;
+}
+
+.toggle{
+	display:none;
+}
+
+a {
+	list-style-type: none;
+	
 }
