@@ -56,6 +56,7 @@ p{
 		background:#999;
 		height:1110px;
 
+
     }
 }
 
@@ -88,6 +89,7 @@ input {
 	background:#ffffff;
 	padding:3px;
 	margin:1px;
+	outline:none;
 }
 
 .toggle{
@@ -96,5 +98,41 @@ input {
 
 a {
 	list-style-type: none;
+	cursor: pointer;
 	
+}
+
+iframe {
+	display:block;
+	border-style:none;
+	margin:-10px;
+	padding:-10px;
+	line-height:-5px;
+	float:left;
+	clear:all;
+	width:450px;
+	height:1007px;
+}
+
+@media screen and (max-width: 1000px) {
+	    #navbarhtml {
+		display:block;
+		border-style:none;
+		margin:-10px;
+		padding:-10px;
+		line-height:-5px;
+		height: 167px;
+		float:left;
+		clear:all;
+		width:100%;
+	}
+}
+
+html, body {
+	margin:0px;
+}
+
+tr {
+	border-color: black;
+	border-width: 1px;
 }

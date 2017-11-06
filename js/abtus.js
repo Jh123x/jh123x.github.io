@@ -1,5 +1,4 @@
 //Javascript of About Us Page
-//Edit with caution
 //Includes: Hiding.
 
 
@@ -9,14 +8,9 @@ gform.addEventListener("click",toggle);
 
 
 function toggle() {
-	var toggleId = this.attributes["data-toggle"].value;
+	var toggleId = this.attributes["data-form"].value;
 	var toggle = document.getElementById(toggleId);
-	if (toggle.classList.contains("toggle")) {
-		toggle.className -= " toggle";
-	}
-	
-	else {
-		toggle.className += " toggle";
-	}
+	toggle.classList.toggle("toggle")
+
 	
 }
