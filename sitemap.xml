@@ -1,0 +1,16 @@
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+<script
+    async="false"
+    type="text/javascript"
+    src="chrome-extension://fnjhmkhhmkbjkkabndcnnogagogbneec/in-page.js"
+  />
+<url>
+<loc>https://portfolio.jh12x.com/</loc>
+<lastmod>2022-07-30T00:00:00+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+</urlset>
