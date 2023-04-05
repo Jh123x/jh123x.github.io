@@ -1,33 +1,21 @@
 import { useState, useEffect } from "react";
 import Sidebar from "./Components/Sidebar";
 import styled from "styled-components";
+import { Brightness4, Menu as MenuIcon } from "@mui/icons-material";
+import { Switch, IconButton } from "@mui/material";
 import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
-import ResumePage from "./Pages/ResumePage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
-import ContactPage from "./Pages/ContactPage";
-import { Brightness4, Menu as MenuIcon } from "@mui/icons-material";
-import { Route, Switch as Switching } from "react-router";
-import { Switch, IconButton } from "@mui/material";
+import ResumePage from "./Pages/ResumePage";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
-  const [theme, setTheme] = useState("dark-theme");
+const App = () => {
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
   useEffect(() => {
-    document.documentElement.className = theme;
-  }, [theme]);
-
-  const themeToggler = () => {
-    if (theme === "light-theme") {
-      setTheme("dark-theme");
-      setChecked(false);
-    } else {
-      setTheme("light-theme");
-      setChecked(true);
-    }
-  };
+    document.documentElement.className = checked ? "light-theme" : "dark-theme";
+  }, [checked]);
 
   return (
     <div className="App">
@@ -44,7 +32,7 @@ function App() {
               checked={checked}
               inputProps={{ "aria-label": "" }}
               size="medium"
-              onClick={themeToggler}
+              onClick={() => setChecked(!checked)}
             />
           </div>
         </div>
@@ -63,25 +51,18 @@ function App() {
           <div className="line-3"></div>
           <div className="line-4"></div>
         </div>
-
-        <Switching>
-          <Route path="/" exact>
-            <HomePage />
+        <Routes>
+          <Route path="/">
+            <Route index element={<HomePage />} />
+            <Route path="resume" element={<ResumePage />} />
+            <Route path="about" element={<AboutPage />} />
+            <Route path="portfolios" element={<PortfoliosPage />} />
           </Route>
-          <Route path="/resume" exact>
-            <ResumePage />
-          </Route>
-          <Route path="/about" exact>
-            <AboutPage />
-          </Route>
-          <Route path="/portfolios/*">
-            <PortfoliosPage />
-          </Route>
-        </Switching>
+        </Routes>
       </MainContentStyled>
     </div>
   );
-}
+};
 
 const MainContentStyled = styled.main`
   position: relative;

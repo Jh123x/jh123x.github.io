@@ -35,6 +35,7 @@ const ButtonStyled = styled.button`
     margin-right: 0.6rem;
   }
 `;
+
 const ButtonsStyled = styled.div`
   display: flex;
   justify-content: center;

@@ -22,13 +22,13 @@ const Resume = () => {
           <SmallTitle icon={briefcase} title={"Working Experience"} />
         </div>
         <div className="resume-content">
-          {workExperience.map((experience) => <ResumeItem {...experience}/>)}
+          {workExperience.map((experience) => <ResumeItem key={experience.title + experience.year} {...experience}/>)}
         </div>
         <div className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
         </div>
         <div className="resume-content ">
-          {schExperience.map((experience) => <ResumeItem {...experience}/>)}
+          {schExperience.map((experience) => <ResumeItem key={experience.title + experience.year} {...experience}/>)}
         </div>
       </InnerLayout>
     </ResumeStyled>

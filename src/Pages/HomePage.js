@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { GitHub, Link } from "@mui/icons-material";
+import { GitHub, Link, LinkedIn } from "@mui/icons-material";
 import Particle from "../Components/Particle";
 
 const HomePage = () => (
@@ -19,6 +19,9 @@ const HomePage = () => (
       <div className="icons">
         <a href="https://github.com/Jh123x" className="icon i-github">
           <GitHub />
+        </a>
+        <a href="https://www.linkedin.com/in/junhua-wen/" className="icon i-linkedin">
+          <LinkedIn />
         </a>
         <a href="https://jh123x.com" className="icon i-youtube">
           <Link />

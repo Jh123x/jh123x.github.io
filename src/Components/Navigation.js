@@ -3,42 +3,32 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import avatar from "../img/avatar.jpg";
 
-function Navigation() {
-  return (
-    <NavigationStyled>
-      <div className="avatar">
-        <img src={avatar} alt="" />
-      </div>
-      <ul className="nav-items">
-        <li className="nav-item">
-          <NavLink to="/" activeClassName="active-class" exact>
-            Home
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" exact>
-            Resume
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/portfolios" activeClassName="active-class" exact>
-            Portfolios
-          </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink to="/about" activeClassName="active-class" exact>
-            About
-          </NavLink>
-        </li>
-      </ul>
-      <footer className="footer">
-        <p>
-          @2023 <b>Wen Junhua</b>
-        </p>
-      </footer>
-    </NavigationStyled>
-  );
-}
+const Navigation = () => (
+  <NavigationStyled>
+    <div className="avatar">
+      <img src={avatar} alt="" />
+    </div>
+    <ul className="nav-items">
+      <li className="nav-item" key="Home">
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li className="nav-item" key="resume">
+        <NavLink to="/resume">Resume</NavLink>
+      </li>
+      <li className="nav-item" key="portfolios">
+        <NavLink to="/portfolios">Portfolios</NavLink>
+      </li>
+      <li className="nav-item" key="about">
+        <NavLink to="/about">About</NavLink>
+      </li>
+    </ul>
+    <footer className="footer">
+      <p>
+        @2023 <b>Wen Junhua</b>
+      </p>
+    </footer>
+  </NavigationStyled>
+);
 
 const NavigationStyled = styled.nav`
   display: flex;

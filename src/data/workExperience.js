@@ -3,7 +3,6 @@ import NUS_LOGO from "../img/logos/nus_logo.jfif";
 import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jfif";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.jfif";
 
-
 /**
  * Latest experience at the front of the array
  */
