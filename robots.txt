@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://portfolio.jh123x.com/sitemap.xml
