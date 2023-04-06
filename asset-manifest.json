@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.bfe9cc48.js",
+    "main.js": "/static/js/main.c86b7186.js",
     "static/media/resume.jpg": "/static/media/resume.8ca0d505af4704cc2c27.jpg",
     "static/media/pdf_combiner.png": "/static/media/pdf_combiner.b568f4cd69523080e97b.png",
     "static/media/go_shell.svg": "/static/media/go_shell.a68969bcf3ebb26b3d4ddb0b3c0e075e.svg",
@@ -21,9 +21,9 @@
     "static/media/game-dev.svg": "/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
     "static/media/design.svg": "/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
     "index.html": "/index.html",
-    "main.bfe9cc48.js.map": "/static/js/main.bfe9cc48.js.map"
+    "main.c86b7186.js.map": "/static/js/main.c86b7186.js.map"
   },
   "entrypoints": [
-    "static/js/main.bfe9cc48.js"
+    "static/js/main.c86b7186.js"
   ]
 }
