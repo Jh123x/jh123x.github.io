@@ -1,6 +1,6 @@
 import jh123x from "../img/projects/jh123x.com/homepage.png";
 import fyp from "../img/projects/fyp/homepage.png";
-import goshell from "../img/projects/go_shell.png";
+import goshell from "../img/projects/go_shell.svg";
 import jiou from "../img/projects/jiou.png";
 import typeracerbot from "../img/projects/typeracer_bot.jpg";
 import pdfcombiner from "../img/projects/pdf_combiner.png";
