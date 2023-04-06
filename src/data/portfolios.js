@@ -3,7 +3,7 @@ import fyp from "../img/projects/fyp/homepage.png";
 import goshell from "../img/projects/go_shell.svg";
 import jiou from "../img/projects/jiou.png";
 import typeracerbot from "../img/projects/typeracer_bot.jpg";
-import pdfcombiner from "../img/projects/pdf_combiner.png";
+import pdfcombiner from "../img/projects/pdf_combiner.svg";
 import ow_toolkit from "../img/projects/ow_toolkit.png";
 import reversi_sim from "../img/projects/reversi_sim.png";
 import wordle_solver from "../img/projects/wordle_solver.png";
