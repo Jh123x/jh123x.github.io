@@ -24,7 +24,7 @@ const Navigation = () => (
     </ul>
     <footer className="footer">
       <p>
-        @2023 <b>Wen Junhua</b>
+        @{new Date().getFullYear()} <b>Wen Junhua</b>
       </p>
     </footer>
   </NavigationStyled>
