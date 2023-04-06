@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7ad79b4f.js",
+    "static/media/resume.jpg": "/static/media/resume.8ca0d505af4704cc2c27.jpg",
+    "static/media/pdf_combiner.png": "/static/media/pdf_combiner.b568f4cd69523080e97b.png",
+    "static/media/go_shell.png": "/static/media/go_shell.c206fc9ed508f97151a2.png",
+    "static/media/avatar.jpg": "/static/media/avatar.81ab95998db2e2ce8ab6.jpg",
+    "static/media/homepage.png": "/static/media/homepage.884f07e1df111c698b03.png",
+    "static/media/ow_toolkit.png": "/static/media/ow_toolkit.d193d11b4c34b5b4ae5a.png",
+    "static/media/typeracer_bot.jpg": "/static/media/typeracer_bot.ef10696488d625e597ba.jpg",
+    "static/media/jjc_logo.png": "/static/media/jjc_logo.c8204e1f255fa60657ce.png",
+    "static/media/jiou.png": "/static/media/jiou.a7f742eb5b171af25e5b.png",
+    "static/media/reversi_sim.png": "/static/media/reversi_sim.378b4febdd3dfaebd488.png",
+    "static/media/wordle_solver.png": "/static/media/wordle_solver.cfaa3667201b5cd5f65b.png",
+    "static/media/nus_logo.jfif": "/static/media/nus_logo.f073a2caae263d0e5d06.jfif",
+    "static/media/intelligence.svg": "/static/media/intelligence.11bd2ab25b415eeb093876127c8d6654.svg",
+    "static/media/unc_logo.jfif": "/static/media/unc_logo.803368c48b175a97219c.jfif",
+    "static/media/dso_logo.jfif": "/static/media/dso_logo.82ceb05f40a70774246c.jfif",
+    "static/media/shopee_logo.jfif": "/static/media/shopee_logo.6b09d59dac7245f8ab8f.jfif",
+    "static/media/foruslabs_logo.jfif": "/static/media/foruslabs_logo.552997e15d47f37a2724.jfif",
+    "static/media/game-dev.svg": "/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
+    "static/media/design.svg": "/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
+    "index.html": "/index.html",
+    "main.7ad79b4f.js.map": "/static/js/main.7ad79b4f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7ad79b4f.js"
+  ]
+}
