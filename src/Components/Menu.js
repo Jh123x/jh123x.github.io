@@ -4,20 +4,18 @@ import itemMap from "../data/iconMap";
 
 const Menu = ({ menuItem }) => (
   <MenuItemStyled>
-    {menuItem.map((item) => {
-      return (
-        <div className="grid-item" key={item.id}>
-          <div className="portfolio-content">
-            <div className="portfolio-image">
-              <img src={item.image} alt="" />
-              {itemMap(item.links)}
-            </div>
-            <h6>{item.title}</h6>
-            <p>{item.text}</p>
+    {menuItem.map((item, index) => (
+      <div className="grid-item" key={index}>
+        <div className="portfolio-content">
+          <div className="portfolio-image">
+            <img src={item.image} alt="" />
+            {itemMap(item.links)}
           </div>
+          <h6>{item.title}</h6>
+          <p>{item.text}</p>
         </div>
-      );
-    })}
+      </div>
+    ))}
   </MenuItemStyled>
 );
 

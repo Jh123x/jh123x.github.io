@@ -1,87 +1,139 @@
-import css1 from "../img/portImages/cv_css.png";
-import css2 from "../img/portImages/ms.png";
-import react1 from "../img/portImages/react_styled.png";
-import img2 from "../img/portImages/maya-4.jpg";
-import img3 from "../img/portImages/maya-3.jpg";
+import jh123x from "../img/projects/jh123x.com/homepage.png";
+import fyp from "../img/projects/fyp/homepage.png";
+import goshell from "../img/projects/go_shell.png";
+import jiou from "../img/projects/jiou.png";
+import typeracerbot from "../img/projects/typeracer_bot.jpg";
+import pdfcombiner from "../img/projects/pdf_combiner.png";
+import ow_toolkit from "../img/projects/ow_toolkit.png";
+import reversi_sim from "../img/projects/reversi_sim.png";
+import wordle_solver from "../img/projects/wordle_solver.png";
 
 const portfolios = [
   {
-    id: 1,
-    category: "CSS",
-    image: css1,
+    categories: ["Hugo", "Markdown"],
+    image: jh123x,
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      link: { link: "https://jh123x.com", tooltip: "Website" },
     },
-    title: "Responsive Resume",
-    text: "Created with only HTML and CSS.",
+    title: "Blog Website",
+    text: "Created using Hugo",
   },
   {
-    id: 2,
-    category: "Python",
-    image: img3,
+    categories: [
+      "ReactJs",
+      "Django",
+      "Python",
+      "PostgreSQL",
+      "Docker",
+      "Judge0",
+    ],
+    image: fyp,
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      link: {
+        link: "https://python.jh123x.com",
+        tooltip: "Test Development of the Project",
+      },
+      link2: {
+        link: "https://jh123x.com/projects/visualpython/",
+        tooltip: "Project Page",
+      },
     },
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
+    title: "VisualPython",
+    text: "A Visual Programming Platform for learning Python for my Final Year Project.",
   },
   {
-    id: 3,
-    category: "Javascript",
-    image: img3,
+    title: "Go Shell",
+    image: goshell,
+    categories: ["Go", "Shell"],
+    text: "A simple shell written in Go, complete with unit tests and github actions pipelines.",
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      github: {
+        link: "https://github.com/Jh123x/go-shell",
+        tooltip: "GitHub Repository",
+      },
+      link: {
+        link: "https://jh123x.com/projects/go-shell/",
+        tooltip: "Project Details",
+      },
     },
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
   },
   {
-    id: 4,
-    category: "Animation",
-    image: img2,
+    title: "JioU",
+    text: "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
+    image: jiou,
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      github: "https://github.com/KTV-Capoos",
+      link: {
+        link: "https://jh123x.com/projects/lifehack2022/",
+        tooltip: "Project Details",
+      },
     },
-    title: "How To Use Blender",
-    text: "Free Animation Software",
   },
   {
-    id: 5,
-    category: "Animation",
-    image: img2,
+    title: "Typeracer Bot",
+    image: typeracerbot,
+    categories: ["Python", "PyAutoGui", "OCR"],
+    text: "A simple bot that plays typeracer for you very quickly.",
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      github: "https://github.com/Jh123x/Typeracer-bot",
+      link: {
+        link: "https://jh123x.com/projects/typeracer-bot/",
+        tooltip: "Project Details",
+      },
     },
-    title: "How To Use Blender",
-    text: "Free Animation Software",
   },
   {
-    id: 6,
-    category: "React JS",
-    image: react1,
+    title: "PDF Combiner",
+    image: pdfcombiner,
+    categories: ["Python", "PyPDF2"],
+    text: "A simple CLI application that combines multiple PDF files into one.",
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      github: "https://github.com/Jh123x/PDF-Combiner",
+      link: {
+        link: "https://jh123x.com/projects/pdf-combiner/",
+        tooltip: "Project Details",
+      },
     },
-    title: "Responsive Portfolio Website",
-    text: "Created using different technologies such as Material UI, Styled-Components and more...",
   },
   {
-    id: 7,
-    category: "CSS",
-    image: css2,
+    title: "Overwatch Toolkit",
+    image: ow_toolkit,
+    categories: ["ReactJs", "NodeJs", "JavaScript"],
+    text: "A toolkit for Overwatch players.",
     links: {
-      github: "https://www.google.com",
-      link: "https://www.google.com",
+      github: "https://github.com/Jh123x/overwatch-tools",
+      link: {
+        link: "https://jh123x.com/projects/overwatch-tools/",
+        tooltip: "Project Details",
+      },
     },
-    title: "Microsoft Website Clone",
-    text: "Created using HTML and CSS",
   },
+  {
+    title: "Reversi Bot",
+    image: reversi_sim,
+    categories: ["Python", "Alpha-Beta Pruning", "Minimax", "Monte Carlo"],
+    text: "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
+    links: {
+      github: "https://github.com/Jh123x/Reversi-Simulator",
+      link: {
+        link: "https://jh123x.com/projects/reversi-simulator/",
+        tooltip: "Project Details",
+      },
+    },
+  },
+  {
+    title: "Wordle Solver",
+    image: wordle_solver,
+    categories: ["Python", "Statistical Analysis"],
+    text: "A simple CLI application that solves wordle puzzles with a GUI game",
+    links: {
+      github: "https://github.com/Jh123x/Wordle-Solver",
+      link: {
+        link: "https://jh123x.com/projects/wordle-solver/",
+        tooltip: "Project Details",
+      }
+    }
+  }
 ];
 
 export default portfolios;
