@@ -39,7 +39,13 @@ const App = () => {
       </div>
 
       <div className="ham-burger-menu">
-        <IconButton onClick={() => setNavToggle(!navToggle)}>
+        <IconButton
+          onClick={() => setNavToggle(!navToggle)}
+          className="light-dark-mode"
+          style={{
+            position: "absolute",
+          }}
+        >
           <MenuIcon />
         </IconButton>
       </div>
