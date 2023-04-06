@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { GitHub, Link, LinkedIn } from "@mui/icons-material";
 import Particle from "../Components/Particle";
+import { Tooltip } from "@mui/material";
 
 const HomePage = () => (
   <HomePageStyled>
@@ -13,10 +14,9 @@ const HomePage = () => (
         Hi, I'm <span>Junhua</span>
       </h1>
       <p>
-        I am a backend developer who is passionate about building robust
-        software, solving problems and doing CTFs.
-        <br />
-        To see my journey in the tech industry, please visit my blog <a href="https://jh123x.com">here</a>!
+        As a software engineer with a keen interest in cyber security, I strive
+        to develop secure and reliable software. This portfolio showcases my
+        skills and expertise in both fields.
       </p>
       <div className="icons">
         <a href="https://github.com/Jh123x" className="icon i-github">
@@ -28,9 +28,11 @@ const HomePage = () => (
         >
           <LinkedIn />
         </a>
-        <a href="https://jh123x.com" className="icon i-youtube">
-          <Link />
-        </a>
+        <Tooltip title="Blog site">
+          <a href="https://jh123x.com" className="icon i-youtube">
+            <Link />
+          </a>
+        </Tooltip>
       </div>
     </div>
   </HomePageStyled>
