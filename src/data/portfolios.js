@@ -7,6 +7,12 @@ import pdfcombiner from "../img/projects/pdf_combiner.svg";
 import ow_toolkit from "../img/projects/ow_toolkit.png";
 import reversi_sim from "../img/projects/reversi_sim.png";
 import wordle_solver from "../img/projects/wordle_solver.png";
+import comp562_proj from "../img/projects/comp562_proj.png";
+import code2gather from "../img/projects/code2gather.png";
+import mcgymmy from "../img/projects/mcgymmy.png";
+import ssrf from "../img/projects/ssrf.png";
+import orderonus from "../img/projects/orderonus.png";
+import not_schrodinger from "../img/projects/not_schrodinger_box.png";
 
 const portfolios = [
   {
@@ -54,6 +60,18 @@ const portfolios = [
       link: {
         link: "https://jh123x.com/projects/go-shell/",
         tooltip: "Project Details",
+      },
+    },
+  },
+  {
+    title: "Orderonus",
+    image: orderonus,
+    text: "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
+    links: {
+      github: "https://github.com/Orderonus",
+      link: {
+        link: "https://devpost.com/software/orderonus",
+        tooltip: "Devpost",
       },
     },
   },
@@ -131,8 +149,82 @@ const portfolios = [
       link: {
         link: "https://jh123x.com/projects/wordle-solver/",
         tooltip: "Project Details",
+      },
+    },
+  },
+  {
+    title: "COMP562 Project",
+    image: comp562_proj,
+    categories: ["Python", "PyTorch", "Deep Learning"],
+    text: "A project for COMP562: Introduction to Machine Learning",
+    links: {
+      github: "https://github.com/COMP562-2022-Group-1",
+      link: {
+        link: "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
+        tooltip: "Model Training and evaluation",
+      },
+      link2: {
+        link: "https://comp562-2022-group-1.github.io/",
+        tooltip: "Project Page",
+      },
+    },
+  },
+  {
+    title: "Code2Gather",
+    image: code2gather,
+    categories: [
+      "ReactJs",
+      "NodeJs",
+      "JavaScript",
+      "Microservices",
+      "Golang",
+      "Docker",
+      "Kubernetes",
+    ],
+    text: "A platform for developers to collaborate on code. This was completed as a CS3219 Project",
+    links: {
+      github: "https://github.com/CodeToGather/",
+    },
+  },
+  {
+    title: "McGymmy",
+    image: mcgymmy,
+    categories: ["Java", "Maven", "Software Engineering"],
+    text: "McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project",
+    links: {
+      github: "https://github.com/AY2021S1-CS2103T-W17-3",
+    },
+  },
+  {
+    title: "CS4239 Server Side Request Forgery Research",
+    image: ssrf,
+    categories: ["Python", "Flask", "Docker", "Server Side Request Forgery"],
+    text: "A research project on Server Side Request Forgery. This was completed as a CS4239 Project",
+    links: {
+      github: "https://github.com/orgs/CS4239-U6",
+      link: {
+        link: "https://jh123x.com/projects/ssrf-research/",
+        tooltip: "Project Details",
+      },
+    },
+  },
+  {
+    title: "NOT Schrödinger's Box",
+    image: not_schrodinger,
+    categories: ["Python", "React Native", "IoT"],
+    text: "Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.",
+    links: {
+      github: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
+      link: {
+        link: "https://devpost.com/software/not-schrodinger-s-box",
+        tooltip: "Devpost",
+      },
+      link2: {
+        link: "https://jh123x.com/projects/hacknroll2022/",
+        tooltip: "Project Details",
       }
     }
+
   }
 ];
 
