@@ -14,13 +14,18 @@ const HomePage = () => (
       </h1>
       <p>
         I am a backend developer who is passionate about building robust
-        software and solving problems. Also a Security Enthusiast.
+        software, solving problems and doing CTFs.
+        <br />
+        To see my journey in the tech industry, please visit my blog <a href="https://jh123x.com">here</a>!
       </p>
       <div className="icons">
         <a href="https://github.com/Jh123x" className="icon i-github">
           <GitHub />
         </a>
-        <a href="https://www.linkedin.com/in/junhua-wen/" className="icon i-linkedin">
+        <a
+          href="https://www.linkedin.com/in/junhua-wen/"
+          className="icon i-linkedin"
+        >
           <LinkedIn />
         </a>
         <a href="https://jh123x.com" className="icon i-youtube">
