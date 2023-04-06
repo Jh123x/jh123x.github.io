@@ -25,7 +25,7 @@ const schExperience = [
     logo: NUS_LOGO,
     title: "iBlocs for CS1010X & CS2030",
     subTitle: "National University of Singapore",
-    text: "I was a student under the iBlocs programme for CS1010X and CS2030.",
+    text: "I was a student under the iBlocs programme for CS1010X Programming Methodology and CS2030 Programming Methodology II.",
   },
   {
     year: "Jan 2015 - Dec 2016",
