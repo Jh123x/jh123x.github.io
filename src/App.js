@@ -7,6 +7,7 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import PortfoliosPage from "./Pages/PortfoliosPage";
 import ResumePage from "./Pages/ResumePage";
+import NotFoundPage from "./Pages/NotFoundPage";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
             <Route path="resume" element={<ResumePage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="portfolios" element={<PortfoliosPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Route>
         </Routes>
       </MainContentStyled>
