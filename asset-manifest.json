@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.fac0cbfa.js",
+    "main.js": "/static/js/main.3207e00e.js",
     "static/media/resume.jpg": "/static/media/resume.8ca0d505af4704cc2c27.jpg",
     "static/media/code2gather.png": "/static/media/code2gather.3a8a7db127451bbade3e.png",
     "static/media/go_shell.svg": "/static/media/go_shell.a68969bcf3ebb26b3d4ddb0b3c0e075e.svg",
@@ -16,6 +16,7 @@
     "static/media/orderonus.png": "/static/media/orderonus.95bf3a5e7372c7de64e7.png",
     "static/media/jjc_logo.png": "/static/media/jjc_logo.c8204e1f255fa60657ce.png",
     "static/media/jiou.png": "/static/media/jiou.a7f742eb5b171af25e5b.png",
+    "static/media/Tiktok_Logo.png": "/static/media/Tiktok_Logo.46cb8068d1c47b1b5faa.png",
     "static/media/reversi_sim.png": "/static/media/reversi_sim.378b4febdd3dfaebd488.png",
     "static/media/wordle_solver.png": "/static/media/wordle_solver.cfaa3667201b5cd5f65b.png",
     "static/media/nus_logo.jfif": "/static/media/nus_logo.f073a2caae263d0e5d06.jfif",
@@ -27,9 +28,9 @@
     "static/media/game-dev.svg": "/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
     "static/media/design.svg": "/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
     "index.html": "/index.html",
-    "main.fac0cbfa.js.map": "/static/js/main.fac0cbfa.js.map"
+    "main.3207e00e.js.map": "/static/js/main.3207e00e.js.map"
   },
   "entrypoints": [
-    "static/js/main.fac0cbfa.js"
+    "static/js/main.3207e00e.js"
   ]
 }
