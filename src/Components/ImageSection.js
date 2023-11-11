@@ -12,22 +12,20 @@ const ImageSection = () => (
         I am <span>Junhua</span>
       </h4>
       <p className="paragraph">
-        My Speciality is in Backend Development. Beyond backend development, I
+        My Specialty is in Backend Development. Beyond backend development, I
         am also interested in upcoming technologies such as Machine Learning and
-        Artificial Intelligence. I also participated in CTFs with NUS Greyhats
+        Artificial Intelligence. I also participate in CTFs during my free time
         and have a keen interest in Cybersecurity.
       </p>
       <div className="about-info">
         <div className="info-title">
           <p>Full Name</p>
-          <p>Age</p>
           <p>Nationality </p>
           <p>Languages </p>
           <p>Location</p>
         </div>
         <div className="info">
           <p>: Wen Junhua</p>
-          <p>: {new Date().getFullYear() - 1998}</p>
           <p>: Singaporean </p>
           <p>: English, Chinese </p>
           <p>: Singapore</p>

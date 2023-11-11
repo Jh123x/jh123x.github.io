@@ -13,8 +13,25 @@ import mcgymmy from "../img/projects/mcgymmy.png";
 import ssrf from "../img/projects/ssrf.png";
 import orderonus from "../img/projects/orderonus.png";
 import not_schrodinger from "../img/projects/not_schrodinger_box.png";
+import govalidate from "../img/projects/go_validate.png";
 
 const portfolios = [
+  {
+    categories: ["Golang"],
+    image: govalidate,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/go-validate",
+        tooltip: "GitHub Repository",
+      },
+      link: {
+        link: "https://jh123x.com/projects/go-validate/",
+        tooltip: "Project Details",
+      }
+    },
+    title: "Go Validate",
+    text: "A simple library for validations in Pure Go."
+  },
   {
     categories: ["Hugo", "Markdown"],
     image: jh123x,

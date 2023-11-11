@@ -10,7 +10,7 @@ const Skills = () => (
     <InnerLayout>
       <div className="skills">
         <ProgressBar title={"Python"} width={"90%"} text={"90%"} />
-        <ProgressBar title={"Golang"} width={"50%"} text={"50%"} />
+        <ProgressBar title={"Golang"} width={"100%"} text={"100%"} />
         <ProgressBar title={"JAVASCRIPT"} width={"85%"} text={"85%"} />
         <ProgressBar title={"Django"} width={"90%"} text={"90%"} />
         <ProgressBar title={"PYTHON"} width={"95%"} text={"95%"} />

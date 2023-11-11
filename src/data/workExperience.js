@@ -12,8 +12,8 @@ const workExperience = [
     year: "Jun 2023 - Present",
     logo: TIKTOK_LOGO,
     title: "Backend Software Engineer",
-    subTitle: "TikTok Pte Ltd",
-    text: "Collaborate with multiple cross-functional teams to deliver high quality work in rapid product development. Align with product and org objectives, and coordinate with cross-functional teams on delivering key results. Responsible for designing/architecting the solution and providing technical support for engineers in the team",
+    subTitle: "PIPO (SG) Pte Ltd",
+    text: "Collaborate with multiple cross-functional teams to deliver high quality work in rapid product development. Align with product and org objectives, and coordinate with cross-functional teams on delivering key results. Responsible for designing/architect the solution and providing technical support for engineers in the team",
   },
   {
     year: "Aug 2022 - May 2023",
@@ -35,7 +35,7 @@ const workExperience = [
     title: "CP2106 (Orbital Project) Teaching Assistant",
     logo: NUS_LOGO,
     subTitle: "National University of Singapore",
-    text: "Together with my team from NUS Greyhats, we conducted a websecurity workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.",
+    text: "Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.",
     links: {
       github: "https://github.com/NUSGreyhats/Orbital-2022",
     },
@@ -70,7 +70,7 @@ const workExperience = [
     title: "CP2106 (Orbital Project) Teaching Assistant",
     logo: NUS_LOGO,
     subTitle: "National University of Singapore",
-    text: "Together with my team from NUS Greyhats, we conducted a websecurity workshop for the students of CP2106.",
+    text: "Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106.",
     links: {
       youtube: "https://www.youtube.com/watch?v=yUs9zKqGJDU",
       github: "https://github.com/NUSGreyhats/Orbital-2021",
