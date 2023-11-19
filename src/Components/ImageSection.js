@@ -5,17 +5,17 @@ import resume from "../img/resume.jpg";
 const ImageSection = () => (
   <ImageSectionStyled>
     <div className="left-content">
-      <img src={resume} alt=""/>
+      <img src={resume} alt="" />
     </div>
     <div className="right-content">
       <h4>
         I am <span>Junhua</span>
       </h4>
       <p className="paragraph">
-        My Specialty is in Backend Development. Beyond backend development, I
-        am also interested in upcoming technologies such as Machine Learning and
-        Artificial Intelligence. I also participate in CTFs during my free time
-        and have a keen interest in Cybersecurity.
+        I specialize in in Backend Development. Beyond development, I am also
+        interested in upcoming technologies such as <b>Machine Learning</b> and
+        <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and run my{" "}
+        <b>Home Lab</b> during my free time.
       </p>
       <div className="about-info">
         <div className="info-title">

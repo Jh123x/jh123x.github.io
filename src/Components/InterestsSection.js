@@ -6,6 +6,8 @@ import InterestCard from "./InterestCard";
 import design from "../img/design.svg";
 import intelligence from "../img/intelligence.svg";
 import gamedev from "../img/game-dev.svg";
+import flag from "../img/flag.svg";
+import blog from "../img/blog.svg";
 
 const InterestsSection = () => (
   <InnerLayout>
@@ -13,10 +15,10 @@ const InterestsSection = () => (
       <Title title="Interests" span="interests" />
       <div className="interests">
         <InterestCard image={design} title="Software Development" />
-        <div className="mid-card">
-          <InterestCard image={intelligence} title="Cyber Security" />
-        </div>
-        <InterestCard image={gamedev} title="PC building" />
+        <InterestCard image={intelligence} title="Home Lab" />
+        <InterestCard image={gamedev} title="Cyber Security" />
+        <InterestCard image={flag} title="CTFs" />
+        <InterestCard image={blog} title="Tech Blog" />
       </div>
     </InterestSectionStyled>
   </InnerLayout>
