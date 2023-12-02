@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.3207e00e.js",
+    "main.js": "/static/js/main.188d897d.js",
     "static/media/resume.jpg": "/static/media/resume.8ca0d505af4704cc2c27.jpg",
     "static/media/code2gather.png": "/static/media/code2gather.3a8a7db127451bbade3e.png",
     "static/media/go_shell.svg": "/static/media/go_shell.a68969bcf3ebb26b3d4ddb0b3c0e075e.svg",
@@ -13,6 +13,7 @@
     "static/media/ssrf.png": "/static/media/ssrf.7b0cfb02fc62ca864ca3.png",
     "static/media/typeracer_bot.jpg": "/static/media/typeracer_bot.ef10696488d625e597ba.jpg",
     "static/media/mcgymmy.png": "/static/media/mcgymmy.982a0a9ec007a073a450.png",
+    "static/media/go_validate.png": "/static/media/go_validate.49ce85ae39c8ef0bf3c5.png",
     "static/media/orderonus.png": "/static/media/orderonus.95bf3a5e7372c7de64e7.png",
     "static/media/jjc_logo.png": "/static/media/jjc_logo.c8204e1f255fa60657ce.png",
     "static/media/jiou.png": "/static/media/jiou.a7f742eb5b171af25e5b.png",
@@ -21,16 +22,18 @@
     "static/media/wordle_solver.png": "/static/media/wordle_solver.cfaa3667201b5cd5f65b.png",
     "static/media/nus_logo.jfif": "/static/media/nus_logo.f073a2caae263d0e5d06.jfif",
     "static/media/intelligence.svg": "/static/media/intelligence.11bd2ab25b415eeb093876127c8d6654.svg",
+    "static/media/blog.svg": "/static/media/blog.2e05d462b351f951f37100f65bc7edfd.svg",
     "static/media/unc_logo.jfif": "/static/media/unc_logo.803368c48b175a97219c.jfif",
     "static/media/dso_logo.jfif": "/static/media/dso_logo.82ceb05f40a70774246c.jfif",
     "static/media/shopee_logo.jfif": "/static/media/shopee_logo.6b09d59dac7245f8ab8f.jfif",
     "static/media/foruslabs_logo.jfif": "/static/media/foruslabs_logo.552997e15d47f37a2724.jfif",
     "static/media/game-dev.svg": "/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
     "static/media/design.svg": "/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
+    "static/media/flag.svg": "/static/media/flag.407ff6918cc48c7a9ae91a6ca31f1380.svg",
     "index.html": "/index.html",
-    "main.3207e00e.js.map": "/static/js/main.3207e00e.js.map"
+    "main.188d897d.js.map": "/static/js/main.188d897d.js.map"
   },
   "entrypoints": [
-    "static/js/main.3207e00e.js"
+    "static/js/main.188d897d.js"
   ]
 }
