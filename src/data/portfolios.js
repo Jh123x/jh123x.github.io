@@ -14,8 +14,37 @@ import ssrf from "../img/projects/ssrf.png";
 import orderonus from "../img/projects/orderonus.png";
 import not_schrodinger from "../img/projects/not_schrodinger_box.png";
 import govalidate from "../img/projects/go_validate.png";
+import nus_jh123x from "../img/projects/nus_jh123x.png";
+import go_test from "../img/projects/go_test.webp";
 
 const portfolios = [
+  {
+    title: "Go Test",
+    text: "A simple library for testing in Pure Go.",
+    categories: ["Golang"],
+    image: go_test,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/GoTest",
+      },
+      link: {
+        link: "https://portfolio.jh123x.com/GoTest/",
+        tooltip: "Official Documentation",
+      },
+    },
+  },
+  {
+    title: "NUS Website",
+    text: "A simple website for NUS students to find useful links and resources.",
+    categories: ["Hugo", "Markdown"],
+    image: nus_jh123x,
+    links: {
+      link: {
+        link: "https://nus.jh123x.com/",
+        tooltip: "Website",
+      },
+    },
+  },
   {
     categories: ["Golang"],
     image: govalidate,
@@ -24,13 +53,17 @@ const portfolios = [
         link: "https://github.com/Jh123x/go-validate",
         tooltip: "GitHub Repository",
       },
+      docs: {
+        link: "https://portfolio.jh123x.com/go-validate/",
+        tooltip: "Official Documentation",
+      },
       link: {
         link: "https://jh123x.com/projects/go-validate/",
         tooltip: "Project Details",
-      }
+      },
     },
     title: "Go Validate",
-    text: "A simple library for validations in Pure Go."
+    text: "A simple library for validations in Pure Go.",
   },
   {
     categories: ["Hugo", "Markdown"],
@@ -52,13 +85,17 @@ const portfolios = [
     ],
     image: fyp,
     links: {
-      link: {
+      feature_site: {
         link: "https://python.jh123x.com",
         tooltip: "Test Development of the Project",
       },
-      link2: {
+      project_showcase: {
         link: "https://jh123x.com/projects/visualpython/",
         tooltip: "Project Page",
+      },
+      official: {
+        link: "https://visualpython.comp.nus.edu.sg/",
+        tooltip: "Production Deployment of the Project",
       },
     },
     title: "VisualPython",
@@ -239,10 +276,9 @@ const portfolios = [
       link2: {
         link: "https://jh123x.com/projects/hacknroll2022/",
         tooltip: "Project Details",
-      }
-    }
-
-  }
+      },
+    },
+  },
 ];
 
 export default portfolios;
