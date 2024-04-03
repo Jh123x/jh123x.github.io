@@ -5,20 +5,40 @@ import Title from "./Title";
 import InterestCard from "./InterestCard";
 import design from "../img/design.svg";
 import intelligence from "../img/intelligence.svg";
-import gamedev from "../img/game-dev.svg";
 import flag from "../img/flag.svg";
 import blog from "../img/blog.svg";
+import gamedev from "../img/game-dev.svg";
 
 const InterestsSection = () => (
   <InnerLayout>
     <InterestSectionStyled>
       <Title title="Interests" span="interests" />
       <div className="interests">
-        <InterestCard image={design} title="Software Development" />
-        <InterestCard image={intelligence} title="Home Lab" />
-        <InterestCard image={gamedev} title="Cyber Security" />
-        <InterestCard image={flag} title="CTFs" />
-        <InterestCard image={blog} title="Tech Blog" />
+        <InterestCard
+          image={design}
+          title="Software Development"
+          href="https://github.com/Jh123x"
+        />
+        <InterestCard
+          image={intelligence}
+          title="Home Lab"
+          href="https://jh123x.com/blog/2023/home-lab/"
+        />
+        <InterestCard
+          image={flag}
+          title="CTFs"
+          href="https://jh123x.com/tags/ctf/"
+        />
+        <InterestCard
+          image={blog}
+          title="Tech Blog"
+          href="https://jh123x.com"
+        />
+        <InterestCard
+          image={gamedev}
+          title="School Blog"
+          href="https://nus.jh123x.com"
+        />
       </div>
     </InterestSectionStyled>
   </InnerLayout>

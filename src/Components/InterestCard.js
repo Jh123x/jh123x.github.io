@@ -1,13 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-const InterestCard = ({ image, title, paragraph }) => (
+const InterestCard = ({ image, title, paragraph, href }) => (
   <InterestCardStyled>
-    <div className="container">
-      <img src={image} alt="" />
-      <h4>{title}</h4>
-      <p>{paragraph}</p>
-    </div>
+    <a href={href} target="_blank" rel="noreferrer">
+      <div className="container">
+        <img src={image} alt={title} />
+        <h4>{title}</h4>
+        <p>{paragraph}</p>
+      </div>
+    </a>
   </InterestCardStyled>
 );
 
