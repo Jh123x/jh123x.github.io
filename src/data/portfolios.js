@@ -15,7 +15,7 @@ import orderonus from "../img/projects/orderonus.png";
 import not_schrodinger from "../img/projects/not_schrodinger_box.png";
 import govalidate from "../img/projects/go_validate.png";
 import nus_jh123x from "../img/projects/nus_jh123x.png";
-import go_test from "../img/projects/go_test.webp";
+import go_test from "../img/projects/go_test.png";
 
 const portfolios = [
   {
