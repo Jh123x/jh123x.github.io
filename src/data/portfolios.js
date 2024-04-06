@@ -1,6 +1,6 @@
 import jh123x from "../img/projects/jh123x.com/homepage.png";
 import fyp from "../img/projects/fyp/homepage.png";
-import goshell from "../img/projects/go_shell.svg";
+import go_shell from "../img/projects/go_shell.svg";
 import jiou from "../img/projects/jiou.png";
 import typeracerbot from "../img/projects/typeracer_bot.jpg";
 import pdfcombiner from "../img/projects/pdf_combiner.svg";
@@ -11,9 +11,9 @@ import comp562_proj from "../img/projects/comp562_proj.png";
 import code2gather from "../img/projects/code2gather.png";
 import mcgymmy from "../img/projects/mcgymmy.png";
 import ssrf from "../img/projects/ssrf.png";
-import orderonus from "../img/projects/orderonus.png";
+import order_on_us from "../img/projects/orderonus.png";
 import not_schrodinger from "../img/projects/not_schrodinger_box.png";
-import govalidate from "../img/projects/go_validate.png";
+import go_validate from "../img/projects/go_validate.png";
 import nus_jh123x from "../img/projects/nus_jh123x.png";
 import go_test from "../img/projects/go_test.png";
 
@@ -47,7 +47,7 @@ const portfolios = [
   },
   {
     categories: ["Golang"],
-    image: govalidate,
+    image: go_validate,
     links: {
       github: {
         link: "https://github.com/Jh123x/go-validate",
@@ -103,7 +103,7 @@ const portfolios = [
   },
   {
     title: "Go Shell",
-    image: goshell,
+    image: go_shell,
     categories: ["Go", "Shell"],
     text: "A simple shell written in Go, complete with unit tests and github actions pipelines.",
     links: {
@@ -119,7 +119,7 @@ const portfolios = [
   },
   {
     title: "Orderonus",
-    image: orderonus,
+    image: order_on_us,
     text: "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
     links: {
       github: "https://github.com/Orderonus",
