@@ -1,13 +1,13 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
 import { InnerLayout } from "../styles/Layouts";
-import Title from "../Components/Title";
-import SmallTitle from "../Components/SmallTitle";
+import Title from "./Title";
+import SmallTitle from "./SmallTitle";
 import {
   BusinessCenter as BusinessCenterIcon,
   School as SchoolIcon,
 } from "@mui/icons-material";
-import ResumeItem from "../Components/ResumeItem";
+import ResumeItem from "./ResumeItem";
 import workExperience from "../data/workExperience";
 import schExperience from "../data/schExperience";
 
@@ -22,13 +22,23 @@ const Resume = () => {
           <SmallTitle icon={briefcase} title={"Working Experience"} />
         </div>
         <div className="resume-content">
-          {workExperience.map((experience) => <ResumeItem key={experience.title + experience.year} {...experience}/>)}
+          {workExperience.map((experience) => (
+            <ResumeItem
+              key={experience.title + experience.year}
+              {...experience}
+            />
+          ))}
         </div>
         <div className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
         </div>
         <div className="resume-content ">
-          {schExperience.map((experience) => <ResumeItem key={experience.title + experience.year} {...experience}/>)}
+          {schExperience.map((experience) => (
+            <ResumeItem
+              key={experience.title + experience.year}
+              {...experience}
+            />
+          ))}
         </div>
       </InnerLayout>
     </ResumeStyled>

@@ -1,42 +1,24 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
-import { GitHub, Link, LinkedIn } from "@mui/icons-material";
-import Particle from "../Components/Particle";
-import { Tooltip } from "@mui/material";
 
-const HomePage = () => (
-  <HomePageStyled>
-    <div className="particle-con">
-      <Particle />
-    </div>
-    <div className="typography">
-      <h1>
-        Hi, I'm <span>Junhua</span>
-      </h1>
-      <p>
-        As a software engineer with a keen interest in cyber security, I strive
-        to develop secure and reliable software. This portfolio showcases my
-        skills and expertise in both fields.
-      </p>
-      <div className="icons">
-        <a href="https://github.com/Jh123x" className="icon i-github">
-          <GitHub />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/junhua-wen/"
-          className="icon i-linkedin"
-        >
-          <LinkedIn />
-        </a>
-        <Tooltip title="Blog site">
-          <a href="https://jh123x.com" className="icon i-youtube">
-            <Link />
-          </a>
-        </Tooltip>
+const timeout = 3000;
+
+const NotFoundPage = () => {
+  setTimeout(() => window.location.replace("/"), timeout);
+
+  return (
+    <HomePageStyled>
+      <div className="typography">
+        <h1>404 Page not found</h1>
+        <p>
+          This page does not / no longer exists.
+          <br />
+          You will be redirected in {timeout / 1000} seconds
+        </p>
       </div>
-    </div>
-  </HomePageStyled>
-);
+    </HomePageStyled>
+  );
+};
 
 const HomePageStyled = styled.header`
   width: 100%;
@@ -91,4 +73,4 @@ const HomePageStyled = styled.header`
   }
 `;
 
-export default HomePage;
+export default NotFoundPage;

@@ -3,11 +3,13 @@ import NUS_LOGO from "../img/logos/nus_logo.jfif";
 import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jfif";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.jfif";
 import TIKTOK_LOGO from "../img/logos/Tiktok_Logo.png";
+import { WorkExperienceEntry } from "./types";
+
 
 /**
  * Latest experience at the front of the array
  */
-const workExperience = [
+const workExperience: WorkExperienceEntry[] = [
   {
     year: "Jun 2023 - Present",
     logo: TIKTOK_LOGO,
@@ -37,7 +39,10 @@ const workExperience = [
     subTitle: "National University of Singapore",
     text: "Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.",
     links: {
-      github: "https://github.com/NUSGreyhats/Orbital-2022",
+      github: {
+        link: "https://github.com/NUSGreyhats/Orbital-2022",
+        tooltip: "GitHub Repository",
+      },
     },
   },
   {
@@ -47,8 +52,10 @@ const workExperience = [
     logo: FORUS_LABS_LOGO,
     text: "During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.",
     links: {
-      google:
-        "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
+      google: {
+        link: "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
+        tooltip: "Google Play Store",
+      }
     },
   },
   {
@@ -72,8 +79,14 @@ const workExperience = [
     subTitle: "National University of Singapore",
     text: "Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106.",
     links: {
-      youtube: "https://www.youtube.com/watch?v=yUs9zKqGJDU",
-      github: "https://github.com/NUSGreyhats/Orbital-2021",
+      youtube: {
+        link: "https://www.youtube.com/watch?v=yUs9zKqGJDU",
+        tooltip: "YouTube Video",
+      },
+      github: {
+        link: "https://github.com/NUSGreyhats/Orbital-2021",
+        tooltip: "GitHub Repository",
+      },
     },
   },
   {

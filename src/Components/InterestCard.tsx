@@ -1,7 +1,13 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
+import { InterestDescription } from "./types";
 
-const InterestCard = ({ image, title, paragraph, href }) => (
+const InterestCard = ({
+  image,
+  title,
+  paragraph,
+  href,
+}: InterestDescription) => (
   <InterestCardStyled>
     <a href={href} target="_blank" rel="noreferrer">
       <div className="container">

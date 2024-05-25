@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
 import ImageSection from "../Components/ImageSection";
 import Title from "../Components/Title";
@@ -8,7 +8,7 @@ import InterestsSection from "../Components/InterestsSection";
 const AboutPage = () => (
   <MainLayout>
     <AboutStyled>
-      <Title title={"About Me"} span={"About Me"} />
+      <Title title="About Me" span="About Me" />
       <ImageSection />
       <InterestsSection />
     </AboutStyled>

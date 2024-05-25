@@ -16,8 +16,9 @@ import not_schrodinger from "../img/projects/not_schrodinger_box.png";
 import go_validate from "../img/projects/go_validate.png";
 import nus_jh123x from "../img/projects/nus_jh123x.png";
 import go_test from "../img/projects/go_test.png";
+import { PortfolioEntry } from "./types";
 
-const portfolios = [
+const portfolios: PortfolioEntry[] = [
   {
     title: "Go Test",
     text: "A simple library for testing in Pure Go.",
@@ -120,9 +121,13 @@ const portfolios = [
   {
     title: "Orderonus",
     image: order_on_us,
+    categories: ["Django", "ReactJs", "Python"],
     text: "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
     links: {
-      github: "https://github.com/Orderonus",
+      github: {
+        link: "https://github.com/Orderonus",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://devpost.com/software/orderonus",
         tooltip: "Devpost",
@@ -132,9 +137,13 @@ const portfolios = [
   {
     title: "JioU",
     text: "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
+    categories: ["ReactJs", "NodeJs", "JavaScript", "Django"],
     image: jiou,
     links: {
-      github: "https://github.com/KTV-Capoos",
+      github: {
+        link: "https://github.com/KTV-Capoos",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://jh123x.com/projects/lifehack2022/",
         tooltip: "Project Details",
@@ -147,7 +156,10 @@ const portfolios = [
     categories: ["Python", "PyAutoGui", "OCR"],
     text: "A simple bot that plays typeracer for you very quickly.",
     links: {
-      github: "https://github.com/Jh123x/Typeracer-bot",
+      github: {
+        link: "https://github.com/Jh123x/Typeracer-bot",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://jh123x.com/projects/typeracer-bot/",
         tooltip: "Project Details",
@@ -160,7 +172,9 @@ const portfolios = [
     categories: ["Python", "PyPDF2"],
     text: "A simple CLI application that combines multiple PDF files into one.",
     links: {
-      github: "https://github.com/Jh123x/PDF-Combiner",
+      github: {
+        link: "https://github.com/Jh123x/PDF-Combiner"
+      },
       link: {
         link: "https://jh123x.com/projects/pdf-combiner/",
         tooltip: "Project Details",
@@ -173,7 +187,10 @@ const portfolios = [
     categories: ["ReactJs", "NodeJs", "JavaScript"],
     text: "A toolkit for Overwatch players.",
     links: {
-      github: "https://github.com/Jh123x/overwatch-tools",
+      github: {
+        link: "https://github.com/Jh123x/overwatch-tools",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://jh123x.com/projects/overwatch-tools/",
         tooltip: "Project Details",
@@ -186,7 +203,10 @@ const portfolios = [
     categories: ["Python", "Alpha-Beta Pruning", "Minimax", "Monte Carlo"],
     text: "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
     links: {
-      github: "https://github.com/Jh123x/Reversi-Simulator",
+      github: {
+        link: "https://github.com/Jh123x/Reversi-Simulator",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://jh123x.com/projects/reversi-simulator/",
         tooltip: "Project Details",
@@ -199,7 +219,10 @@ const portfolios = [
     categories: ["Python", "Statistical Analysis"],
     text: "A simple CLI application that solves wordle puzzles with a GUI game",
     links: {
-      github: "https://github.com/Jh123x/Wordle-Solver",
+      github: {
+        link: "https://github.com/Jh123x/Wordle-Solver",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://jh123x.com/projects/wordle-solver/",
         tooltip: "Project Details",
@@ -212,7 +235,10 @@ const portfolios = [
     categories: ["Python", "PyTorch", "Deep Learning"],
     text: "A project for COMP562: Introduction to Machine Learning",
     links: {
-      github: "https://github.com/COMP562-2022-Group-1",
+      github: {
+        link: "https://github.com/COMP562-2022-Group-1",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
         tooltip: "Model Training and evaluation",
@@ -237,7 +263,10 @@ const portfolios = [
     ],
     text: "A platform for developers to collaborate on code. This was completed as a CS3219 Project",
     links: {
-      github: "https://github.com/CodeToGather/",
+      github: {
+        link: "https://github.com/CodeToGather/",
+        tooltip: "GitHub Repository",
+      },
     },
   },
   {
@@ -246,7 +275,10 @@ const portfolios = [
     categories: ["Java", "Maven", "Software Engineering"],
     text: "McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project",
     links: {
-      github: "https://github.com/AY2021S1-CS2103T-W17-3",
+      github: {
+        link: "https://github.com/AY2021S1-CS2103T-W17-3",
+        tooltip: "GitHub Repository",
+      },
     },
   },
   {
@@ -255,7 +287,10 @@ const portfolios = [
     categories: ["Python", "Flask", "Docker", "Server Side Request Forgery"],
     text: "A research project on Server Side Request Forgery. This was completed as a CS4239 Project",
     links: {
-      github: "https://github.com/orgs/CS4239-U6",
+      github: {
+        link: "https://github.com/orgs/CS4239-U6",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://jh123x.com/projects/ssrf-research/",
         tooltip: "Project Details",
@@ -268,7 +303,10 @@ const portfolios = [
     categories: ["Python", "React Native", "IoT"],
     text: "Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.",
     links: {
-      github: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
+      github: {
+        link: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
+        tooltip: "GitHub Repository",
+      },
       link: {
         link: "https://devpost.com/software/not-schrodinger-s-box",
         tooltip: "Devpost",

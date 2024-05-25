@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { MainLayout, InnerLayout } from "../styles/Layouts";
 import Title from "../Components/Title";
 import portfolios from "../data/portfolios";

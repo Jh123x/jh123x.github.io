@@ -1,3 +1,4 @@
+import * as React from "react";
 import { useState, useEffect } from "react";
 import Sidebar from "./Components/Sidebar";
 import styled from "styled-components";
