@@ -4,6 +4,10 @@ import { GitHub, Link, LinkedIn } from "@mui/icons-material";
 import Particle from "../Components/Particle";
 import { Tooltip } from "@mui/material";
 
+/**
+ * HomePage Component is the home page of the website.
+ * @returns {React.JSX.Element}
+ */
 const HomePage = () => (
   <HomePageStyled>
     <div className="particle-con">

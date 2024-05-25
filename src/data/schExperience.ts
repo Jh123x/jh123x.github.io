@@ -1,11 +1,12 @@
 import NUS_LOGO from "../img/logos/nus_logo.jfif";
 import UNC_LOGO from "../img/logos/unc_logo.jfif";
 import JJC_LOGO from "../img/logos/jjc_logo.png";
+import { SchoolExperienceEntry } from "./types";
 
 /**
  * Latest experience at the front of the array
  */
-const schExperience = [
+const schExperience: SchoolExperienceEntry[] = [
   {
     year: "Aug 2019 - May 2023",
     logo: NUS_LOGO,

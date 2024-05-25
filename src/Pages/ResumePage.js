@@ -3,7 +3,11 @@ import Skills from '../Components/Skills';
 import { MainLayout} from '../styles/Layouts';
 import Resume from '../Components/Resume';
 
-function ResumePage() {
+/**
+ * ResumePage Component is the resume page of the website.
+ * @returns {React.JSX.Element}
+ */
+const ResumePage = () => {
     return (
         <MainLayout>
             <Skills />

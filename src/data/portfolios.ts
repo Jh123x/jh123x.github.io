@@ -16,8 +16,9 @@ import not_schrodinger from "../img/projects/not_schrodinger_box.png";
 import go_validate from "../img/projects/go_validate.png";
 import nus_jh123x from "../img/projects/nus_jh123x.png";
 import go_test from "../img/projects/go_test.png";
+import { PortfolioEntry } from "./types";
 
-const portfolios = [
+const portfolios: PortfolioEntry[] = [
   {
     title: "Go Test",
     text: "A simple library for testing in Pure Go.",
@@ -120,6 +121,7 @@ const portfolios = [
   {
     title: "Orderonus",
     image: order_on_us,
+    categories: ["Django", "ReactJs", "Python"],
     text: "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
     links: {
       github: "https://github.com/Orderonus",
@@ -132,6 +134,7 @@ const portfolios = [
   {
     title: "JioU",
     text: "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
+    categories: ["ReactJs", "NodeJs", "JavaScript", "Django"],
     image: jiou,
     links: {
       github: "https://github.com/KTV-Capoos",

@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 const timeout = 3000;
 
+/**
+ * NotFoundPage is displayed when the path is not found.
+ * @returns {React.JSX.Element}
+ */
 const NotFoundPage = () => {
   setTimeout(() => {
     window.location.replace("/");

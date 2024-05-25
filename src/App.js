@@ -10,6 +10,10 @@ import ResumePage from "./Pages/ResumePage";
 import NotFoundPage from "./Pages/NotFoundPage";
 import { Routes, Route } from "react-router-dom";
 
+/**
+ * App Component is the main page of the website
+ * @returns {Component}
+ */
 const App = () => {
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
