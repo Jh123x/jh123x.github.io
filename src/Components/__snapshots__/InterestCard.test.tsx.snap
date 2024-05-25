@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InterestCard should render correctly 1`] = `
+<InterestCard
+  href="https://nus.jh123x.com"
+  image="game-dev.svg"
+  title="School Blog"
+/>
+`;

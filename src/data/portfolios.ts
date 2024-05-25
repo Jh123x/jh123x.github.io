@@ -86,17 +86,19 @@ const portfolios: PortfolioEntry[] = [
     ],
     image: fyp,
     links: {
-      feature_site: {
-        link: "https://python.jh123x.com",
-        tooltip: "Test Development of the Project",
-      },
-      project_showcase: {
+      link: [
+        {
+          link: "https://python.jh123x.com",
+          tooltip: "Test Development of the Project",
+        },
+        {
+          link: "https://visualpython.comp.nus.edu.sg/",
+          tooltip: "Production Deployment of the Project",
+        },
+      ],
+      docs: {
         link: "https://jh123x.com/projects/visualpython/",
         tooltip: "Project Page",
-      },
-      official: {
-        link: "https://visualpython.comp.nus.edu.sg/",
-        tooltip: "Production Deployment of the Project",
       },
     },
     title: "VisualPython",
@@ -175,10 +177,11 @@ const portfolios: PortfolioEntry[] = [
       github: {
         link: "https://github.com/Jh123x/PDF-Combiner"
       },
-      link: {
-        link: "https://jh123x.com/projects/pdf-combiner/",
-        tooltip: "Project Details",
-      },
+      link: 
+        {
+          link: "https://jh123x.com/projects/pdf-combiner/",
+          tooltip: "Project Details",
+        },
     },
   },
   {
@@ -239,14 +242,16 @@ const portfolios: PortfolioEntry[] = [
         link: "https://github.com/COMP562-2022-Group-1",
         tooltip: "GitHub Repository",
       },
-      link: {
-        link: "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
-        tooltip: "Model Training and evaluation",
-      },
-      link2: {
-        link: "https://comp562-2022-group-1.github.io/",
-        tooltip: "Project Page",
-      },
+      link: [
+        {
+          link: "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
+          tooltip: "Model Training and evaluation",
+        },
+        {
+          link: "https://comp562-2022-group-1.github.io/",
+          tooltip: "Project Page",
+        },
+      ],
     },
   },
   {
@@ -307,14 +312,15 @@ const portfolios: PortfolioEntry[] = [
         link: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
         tooltip: "GitHub Repository",
       },
-      link: {
+      link: [{
         link: "https://devpost.com/software/not-schrodinger-s-box",
         tooltip: "Devpost",
       },
-      link2: {
+      {
         link: "https://jh123x.com/projects/hacknroll2022/",
         tooltip: "Project Details",
       },
+      ],
     },
   },
 ];

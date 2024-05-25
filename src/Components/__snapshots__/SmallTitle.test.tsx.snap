@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Small Title should render correctly 1`] = `
+<SmallTitle
+  icon="icon"
+  title="Test Title"
+/>
+`;

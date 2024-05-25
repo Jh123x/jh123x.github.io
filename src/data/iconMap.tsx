@@ -1,28 +1,25 @@
+import * as React from "react";
 import {
   GitHub,
   Link,
   Google,
   Apple,
   LinkedIn,
-  LinkRounded,
+  DocumentScannerOutlined,
+  YouTube,
 } from "@mui/icons-material";
 import { Tooltip } from "@mui/material";
-import { OverridableComponent } from "@mui/material/OverridableComponent";
-import { SvgIconTypeMap } from "@mui/material";
-import { LinkTypes, PortfolioLink } from "./types";
+import { LinkTypes, PortfolioLink, IconTypes, Icon } from "./types";
 import { ReactElement } from "react";
-import * as React from "react";
 
-type Icon = OverridableComponent<SvgIconTypeMap<{}, "svg">>;
-type IconType = "github" | "link" | "google" | "apple" | "linkedin" | "link2";
-
-const iconMap: Map<IconType, Icon> = new Map<IconType, Icon>([
-  ["github", GitHub],
-  ["google", Google],
-  ["apple", Apple],
-  ["linkedin", LinkedIn],
-  ["link", Link],
-  ["link2", LinkRounded],
+const iconMap: Map<IconTypes, Icon> = new Map<IconTypes, Icon>([
+  [IconTypes.github, GitHub],
+  [IconTypes.google, Google],
+  [IconTypes.apple, Apple],
+  [IconTypes.linkedin, LinkedIn],
+  [IconTypes.link, Link],
+  [IconTypes.youtube, YouTube],
+  [IconTypes.docs, DocumentScannerOutlined],
 ]);
 
 const itemMap = (links: LinkTypes) => {
@@ -30,7 +27,7 @@ const itemMap = (links: LinkTypes) => {
   return <ul>{entries.map(mapItem)}</ul>;
 };
 
-const mapItem = ([name, link]: [IconType, PortfolioLink]): ReactElement<
+const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
   any,
   any
 > => {

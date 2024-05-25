@@ -9,7 +9,7 @@ const ResumeItem = ({
   subTitle,
   text,
   logo,
-  links,
+  link,
 }: WorkExperienceEntry) => (
   <ResumeItemStyled>
     <div className="left-content">
@@ -24,7 +24,7 @@ const ResumeItem = ({
       <h5>{title}</h5>
       <h6>{subTitle}</h6>
       <p>{text}</p>
-      {links ? itemMap(links) : <></>}
+      {link ? itemMap(link) : <></>}
     </div>
   </ResumeItemStyled>
 );

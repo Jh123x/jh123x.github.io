@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should render correctly toggled 1`] = `
+<Sidebar
+  navToggle={true}
+/>
+`;
+
+exports[`Sidebar should render correctly untoggled 1`] = `
+<Sidebar
+  navToggle={false}
+/>
+`;
