@@ -13,15 +13,15 @@ export interface WorkExperienceEntry {
 }
 
 export interface LinkTypes {
-    github?: PortfolioLink | string
-    youtube?: PortfolioLink | string
-    google?: PortfolioLink | string
-    link?: PortfolioLink | string
-    link2?: PortfolioLink | string
-    docs?: PortfolioLink | string
-    feature_site?: PortfolioLink | string
-    project_showcase?: PortfolioLink | string
-    official?: PortfolioLink | string
+    github?: PortfolioLink
+    youtube?: PortfolioLink
+    google?: PortfolioLink
+    link?: PortfolioLink
+    link2?: PortfolioLink
+    docs?: PortfolioLink
+    feature_site?: PortfolioLink
+    project_showcase?: PortfolioLink
+    official?: PortfolioLink
 }
 
 export interface PortfolioEntry {

@@ -25,25 +25,23 @@ const iconMap: Map<IconType, Icon> = new Map<IconType, Icon>([
   ["link2", LinkRounded],
 ]);
 
-const itemMap = (links: LinkTypes | string) => {
+const itemMap = (links: LinkTypes) => {
   const entries = Object.entries(links ?? {});
   return <ul>{entries.map(mapItem)}</ul>;
 };
 
-const mapItem = ([name, link]: [IconType, Icon]): ReactElement<any, any> => {
-  let tooltip: string, finalLink: string;
-
+const mapItem = ([name, link]: [IconType, PortfolioLink]): ReactElement<
+  any,
+  any
+> => {
   const Icon = iconMap.get(name) ?? Link;
-  if (typeof link === "object" && link) {
-    const val = link as PortfolioLink;
-    tooltip = val.tooltip;
-    finalLink = val.link;
-  }
+  const tooltip = link.tooltip ?? "";
+  const url = link.link ?? "";
 
   return (
-    <li key={name + finalLink + tooltip}>
+    <li key={name + link.link + tooltip}>
       <Tooltip title={tooltip}>
-        <a href={finalLink}>
+        <a href={url}>
           <Icon />
         </a>
       </Tooltip>
