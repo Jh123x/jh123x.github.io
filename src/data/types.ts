@@ -1,6 +1,25 @@
+import { OverridableComponent } from "@mui/material/OverridableComponent";
+import { SvgIconTypeMap } from "@mui/material";
+
+export enum IconTypes {
+    github = "github",
+    link = "link",
+    google = "google",
+    apple = "apple",
+    linkedin = "linkedin",
+    youtube = "youtube",
+    docs = "docs",
+}
+
+export type Icon = OverridableComponent<SvgIconTypeMap<{}, "svg">>;
+
 export interface PortfolioLink {
     link: string;
     tooltip?: string;
+}
+
+export type LinkTypes = {
+    [key in IconTypes]?: PortfolioLink | PortfolioLink[];
 }
 
 export interface WorkExperienceEntry {
@@ -9,19 +28,7 @@ export interface WorkExperienceEntry {
     title: string;
     subTitle: string;
     text: string;
-    links?: LinkTypes;
-}
-
-export interface LinkTypes {
-    github?: PortfolioLink;
-    youtube?: PortfolioLink;
-    google?: PortfolioLink;
-    link?: PortfolioLink;
-    link2?: PortfolioLink;
-    docs?: PortfolioLink;
-    feature_site?: PortfolioLink;
-    project_showcase?: PortfolioLink;
-    official?: PortfolioLink;
+    link?: LinkTypes;
 }
 
 export interface PortfolioEntry {

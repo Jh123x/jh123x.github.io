@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`itemMap should render a apple icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title="Apple"
+      >
+        <a
+          href="https://apple.com"
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`itemMap should render a docs icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title="Docs"
+      >
+        <a
+          href="https://docs.com"
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`itemMap should render a github icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title="Github"
+      >
+        <a
+          href="https://github.com"
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`itemMap should render a google icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title="Google"
+      >
+        <a
+          href="https://google.com"
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`itemMap should render a link icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title=""
+      >
+        <a
+          href=""
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`itemMap should render a linkedin icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title="LinkedIn"
+      >
+        <a
+          href="https://linkedin.com"
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`itemMap should render a youtube icon 1`] = `
+<div>
+  <ul>
+    <li>
+      <ForwardRef(Tooltip)
+        title="YouTube"
+      >
+        <a
+          href="https://youtube.com"
+        >
+          <Memo />
+        </a>
+      </ForwardRef(Tooltip)>
+    </li>
+  </ul>
+</div>
+`;
