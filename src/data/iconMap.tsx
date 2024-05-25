@@ -18,10 +18,10 @@ type IconType = "github" | "link" | "google" | "apple" | "linkedin" | "link2";
 
 const iconMap: Map<IconType, Icon> = new Map<IconType, Icon>([
   ["github", GitHub],
-  ["link", Link],
   ["google", Google],
   ["apple", Apple],
   ["linkedin", LinkedIn],
+  ["link", Link],
   ["link2", LinkRounded],
 ]);
 
