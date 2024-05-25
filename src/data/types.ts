@@ -16,8 +16,6 @@ export interface WorkExperienceEntry {
     }
 }
 
-
-
 export interface PortfolioEntry {
     title: string
     text: string

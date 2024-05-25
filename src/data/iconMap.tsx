@@ -32,6 +32,7 @@ const itemMap = (links: PortfolioLink | string) => {
 
 const mapItem = ([name, link]: [IconType, Icon]): ReactElement<any, any> => {
   let tooltip: string, finalLink: string;
+
   const Icon = iconMap.get(name) ?? Link;
   if (typeof link === "object" && link) {
     const val = link as PortfolioLink;
