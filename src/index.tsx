@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import App from "./App";
 import GlobalStyle from "./styles/GlobalStyle";
 import { HashRouter } from "react-router-dom";
