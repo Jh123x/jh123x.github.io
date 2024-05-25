@@ -1,8 +1,16 @@
-import React from "react";
+import * as React from "react";
 import styled from "styled-components";
 import itemMap from "../data/iconMap";
+import { WorkExperienceEntry } from "../data/types";
 
-const ResumeItem = ({ year, title, subTitle, text, logo, links }) => (
+const ResumeItem = ({
+  year,
+  title,
+  subTitle,
+  text,
+  logo,
+  links,
+}: WorkExperienceEntry) => (
   <ResumeItemStyled>
     <div className="left-content">
       <p>{year}</p>
@@ -16,7 +24,7 @@ const ResumeItem = ({ year, title, subTitle, text, logo, links }) => (
       <h5>{title}</h5>
       <h6>{subTitle}</h6>
       <p>{text}</p>
-      {itemMap(links)}
+      {links ? itemMap(links) : <></>}
     </div>
   </ResumeItemStyled>
 );

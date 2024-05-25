@@ -9,11 +9,19 @@ export interface WorkExperienceEntry {
     title: string;
     subTitle: string;
     text: string;
-    links?: {
-        github?: PortfolioLink | string;
-        google?: PortfolioLink | string;
-        youtube?: PortfolioLink | string;
-    }
+    links?: LinkTypes
+}
+
+export interface LinkTypes {
+    github?: PortfolioLink | string
+    youtube?: PortfolioLink | string
+    google?: PortfolioLink | string
+    link?: PortfolioLink | string
+    link2?: PortfolioLink | string
+    docs?: PortfolioLink | string
+    feature_site?: PortfolioLink | string
+    project_showcase?: PortfolioLink | string
+    official?: PortfolioLink | string
 }
 
 export interface PortfolioEntry {
@@ -21,15 +29,7 @@ export interface PortfolioEntry {
     text: string
     categories: string[]
     image: string
-    links: {
-        github?: PortfolioLink | string
-        link?: PortfolioLink | string
-        link2?: PortfolioLink | string
-        docs?: PortfolioLink | string
-        feature_site?: PortfolioLink | string
-        project_showcase?: PortfolioLink | string
-        official?: PortfolioLink | string
-    }
+    links: LinkTypes
 }
 
 export interface SchoolExperienceEntry {
@@ -38,4 +38,9 @@ export interface SchoolExperienceEntry {
     title: string;
     subTitle: string;
     text: string;
+}
+
+export interface Title {
+    title: string;
+    span: string;
 }

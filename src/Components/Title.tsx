@@ -1,7 +1,8 @@
-import React from "react";
+import * as React from "react";
+import * as types from "../data/types";
 import styled from "styled-components";
 
-const Title = ({ title, span }) => (
+const Title = ({ title, span }: types.Title) => (
   <TitleStyled>
     <h2>
       {title}

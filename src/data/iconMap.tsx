@@ -9,7 +9,7 @@ import {
 import { Tooltip } from "@mui/material";
 import { OverridableComponent } from "@mui/material/OverridableComponent";
 import { SvgIconTypeMap } from "@mui/material";
-import { PortfolioLink } from "./types";
+import { LinkTypes, PortfolioLink } from "./types";
 import { ReactElement } from "react";
 import * as React from "react";
 
@@ -25,7 +25,7 @@ const iconMap: Map<IconType, Icon> = new Map<IconType, Icon>([
   ["link2", LinkRounded],
 ]);
 
-const itemMap = (links: PortfolioLink | string) => {
+const itemMap = (links: LinkTypes | string) => {
   const entries = Object.entries(links ?? {});
   return <ul>{entries.map(mapItem)}</ul>;
 };

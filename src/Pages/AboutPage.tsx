@@ -8,7 +8,7 @@ import InterestsSection from "../Components/InterestsSection";
 const AboutPage = () => (
   <MainLayout>
     <AboutStyled>
-      <Title title={"About Me"} span={"About Me"} />
+      <Title title="About Me" span="About Me" />
       <ImageSection />
       <InterestsSection />
     </AboutStyled>
