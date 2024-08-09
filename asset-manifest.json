@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.6b46173b.js",
+    "main.js": "/static/js/main.cb599e9b.js",
     "static/media/resume.jpg": "/static/media/resume.8ca0d505af4704cc2c27.jpg",
     "static/media/code2gather.png": "/static/media/code2gather.3a8a7db127451bbade3e.png",
     "static/media/go_shell.svg": "/static/media/go_shell.a68969bcf3ebb26b3d4ddb0b3c0e075e.svg",
     "static/media/pdf_combiner.svg": "/static/media/pdf_combiner.0d6d8c30a5692a236eabfde3c63d703b.svg",
     "static/media/not_schrodinger_box.png": "/static/media/not_schrodinger_box.15f86a37f8959eb77c1b.png",
+    "static/media/go_buildergen.webp": "/static/media/go_buildergen.1deef9f6fb564237c1a9.webp",
     "static/media/avatar.jpg": "/static/media/avatar.81ab95998db2e2ce8ab6.jpg",
     "static/media/go_test.png": "/static/media/go_test.53ee74fe2ceb2d9aa886.png",
     "static/media/comp562_proj.png": "/static/media/comp562_proj.e3480962267bfcf7e94a.png",
@@ -33,9 +34,9 @@
     "static/media/design.svg": "/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
     "static/media/flag.svg": "/static/media/flag.407ff6918cc48c7a9ae91a6ca31f1380.svg",
     "index.html": "/index.html",
-    "main.6b46173b.js.map": "/static/js/main.6b46173b.js.map"
+    "main.cb599e9b.js.map": "/static/js/main.cb599e9b.js.map"
   },
   "entrypoints": [
-    "static/js/main.6b46173b.js"
+    "static/js/main.cb599e9b.js"
   ]
 }
