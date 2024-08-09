@@ -14,7 +14,7 @@ const workExperience: WorkExperienceEntry[] = [
     year: "Jun 2023 - Present",
     logo: TIKTOK_LOGO,
     title: "Backend Software Engineer",
-    subTitle: "PIPO (SG) Pte Ltd",
+    subTitle: "Bytedance Pte Ltd",
     text: "Collaborate with multiple cross-functional teams to deliver high quality work in rapid product development. Align with product and org objectives, and coordinate with cross-functional teams on delivering key results. Responsible for designing/architect the solution and providing technical support for engineers in the team",
   },
   {

@@ -16,9 +16,26 @@ import not_schrodinger from "../img/projects/not_schrodinger_box.png";
 import go_validate from "../img/projects/go_validate.png";
 import nus_jh123x from "../img/projects/nus_jh123x.png";
 import go_test from "../img/projects/go_test.png";
+import go_builder_gen from "../img/projects/go_buildergen.webp";
 import { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
+  {
+    title: "BuilderGen",
+    text: "A code generation tools to build",
+    categories: ["Golang"],
+    image: go_builder_gen,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/buildergen/",
+        tooltip: "Github Repository"
+      },
+      link: {
+        link: "https://portfolio.jh123x.com/buildergen/",
+        tooltip: "Official Documentation"
+      }
+    }
+  },
   {
     title: "Go Test",
     text: "A simple library for testing in Pure Go.",
@@ -27,6 +44,7 @@ const portfolios: PortfolioEntry[] = [
     links: {
       github: {
         link: "https://github.com/Jh123x/GoTest",
+        tooltip: "Github Repository"
       },
       link: {
         link: "https://portfolio.jh123x.com/GoTest/",
@@ -175,13 +193,14 @@ const portfolios: PortfolioEntry[] = [
     text: "A simple CLI application that combines multiple PDF files into one.",
     links: {
       github: {
-        link: "https://github.com/Jh123x/PDF-Combiner"
+        link: "https://github.com/Jh123x/PDF-Combiner",
+        tooltip: "Github Repository",
       },
-      link: 
-        {
-          link: "https://jh123x.com/projects/pdf-combiner/",
-          tooltip: "Project Details",
-        },
+      link:
+      {
+        link: "https://jh123x.com/projects/pdf-combiner/",
+        tooltip: "Project Details",
+      },
     },
   },
   {
