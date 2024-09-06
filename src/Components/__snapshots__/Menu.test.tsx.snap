@@ -8,10 +8,29 @@ exports[`Menu should render correctly portfolio 1`] = `
         "categories": Array [
           "Golang",
         ],
+        "image": "go_buildergen.webp",
+        "links": Object {
+          "github": Object {
+            "link": "https://github.com/Jh123x/buildergen/",
+            "tooltip": "Github Repository",
+          },
+          "link": Object {
+            "link": "https://portfolio.jh123x.com/buildergen/",
+            "tooltip": "Official Documentation",
+          },
+        },
+        "text": "A code generation tools to build",
+        "title": "BuilderGen",
+      },
+      Object {
+        "categories": Array [
+          "Golang",
+        ],
         "image": "go_test.png",
         "links": Object {
           "github": Object {
             "link": "https://github.com/Jh123x/GoTest",
+            "tooltip": "Github Repository",
           },
           "link": Object {
             "link": "https://portfolio.jh123x.com/GoTest/",
@@ -191,6 +210,7 @@ exports[`Menu should render correctly portfolio 1`] = `
         "links": Object {
           "github": Object {
             "link": "https://github.com/Jh123x/PDF-Combiner",
+            "tooltip": "Github Repository",
           },
           "link": Object {
             "link": "https://jh123x.com/projects/pdf-combiner/",
