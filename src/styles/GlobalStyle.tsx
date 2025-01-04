@@ -157,23 +157,12 @@ h6{
       svg{
           font-size: 3rem;
       }
-    }
-
-    .nav-toggle{
-        transform: translateX(0);
-        z-index: 20;
-    }
+  }
   @media screen and (max-width:1200px){
     .ham-burger-menu{
         display: block;
     }
   }
-
-
-//Global Media Queries
-
-
-
 `;
 
 export default GlobalStyle;
