@@ -12,15 +12,13 @@ import NotFoundPage from "./Pages/NotFoundPage";
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
-  const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    document.documentElement.className = checked ? "light-theme" : "dark-theme";
-  }, [checked]);
+  useEffect(() => { document.documentElement.className = isDarkMode ? "light-theme" : "dark-theme" }, [isDarkMode]);
 
   return (
-    <div className="App">
+    <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
       <Sidebar navToggle={navToggle} />
 
       <div className="theme">
@@ -31,10 +29,10 @@ const App = () => {
           <div className="right-content">
             <Switch
               value=""
-              checked={checked}
+              checked={isDarkMode}
               inputProps={{ "aria-label": "" }}
               size="medium"
-              onClick={() => setChecked(!checked)}
+              onClick={() => setIsDarkMode(!isDarkMode)}
             />
           </div>
         </div>

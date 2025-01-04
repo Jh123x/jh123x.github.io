@@ -1,7 +1,7 @@
-import DSO_Logo from "../img/logos/dso_logo.jfif";
-import NUS_LOGO from "../img/logos/nus_logo.jfif";
-import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jfif";
-import SHOPEE_LOGO from "../img/logos/shopee_logo.jfif";
+import DSO_Logo from "../img/logos/dso_logo.jpeg";
+import NUS_LOGO from "../img/logos/nus_logo.jpeg";
+import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jpeg";
+import SHOPEE_LOGO from "../img/logos/shopee_logo.jpeg";
 import TIKTOK_LOGO from "../img/logos/Tiktok_Logo.png";
 import { WorkExperienceEntry } from "./types";
 

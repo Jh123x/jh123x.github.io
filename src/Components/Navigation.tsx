@@ -2,11 +2,12 @@ import * as React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import avatar from "../img/avatar.jpg";
+import Image from "next/image";
 
 const Navigation = () => (
   <NavigationStyled>
     <div className="avatar">
-      <img src={avatar} alt="" />
+      <Image src={avatar.src} width={100} height={100} alt="" />
     </div>
     <ul className="nav-items">
       <li className="nav-item" key="Home">

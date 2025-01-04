@@ -24,7 +24,7 @@ export type LinkTypes = {
 
 export interface WorkExperienceEntry {
     year: string;
-    logo: string;
+    logo: HTMLImageElement;
     title: string;
     subTitle: string;
     text: string;
@@ -35,7 +35,7 @@ export interface PortfolioEntry {
     title: string;
     text: string;
     categories: string[];
-    image: string;
+    image: HTMLImageElement;
     links: LinkTypes;
 }
 
