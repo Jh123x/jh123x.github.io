@@ -2,7 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Navigation from "./Navigation";
 
-const Sidebar = ({ navToggle }) => (
+const Sidebar = ({ navToggle }: { navToggle: boolean }) => (
   <SidebarStyled className={navToggle ? "nav-toggle" : ""}>
     <Navigation />
   </SidebarStyled>

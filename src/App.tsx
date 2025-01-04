@@ -20,7 +20,6 @@ const App = () => {
   return (
     <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
       <Sidebar navToggle={navToggle} />
-
       <div className="theme">
         <div className="light-dark-mode">
           <div className="left-content">

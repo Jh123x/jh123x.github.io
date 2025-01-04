@@ -7,7 +7,7 @@ import Image from "next/image";
 const Navigation = () => (
   <NavigationStyled>
     <div className="avatar">
-      <Image src={avatar.src} width={100} height={100} alt="" />
+      <Image src={avatar.src} width={100} height={200} alt="Avatar" />
     </div>
     <ul className="nav-items">
       <li className="nav-item" key="Home">
