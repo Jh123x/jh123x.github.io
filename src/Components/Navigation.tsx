@@ -24,7 +24,7 @@ const Navigation = () => (
       </li>
     </ul>
     <footer className="footer">
-      <p>
+      <p suppressHydrationWarning >
         @{new Date().getFullYear()} <b>Wen Junhua</b>
       </p>
     </footer>
