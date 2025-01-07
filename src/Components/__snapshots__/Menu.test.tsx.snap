@@ -3,18 +3,23 @@
 exports[`Menu should render correctly portfolio 1`] = `
 <Menu
   menuItem={
-    Array [
-      Object {
-        "categories": Array [
+    [
+      {
+        "categories": [
           "Golang",
         ],
-        "image": "go_buildergen.webp",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/buildergen/",
             "tooltip": "Github Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://portfolio.jh123x.com/buildergen/",
             "tooltip": "Official Documentation",
           },
@@ -22,17 +27,22 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A code generation tools to build",
         "title": "BuilderGen",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Golang",
         ],
-        "image": "go_test.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/GoTest",
             "tooltip": "Github Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://portfolio.jh123x.com/GoTest/",
             "tooltip": "Official Documentation",
           },
@@ -40,14 +50,19 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple library for testing in Pure Go.",
         "title": "Go Test",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Hugo",
           "Markdown",
         ],
-        "image": "nus_jh123x.png",
-        "links": Object {
-          "link": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "link": {
             "link": "https://nus.jh123x.com/",
             "tooltip": "Website",
           },
@@ -55,21 +70,26 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple website for NUS students to find useful links and resources.",
         "title": "NUS Website",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Golang",
         ],
-        "image": "go_validate.png",
-        "links": Object {
-          "docs": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "docs": {
             "link": "https://portfolio.jh123x.com/go-validate/",
             "tooltip": "Official Documentation",
           },
-          "github": Object {
+          "github": {
             "link": "https://github.com/Jh123x/go-validate",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/go-validate/",
             "tooltip": "Project Details",
           },
@@ -77,14 +97,19 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple library for validations in Pure Go.",
         "title": "Go Validate",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Hugo",
           "Markdown",
         ],
-        "image": "homepage.png",
-        "links": Object {
-          "link": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "link": {
             "link": "https://jh123x.com",
             "tooltip": "Website",
           },
@@ -92,8 +117,8 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "Created using Hugo",
         "title": "Blog Website",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "ReactJs",
           "Django",
           "Python",
@@ -101,18 +126,23 @@ exports[`Menu should render correctly portfolio 1`] = `
           "Docker",
           "Judge0",
         ],
-        "image": "homepage.png",
-        "links": Object {
-          "docs": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "docs": {
             "link": "https://jh123x.com/projects/visualpython/",
             "tooltip": "Project Page",
           },
-          "link": Array [
-            Object {
+          "link": [
+            {
               "link": "https://python.jh123x.com",
               "tooltip": "Test Development of the Project",
             },
-            Object {
+            {
               "link": "https://visualpython.comp.nus.edu.sg/",
               "tooltip": "Production Deployment of the Project",
             },
@@ -121,18 +151,23 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A Visual Programming Platform for learning Python for my Final Year Project.",
         "title": "VisualPython",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Go",
           "Shell",
         ],
-        "image": "go_shell.svg",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/go-shell",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/go-shell/",
             "tooltip": "Project Details",
           },
@@ -140,19 +175,24 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple shell written in Go, complete with unit tests and github actions pipelines.",
         "title": "Go Shell",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Django",
           "ReactJs",
           "Python",
         ],
-        "image": "orderonus.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Orderonus",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://devpost.com/software/orderonus",
             "tooltip": "Devpost",
           },
@@ -160,20 +200,25 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
         "title": "Orderonus",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "ReactJs",
           "NodeJs",
           "JavaScript",
           "Django",
         ],
-        "image": "jiou.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/KTV-Capoos",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/lifehack2022/",
             "tooltip": "Project Details",
           },
@@ -181,19 +226,24 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
         "title": "JioU",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "PyAutoGui",
           "OCR",
         ],
-        "image": "typeracer_bot.jpg",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/Typeracer-bot",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/typeracer-bot/",
             "tooltip": "Project Details",
           },
@@ -201,18 +251,23 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple bot that plays typeracer for you very quickly.",
         "title": "Typeracer Bot",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "PyPDF2",
         ],
-        "image": "pdf_combiner.svg",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/PDF-Combiner",
             "tooltip": "Github Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/pdf-combiner/",
             "tooltip": "Project Details",
           },
@@ -220,19 +275,24 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple CLI application that combines multiple PDF files into one.",
         "title": "PDF Combiner",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "ReactJs",
           "NodeJs",
           "JavaScript",
         ],
-        "image": "ow_toolkit.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/overwatch-tools",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/overwatch-tools/",
             "tooltip": "Project Details",
           },
@@ -240,20 +300,25 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A toolkit for Overwatch players.",
         "title": "Overwatch Toolkit",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "Alpha-Beta Pruning",
           "Minimax",
           "Monte Carlo",
         ],
-        "image": "reversi_sim.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/Reversi-Simulator",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/reversi-simulator/",
             "tooltip": "Project Details",
           },
@@ -261,18 +326,23 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
         "title": "Reversi Bot",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "Statistical Analysis",
         ],
-        "image": "wordle_solver.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/Jh123x/Wordle-Solver",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/wordle-solver/",
             "tooltip": "Project Details",
           },
@@ -280,24 +350,29 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A simple CLI application that solves wordle puzzles with a GUI game",
         "title": "Wordle Solver",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "PyTorch",
           "Deep Learning",
         ],
-        "image": "comp562_proj.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/COMP562-2022-Group-1",
             "tooltip": "GitHub Repository",
           },
-          "link": Array [
-            Object {
+          "link": [
+            {
               "link": "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
               "tooltip": "Model Training and evaluation",
             },
-            Object {
+            {
               "link": "https://comp562-2022-group-1.github.io/",
               "tooltip": "Project Page",
             },
@@ -306,8 +381,8 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A project for COMP562: Introduction to Machine Learning",
         "title": "COMP562 Project",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "ReactJs",
           "NodeJs",
           "JavaScript",
@@ -316,9 +391,14 @@ exports[`Menu should render correctly portfolio 1`] = `
           "Docker",
           "Kubernetes",
         ],
-        "image": "code2gather.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/CodeToGather/",
             "tooltip": "GitHub Repository",
           },
@@ -326,15 +406,20 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A platform for developers to collaborate on code. This was completed as a CS3219 Project",
         "title": "Code2Gather",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Java",
           "Maven",
           "Software Engineering",
         ],
-        "image": "mcgymmy.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/AY2021S1-CS2103T-W17-3",
             "tooltip": "GitHub Repository",
           },
@@ -342,20 +427,25 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project",
         "title": "McGymmy",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "Flask",
           "Docker",
           "Server Side Request Forgery",
         ],
-        "image": "ssrf.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/orgs/CS4239-U6",
             "tooltip": "GitHub Repository",
           },
-          "link": Object {
+          "link": {
             "link": "https://jh123x.com/projects/ssrf-research/",
             "tooltip": "Project Details",
           },
@@ -363,24 +453,29 @@ exports[`Menu should render correctly portfolio 1`] = `
         "text": "A research project on Server Side Request Forgery. This was completed as a CS4239 Project",
         "title": "CS4239 Server Side Request Forgery Research",
       },
-      Object {
-        "categories": Array [
+      {
+        "categories": [
           "Python",
           "React Native",
           "IoT",
         ],
-        "image": "not_schrodinger_box.png",
-        "links": Object {
-          "github": Object {
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
             "link": "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
             "tooltip": "GitHub Repository",
           },
-          "link": Array [
-            Object {
+          "link": [
+            {
               "link": "https://devpost.com/software/not-schrodinger-s-box",
               "tooltip": "Devpost",
             },
-            Object {
+            {
               "link": "https://jh123x.com/projects/hacknroll2022/",
               "tooltip": "Project Details",
             },

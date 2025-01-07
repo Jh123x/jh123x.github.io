@@ -17,6 +17,7 @@
     "module": "esnext",
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "baseUrl": "./",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "plugins": [
@@ -24,7 +25,10 @@
         "name": "next"
       }
     ],
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "paths": {
+      "@/components/*": ["./src/components/*"],
+    }
   },
   "include": [
     "./src/**/*",
