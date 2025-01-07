@@ -1,5 +1,7 @@
-import { Metadata } from 'next'
 import * as React from 'react'
+import { Metadata } from 'next'
+import { App } from 'src/app/app';
+import GlobalStyle from 'src/styles/GlobalStyle'
 
 export const metadata: Metadata = {
     title: 'Wen Junhua',
@@ -14,8 +16,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <GlobalStyle />
             <body>
-                <div id="root">{children}</div>
+                <App children={children} />
             </body>
         </html>
     )

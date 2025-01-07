@@ -49,17 +49,6 @@ const App = () => {
         </IconButton>
       </div>
 
-      <MainContentStyled>
-        <Routes>
-          <Route path="/">
-            <Route index element={<HomePage />} />
-            <Route path="resume" element={<ResumePage />} />
-            <Route path="about" element={<AboutPage />} />
-            <Route path="portfolios" element={<PortfoliosPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Route>
-        </Routes>
-      </MainContentStyled>
     </div>
   );
 };

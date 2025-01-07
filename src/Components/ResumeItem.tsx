@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import itemMap from "../data/iconMap";
-import { WorkExperienceEntry } from "../data/types";
+import { Entry } from "../data/types";
 import Image from "next/image";
 
 const ResumeItem = ({
@@ -11,7 +11,7 @@ const ResumeItem = ({
   text,
   logo,
   link,
-}: WorkExperienceEntry) => (
+}: Entry) => (
   <ResumeItemStyled>
     <div className="left-content">
       <p>{year}</p>

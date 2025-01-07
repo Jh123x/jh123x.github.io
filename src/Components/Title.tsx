@@ -1,3 +1,4 @@
+"use client";
 import * as React from "react";
 import * as types from "../data/types";
 import styled from "styled-components";

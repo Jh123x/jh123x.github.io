@@ -3,13 +3,13 @@ import NUS_LOGO from "../img/logos/nus_logo.jpeg";
 import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jpeg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.jpeg";
 import TIKTOK_LOGO from "../img/logos/Tiktok_Logo.png";
-import { WorkExperienceEntry } from "./types";
+import { Entry } from "./types";
 
 
 /**
  * Latest experience at the front of the array
  */
-const workExperience: WorkExperienceEntry[] = [
+const workExperience: Entry[] = [
   {
     year: "Jun 2023 - Present",
     logo: TIKTOK_LOGO,

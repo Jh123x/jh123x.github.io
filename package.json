@@ -34,7 +34,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "npx serve@latest ./build",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": [

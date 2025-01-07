@@ -1,9 +1,10 @@
+"use client";
 import * as React from "react";
 import styled from "styled-components";
 import Navigation from "./Navigation";
 
 const Sidebar = ({ navToggle }: { navToggle: boolean }) => (
-  <SidebarStyled style={{transform: navToggle ? "translateX(0)" : ""}}>
+  <SidebarStyled style={{ transform: navToggle ? "translateX(0)" : "" }}>
     <Navigation />
   </SidebarStyled>
 );

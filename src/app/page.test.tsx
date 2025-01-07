@@ -1,5 +1,5 @@
 import * as React from "react";
-import HomePage from "./HomePage";
+import HomePage from "./page";
 import { describe, expect, test } from "@jest/globals";
 
 describe("Render HomePage", () => {

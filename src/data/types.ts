@@ -22,7 +22,7 @@ export type LinkTypes = {
     [key in IconTypes]?: PortfolioLink | PortfolioLink[];
 }
 
-export interface WorkExperienceEntry {
+export interface Entry {
     year: string;
     logo: HTMLImageElement;
     title: string;
