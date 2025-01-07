@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import * as React from "react";
 import Skills from "../../Components/Skills";
 import Resume from "../../Components/Resume";

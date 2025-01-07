@@ -1,7 +1,8 @@
 import * as React from 'react'
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { Metadata } from 'next'
-import { App } from 'src/app/app';
 import GlobalStyle from 'src/styles/GlobalStyle'
+import { NoSSRNav } from './client'
 
 export const metadata: Metadata = {
     title: 'Wen Junhua',
@@ -9,16 +10,19 @@ export const metadata: Metadata = {
     manifest: '/manifest.json',
 }
 
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode
-}) {
+export default function RootLayout({ children, }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <GlobalStyle />
             <body>
-                <App children={children} />
+                <GlobalStyle />
+                <AppRouterCacheProvider
+                    options={{ 
+                        key: 'css',
+                        enableCssLayer: true,
+                    }}
+                >
+                    <NoSSRNav children={children} />
+                </AppRouterCacheProvider>
             </body>
         </html>
     )

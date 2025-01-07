@@ -4,7 +4,7 @@ import { Brightness4, Menu as MenuIcon } from "@mui/icons-material";
 import { Switch, IconButton } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 
-export const App = ({ children }: { children: React.ReactNode }) => {
+const Nav = ({ children }: { children: React.ReactNode }) => {
     const [navToggle, setNavToggle] = React.useState(false);
     const [isDarkMode, setIsDarkMode] = React.useState(false);
 
@@ -43,3 +43,5 @@ export const App = ({ children }: { children: React.ReactNode }) => {
         </div>
     );
 };
+
+export default Nav;
