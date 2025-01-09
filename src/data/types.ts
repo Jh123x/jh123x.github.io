@@ -1,5 +1,6 @@
 import { OverridableComponent } from "@mui/material/OverridableComponent";
 import { SvgIconTypeMap } from "@mui/material";
+import { StaticImageData } from "next/image";
 
 export enum IconTypes {
     github = "github",
@@ -24,7 +25,7 @@ export type LinkTypes = {
 
 export interface Entry {
     year: string;
-    logo: HTMLImageElement;
+    logo: HTMLImageElement | StaticImageData;
     title: string;
     subTitle: string;
     text: string;
@@ -35,7 +36,7 @@ export interface PortfolioEntry {
     title: string;
     text: string;
     categories: string[];
-    image: HTMLImageElement;
+    image: HTMLImageElement | StaticImageData;
     links: LinkTypes;
 }
 

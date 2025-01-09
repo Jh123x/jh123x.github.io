@@ -27,13 +27,16 @@
     ],
     "strictNullChecks": true,
     "paths": {
-      "@/components/*": ["./src/components/*"],
+      "@/components/*": [
+        "./src/components/*"
+      ]
     }
   },
   "include": [
-    "./src/**/*",
     "./build/types/**/*.ts",
     "./next-env.d.ts",
+    "./src/**/*",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

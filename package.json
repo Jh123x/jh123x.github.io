@@ -34,7 +34,7 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "npx serve@latest ./build",
     "test": "jest"

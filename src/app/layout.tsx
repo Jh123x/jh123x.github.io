@@ -3,7 +3,6 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { Metadata } from 'next'
 import GlobalStyle from 'src/styles/GlobalStyle'
 import { NoSSRNav } from './client'
-import { MainLayout } from 'src/styles/Layouts';
 
 export const metadata: Metadata = {
     title: 'Wen Junhua',
