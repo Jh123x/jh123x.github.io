@@ -13,9 +13,9 @@ const workExperience: Entry[] = [
   {
     year: "Jun 2023 - Present",
     logo: TIKTOK_LOGO,
-    title: "Backend Software Engineer",
+    title: "Backend Software Engineer (Global Payments)",
     subTitle: "Bytedance Pte Ltd",
-    text: "Collaborate with multiple cross-functional teams to deliver high quality work in rapid product development. Align with product and org objectives, and coordinate with cross-functional teams on delivering key results. Responsible for designing/architect the solution and providing technical support for engineers in the team",
+    text: "Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.",
   },
   {
     year: "Aug 2022 - May 2023",
