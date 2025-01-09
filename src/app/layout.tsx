@@ -3,6 +3,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { Metadata } from 'next'
 import GlobalStyle from 'src/styles/GlobalStyle'
 import { NoSSRNav } from './client'
+import { MainLayout } from 'src/styles/Layouts';
 
 export const metadata: Metadata = {
     title: 'Wen Junhua',
@@ -11,16 +12,16 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children, }: { children: React.ReactNode }) {
-    return ( 
+    return (
         <html lang="en">
             <body>
-                <GlobalStyle />
                 <AppRouterCacheProvider
-                    options={{ 
+                    options={{
                         key: 'css',
                         enableCssLayer: true,
                     }}
                 >
+                    <GlobalStyle />
                     <NoSSRNav children={children} />
                 </AppRouterCacheProvider>
             </body>
