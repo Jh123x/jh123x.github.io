@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resume Item should render a Backend Software Engineer item 1`] = `
+exports[`Resume Item should render a Backend Software Engineer (Global Payments) item 1`] = `
 <div>
   <ResumeItem
     logo={
@@ -12,8 +12,8 @@ exports[`Resume Item should render a Backend Software Engineer item 1`] = `
       }
     }
     subTitle="Bytedance Pte Ltd"
-    text="Collaborate with multiple cross-functional teams to deliver high quality work in rapid product development. Align with product and org objectives, and coordinate with cross-functional teams on delivering key results. Responsible for designing/architect the solution and providing technical support for engineers in the team"
-    title="Backend Software Engineer"
+    text="Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information."
+    title="Backend Software Engineer (Global Payments)"
     year="Jun 2023 - Present"
   />
 </div>
