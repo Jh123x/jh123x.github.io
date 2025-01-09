@@ -1,5 +1,5 @@
 export interface InterestDescription {
-    image: string;
+    image: HTMLImageElement;
     title: string;
     paragraph?: string;
     href: string;

@@ -1,3 +1,4 @@
+'use client'
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -132,9 +133,9 @@ h6{
     position: fixed;
     right: 0;
     top: 50%;
+    width: 4rem;
+    height: 2rem;
     background-color: var(--background-light-color-2);
-    width: 6.5rem;
-    height: 2.5rem;
     z-index: 15;
     display: flex;
     align-items: center;
@@ -157,23 +158,12 @@ h6{
       svg{
           font-size: 3rem;
       }
-    }
-
-    .nav-toggle{
-        transform: translateX(0);
-        z-index: 20;
-    }
+  }
   @media screen and (max-width:1200px){
     .ham-burger-menu{
         display: block;
     }
   }
-
-
-//Global Media Queries
-
-
-
 `;
 
 export default GlobalStyle;

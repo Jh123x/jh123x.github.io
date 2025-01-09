@@ -1,10 +1,10 @@
 import * as React from "react";
-import ResumePage from "./ResumePage";
+import PortfoliosPage from "./page";
 import { describe, expect, test } from "@jest/globals";
 
-describe("ResumePage Page", () => {
+describe("Portfolio Page", () => {
   test("should render correctly", () => {
-    const page = <ResumePage />;
+    const page = <PortfoliosPage />;
     expect(page).toMatchSnapshot();
   });
 });

@@ -3,7 +3,14 @@
 exports[`InterestCard should render correctly 1`] = `
 <InterestCard
   href="https://nus.jh123x.com"
-  image="game-dev.svg"
+  image={
+    {
+      "blurDataURL": "data:image/png;base64,imagedata",
+      "height": 40,
+      "src": "/img.jpg",
+      "width": 40,
+    }
+  }
   title="School Blog"
 />
 `;

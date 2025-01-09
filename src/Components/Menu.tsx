@@ -1,14 +1,17 @@
+"use client";
 import * as React from "react";
 import styled from "styled-components";
 import itemMap from "../data/iconMap";
+import Image from "next/image";
+import { PortfolioEntry } from "../data/types";
 
-const Menu = ({ menuItem }) => (
-  <MenuItemStyled>
+function Menu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
+  return <MenuItemStyled>
     {menuItem.map((item, index) => (
       <div className="grid-item" key={index}>
         <div className="portfolio-content">
           <div className="portfolio-image">
-            <img src={item.image} alt="" />
+            <Image src={item.image.src} width={0} height={0} alt={item.title} />
             {itemMap(item.links)}
           </div>
           <h6>{item.title}</h6>
@@ -17,7 +20,7 @@ const Menu = ({ menuItem }) => (
       </div>
     ))}
   </MenuItemStyled>
-);
+};
 
 const MenuItemStyled = styled.div`
   display: grid;

@@ -1,21 +1,21 @@
-import DSO_Logo from "../img/logos/dso_logo.jfif";
-import NUS_LOGO from "../img/logos/nus_logo.jfif";
-import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jfif";
-import SHOPEE_LOGO from "../img/logos/shopee_logo.jfif";
+import DSO_Logo from "../img/logos/dso_logo.jpeg";
+import NUS_LOGO from "../img/logos/nus_logo.jpeg";
+import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jpeg";
+import SHOPEE_LOGO from "../img/logos/shopee_logo.jpeg";
 import TIKTOK_LOGO from "../img/logos/Tiktok_Logo.png";
-import { WorkExperienceEntry } from "./types";
+import { Entry } from "./types";
 
 
 /**
  * Latest experience at the front of the array
  */
-const workExperience: WorkExperienceEntry[] = [
+const workExperience: Entry[] = [
   {
     year: "Jun 2023 - Present",
     logo: TIKTOK_LOGO,
-    title: "Backend Software Engineer",
+    title: "Backend Software Engineer (Global Payments)",
     subTitle: "Bytedance Pte Ltd",
-    text: "Collaborate with multiple cross-functional teams to deliver high quality work in rapid product development. Align with product and org objectives, and coordinate with cross-functional teams on delivering key results. Responsible for designing/architect the solution and providing technical support for engineers in the team",
+    text: "Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.",
   },
   {
     year: "Aug 2022 - May 2023",

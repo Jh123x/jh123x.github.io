@@ -1,29 +1,30 @@
+"use client";
 import * as React from "react";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 import avatar from "../img/avatar.jpg";
+import Image from "next/image";
 
 const Navigation = () => (
   <NavigationStyled>
     <div className="avatar">
-      <img src={avatar} alt="" />
+      <Image src={avatar.src} width={100} height={200} alt="Avatar" />
     </div>
     <ul className="nav-items">
       <li className="nav-item" key="Home">
-        <NavLink to="/">Home</NavLink>
+        <a href="/">Home</a>
       </li>
       <li className="nav-item" key="resume">
-        <NavLink to="/resume">Resume</NavLink>
+        <a href="/resume">Resume</a>
       </li>
       <li className="nav-item" key="portfolios">
-        <NavLink to="/portfolios">Portfolios</NavLink>
+        <a href="/portfolios">Portfolios</a>
       </li>
       <li className="nav-item" key="about">
-        <NavLink to="/about">About</NavLink>
+        <a href="/about">About</a>
       </li>
     </ul>
     <footer className="footer">
-      <p>
+      <p suppressHydrationWarning >
         @{new Date().getFullYear()} <b>Wen Junhua</b>
       </p>
     </footer>

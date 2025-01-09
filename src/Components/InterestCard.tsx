@@ -1,6 +1,8 @@
+"use client";
 import * as React from "react";
 import styled from "styled-components";
 import { InterestDescription } from "./types";
+import Image from "next/image";
 
 const InterestCard = ({
   image,
@@ -11,7 +13,7 @@ const InterestCard = ({
   <InterestCardStyled>
     <a href={href} target="_blank" rel="noreferrer">
       <div className="container">
-        <img src={image} alt={title} />
+        <Image src={image.src} width={100} height={100} alt={title} />
         <h4>{title}</h4>
         <p>{paragraph}</p>
       </div>
