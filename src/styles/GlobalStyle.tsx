@@ -133,8 +133,9 @@ h6{
     position: fixed;
     right: 0;
     top: 50%;
+    width: 4rem;
+    height: 2rem;
     background-color: var(--background-light-color-2);
-    width: 2rem;
     z-index: 15;
     display: flex;
     align-items: center;

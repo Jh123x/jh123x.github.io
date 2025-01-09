@@ -1,9 +1,10 @@
 "use client";
 import * as React from "react";
-import { Brightness4, Menu as MenuIcon } from "@mui/icons-material";
-import { Switch, IconButton, ToggleButtonGroup, ToggleButton } from "@mui/material";
+import { Brightness4, Brightness6, Menu as MenuIcon } from "@mui/icons-material";
+import { IconButton } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
+import { AntSwitch } from "src/Components/Switch";
 
 const Nav = ({ children }: { children: React.ReactNode }) => {
     const [navToggle, setNavToggle] = React.useState(false);
@@ -16,14 +17,18 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
             <Sidebar navToggle={navToggle} />
             <div className="theme">
                 <div className="light-dark-mode">
-                    <ToggleButtonGroup
-                        color="primary"
-                        value={isDarkMode}
-                        exclusive
-                        onChange={() => setIsDarkMode(!isDarkMode)}
-                        aria-label="Platform">
-                        <ToggleButton value={true}><Brightness4 className={isDarkMode ? "light-theme" : "dark-theme"} /></ToggleButton>
-                    </ToggleButtonGroup>
+                    <div className={"left-content"}>
+                        <Brightness6 />
+                    </div>
+                    <div className={"right-content"}>
+                        <AntSwitch
+                            value=""
+                            style={{ padding: "1px" }}
+                            checked={isDarkMode}
+                            inputProps={{ "aria-label": "" }}
+                            onClick={() => setIsDarkMode(!isDarkMode)}
+                        />
+                    </div>
                 </div>
             </div>
             <div className="ham-burger-menu">
