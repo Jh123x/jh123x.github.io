@@ -2,7 +2,7 @@ import DSO_Logo from "../img/logos/dso_logo.jpeg";
 import NUS_LOGO from "../img/logos/nus_logo.jpeg";
 import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jpeg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.jpeg";
-import TIKTOK_LOGO from "../img/logos/Tiktok_Logo.png";
+import BYTEDANCE_LOGO from "../img/logos/bytedance.png";
 import { Entry } from "./types";
 
 
@@ -11,8 +11,15 @@ import { Entry } from "./types";
  */
 const workExperience: Entry[] = [
   {
-    year: "Jun 2023 - Present",
-    logo: TIKTOK_LOGO,
+    year: "Jan 2025 - Present",
+    logo: BYTEDANCE_LOGO,
+    title: "Backend Software Engineer II (Global Payments)",
+    subTitle: "Bytedance Pte Ltd",
+    text: "Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.",
+  },
+  {
+    year: "Jun 2023 - Dec 2024",
+    logo: BYTEDANCE_LOGO,
     title: "Backend Software Engineer (Global Payments)",
     subTitle: "Bytedance Pte Ltd",
     text: "Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.",
