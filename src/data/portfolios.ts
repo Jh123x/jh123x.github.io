@@ -17,9 +17,45 @@ import go_validate from "../img/projects/go_validate.png";
 import nus_jh123x from "../img/projects/nus_jh123x.png";
 import go_test from "../img/projects/go_test.png";
 import go_builder_gen from "../img/projects/go_buildergen.webp";
+import lox_interpreter from "../img/projects/lox_interpreter.png";
+import hysa_calculator from "../img/projects/hysa.webp";
 import { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
+  {
+    title: "Lox Interpreter",
+    text: "A interpreter for Lox in Golang",
+    categories: [
+      "Golang",
+      "CodeCrafter",
+    ],
+    image: lox_interpreter,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/codecrafters-interpreter-go",
+        tooltip: "Github Repository",
+      },
+    }
+  },
+  {
+    title: "HYSA Calculator",
+    text: "A high yield savings accout calculator",
+    categories: [
+      "Typescript",
+      "React",
+    ],
+    image: hysa_calculator,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/SG-HYSA-Calculator",
+        tooltip: "Github",
+      },
+      link: {
+        link: "https://hysa.jh123x.com/",
+        tooltip: "Official Website",
+      }
+    }
+  },
   {
     title: "BuilderGen",
     text: "A code generation tools to build",

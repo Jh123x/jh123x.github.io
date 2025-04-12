@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { Brightness4, Brightness6, Menu as MenuIcon } from "@mui/icons-material";
+import { Brightness6, Menu as MenuIcon } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
@@ -10,7 +10,9 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
     const [navToggle, setNavToggle] = React.useState(false);
     const [isDarkMode, setIsDarkMode] = React.useState(false);
 
-    React.useEffect(() => { document.documentElement.className = isDarkMode ? "light-theme" : "dark-theme" }, [isDarkMode]);
+    React.useEffect(() => { 
+        document.documentElement.className = isDarkMode ? "light-theme" : "dark-theme"
+     }, [isDarkMode]);
 
     return (
         <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
