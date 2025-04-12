@@ -20,6 +20,7 @@ import go_builder_gen from "../img/projects/go_buildergen.webp";
 import lox_interpreter from "../img/projects/lox_interpreter.png";
 import hysa_calculator from "../img/projects/hysa.webp";
 import browser_telebot from "../img/projects/browser_telebot.png"
+import astroid from "../img/projects/astroid.png";
 import { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
@@ -55,6 +56,21 @@ const portfolios: PortfolioEntry[] = [
         link: "https://hysa.jh123x.com/",
         tooltip: "Official Website",
       }
+    }
+  },
+  {
+    title: "Astroids Game",
+    text: "An astroids game",
+    categories: [
+      "python",
+      "game",
+    ],
+    image: astroid,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/Asteroids",
+        tooltip: "Github"
+      },
     }
   },
   {
