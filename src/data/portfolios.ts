@@ -19,6 +19,7 @@ import go_test from "../img/projects/go_test.png";
 import go_builder_gen from "../img/projects/go_buildergen.webp";
 import lox_interpreter from "../img/projects/lox_interpreter.png";
 import hysa_calculator from "../img/projects/hysa.webp";
+import browser_telebot from "../img/projects/browser_telebot.png"
 import { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
@@ -52,6 +53,26 @@ const portfolios: PortfolioEntry[] = [
       },
       link: {
         link: "https://hysa.jh123x.com/",
+        tooltip: "Official Website",
+      }
+    }
+  },
+  {
+    title: "Browser Telebot",
+    text: "A telegram bot in browser",
+    categories: [
+      "Typescript",
+      "React",
+      "Telegram",
+    ],
+    image: browser_telebot,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/telegram-bot-on-browser",
+        tooltip: "Github",
+      },
+      link: {
+        link: "https://telebot.jh123x.com/",
         tooltip: "Official Website",
       }
     }
