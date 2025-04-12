@@ -59,21 +59,6 @@ const portfolios: PortfolioEntry[] = [
     }
   },
   {
-    title: "Astroids Game",
-    text: "An astroids game",
-    categories: [
-      "python",
-      "game",
-    ],
-    image: astroid,
-    links: {
-      github: {
-        link: "https://github.com/Jh123x/Asteroids",
-        tooltip: "Github"
-      },
-    }
-  },
-  {
     title: "Browser Telebot",
     text: "A telegram bot in browser",
     categories: [
@@ -124,6 +109,21 @@ const portfolios: PortfolioEntry[] = [
         tooltip: "Official Documentation",
       },
     },
+  },
+  {
+    title: "Astroids Game",
+    text: "An astroids game",
+    categories: [
+      "python",
+      "game",
+    ],
+    image: astroid,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/Asteroids",
+        tooltip: "Github"
+      },
+    }
   },
   {
     title: "NUS Website",
