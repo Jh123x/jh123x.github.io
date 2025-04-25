@@ -14,7 +14,26 @@ exports[`Resume Item should render a Backend Software Engineer (Global Payments)
     subTitle="Bytedance Pte Ltd"
     text="Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information."
     title="Backend Software Engineer (Global Payments)"
-    year="Jun 2023 - Present"
+    year="Jun 2023 - Dec 2024"
+  />
+</div>
+`;
+
+exports[`Resume Item should render a Backend Software Engineer II (Global Payments) item 1`] = `
+<div>
+  <ResumeItem
+    logo={
+      {
+        "blurDataURL": "data:image/png;base64,imagedata",
+        "height": 40,
+        "src": "/img.jpg",
+        "width": 40,
+      }
+    }
+    subTitle="Bytedance Pte Ltd"
+    text="Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information."
+    title="Backend Software Engineer II (Global Payments)"
+    year="Jan 2025 - Present"
   />
 </div>
 `;
