@@ -5,6 +5,7 @@ exports[`Menu should render correctly portfolio 1`] = `
   menuItem={
     [
       {
+        "categories": [
           "Golang",
           "CodeCrafter",
         ],
