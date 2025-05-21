@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://portfolio.jh123x.com/</loc>
-		<lastmod>2023-04-14T12:21:10+01:00</lastmod>
-		<priority>0.6</priority>
+		<lastmod>2025-05-22T00:00:00+08:00</lastmod>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://portfolio.jh123x.com/resume</loc>
+		<lastmod>2025-05-22T00:00:00+08:00</lastmod>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://portfolio.jh123x.com/portfolios</loc>
+		<lastmod>2025-05-22T00:00:00+08:00</lastmod>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://portfolio.jh123x.com/about</loc>
+		<lastmod>2025-05-22T00:00:00+08:00</lastmod>
+		<priority>1</priority>
 	</url>
 </urlset>
