@@ -3,6 +3,7 @@ import * as React from "react";
 import styled from "styled-components";
 import avatar from "../img/avatar.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navigation = () => (
   <NavigationStyled>
@@ -11,16 +12,16 @@ const Navigation = () => (
     </div>
     <ul className="nav-items">
       <li className="nav-item" key="Home">
-        <a href="/">Home</a>
+        <Link href="/">Home</Link>
       </li>
       <li className="nav-item" key="resume">
-        <a href="/resume">Resume</a>
+        <Link href="/resume">Resume</Link>
       </li>
       <li className="nav-item" key="portfolios">
-        <a href="/portfolios">Portfolios</a>
+        <Link href="/portfolios">Portfolios</Link>
       </li>
       <li className="nav-item" key="about">
-        <a href="/about">About</a>
+        <Link href="/about">About</Link>
       </li>
     </ul>
     <footer className="footer">
