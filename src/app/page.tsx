@@ -1,9 +1,10 @@
 "use client";
 import * as React from "react";
 import styled from "styled-components";
-import { GitHub, Link, LinkedIn } from "@mui/icons-material";
+import { GitHub, Link as LinkIcon, LinkedIn } from "@mui/icons-material";
 import Particle from "../Components/Particle";
 import { Tooltip } from "@mui/material";
+import Link from "next/link";
 
 const HomePage = () => (
     <HomePageStyled>
@@ -20,19 +21,19 @@ const HomePage = () => (
                 skills and expertise in both fields.
             </p>
             <div className="icons">
-                <a href="https://github.com/Jh123x" className="icon i-github">
+                <Link href="https://github.com/Jh123x" className="icon i-github">
                     <GitHub />
-                </a>
-                <a
+                </Link>
+                <Link
                     href="https://www.linkedin.com/in/junhua-wen/"
                     className="icon i-linkedin"
                 >
                     <LinkedIn />
-                </a>
+                </Link>
                 <Tooltip title="Blog site">
-                    <a href="https://jh123x.com" className="icon i-youtube">
-                        <Link />
-                    </a>
+                    <Link href="https://jh123x.com" className="icon i-youtube">
+                        <LinkIcon />
+                    </Link>
                 </Tooltip>
             </div>
         </div>
