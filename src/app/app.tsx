@@ -6,13 +6,19 @@ import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
 import { AntSwitch } from "src/Components/Switch";
 
+const loadMode = (key: string): boolean => {
+  const item = window.sessionStorage.getItem(key);
+  return item != null ? !!JSON.parse(item) : false;
+}
+
 const Nav = ({ children }: { children: React.ReactNode }) => {
     const [navToggle, setNavToggle] = React.useState(false);
-    const [isDarkMode, setIsDarkMode] = React.useState(false);
+    const [isDarkMode, setIsDarkMode] = React.useState(loadMode('is_dark_mode'));
 
-    React.useEffect(() => { 
+    React.useEffect(() => {
         document.documentElement.className = isDarkMode ? "light-theme" : "dark-theme"
-     }, [isDarkMode]);
+        window.sessionStorage.setItem('is_dark_mode', JSON.stringify(isDarkMode));
+    }, [isDarkMode]);
 
     return (
         <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
