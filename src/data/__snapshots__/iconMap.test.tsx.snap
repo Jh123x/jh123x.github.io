@@ -7,11 +7,11 @@ exports[`itemMap should render a apple icon 1`] = `
       <ForwardRef(Tooltip)
         title="Apple"
       >
-        <a
+        <ForwardRef(LinkComponent)
           href="https://apple.com"
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
@@ -25,11 +25,11 @@ exports[`itemMap should render a docs icon 1`] = `
       <ForwardRef(Tooltip)
         title="Docs"
       >
-        <a
+        <ForwardRef(LinkComponent)
           href="https://docs.com"
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
@@ -43,11 +43,11 @@ exports[`itemMap should render a github icon 1`] = `
       <ForwardRef(Tooltip)
         title="Github"
       >
-        <a
+        <ForwardRef(LinkComponent)
           href="https://github.com"
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
@@ -61,11 +61,11 @@ exports[`itemMap should render a google icon 1`] = `
       <ForwardRef(Tooltip)
         title="Google"
       >
-        <a
+        <ForwardRef(LinkComponent)
           href="https://google.com"
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
@@ -79,11 +79,11 @@ exports[`itemMap should render a link icon 1`] = `
       <ForwardRef(Tooltip)
         title=""
       >
-        <a
+        <ForwardRef(LinkComponent)
           href=""
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
@@ -97,11 +97,11 @@ exports[`itemMap should render a linkedin icon 1`] = `
       <ForwardRef(Tooltip)
         title="LinkedIn"
       >
-        <a
+        <ForwardRef(LinkComponent)
           href="https://linkedin.com"
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
@@ -115,11 +115,11 @@ exports[`itemMap should render a youtube icon 1`] = `
       <ForwardRef(Tooltip)
         title="YouTube"
       >
-        <a
+        <ForwardRef(LinkComponent)
           href="https://youtube.com"
         >
           <Memo />
-        </a>
+        </ForwardRef(LinkComponent)>
       </ForwardRef(Tooltip)>
     </li>
   </ul>
