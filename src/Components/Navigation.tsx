@@ -12,16 +12,16 @@ const Navigation = () => (
     </div>
     <ul className="nav-items">
       <li className="nav-item" key="Home">
-        <Link href="/">Home</Link>
+        <Link href="/" aria-label="Home">Home</Link>
       </li>
       <li className="nav-item" key="resume">
-        <Link href="/resume">Resume</Link>
+        <Link href="/resume" aria-label="Resume">Resume</Link>
       </li>
       <li className="nav-item" key="portfolios">
-        <Link href="/portfolios">Portfolios</Link>
+        <Link href="/portfolios" aria-label="Portfolios">Portfolios</Link>
       </li>
       <li className="nav-item" key="about">
-        <Link href="/about">About</Link>
+        <Link href="/about" aria-label="About">About</Link>
       </li>
     </ul>
     <footer className="footer">

@@ -7,8 +7,8 @@ import styled from "styled-components";
 import { AntSwitch } from "src/Components/Switch";
 
 const loadMode = (key: string): boolean => {
-  const item = window.sessionStorage.getItem(key);
-  return item != null ? !!JSON.parse(item) : false;
+    const item = window.sessionStorage.getItem(key);
+    return item != null ? !!JSON.parse(item) : false;
 }
 
 const Nav = ({ children }: { children: React.ReactNode }) => {
@@ -23,14 +23,15 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
     return (
         <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
             <Sidebar navToggle={navToggle} />
-            <div className="theme">
+            <div className="theme" id="theme-toggle">
                 <div className="light-dark-mode">
-                    <div className={"left-content"}>
+                    <div className="left-content">
                         <Brightness6 />
                     </div>
-                    <div className={"right-content"}>
+                    <div className="right-content">
                         <AntSwitch
                             value=""
+                            id="test"
                             style={{ padding: "1px" }}
                             checked={isDarkMode}
                             inputProps={{ "aria-label": "" }}
@@ -44,11 +45,11 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
                     onClick={() => setNavToggle(!navToggle)}
                     className="light-dark-mode"
                     style={{ position: "absolute" }}
+                    aria-label="Toggle Sidebar"
                 >
                     <MenuIcon />
                 </IconButton>
             </div>
-
             <MainContentStyled>
                 {children}
             </MainContentStyled>
