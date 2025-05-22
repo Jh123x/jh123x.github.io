@@ -5,6 +5,11 @@ const nextConfig = {
   reactStrictMode: true, // Enables React Strict Mode.
   images: {
     unoptimized: true, // Disables image optimization.
+  },
+  compiler: {
+    styledComponents: {
+      minify: true
+    }
   }
 }
 

@@ -7,6 +7,75 @@ exports[`Menu should render correctly portfolio 1`] = `
       {
         "categories": [
           "Golang",
+          "CodeCrafter",
+        ],
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
+            "link": "https://github.com/Jh123x/codecrafters-interpreter-go",
+            "tooltip": "Github Repository",
+          },
+        },
+        "text": "A interpreter for Lox in Golang",
+        "title": "Lox Interpreter",
+      },
+      {
+        "categories": [
+          "Typescript",
+          "React",
+        ],
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
+            "link": "https://github.com/Jh123x/SG-HYSA-Calculator",
+            "tooltip": "Github",
+          },
+          "link": {
+            "link": "https://hysa.jh123x.com/",
+            "tooltip": "Official Website",
+          },
+        },
+        "text": "A high yield savings accout calculator",
+        "title": "HYSA Calculator",
+      },
+      {
+        "categories": [
+          "Typescript",
+          "React",
+          "Telegram",
+        ],
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
+            "link": "https://github.com/Jh123x/telegram-bot-on-browser",
+            "tooltip": "Github",
+          },
+          "link": {
+            "link": "https://telebot.jh123x.com/",
+            "tooltip": "Official Website",
+          },
+        },
+        "text": "A telegram bot in browser",
+        "title": "Browser Telebot",
+      },
+      {
+        "categories": [
+          "Golang",
         ],
         "image": {
           "blurDataURL": "data:image/png;base64,imagedata",
@@ -49,6 +118,26 @@ exports[`Menu should render correctly portfolio 1`] = `
         },
         "text": "A simple library for testing in Pure Go.",
         "title": "Go Test",
+      },
+      {
+        "categories": [
+          "python",
+          "game",
+        ],
+        "image": {
+          "blurDataURL": "data:image/png;base64,imagedata",
+          "height": 40,
+          "src": "/img.jpg",
+          "width": 40,
+        },
+        "links": {
+          "github": {
+            "link": "https://github.com/Jh123x/Asteroids",
+            "tooltip": "Github",
+          },
+        },
+        "text": "An astroids game",
+        "title": "Astroids Game",
       },
       {
         "categories": [
