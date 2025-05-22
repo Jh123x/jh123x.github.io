@@ -1,10 +1,6 @@
-import * as React from "react";
-import styled from "styled-components";
-import ImageSection from "../../Components/ImageSection";
-import Title from "../../Components/Title";
-import { MainLayout } from "../../styles/Layouts";
-import InterestsSection from "../../Components/InterestsSection";
+
 import { Metadata } from "next";
+import AboutComponent from "src/Components/About";
 
 
 export const metadata: Metadata = {
@@ -13,16 +9,8 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
 }
 
-const AboutPage = () => (
-  <MainLayout>
-    <AboutStyled>
-      <Title title="About Me" span="About Me" />
-      <ImageSection />
-      <InterestsSection />
-    </AboutStyled>
-  </MainLayout>
-);
+const AboutPage= () => (
+  <AboutComponent></AboutComponent>
+)
 
-const AboutStyled = styled.section``;
-
-export default AboutPage;
+export default AboutPage
