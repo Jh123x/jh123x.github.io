@@ -4,7 +4,11 @@ import styled from "styled-components";
 
 const ProgressBar = ({ title, width, text }) => (
   <ProgressBarStyled>
-    <h6>{title}</h6>
+    <h4 style={{
+      fontSize: "1.5rem",
+      paddingBottom: "0.6rem",
+      color: "white",
+    }}>{title}</h4>
     <div className="progress-bar">
       <p>{text}</p>
       <div className="progress">

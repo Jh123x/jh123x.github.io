@@ -76,12 +76,12 @@ const ResumeItemStyled = styled.div`
     }
     h5 {
       color: var(--primary-color);
-      font-size: 2rem;
+      font-size: 1.5rem;
       padding-bottom: 0.4rem;
     }
     h6 {
       padding-bottom: 0.6rem;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 `;

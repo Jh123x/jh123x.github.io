@@ -10,12 +10,12 @@ const Skills = () => (
     <Title title={"My Skills"} span={"my skills"} />
     <InnerLayout>
       <div className="skills">
-        <ProgressBar title={"Python"} width={"90%"} text={"90%"} />
-        <ProgressBar title={"Golang"} width={"100%"} text={"100%"} />
-        <ProgressBar title={"Javascript"} width={"85%"} text={"85%"} />
-        <ProgressBar title={"Typescript"} width={"90%"} text={"90%"} />
-        <ProgressBar title={"Python"} width={"95%"} text={"95%"} />
-        <ProgressBar title={"React"} width={"75%"} text={"75%"} />
+        <ProgressBar title="Python" width="90%" text="90%" />
+        <ProgressBar title="Golang" width="100%" text="100%" />
+        <ProgressBar title="Javascript" width="85%" text="85%" />
+        <ProgressBar title="Typescript" width="90%" text="90%" />
+        <ProgressBar title="Python" width="95%" text="95%" />
+        <ProgressBar title="React" width="75%" text="75%" />
       </div>
     </InnerLayout>
   </SkillsStyled>
