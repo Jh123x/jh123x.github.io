@@ -14,10 +14,9 @@ const loadMode = (key: string): boolean => {
 
 export interface NavProp {
     children: React.ReactNode
-    activeMenu: MenuItem
 }
 
-const Nav = ({ activeMenu, children }: NavProp) => {
+const Nav = ({ children }: NavProp) => {
     const [navToggle, setNavToggle] = React.useState(false);
     const [isDarkMode, setIsDarkMode] = React.useState(loadMode('is_dark_mode'));
 
@@ -28,7 +27,7 @@ const Nav = ({ activeMenu, children }: NavProp) => {
 
     return (
         <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
-            <Sidebar navToggle={navToggle} activeMenu={activeMenu} />
+            <Sidebar navToggle={navToggle} />
             <div className="theme" id="theme-toggle">
                 <div className="light-dark-mode">
                     <div className="left-content">

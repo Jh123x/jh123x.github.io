@@ -6,12 +6,11 @@ import { MenuItem } from "./types";
 
 interface SidebarProps {
   navToggle: boolean;
-  activeMenu: MenuItem;
 }
 
-const Sidebar = ({ navToggle, activeMenu }: SidebarProps) => (
+const Sidebar = ({ navToggle }: SidebarProps) => (
   <SidebarStyled style={{ transform: navToggle ? "translateX(0)" : "" }}>
-    <Navigation activeMenu={activeMenu} />
+    <Navigation />
   </SidebarStyled>
 );
 
