@@ -11,7 +11,11 @@ const loadMode = (key: string): boolean => {
     return item != null ? !!JSON.parse(item) : false;
 }
 
-const Nav = ({ children }: { children: React.ReactNode }) => {
+export interface NavProp {
+    children: React.ReactNode
+}
+
+const Nav = ({ children }: NavProp) => {
     const [navToggle, setNavToggle] = React.useState(false);
     const [isDarkMode, setIsDarkMode] = React.useState(loadMode('is_dark_mode'));
 

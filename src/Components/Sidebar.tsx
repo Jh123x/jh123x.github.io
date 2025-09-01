@@ -3,7 +3,11 @@ import * as React from "react";
 import styled from "styled-components";
 import Navigation from "./Navigation";
 
-const Sidebar = ({ navToggle }: { navToggle: boolean }) => (
+interface SidebarProps {
+  navToggle: boolean;
+}
+
+const Sidebar = ({ navToggle }: SidebarProps) => (
   <SidebarStyled style={{ transform: navToggle ? "translateX(0)" : "" }}>
     <Navigation />
   </SidebarStyled>

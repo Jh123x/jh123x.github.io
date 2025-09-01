@@ -5,32 +5,43 @@ import avatar from "../img/avatar.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
-const Navigation = () => (
-  <NavigationStyled>
-    <div className="avatar">
-      <Image src={avatar.src} width={100} height={200} alt="Avatar" />
-    </div>
-    <ul className="nav-items">
-      <li className="nav-item" key="Home">
-        <Link href="/" aria-label="Home">Home</Link>
-      </li>
-      <li className="nav-item" key="resume">
-        <Link href="/resume" aria-label="Resume">Resume</Link>
-      </li>
-      <li className="nav-item" key="portfolios">
-        <Link href="/portfolios" aria-label="Portfolios">Portfolios</Link>
-      </li>
-      <li className="nav-item" key="about">
-        <Link href="/about" aria-label="About">About</Link>
-      </li>
-    </ul>
-    <footer className="footer">
-      <p suppressHydrationWarning >
-        @{new Date().getFullYear()} <b>Wen Junhua</b>
-      </p>
-    </footer>
-  </NavigationStyled>
-);
+enum MenuItem {
+  Home = '/',
+  Resume = '/resume',
+  Portfolios = '/portfolios',
+  About = '/about'
+}
+
+const Navigation = () => {
+  const activeMenu = new URL(window.location.href).pathname ?? "/";
+
+  return (
+    <NavigationStyled>
+      <div className="avatar">
+        <Image src={avatar.src} width={100} height={200} alt="Avatar" />
+      </div>
+      <ul className="nav-items">
+        <li className="nav-item" key="Home">
+          <Link href="/" aria-label="Home" prefetch={activeMenu !== MenuItem.Home}>Home</Link>
+        </li>
+        <li className="nav-item" key="resume">
+          <Link href="/resume" aria-label="Resume" prefetch={activeMenu !== MenuItem.Resume}>Resume</Link>
+        </li>
+        <li className="nav-item" key="portfolios">
+          <Link href="/portfolios" aria-label="Portfolios" prefetch={activeMenu !== MenuItem.Portfolios}>Portfolios</Link>
+        </li>
+        <li className="nav-item" key="about">
+          <Link href="/about" aria-label="About" prefetch={activeMenu !== MenuItem.About}>About</Link>
+        </li>
+      </ul>
+      <footer className="footer">
+        <p suppressHydrationWarning >
+          @{new Date().getFullYear()} <b>Wen Junhua</b>
+        </p>
+      </footer>
+    </NavigationStyled>
+  )
+};
 
 const NavigationStyled = styled.nav`
   display: flex;
