@@ -5,7 +5,6 @@ import { IconButton } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
 import { AntSwitch } from "src/Components/Switch";
-import { MenuItem } from "src/Components/types";
 
 const loadMode = (key: string): boolean => {
     const item = window.sessionStorage.getItem(key);

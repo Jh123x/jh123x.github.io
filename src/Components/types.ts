@@ -4,5 +4,3 @@ export interface InterestDescription {
     paragraph?: string;
     href: string;
 }
-
-export type MenuItem = "Home" | "Resume" | "Portfolios" | "About";
