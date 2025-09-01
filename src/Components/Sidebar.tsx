@@ -2,10 +2,16 @@
 import * as React from "react";
 import styled from "styled-components";
 import Navigation from "./Navigation";
+import { MenuItem } from "./types";
 
-const Sidebar = ({ navToggle }: { navToggle: boolean }) => (
+interface SidebarProps {
+  navToggle: boolean;
+  activeMenu: MenuItem;
+}
+
+const Sidebar = ({ navToggle, activeMenu }: SidebarProps) => (
   <SidebarStyled style={{ transform: navToggle ? "translateX(0)" : "" }}>
-    <Navigation />
+    <Navigation activeMenu={activeMenu} />
   </SidebarStyled>
 );
 

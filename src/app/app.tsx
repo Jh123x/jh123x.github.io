@@ -5,13 +5,19 @@ import { IconButton } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
 import { AntSwitch } from "src/Components/Switch";
+import { MenuItem } from "src/Components/types";
 
 const loadMode = (key: string): boolean => {
     const item = window.sessionStorage.getItem(key);
     return item != null ? !!JSON.parse(item) : false;
 }
 
-const Nav = ({ children }: { children: React.ReactNode }) => {
+export interface NavProp {
+    children: React.ReactNode
+    activeMenu: MenuItem
+}
+
+const Nav = ({ activeMenu, children }: NavProp) => {
     const [navToggle, setNavToggle] = React.useState(false);
     const [isDarkMode, setIsDarkMode] = React.useState(loadMode('is_dark_mode'));
 
@@ -22,7 +28,7 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
 
     return (
         <div className={`App ${isDarkMode ? "light-theme" : "dark-theme"}`}>
-            <Sidebar navToggle={navToggle} />
+            <Sidebar navToggle={navToggle} activeMenu={activeMenu} />
             <div className="theme" id="theme-toggle">
                 <div className="light-dark-mode">
                     <div className="left-content">

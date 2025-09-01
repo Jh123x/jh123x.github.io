@@ -4,24 +4,29 @@ import styled from "styled-components";
 import avatar from "../img/avatar.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import { MenuItem } from "./types";
 
-const Navigation = () => (
+export interface NavProp {
+  activeMenu: MenuItem;
+}
+
+const Navigation = ({ activeMenu }: NavProp) => (
   <NavigationStyled>
     <div className="avatar">
       <Image src={avatar.src} width={100} height={200} alt="Avatar" />
     </div>
     <ul className="nav-items">
       <li className="nav-item" key="Home">
-        <Link href="/" aria-label="Home">Home</Link>
+        <Link href="/" aria-label="Home" prefetch={activeMenu !== 'Home'}>Home</Link>
       </li>
       <li className="nav-item" key="resume">
-        <Link href="/resume" aria-label="Resume">Resume</Link>
+        <Link href="/resume" aria-label="Resume" prefetch={activeMenu !== 'Resume'}>Resume</Link>
       </li>
       <li className="nav-item" key="portfolios">
-        <Link href="/portfolios" aria-label="Portfolios">Portfolios</Link>
+        <Link href="/portfolios" aria-label="Portfolios" prefetch={activeMenu !== 'Portfolios'}>Portfolios</Link>
       </li>
       <li className="nav-item" key="about">
-        <Link href="/about" aria-label="About">About</Link>
+        <Link href="/about" aria-label="About" prefetch={activeMenu !== 'About'}>About</Link>
       </li>
     </ul>
     <footer className="footer">
