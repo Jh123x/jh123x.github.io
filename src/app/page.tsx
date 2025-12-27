@@ -16,12 +16,17 @@ const HomePage = () => (
         Hi, I'm <span>Junhua</span>
       </h1>
       <p>
-        As a software engineer with a keen interest in cyber security, I strive
-        to develop secure and reliable software. This portfolio showcases my
-        skills and expertise in both fields.
+        I am currently a Software Engineer @ Bytedance based in Singapore. On
+        the side, I run <Link href="https://jh123x.com">a blog</Link> about my
+        technical and personal adventures. I have{" "}
+        {new Date().getFullYear() - 2023} years of experiences.
       </p>
       <div className="icons">
-        <Link href="https://github.com/Jh123x" className="icon i-github" aria-label="Github">
+        <Link
+          href="https://github.com/Jh123x"
+          className="icon i-github"
+          aria-label="Github"
+        >
           <GitHub />
         </Link>
         <Link
@@ -32,7 +37,11 @@ const HomePage = () => (
           <LinkedIn />
         </Link>
         <Tooltip title="Blog site">
-          <Link href="https://jh123x.com" className="icon i-youtube" aria-label="Blog">
+          <Link
+            href="https://jh123x.com"
+            className="icon i-youtube"
+            aria-label="Blog"
+          >
             <LinkIcon />
           </Link>
         </Tooltip>
