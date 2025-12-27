@@ -17,7 +17,8 @@ const HomePage = () => (
         experiences. On the side, I run{" "}
         <Link href="https://jh123x.com">a blog</Link> about my technical and
         personal adventures and work on side projects on my{" "}
-        <Link href="https://github.com/Jh123x">Github</Link>.
+        <Link href="https://github.com/Jh123x">Github</Link>. I mainly work with
+        Golang (for work), Python and TypeScript (for side projects).
       </p>
       <div className="icons">
         <Link
