@@ -36,7 +36,7 @@ const Navigation = () => {
             aria-label="Resume"
             prefetch={activeMenu !== MenuItem.Resume}
           >
-            Work Experience
+            Experience
           </Link>
         </li>
         <li className="nav-item" key="portfolios">

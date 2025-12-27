@@ -16,10 +16,11 @@ const HomePage = () => (
         Hi, I'm <span>Junhua</span>
       </h1>
       <p>
-        I am currently a Software Engineer @ Bytedance based in Singapore. I
-        have {new Date().getFullYear() - 2023} years of experiences. On the
-        side, I run <Link href="https://jh123x.com">a blog</Link> about my
-        technical and personal adventures and work on side projects on my{" "}
+        I am currently a Backend Software Engineer at Bytedance based in
+        Singapore. I have {new Date().getFullYear() - 2023} years of
+        experiences. On the side, I run{" "}
+        <Link href="https://jh123x.com">a blog</Link> about my technical and
+        personal adventures and work on side projects on my{" "}
         <Link href="https://github.com/Jh123x">Github</Link>.
       </p>
       <div className="icons">
