@@ -6,10 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 enum MenuItem {
-  Home = '/',
-  Resume = '/resume',
-  Portfolios = '/portfolios',
-  About = '/about'
+  Home = "/",
+  Resume = "/resume",
+  Portfolios = "/portfolios",
+  About = "/about",
 }
 
 const Navigation = () => {
@@ -22,25 +22,49 @@ const Navigation = () => {
       </div>
       <ul className="nav-items">
         <li className="nav-item" key="Home">
-          <Link href="/" aria-label="Home" prefetch={activeMenu !== MenuItem.Home}>Home</Link>
+          <Link
+            href="/"
+            aria-label="Home"
+            prefetch={activeMenu !== MenuItem.Home}
+          >
+            Home
+          </Link>
         </li>
         <li className="nav-item" key="resume">
-          <Link href="/resume" aria-label="Resume" prefetch={activeMenu !== MenuItem.Resume}>Resume</Link>
+          <Link
+            href="/resume"
+            aria-label="Resume"
+            prefetch={activeMenu !== MenuItem.Resume}
+          >
+            Work Experience
+          </Link>
         </li>
         <li className="nav-item" key="portfolios">
-          <Link href="/portfolios" aria-label="Portfolios" prefetch={activeMenu !== MenuItem.Portfolios}>Portfolios</Link>
+          <Link
+            href="/portfolios"
+            aria-label="Portfolios"
+            prefetch={activeMenu !== MenuItem.Portfolios}
+          >
+            Projects
+          </Link>
         </li>
         <li className="nav-item" key="about">
-          <Link href="/about" aria-label="About" prefetch={activeMenu !== MenuItem.About}>About</Link>
+          <Link
+            href="/about"
+            aria-label="About"
+            prefetch={activeMenu !== MenuItem.About}
+          >
+            About
+          </Link>
         </li>
       </ul>
       <footer className="footer">
-        <p suppressHydrationWarning >
+        <p suppressHydrationWarning>
           @{new Date().getFullYear()} <b>Wen Junhua</b>
         </p>
       </footer>
     </NavigationStyled>
-  )
+  );
 };
 
 const NavigationStyled = styled.nav`
