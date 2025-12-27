@@ -23,11 +23,6 @@ const iconMap: Map<IconTypes, Icon> = new Map<IconTypes, Icon>([
   [IconTypes.docs, DocumentScannerOutlined],
 ]);
 
-const itemMap = (links: LinkTypes) => {
-  const entries = Object.entries(links ?? {});
-  return <ul>{entries.map(mapItem)}</ul>;
-};
-
 const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
   any,
   any
@@ -37,14 +32,14 @@ const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
   const url = link.link ?? "";
 
   return (
-    <li key={name + link.link + tooltip}>
+    <div key={name + link.link + tooltip}>
       <Tooltip title={tooltip}>
         <Link href={url}>
           <Icon />
         </Link>
       </Tooltip>
-    </li>
+    </div>
   );
 };
 
-export default itemMap;
+export default mapItem;
