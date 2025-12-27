@@ -37,7 +37,7 @@ export interface PortfolioEntry {
   text: string;
   categories: string[];
   stack: string[];
-  image: HTMLImageElement | StaticImageData;
+  image: StaticImageData;
   links: LinkTypes;
 }
 
