@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 };
 
-export default function RootLayout({
-  children,
-}: {
+interface layout {
   children: React.ReactNode;
-}) {
+}
+
+export default function RootLayout({ children }: layout) {
   return (
     <html lang="en">
       <body className="dark-theme">

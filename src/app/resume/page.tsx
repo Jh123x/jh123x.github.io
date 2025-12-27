@@ -4,7 +4,7 @@ import { MainLayout } from "../../styles/Layouts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Resume",
+  title: "Work & Education",
   description: "Work, Skills & Education background",
   manifest: "/manifest.json",
 };

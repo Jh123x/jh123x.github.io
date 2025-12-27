@@ -2,15 +2,11 @@
 import * as React from "react";
 import styled from "styled-components";
 import { GitHub, Link as LinkIcon, LinkedIn } from "@mui/icons-material";
-import Particle from "../Components/Particle";
 import { Tooltip } from "@mui/material";
 import Link from "next/link";
 
 const HomePage = () => (
   <HomePageStyled>
-    <div className="particle-con">
-      <Particle />
-    </div>
     <div className="typography">
       <h1>
         Hi, I'm <span>Junhua</span>
@@ -38,7 +34,7 @@ const HomePage = () => (
         >
           <LinkedIn />
         </Link>
-        <Tooltip title="Blog site">
+        <Tooltip title="Blog">
           <Link
             href="https://jh123x.com"
             className="icon i-youtube"

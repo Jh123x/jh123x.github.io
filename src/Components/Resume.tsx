@@ -18,7 +18,7 @@ const Resume = () => {
   const school = <SchoolIcon />;
   return (
     <ResumeStyled>
-      <Title title={"Work & Education"} span={"resume"} />
+      <Title title={"Work & Education"} span={"Work & Education"} />
       <InnerLayout>
         <div className="small-title">
           <SmallTitle icon={briefcase} title={"Working Experience"} />
