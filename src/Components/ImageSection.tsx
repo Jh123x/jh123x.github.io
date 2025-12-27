@@ -12,7 +12,8 @@ const ImageSection = () => (
         width={0}
         height={0}
         alt="My Fun Portrait"
-        style={{ height: 'auto' }} // optional
+        style={{ height: "auto" }} // optional
+        loading="lazy"
       />
     </div>
     <div className="right-content">
@@ -21,9 +22,9 @@ const ImageSection = () => (
       </h4>
       <p className="paragraph">
         I specialize in in Backend Development. Beyond development, I am also
-        interested in upcoming technologies such as <b>Machine Learning</b> and
+        interested in upcoming technologies such as <b>Machine Learning</b> and{" "}
         <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and run my{" "}
-        <b>Home Lab</b> during my free time.
+        <b>Home Lab</b> and <b>blogs</b> during my free time.
       </p>
       <div className="about-info">
         <div className="info-title">

@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ProgressBar should render correctly 1`] = `
-<ProgressBar
-  text="test_text"
-  title="test"
-  width={10}
-/>
-`;

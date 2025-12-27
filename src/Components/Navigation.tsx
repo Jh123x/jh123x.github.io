@@ -6,10 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 enum MenuItem {
-  Home = '/',
-  Resume = '/resume',
-  Portfolios = '/portfolios',
-  About = '/about'
+  Home = "/",
+  Experience = "/experience",
+  Projects = "/projects",
+  About = "/about",
 }
 
 const Navigation = () => {
@@ -22,25 +22,49 @@ const Navigation = () => {
       </div>
       <ul className="nav-items">
         <li className="nav-item" key="Home">
-          <Link href="/" aria-label="Home" prefetch={activeMenu !== MenuItem.Home}>Home</Link>
+          <Link
+            href={MenuItem.Home}
+            aria-label="Home"
+            prefetch={activeMenu !== MenuItem.Home}
+          >
+            Home
+          </Link>
         </li>
-        <li className="nav-item" key="resume">
-          <Link href="/resume" aria-label="Resume" prefetch={activeMenu !== MenuItem.Resume}>Resume</Link>
+        <li className="nav-item" key="experience">
+          <Link
+            href={MenuItem.Experience}
+            aria-label="Experience"
+            prefetch={activeMenu !== MenuItem.Experience}
+          >
+            Experience
+          </Link>
         </li>
         <li className="nav-item" key="portfolios">
-          <Link href="/portfolios" aria-label="Portfolios" prefetch={activeMenu !== MenuItem.Portfolios}>Portfolios</Link>
+          <Link
+            href={MenuItem.Projects}
+            aria-label="Projects"
+            prefetch={activeMenu !== MenuItem.Projects}
+          >
+            Projects
+          </Link>
         </li>
         <li className="nav-item" key="about">
-          <Link href="/about" aria-label="About" prefetch={activeMenu !== MenuItem.About}>About</Link>
+          <Link
+            href={MenuItem.About}
+            aria-label="About"
+            prefetch={activeMenu !== MenuItem.About}
+          >
+            About
+          </Link>
         </li>
       </ul>
       <footer className="footer">
-        <p suppressHydrationWarning >
+        <p suppressHydrationWarning>
           @{new Date().getFullYear()} <b>Wen Junhua</b>
         </p>
       </footer>
     </NavigationStyled>
-  )
+  );
 };
 
 const NavigationStyled = styled.nav`
