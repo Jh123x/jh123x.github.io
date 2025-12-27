@@ -13,6 +13,7 @@ const ImageSection = () => (
         height={0}
         alt="My Fun Portrait"
         style={{ height: "auto" }} // optional
+        loading="lazy"
       />
     </div>
     <div className="right-content">
