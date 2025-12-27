@@ -1,15 +1,9 @@
 "use client";
 import * as React from "react";
-import { Brightness6, Menu as MenuIcon } from "@mui/icons-material";
+import { Menu as MenuIcon } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
-import { AntSwitch } from "src/Components/Switch";
-
-const loadMode = (key: string): boolean => {
-  const item = window.sessionStorage.getItem(key);
-  return item != null ? !!JSON.parse(item) : false;
-};
 
 export interface NavProp {
   children: React.ReactNode;
@@ -17,15 +11,6 @@ export interface NavProp {
 
 const Nav = ({ children }: NavProp) => {
   const [navToggle, setNavToggle] = React.useState(false);
-  const [isDarkMode, setIsDarkMode] = React.useState(loadMode("is_dark_mode"));
-
-  React.useEffect(() => {
-    document.documentElement.className = isDarkMode
-      ? "light-theme"
-      : "dark-theme";
-    window.sessionStorage.setItem("is_dark_mode", JSON.stringify(isDarkMode));
-  }, [isDarkMode]);
-
   return (
     <div className="App dark-theme">
       <Sidebar navToggle={navToggle} />
