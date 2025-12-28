@@ -20,7 +20,7 @@ export interface PortfolioLink {
 }
 
 export type LinkTypes = {
-  [key in IconTypes]?: PortfolioLink | PortfolioLink[];
+  [key in IconTypes]?: PortfolioLink;
 };
 
 export interface Entry {

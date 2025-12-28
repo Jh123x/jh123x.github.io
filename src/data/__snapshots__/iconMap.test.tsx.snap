@@ -2,126 +2,112 @@
 
 exports[`itemMap should render a apple icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title="Apple"
+  <div>
+    <ForwardRef(Tooltip)
+      title="Apple"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://apple.com"
       >
-        <ForwardRef(LinkComponent)
-          href="https://apple.com"
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;
 
 exports[`itemMap should render a docs icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title="Docs"
+  <div>
+    <ForwardRef(Tooltip)
+      title="Docs"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://docs.com"
       >
-        <ForwardRef(LinkComponent)
-          href="https://docs.com"
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;
 
 exports[`itemMap should render a github icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title="Github"
+  <div>
+    <ForwardRef(Tooltip)
+      title="Github"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://github.com"
       >
-        <ForwardRef(LinkComponent)
-          href="https://github.com"
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;
 
 exports[`itemMap should render a google icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title="Google"
+  <div>
+    <ForwardRef(Tooltip)
+      title="Google"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://google.com"
       >
-        <ForwardRef(LinkComponent)
-          href="https://google.com"
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;
 
 exports[`itemMap should render a link icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title=""
+  <div>
+    <ForwardRef(Tooltip)
+      title="Link"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://google.com"
       >
-        <ForwardRef(LinkComponent)
-          href=""
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;
 
 exports[`itemMap should render a linkedin icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title="LinkedIn"
+  <div>
+    <ForwardRef(Tooltip)
+      title="LinkedIn"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://linkedin.com"
       >
-        <ForwardRef(LinkComponent)
-          href="https://linkedin.com"
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;
 
 exports[`itemMap should render a youtube icon 1`] = `
 <div>
-  <ul>
-    <li>
-      <ForwardRef(Tooltip)
-        title="YouTube"
+  <div>
+    <ForwardRef(Tooltip)
+      title="YouTube"
+    >
+      <ForwardRef(LinkComponent)
+        href="https://youtube.com"
       >
-        <ForwardRef(LinkComponent)
-          href="https://youtube.com"
-        >
-          <Memo />
-        </ForwardRef(LinkComponent)>
-      </ForwardRef(Tooltip)>
-    </li>
-  </ul>
+        <Memo />
+      </ForwardRef(LinkComponent)>
+    </ForwardRef(Tooltip)>
+  </div>
 </div>
 `;

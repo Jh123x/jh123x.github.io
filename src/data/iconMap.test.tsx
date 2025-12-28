@@ -26,10 +26,7 @@ describe("itemMap", () => {
     [
       IconTypes.link,
       {
-        link: [
-          { link: "https://google.com", tooltip: "Link" },
-          { link: "https://google.com", tooltip: "Link2" },
-        ],
+        link: { link: "https://google.com", tooltip: "Link" },
       },
     ],
     [
@@ -41,7 +38,11 @@ describe("itemMap", () => {
 
   for (const [icon, links] of tests) {
     test(`should render a ${icon} icon`, () => {
-      const wrapper = <div>{itemMap(links)}</div>;
+      const wrapper = (
+        <div>
+          {Object.entries(links).map(([key, link]) => itemMap([icon, link]))}
+        </div>
+      );
       expect(wrapper).toMatchSnapshot();
     });
   }

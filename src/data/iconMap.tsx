@@ -9,7 +9,7 @@ import {
   YouTube,
 } from "@mui/icons-material";
 import { Tooltip } from "@mui/material";
-import { LinkTypes, PortfolioLink, IconTypes, Icon } from "./types";
+import { PortfolioLink, IconTypes, Icon } from "./types";
 import { ReactElement } from "react";
 import Link from "next/link";
 
