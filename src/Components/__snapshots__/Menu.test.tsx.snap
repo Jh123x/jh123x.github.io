@@ -52,7 +52,7 @@ exports[`Menu should render correctly portfolio 1`] = `
           "TypeScript",
           "React",
         ],
-        "text": "A high yield savings accout calculator",
+        "text": "A high yield savings account calculator for Singapore Banks",
         "title": "HYSA Calculator",
       },
       {
@@ -81,7 +81,7 @@ exports[`Menu should render correctly portfolio 1`] = `
           "TypeScript",
           "React",
         ],
-        "text": "A telegram bot in browser",
+        "text": "Running a Telegram bot from within a browser",
         "title": "Browser Telebot",
       },
       {
@@ -107,7 +107,7 @@ exports[`Menu should render correctly portfolio 1`] = `
         "stack": [
           "Golang",
         ],
-        "text": "A code generation tools to build",
+        "text": "A code generation tools to build builders in Golang",
         "title": "BuilderGen",
       },
       {
@@ -133,7 +133,7 @@ exports[`Menu should render correctly portfolio 1`] = `
         "stack": [
           "Golang",
         ],
-        "text": "A simple library for testing in Pure Go.",
+        "text": "A simple validation library in Pure Go",
         "title": "Go Test",
       },
       {
@@ -157,7 +157,7 @@ exports[`Menu should render correctly portfolio 1`] = `
           "Python",
           "Pygame",
         ],
-        "text": "An astroids game",
+        "text": "An astroids game where you shoot asteroids and survive.",
         "title": "Astroids Game",
       },
       {
@@ -181,7 +181,7 @@ exports[`Menu should render correctly portfolio 1`] = `
           "Hugo",
           "Markdown",
         ],
-        "text": "A simple website for NUS students to find useful links and resources.",
+        "text": "A website for NUS students to find useful links, resources and module reviews.",
         "title": "NUS Website",
       },
       {
