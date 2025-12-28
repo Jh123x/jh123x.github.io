@@ -36,18 +36,20 @@ function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
           />
           <CardContent
             sx={{
-              backgroundColor: "#037fff4d",
+              backgroundColor: "#10121A",
             }}
           >
-            <Typography>{item.title}</Typography>
-            <Stack direction="row" spacing={1}>
-              {item.stack.map((badge, idx) => (
-                <Chip label={badge} key={`${index}-${idx}`} />
-              ))}
-            </Stack>
-            <Typography>{item.text}</Typography>
-            <Stack direction="row" spacing={1}>
-              {Object.entries(item.links).map(mapItem)}
+            <Typography variant="subtitle1">{item.title}</Typography>
+            <Typography variant="subtitle2">{item.text}</Typography>
+            <Stack direction="column" spacing={1}>
+              <Stack direction="row" spacing={1}>
+                {Object.entries(item.links).map(mapItem)}
+              </Stack>
+              <Stack direction="row" spacing={1}>
+                {item.stack.map((badge, idx) => (
+                  <Chip label={badge} key={`${index}-${idx}`} />
+                ))}
+              </Stack>
             </Stack>
           </CardContent>
         </Card>

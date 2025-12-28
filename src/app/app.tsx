@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
-import { IconButton } from "@mui/material";
+import { createTheme, IconButton, ThemeProvider } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
 
@@ -9,23 +9,31 @@ export interface NavProp {
   children: React.ReactNode;
 }
 
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
+
 const Nav = ({ children }: NavProp) => {
   const [navToggle, setNavToggle] = React.useState(false);
   return (
-    <div className="App dark-theme">
-      <Sidebar navToggle={navToggle} />
-      <div className="ham-burger-menu">
-        <IconButton
-          onClick={() => setNavToggle(!navToggle)}
-          className="light-dark-mode"
-          style={{ position: "absolute" }}
-          aria-label="Toggle Sidebar"
-        >
-          <MenuIcon />
-        </IconButton>
+    <ThemeProvider theme={darkTheme}>
+      <div className="App dark-theme">
+        <Sidebar navToggle={navToggle} />
+        <div className="ham-burger-menu">
+          <IconButton
+            onClick={() => setNavToggle(!navToggle)}
+            className="light-dark-mode"
+            style={{ position: "absolute" }}
+            aria-label="Toggle Sidebar"
+          >
+            <MenuIcon />
+          </IconButton>
+        </div>
+        <MainContentStyled>{children}</MainContentStyled>
       </div>
-      <MainContentStyled>{children}</MainContentStyled>
-    </div>
+    </ThemeProvider>
   );
 };
 
