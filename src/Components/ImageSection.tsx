@@ -6,8 +6,20 @@ import { Typography } from "@mui/material";
 const ImageSection = () => (
   <ImageSectionStyled>
     <div className="right-content">
-      <Typography variant="h4">
-        I am <span>Junhua</span>
+      <Typography
+        variant="h4"
+        sx={{
+          fontWeight: "bold",
+        }}
+      >
+        I am{" "}
+        <span
+          style={{
+            color: "var(--primary-color)",
+          }}
+        >
+          Junhua
+        </span>
       </Typography>
       <Typography variant="body2" className="paragraph">
         I specialize in in Backend Development. Beyond development, I am also

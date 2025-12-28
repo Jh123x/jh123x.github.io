@@ -184,7 +184,7 @@ const portfolios: PortfolioEntry[] = [
     links: {
       link: {
         link: "https://python.jh123x.com",
-        tooltip: "Test Development of the Project",
+        tooltip: "Sample of the Project",
       },
       docs: {
         link: "https://jh123x.com/projects/visualpython/",
@@ -216,7 +216,7 @@ const portfolios: PortfolioEntry[] = [
     image: order_on_us,
     categories: ["Django", "ReactJs", "Python"],
     stack: ["Python", "Django", "React", "JavaScript"],
-    text: "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
+    text: "It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023",
     links: {
       github: {
         link: "https://github.com/Orderonus",
@@ -250,7 +250,7 @@ const portfolios: PortfolioEntry[] = [
     image: typeracerbot,
     categories: ["Python", "PyAutoGui", "OCR"],
     stack: ["Python"],
-    text: "A simple bot that plays typeracer for you very quickly.",
+    text: "A bot that plays typeracer for you.",
     links: {
       github: {
         link: "https://github.com/Jh123x/Typeracer-bot",
@@ -267,7 +267,7 @@ const portfolios: PortfolioEntry[] = [
     image: pdfcombiner,
     categories: ["Python", "PyPDF2"],
     stack: ["Python"],
-    text: "A simple CLI application that combines multiple PDF files into one.",
+    text: "A CLI application that combines multiple PDF files into one",
     links: {
       github: {
         link: "https://github.com/Jh123x/PDF-Combiner",
@@ -318,7 +318,7 @@ const portfolios: PortfolioEntry[] = [
     image: wordle_solver,
     categories: ["Python", "Statistical Analysis"],
     stack: ["Python"],
-    text: "A simple CLI application that solves wordle puzzles with a GUI game",
+    text: "A CLI application that solves wordle puzzles with a GUI game",
     links: {
       github: {
         link: "https://github.com/Jh123x/Wordle-Solver",
@@ -331,26 +331,20 @@ const portfolios: PortfolioEntry[] = [
     },
   },
   {
-    title: "COMP562 Project",
+    title: "COMP562 Project: Political Leaning Predictor",
     image: comp562_proj,
     categories: ["Python", "PyTorch", "Deep Learning"],
     stack: ["Python", "PyTorch"],
-    text: "A project for COMP562: Introduction to Machine Learning",
+    text: "A Machine learning project that learns about a user's political leaning in the United States based on a series of questions. A project for COMP562: Introduction to Machine Learning.",
     links: {
       github: {
         link: "https://github.com/COMP562-2022-Group-1",
         tooltip: "GitHub Repository",
       },
-      link: [
-        {
-          link: "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
-          tooltip: "Model Training and evaluation",
-        },
-        {
-          link: "https://comp562-2022-group-1.github.io/",
-          tooltip: "Project Page",
-        },
-      ],
+      link: {
+        link: "https://comp562-2022-group-1.github.io/",
+        tooltip: "Project Page",
+      },
     },
   },
   {
@@ -366,7 +360,7 @@ const portfolios: PortfolioEntry[] = [
       "Kubernetes",
     ],
     stack: ["React", "TypeScript", "Golang", "Python", "Docker", "Kubernetes"],
-    text: "A platform for developers to collaborate on code. This was completed as a CS3219 Project",
+    text: "A platform for developers to conduct mock interviews. This was completed as a CS3219 Project",
     links: {
       github: {
         link: "https://github.com/CodeToGather/",
@@ -388,7 +382,7 @@ const portfolios: PortfolioEntry[] = [
     },
   },
   {
-    title: "CS4239 Server Side Request Forgery Research",
+    title: "Research Project on Server Side Request Forgery (SSRF)",
     image: ssrf,
     categories: ["Python", "Flask", "Docker", "Server Side Request Forgery"],
     stack: ["Python", "Flask", "Docker"],
@@ -415,16 +409,14 @@ const portfolios: PortfolioEntry[] = [
         link: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
         tooltip: "GitHub Repository",
       },
-      link: [
-        {
-          link: "https://devpost.com/software/not-schrodinger-s-box",
-          tooltip: "Devpost",
-        },
-        {
-          link: "https://jh123x.com/projects/hacknroll2022/",
-          tooltip: "Project Details",
-        },
-      ],
+      docs: {
+        link: "https://devpost.com/software/not-schrodinger-s-box",
+        tooltip: "Devpost",
+      },
+      link: {
+        link: "https://jh123x.com/projects/hacknroll2022/",
+        tooltip: "Project Details",
+      },
     },
   },
 ];

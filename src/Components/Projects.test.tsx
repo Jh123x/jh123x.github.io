@@ -1,6 +1,6 @@
 import * as React from "react";
 import { describe, expect, test } from "@jest/globals";
-import ProjectsMenu from "./Menu";
+import ProjectsMenu from "./Projects";
 import portfolios from "../data/portfolios";
 
 describe("Menu", () => {
