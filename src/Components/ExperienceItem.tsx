@@ -1,17 +1,10 @@
 import * as React from "react";
 import styled from "styled-components";
 import itemMap from "../data/iconMap";
-import { Entry } from "../data/types";
+import { Entry, IconTypes, PortfolioLink } from "../data/types";
 import Image from "next/image";
 
-const ResumeItem = ({
-  year,
-  title,
-  subTitle,
-  text,
-  logo,
-  link,
-}: Entry) => (
+const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
   <ResumeItemStyled>
     <div className="left-content">
       <p>{year}</p>
@@ -25,7 +18,13 @@ const ResumeItem = ({
       <h5>{title}</h5>
       <h6>{subTitle}</h6>
       <p>{text}</p>
-      {link ? itemMap(link) : <></>}
+      {link ? (
+        Object.entries(link).map(([iconType, link]) =>
+          itemMap([iconType as IconTypes, link]),
+        )
+      ) : (
+        <></>
+      )}
     </div>
   </ResumeItemStyled>
 );
@@ -85,4 +84,4 @@ const ResumeItemStyled = styled.div`
     }
   }
 `;
-export default ResumeItem;
+export default ExperienceItem;

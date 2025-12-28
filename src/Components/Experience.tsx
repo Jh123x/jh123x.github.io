@@ -9,7 +9,7 @@ import {
   BusinessCenter as BusinessCenterIcon,
   School as SchoolIcon,
 } from "@mui/icons-material";
-import ResumeItem from "./ResumeItem";
+import ExperienceItem from "./ExperienceItem";
 import workExperience from "../data/workExperience";
 import schExperience from "../data/schExperience";
 
@@ -25,7 +25,7 @@ const Resume = () => {
         </div>
         <div className="resume-content">
           {workExperience.map((experience) => (
-            <ResumeItem
+            <ExperienceItem
               key={experience.title + experience.year}
               {...experience}
             />
@@ -36,7 +36,7 @@ const Resume = () => {
         </div>
         <div className="resume-content ">
           {schExperience.map((experience) => (
-            <ResumeItem
+            <ExperienceItem
               key={experience.title + experience.year}
               {...experience}
             />

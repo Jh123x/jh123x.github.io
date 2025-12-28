@@ -182,16 +182,10 @@ const portfolios: PortfolioEntry[] = [
     ],
     image: fyp,
     links: {
-      link: [
-        {
-          link: "https://python.jh123x.com",
-          tooltip: "Test Development of the Project",
-        },
-        {
-          link: "https://visualpython.comp.nus.edu.sg/",
-          tooltip: "Production Deployment of the Project",
-        },
-      ],
+      link: {
+        link: "https://python.jh123x.com",
+        tooltip: "Test Development of the Project",
+      },
       docs: {
         link: "https://jh123x.com/projects/visualpython/",
         tooltip: "Project Page",

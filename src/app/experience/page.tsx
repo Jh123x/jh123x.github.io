@@ -1,5 +1,5 @@
 import * as React from "react";
-import Resume from "../../Components/Resume";
+import Experience from "../../Components/Experience";
 import { MainLayout } from "../../styles/Layouts";
 import { Metadata } from "next";
 
@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 };
 
-const ResumePage = () => {
+const ExperiencePage = () => {
   return (
     <MainLayout>
-      <Resume />
+      <Experience />
     </MainLayout>
   );
 };
 
-export default ResumePage;
+export default ExperiencePage;

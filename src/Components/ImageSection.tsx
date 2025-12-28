@@ -6,16 +6,6 @@ import Image from "next/image";
 
 const ImageSection = () => (
   <ImageSectionStyled>
-    <div className="left-content" style={{ width: "100%", height: "100%" }}>
-      <Image
-        src={resume.src}
-        width={0}
-        height={0}
-        alt="My Fun Portrait"
-        style={{ height: "auto" }} // optional
-        loading="lazy"
-      />
-    </div>
     <div className="right-content">
       <h4>
         I am <span>Junhua</span>
