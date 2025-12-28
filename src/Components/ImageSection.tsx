@@ -1,33 +1,32 @@
 "use client";
 import * as React from "react";
 import styled from "styled-components";
-import resume from "../img/resume.jpg";
-import Image from "next/image";
+import { Typography } from "@mui/material";
 
 const ImageSection = () => (
   <ImageSectionStyled>
     <div className="right-content">
-      <h4>
+      <Typography variant="h4">
         I am <span>Junhua</span>
-      </h4>
-      <p className="paragraph">
+      </Typography>
+      <Typography variant="body2" className="paragraph">
         I specialize in in Backend Development. Beyond development, I am also
         interested in upcoming technologies such as <b>Machine Learning</b> and{" "}
         <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and run my{" "}
         <b>Home Lab</b> and <b>blogs</b> during my free time.
-      </p>
+      </Typography>
       <div className="about-info">
         <div className="info-title">
-          <p>Full Name</p>
-          <p>Nationality </p>
-          <p>Languages </p>
-          <p>Location</p>
+          <p style={{ margin: 0, padding: "5px" }}>Full Name:</p>
+          <p style={{ margin: 0, padding: "5px" }}>Nationality:</p>
+          <p style={{ margin: 0, padding: "5px" }}>Languages:</p>
+          <p style={{ margin: 0, padding: "5px" }}>Location:</p>
         </div>
         <div className="info">
-          <p>: Wen Junhua</p>
-          <p>: Singaporean </p>
-          <p>: English, Chinese </p>
-          <p>: Singapore</p>
+          <p style={{ margin: 0, padding: "5px" }}>Wen Junhua</p>
+          <p style={{ margin: 0, padding: "5px" }}>Singaporean </p>
+          <p style={{ margin: 0, padding: "5px" }}>English, Chinese </p>
+          <p style={{ margin: 0, padding: "5px" }}>Singapore</p>
         </div>
       </div>
     </div>

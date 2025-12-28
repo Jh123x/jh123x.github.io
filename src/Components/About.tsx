@@ -16,6 +16,9 @@ const AboutComponent = () => (
   </MainLayout>
 );
 
-const AboutStyled = styled.section``;
+const AboutStyled = styled.section`
+  margin: 0px;
+  padding: 0px;
+`;
 
 export default AboutComponent;

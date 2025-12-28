@@ -39,7 +39,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "HYSA Calculator",
-    text: "A high yield savings accout calculator",
+    text: "A high yield savings account calculator for Singapore Banks",
     categories: ["Typescript", "React"],
     stack: ["TypeScript", "React"],
     image: hysa_calculator,
@@ -56,7 +56,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "Browser Telebot",
-    text: "A telegram bot in browser",
+    text: "Running a Telegram bot from within a browser",
     categories: ["Typescript", "React", "Telegram"],
     stack: ["TypeScript", "React"],
     image: browser_telebot,
@@ -73,7 +73,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "BuilderGen",
-    text: "A code generation tools to build",
+    text: "A code generation tools to build builders in Golang",
     categories: ["Golang"],
     stack: ["Golang"],
     image: go_builder_gen,
@@ -90,7 +90,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "Go Test",
-    text: "A simple library for testing in Pure Go.",
+    text: "A simple validation library in Pure Go",
     categories: ["Golang"],
     stack: ["Golang"],
     image: go_test,
@@ -107,7 +107,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "Astroids Game",
-    text: "An astroids game",
+    text: "An astroids game where you shoot asteroids and survive.",
     categories: ["python", "game"],
     stack: ["Python", "Pygame"],
     image: astroid,
@@ -120,7 +120,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "NUS Website",
-    text: "A simple website for NUS students to find useful links and resources.",
+    text: "A website for NUS students to find useful links, resources and module reviews.",
     categories: ["Hugo", "Markdown"],
     stack: ["Hugo", "Markdown"],
     image: nus_jh123x,

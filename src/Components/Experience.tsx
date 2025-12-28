@@ -13,7 +13,7 @@ import ExperienceItem from "./ExperienceItem";
 import workExperience from "../data/workExperience";
 import schExperience from "../data/schExperience";
 
-const Resume = () => {
+const Experiences = () => {
   const briefcase = <BusinessCenterIcon />;
   const school = <SchoolIcon />;
   return (
@@ -61,4 +61,4 @@ const ResumeStyled = styled.section`
     margin: 0px;
   }
 `;
-export default Resume;
+export default Experiences;

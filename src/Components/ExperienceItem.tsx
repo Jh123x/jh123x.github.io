@@ -3,6 +3,7 @@ import styled from "styled-components";
 import itemMap from "../data/iconMap";
 import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
+import { Stack, Typography } from "@mui/material";
 
 const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
   <ResumeItemStyled>
@@ -15,13 +16,23 @@ const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
       ) : (
         <></>
       )}
-      <h5>{title}</h5>
+      <Typography
+        variant="h5"
+        sx={{
+          padding: 0,
+          margin: 0,
+        }}
+      >
+        {title}
+      </Typography>
       <h6>{subTitle}</h6>
       <p>{text}</p>
       {link ? (
-        Object.entries(link).map(([iconType, link]) =>
-          itemMap([iconType as IconTypes, link]),
-        )
+        <Stack direction="row" spacing={1}>
+          {Object.entries(link).map(([iconType, link]) =>
+            itemMap([iconType as IconTypes, link]),
+          )}
+        </Stack>
       ) : (
         <></>
       )}
@@ -39,6 +50,8 @@ const ResumeItemStyled = styled.div`
     h5,
     h6 {
       font-size: 80%;
+      padding: 0;
+      margin: 0;
     }
   }
   &:not(:last-child) {
@@ -62,7 +75,7 @@ const ResumeItemStyled = styled.div`
     p {
       display: inline-block;
       padding: 3px;
-      margin: 0 0;
+      margin: 0;
     }
   }
   .right-content {
@@ -82,13 +95,12 @@ const ResumeItemStyled = styled.div`
     h5 {
       color: var(--primary-color);
       font-size: 1.5rem;
-      padding: 0 0 0 0.4rem;
+      padding: 0 0.4 0 0;
       margin: 0px;
     }
     h6 {
-      padding: 0px;
+      padding: 0 0.6rem 0 0;
       margin: 0px;
-      padding-bottom: 0.6rem;
       font-size: 1rem;
     }
   }
