@@ -52,11 +52,13 @@ const ResumeStyled = styled.section`
     padding-bottom: 3rem;
   }
   .u-small-title-margin {
+    margin: 0px;
     margin-top: 4rem;
   }
-
   .resume-content {
     border-left: 2px solid var(--border-color);
+    padding: 0px;
+    margin: 0px;
   }
 `;
 export default Resume;

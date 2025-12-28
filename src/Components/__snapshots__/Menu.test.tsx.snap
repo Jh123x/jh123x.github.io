@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Menu should render correctly portfolio 1`] = `
-<Menu
+<ProjectsMenu
   menuItem={
     [
       {
@@ -258,16 +258,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "link": "https://jh123x.com/projects/visualpython/",
             "tooltip": "Project Page",
           },
-          "link": [
-            {
-              "link": "https://python.jh123x.com",
-              "tooltip": "Test Development of the Project",
-            },
-            {
-              "link": "https://visualpython.comp.nus.edu.sg/",
-              "tooltip": "Production Deployment of the Project",
-            },
-          ],
+          "link": {
+            "link": "https://python.jh123x.com",
+            "tooltip": "Test Development of the Project",
+          },
         },
         "stack": [
           "React",

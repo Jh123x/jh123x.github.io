@@ -69,6 +69,8 @@ const Navigation = () => {
 
 const NavigationStyled = styled.nav`
   display: flex;
+  margin: 0px;
+  padding: 0px;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
@@ -88,6 +90,8 @@ const NavigationStyled = styled.nav`
   }
 
   .nav-items {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     text-align: center;
     .active-class {

@@ -11,9 +11,9 @@ import {
 } from "@mui/material";
 import mapItem from "src/data/iconMap";
 
-function Menu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
+function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
   return (
-    <Stack direction="column">
+    <Stack direction="column" rowGap={"20px"}>
       {menuItem.map((item, index) => (
         <Card
           key={index}
@@ -26,19 +26,27 @@ function Menu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
           <CardMedia
             src={item.image.src}
             component="img"
-            height="400"
+            height="600px"
             loading="lazy"
             alt={item.title}
+            sx={{
+              objectFit: "contain",
+              background: "#037fff4d",
+            }}
           />
-          <CardContent sx={{ mb: 3, padding: "5%" }}>
+          <CardContent
+            sx={{
+              backgroundColor: "#037fff4d",
+            }}
+          >
             <Typography>{item.title}</Typography>
-            <Stack direction="row" spacing={5}>
+            <Stack direction="row" spacing={1}>
               {item.stack.map((badge, idx) => (
                 <Chip label={badge} key={`${index}-${idx}`} />
               ))}
             </Stack>
             <Typography>{item.text}</Typography>
-            <Stack direction="row">
+            <Stack direction="row" spacing={1}>
               {Object.entries(item.links).map(mapItem)}
             </Stack>
           </CardContent>
@@ -48,4 +56,4 @@ function Menu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
   );
 }
 
-export default Menu;
+export default ProjectsMenu;

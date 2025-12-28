@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 import itemMap from "../data/iconMap";
-import { Entry, IconTypes, PortfolioLink } from "../data/types";
+import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
 
 const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
@@ -32,6 +32,8 @@ const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
 const ResumeItemStyled = styled.div`
   display: flex;
   flex-direction: row;
+  padding: 0px;
+  margin: 0px;
   @media screen and (max-width: 421px) {
     p,
     h5,
@@ -59,6 +61,8 @@ const ResumeItemStyled = styled.div`
     }
     p {
       display: inline-block;
+      padding: 3px;
+      margin: 0 0;
     }
   }
   .right-content {
@@ -71,14 +75,19 @@ const ResumeItemStyled = styled.div`
       top: 15px;
       height: 2px;
       width: 3rem;
+      padding: 0px;
+      margin: 0px;
       background-color: var(--border-color);
     }
     h5 {
       color: var(--primary-color);
       font-size: 1.5rem;
-      padding-bottom: 0.4rem;
+      padding: 0 0 0 0.4rem;
+      margin: 0px;
     }
     h6 {
+      padding: 0px;
+      margin: 0px;
       padding-bottom: 0.6rem;
       font-size: 1rem;
     }
