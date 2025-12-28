@@ -9,11 +9,11 @@ import {
   BusinessCenter as BusinessCenterIcon,
   School as SchoolIcon,
 } from "@mui/icons-material";
-import ResumeItem from "./ResumeItem";
+import ExperienceItem from "./ExperienceItem";
 import workExperience from "../data/workExperience";
 import schExperience from "../data/schExperience";
 
-const Resume = () => {
+const Experiences = () => {
   const briefcase = <BusinessCenterIcon />;
   const school = <SchoolIcon />;
   return (
@@ -25,7 +25,7 @@ const Resume = () => {
         </div>
         <div className="resume-content">
           {workExperience.map((experience) => (
-            <ResumeItem
+            <ExperienceItem
               key={experience.title + experience.year}
               {...experience}
             />
@@ -36,7 +36,7 @@ const Resume = () => {
         </div>
         <div className="resume-content ">
           {schExperience.map((experience) => (
-            <ResumeItem
+            <ExperienceItem
               key={experience.title + experience.year}
               {...experience}
             />
@@ -52,11 +52,13 @@ const ResumeStyled = styled.section`
     padding-bottom: 3rem;
   }
   .u-small-title-margin {
+    margin: 0px;
     margin-top: 4rem;
   }
-
   .resume-content {
     border-left: 2px solid var(--border-color);
+    padding: 0px;
+    margin: 0px;
   }
 `;
-export default Resume;
+export default Experiences;

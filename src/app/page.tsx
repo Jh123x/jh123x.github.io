@@ -2,15 +2,27 @@
 import * as React from "react";
 import styled from "styled-components";
 import { GitHub, Link as LinkIcon, LinkedIn } from "@mui/icons-material";
-import { Tooltip } from "@mui/material";
+import { Tooltip, Typography } from "@mui/material";
 import Link from "next/link";
 
 const HomePage = () => (
   <HomePageStyled>
     <div className="typography">
-      <h1>
-        Hi, I'm <span>Junhua</span>
-      </h1>
+      <Typography
+        variant="h1"
+        sx={{
+          fontWeight: "bold",
+        }}
+      >
+        Hi, I'm{" "}
+        <span
+          style={{
+            color: "var(--primary-color)",
+          }}
+        >
+          Junhua
+        </span>
+      </Typography>
       <p>
         I am currently a Backend Software Engineer at Bytedance based in
         Singapore. I have {new Date().getFullYear() - 2023} years of

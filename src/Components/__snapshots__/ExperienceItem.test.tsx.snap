@@ -2,7 +2,7 @@
 
 exports[`Resume Item should render a Backend Software Engineer (Global Payments) item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -21,7 +21,7 @@ exports[`Resume Item should render a Backend Software Engineer (Global Payments)
 
 exports[`Resume Item should render a Backend Software Engineer II (Global Payments) item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -40,7 +40,7 @@ exports[`Resume Item should render a Backend Software Engineer II (Global Paymen
 
 exports[`Resume Item should render a CP2106 (Orbital Project) Teaching Assistant item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     link={
       {
         "github": {
@@ -67,7 +67,7 @@ exports[`Resume Item should render a CP2106 (Orbital Project) Teaching Assistant
 
 exports[`Resume Item should render a CP2106 (Orbital Project) Teaching Assistant item 2`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     link={
       {
         "github": {
@@ -98,7 +98,7 @@ exports[`Resume Item should render a CP2106 (Orbital Project) Teaching Assistant
 
 exports[`Resume Item should render a CS2103T (Software Engineering Project) Senior Student Mentor item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -117,7 +117,7 @@ exports[`Resume Item should render a CS2103T (Software Engineering Project) Seni
 
 exports[`Resume Item should render a CS2103T (Software Engineering Project) Student Mentor item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -136,7 +136,7 @@ exports[`Resume Item should render a CS2103T (Software Engineering Project) Stud
 
 exports[`Resume Item should render a CS2107 (Introduction to Information Security) Assignment Teaching Assistant item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -155,7 +155,7 @@ exports[`Resume Item should render a CS2107 (Introduction to Information Securit
 
 exports[`Resume Item should render a CS2107 (Introduction to Information Security) Assignment Teaching Assistant item 2`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -174,7 +174,7 @@ exports[`Resume Item should render a CS2107 (Introduction to Information Securit
 
 exports[`Resume Item should render a Part Time Fullstack Engineering Intern item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     link={
       {
         "google": {
@@ -201,7 +201,7 @@ exports[`Resume Item should render a Part Time Fullstack Engineering Intern item
 
 exports[`Resume Item should render a Security Research Intern item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",
@@ -220,7 +220,7 @@ exports[`Resume Item should render a Security Research Intern item 1`] = `
 
 exports[`Resume Item should render a Software Engineering Intern (Backend) item 1`] = `
 <div>
-  <ResumeItem
+  <ExperienceItem
     logo={
       {
         "blurDataURL": "data:image/png;base64,imagedata",

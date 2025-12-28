@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Menu should render correctly portfolio 1`] = `
-<Menu
+<ProjectsMenu
   menuItem={
     [
       {
@@ -21,6 +21,9 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Github Repository",
           },
         },
+        "stack": [
+          "Golang",
+        ],
         "text": "A interpreter for Lox in Golang",
         "title": "Lox Interpreter",
       },
@@ -45,7 +48,11 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Official Website",
           },
         },
-        "text": "A high yield savings accout calculator",
+        "stack": [
+          "TypeScript",
+          "React",
+        ],
+        "text": "A high yield savings account calculator for Singapore Banks",
         "title": "HYSA Calculator",
       },
       {
@@ -70,7 +77,11 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Official Website",
           },
         },
-        "text": "A telegram bot in browser",
+        "stack": [
+          "TypeScript",
+          "React",
+        ],
+        "text": "Running a Telegram bot from within a browser",
         "title": "Browser Telebot",
       },
       {
@@ -93,7 +104,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Official Documentation",
           },
         },
-        "text": "A code generation tools to build",
+        "stack": [
+          "Golang",
+        ],
+        "text": "A code generation tools to build builders in Golang",
         "title": "BuilderGen",
       },
       {
@@ -116,7 +130,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Official Documentation",
           },
         },
-        "text": "A simple library for testing in Pure Go.",
+        "stack": [
+          "Golang",
+        ],
+        "text": "A simple validation library in Pure Go",
         "title": "Go Test",
       },
       {
@@ -136,7 +153,11 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Github",
           },
         },
-        "text": "An astroids game",
+        "stack": [
+          "Python",
+          "Pygame",
+        ],
+        "text": "An astroids game where you shoot asteroids and survive.",
         "title": "Astroids Game",
       },
       {
@@ -156,7 +177,11 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Website",
           },
         },
-        "text": "A simple website for NUS students to find useful links and resources.",
+        "stack": [
+          "Hugo",
+          "Markdown",
+        ],
+        "text": "A website for NUS students to find useful links, resources and module reviews.",
         "title": "NUS Website",
       },
       {
@@ -183,6 +208,9 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
+        "stack": [
+          "Golang",
+        ],
         "text": "A simple library for validations in Pure Go.",
         "title": "Go Validate",
       },
@@ -203,6 +231,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Website",
           },
         },
+        "stack": [
+          "Hugo",
+          "Markdown",
+        ],
         "text": "Created using Hugo",
         "title": "Blog Website",
       },
@@ -226,17 +258,20 @@ exports[`Menu should render correctly portfolio 1`] = `
             "link": "https://jh123x.com/projects/visualpython/",
             "tooltip": "Project Page",
           },
-          "link": [
-            {
-              "link": "https://python.jh123x.com",
-              "tooltip": "Test Development of the Project",
-            },
-            {
-              "link": "https://visualpython.comp.nus.edu.sg/",
-              "tooltip": "Production Deployment of the Project",
-            },
-          ],
+          "link": {
+            "link": "https://python.jh123x.com",
+            "tooltip": "Sample of the Project",
+          },
         },
+        "stack": [
+          "React",
+          "JavaScript",
+          "Python",
+          "Django",
+          "PostgreSQL",
+          "Docker",
+          "Judge0",
+        ],
         "text": "A Visual Programming Platform for learning Python for my Final Year Project.",
         "title": "VisualPython",
       },
@@ -261,6 +296,9 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
+        "stack": [
+          "Golang",
+        ],
         "text": "A simple shell written in Go, complete with unit tests and github actions pipelines.",
         "title": "Go Shell",
       },
@@ -286,7 +324,13 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Devpost",
           },
         },
-        "text": "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
+        "stack": [
+          "Python",
+          "Django",
+          "React",
+          "JavaScript",
+        ],
+        "text": "It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023",
         "title": "Orderonus",
       },
       {
@@ -312,6 +356,12 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
+        "stack": [
+          "React",
+          "JavaScript",
+          "Python",
+          "Django",
+        ],
         "text": "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
         "title": "JioU",
       },
@@ -337,7 +387,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
-        "text": "A simple bot that plays typeracer for you very quickly.",
+        "stack": [
+          "Python",
+        ],
+        "text": "A bot that plays typeracer for you.",
         "title": "Typeracer Bot",
       },
       {
@@ -361,7 +414,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
-        "text": "A simple CLI application that combines multiple PDF files into one.",
+        "stack": [
+          "Python",
+        ],
+        "text": "A CLI application that combines multiple PDF files into one",
         "title": "PDF Combiner",
       },
       {
@@ -386,6 +442,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
+        "stack": [
+          "React",
+          "JavaScript",
+        ],
         "text": "A toolkit for Overwatch players.",
         "title": "Overwatch Toolkit",
       },
@@ -412,6 +472,9 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
+        "stack": [
+          "Python",
+        ],
         "text": "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
         "title": "Reversi Bot",
       },
@@ -436,7 +499,10 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
-        "text": "A simple CLI application that solves wordle puzzles with a GUI game",
+        "stack": [
+          "Python",
+        ],
+        "text": "A CLI application that solves wordle puzzles with a GUI game",
         "title": "Wordle Solver",
       },
       {
@@ -456,19 +522,17 @@ exports[`Menu should render correctly portfolio 1`] = `
             "link": "https://github.com/COMP562-2022-Group-1",
             "tooltip": "GitHub Repository",
           },
-          "link": [
-            {
-              "link": "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
-              "tooltip": "Model Training and evaluation",
-            },
-            {
-              "link": "https://comp562-2022-group-1.github.io/",
-              "tooltip": "Project Page",
-            },
-          ],
+          "link": {
+            "link": "https://comp562-2022-group-1.github.io/",
+            "tooltip": "Project Page",
+          },
         },
-        "text": "A project for COMP562: Introduction to Machine Learning",
-        "title": "COMP562 Project",
+        "stack": [
+          "Python",
+          "PyTorch",
+        ],
+        "text": "A Machine learning project that learns about a user's political leaning in the United States based on a series of questions. A project for COMP562: Introduction to Machine Learning.",
+        "title": "COMP562 Project: Political Leaning Predictor",
       },
       {
         "categories": [
@@ -492,7 +556,15 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "GitHub Repository",
           },
         },
-        "text": "A platform for developers to collaborate on code. This was completed as a CS3219 Project",
+        "stack": [
+          "React",
+          "TypeScript",
+          "Golang",
+          "Python",
+          "Docker",
+          "Kubernetes",
+        ],
+        "text": "A platform for developers to conduct mock interviews. This was completed as a CS3219 Project",
         "title": "Code2Gather",
       },
       {
@@ -513,6 +585,11 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "GitHub Repository",
           },
         },
+        "stack": [
+          "Java",
+          "Maven",
+          "JavaFx",
+        ],
         "text": "McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project",
         "title": "McGymmy",
       },
@@ -539,8 +616,13 @@ exports[`Menu should render correctly portfolio 1`] = `
             "tooltip": "Project Details",
           },
         },
+        "stack": [
+          "Python",
+          "Flask",
+          "Docker",
+        ],
         "text": "A research project on Server Side Request Forgery. This was completed as a CS4239 Project",
-        "title": "CS4239 Server Side Request Forgery Research",
+        "title": "Research Project on Server Side Request Forgery (SSRF)",
       },
       {
         "categories": [
@@ -555,21 +637,23 @@ exports[`Menu should render correctly portfolio 1`] = `
           "width": 40,
         },
         "links": {
+          "docs": {
+            "link": "https://devpost.com/software/not-schrodinger-s-box",
+            "tooltip": "Devpost",
+          },
           "github": {
             "link": "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
             "tooltip": "GitHub Repository",
           },
-          "link": [
-            {
-              "link": "https://devpost.com/software/not-schrodinger-s-box",
-              "tooltip": "Devpost",
-            },
-            {
-              "link": "https://jh123x.com/projects/hacknroll2022/",
-              "tooltip": "Project Details",
-            },
-          ],
+          "link": {
+            "link": "https://jh123x.com/projects/hacknroll2022/",
+            "tooltip": "Project Details",
+          },
         },
+        "stack": [
+          "Python",
+          "React Native",
+        ],
         "text": "Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.",
         "title": "NOT Schrödinger's Box",
       },

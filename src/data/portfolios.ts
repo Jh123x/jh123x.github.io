@@ -19,7 +19,7 @@ import go_test from "../img/projects/go_test.png";
 import go_builder_gen from "../img/projects/go_buildergen.webp";
 import lox_interpreter from "../img/projects/lox_interpreter.png";
 import hysa_calculator from "../img/projects/hysa.webp";
-import browser_telebot from "../img/projects/browser_telebot.png"
+import browser_telebot from "../img/projects/browser_telebot.png";
 import astroid from "../img/projects/astroid.png";
 import { PortfolioEntry } from "./types";
 
@@ -27,25 +27,21 @@ const portfolios: PortfolioEntry[] = [
   {
     title: "Lox Interpreter",
     text: "A interpreter for Lox in Golang",
-    categories: [
-      "Golang",
-      "CodeCrafter",
-    ],
+    categories: ["Golang", "CodeCrafter"],
+    stack: ["Golang"],
     image: lox_interpreter,
     links: {
       github: {
         link: "https://github.com/Jh123x/codecrafters-interpreter-go",
         tooltip: "Github Repository",
       },
-    }
+    },
   },
   {
     title: "HYSA Calculator",
-    text: "A high yield savings accout calculator",
-    categories: [
-      "Typescript",
-      "React",
-    ],
+    text: "A high yield savings account calculator for Singapore Banks",
+    categories: ["Typescript", "React"],
+    stack: ["TypeScript", "React"],
     image: hysa_calculator,
     links: {
       github: {
@@ -55,17 +51,14 @@ const portfolios: PortfolioEntry[] = [
       link: {
         link: "https://hysa.jh123x.com/",
         tooltip: "Official Website",
-      }
-    }
+      },
+    },
   },
   {
     title: "Browser Telebot",
-    text: "A telegram bot in browser",
-    categories: [
-      "Typescript",
-      "React",
-      "Telegram",
-    ],
+    text: "Running a Telegram bot from within a browser",
+    categories: ["Typescript", "React", "Telegram"],
+    stack: ["TypeScript", "React"],
     image: browser_telebot,
     links: {
       github: {
@@ -75,34 +68,36 @@ const portfolios: PortfolioEntry[] = [
       link: {
         link: "https://telebot.jh123x.com/",
         tooltip: "Official Website",
-      }
-    }
+      },
+    },
   },
   {
     title: "BuilderGen",
-    text: "A code generation tools to build",
+    text: "A code generation tools to build builders in Golang",
     categories: ["Golang"],
+    stack: ["Golang"],
     image: go_builder_gen,
     links: {
       github: {
         link: "https://github.com/Jh123x/buildergen/",
-        tooltip: "Github Repository"
+        tooltip: "Github Repository",
       },
       link: {
         link: "https://portfolio.jh123x.com/buildergen/",
-        tooltip: "Official Documentation"
-      }
-    }
+        tooltip: "Official Documentation",
+      },
+    },
   },
   {
     title: "Go Test",
-    text: "A simple library for testing in Pure Go.",
+    text: "A simple validation library in Pure Go",
     categories: ["Golang"],
+    stack: ["Golang"],
     image: go_test,
     links: {
       github: {
         link: "https://github.com/Jh123x/GoTest",
-        tooltip: "Github Repository"
+        tooltip: "Github Repository",
       },
       link: {
         link: "https://portfolio.jh123x.com/GoTest/",
@@ -112,23 +107,22 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "Astroids Game",
-    text: "An astroids game",
-    categories: [
-      "python",
-      "game",
-    ],
+    text: "An astroids game where you shoot asteroids and survive.",
+    categories: ["python", "game"],
+    stack: ["Python", "Pygame"],
     image: astroid,
     links: {
       github: {
         link: "https://github.com/Jh123x/Asteroids",
-        tooltip: "Github"
+        tooltip: "Github",
       },
-    }
+    },
   },
   {
     title: "NUS Website",
-    text: "A simple website for NUS students to find useful links and resources.",
+    text: "A website for NUS students to find useful links, resources and module reviews.",
     categories: ["Hugo", "Markdown"],
+    stack: ["Hugo", "Markdown"],
     image: nus_jh123x,
     links: {
       link: {
@@ -140,6 +134,7 @@ const portfolios: PortfolioEntry[] = [
   {
     categories: ["Golang"],
     image: go_validate,
+    stack: ["Golang"],
     links: {
       github: {
         link: "https://github.com/Jh123x/go-validate",
@@ -159,6 +154,7 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     categories: ["Hugo", "Markdown"],
+    stack: ["Hugo", "Markdown"],
     image: jh123x,
     links: {
       link: { link: "https://jh123x.com", tooltip: "Website" },
@@ -175,18 +171,21 @@ const portfolios: PortfolioEntry[] = [
       "Docker",
       "Judge0",
     ],
+    stack: [
+      "React",
+      "JavaScript",
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "Judge0",
+    ],
     image: fyp,
     links: {
-      link: [
-        {
-          link: "https://python.jh123x.com",
-          tooltip: "Test Development of the Project",
-        },
-        {
-          link: "https://visualpython.comp.nus.edu.sg/",
-          tooltip: "Production Deployment of the Project",
-        },
-      ],
+      link: {
+        link: "https://python.jh123x.com",
+        tooltip: "Sample of the Project",
+      },
       docs: {
         link: "https://jh123x.com/projects/visualpython/",
         tooltip: "Project Page",
@@ -199,6 +198,7 @@ const portfolios: PortfolioEntry[] = [
     title: "Go Shell",
     image: go_shell,
     categories: ["Go", "Shell"],
+    stack: ["Golang"],
     text: "A simple shell written in Go, complete with unit tests and github actions pipelines.",
     links: {
       github: {
@@ -215,7 +215,8 @@ const portfolios: PortfolioEntry[] = [
     title: "Orderonus",
     image: order_on_us,
     categories: ["Django", "ReactJs", "Python"],
-    text: "It offers a queue management platform for all f&b admins running stalls. This was a project for Hack&Roll 2023",
+    stack: ["Python", "Django", "React", "JavaScript"],
+    text: "It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023",
     links: {
       github: {
         link: "https://github.com/Orderonus",
@@ -231,6 +232,7 @@ const portfolios: PortfolioEntry[] = [
     title: "JioU",
     text: "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
     categories: ["ReactJs", "NodeJs", "JavaScript", "Django"],
+    stack: ["React", "JavaScript", "Python", "Django"],
     image: jiou,
     links: {
       github: {
@@ -247,7 +249,8 @@ const portfolios: PortfolioEntry[] = [
     title: "Typeracer Bot",
     image: typeracerbot,
     categories: ["Python", "PyAutoGui", "OCR"],
-    text: "A simple bot that plays typeracer for you very quickly.",
+    stack: ["Python"],
+    text: "A bot that plays typeracer for you.",
     links: {
       github: {
         link: "https://github.com/Jh123x/Typeracer-bot",
@@ -263,14 +266,14 @@ const portfolios: PortfolioEntry[] = [
     title: "PDF Combiner",
     image: pdfcombiner,
     categories: ["Python", "PyPDF2"],
-    text: "A simple CLI application that combines multiple PDF files into one.",
+    stack: ["Python"],
+    text: "A CLI application that combines multiple PDF files into one",
     links: {
       github: {
         link: "https://github.com/Jh123x/PDF-Combiner",
         tooltip: "Github Repository",
       },
-      link:
-      {
+      link: {
         link: "https://jh123x.com/projects/pdf-combiner/",
         tooltip: "Project Details",
       },
@@ -280,6 +283,7 @@ const portfolios: PortfolioEntry[] = [
     title: "Overwatch Toolkit",
     image: ow_toolkit,
     categories: ["ReactJs", "NodeJs", "JavaScript"],
+    stack: ["React", "JavaScript"],
     text: "A toolkit for Overwatch players.",
     links: {
       github: {
@@ -296,6 +300,7 @@ const portfolios: PortfolioEntry[] = [
     title: "Reversi Bot",
     image: reversi_sim,
     categories: ["Python", "Alpha-Beta Pruning", "Minimax", "Monte Carlo"],
+    stack: ["Python"],
     text: "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
     links: {
       github: {
@@ -312,7 +317,8 @@ const portfolios: PortfolioEntry[] = [
     title: "Wordle Solver",
     image: wordle_solver,
     categories: ["Python", "Statistical Analysis"],
-    text: "A simple CLI application that solves wordle puzzles with a GUI game",
+    stack: ["Python"],
+    text: "A CLI application that solves wordle puzzles with a GUI game",
     links: {
       github: {
         link: "https://github.com/Jh123x/Wordle-Solver",
@@ -325,25 +331,20 @@ const portfolios: PortfolioEntry[] = [
     },
   },
   {
-    title: "COMP562 Project",
+    title: "COMP562 Project: Political Leaning Predictor",
     image: comp562_proj,
     categories: ["Python", "PyTorch", "Deep Learning"],
-    text: "A project for COMP562: Introduction to Machine Learning",
+    stack: ["Python", "PyTorch"],
+    text: "A Machine learning project that learns about a user's political leaning in the United States based on a series of questions. A project for COMP562: Introduction to Machine Learning.",
     links: {
       github: {
         link: "https://github.com/COMP562-2022-Group-1",
         tooltip: "GitHub Repository",
       },
-      link: [
-        {
-          link: "https://comp562-2022-group-1.github.io/Model-Training/US2016_Elections_code.html",
-          tooltip: "Model Training and evaluation",
-        },
-        {
-          link: "https://comp562-2022-group-1.github.io/",
-          tooltip: "Project Page",
-        },
-      ],
+      link: {
+        link: "https://comp562-2022-group-1.github.io/",
+        tooltip: "Project Page",
+      },
     },
   },
   {
@@ -358,7 +359,8 @@ const portfolios: PortfolioEntry[] = [
       "Docker",
       "Kubernetes",
     ],
-    text: "A platform for developers to collaborate on code. This was completed as a CS3219 Project",
+    stack: ["React", "TypeScript", "Golang", "Python", "Docker", "Kubernetes"],
+    text: "A platform for developers to conduct mock interviews. This was completed as a CS3219 Project",
     links: {
       github: {
         link: "https://github.com/CodeToGather/",
@@ -370,6 +372,7 @@ const portfolios: PortfolioEntry[] = [
     title: "McGymmy",
     image: mcgymmy,
     categories: ["Java", "Maven", "Software Engineering"],
+    stack: ["Java", "Maven", "JavaFx"],
     text: "McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project",
     links: {
       github: {
@@ -379,9 +382,10 @@ const portfolios: PortfolioEntry[] = [
     },
   },
   {
-    title: "CS4239 Server Side Request Forgery Research",
+    title: "Research Project on Server Side Request Forgery (SSRF)",
     image: ssrf,
     categories: ["Python", "Flask", "Docker", "Server Side Request Forgery"],
+    stack: ["Python", "Flask", "Docker"],
     text: "A research project on Server Side Request Forgery. This was completed as a CS4239 Project",
     links: {
       github: {
@@ -398,21 +402,21 @@ const portfolios: PortfolioEntry[] = [
     title: "NOT Schrödinger's Box",
     image: not_schrodinger,
     categories: ["Python", "React Native", "IoT"],
+    stack: ["Python", "React Native"],
     text: "Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.",
     links: {
       github: {
         link: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
         tooltip: "GitHub Repository",
       },
-      link: [{
+      docs: {
         link: "https://devpost.com/software/not-schrodinger-s-box",
         tooltip: "Devpost",
       },
-      {
+      link: {
         link: "https://jh123x.com/projects/hacknroll2022/",
         tooltip: "Project Details",
       },
-      ],
     },
   },
 ];
