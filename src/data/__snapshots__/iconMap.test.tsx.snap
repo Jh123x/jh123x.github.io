@@ -2,112 +2,140 @@
 
 exports[`itemMap should render a apple icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="Apple"
+  <ForwardRef(Tooltip)
+    title="Apple"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://apple.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://apple.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
 
 exports[`itemMap should render a docs icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="Docs"
+  <ForwardRef(Tooltip)
+    title="Docs"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://docs.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://docs.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
 
 exports[`itemMap should render a github icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="Github"
+  <ForwardRef(Tooltip)
+    title="Github"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://github.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://github.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
 
 exports[`itemMap should render a google icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="Google"
+  <ForwardRef(Tooltip)
+    title="Google"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://google.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://google.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
 
 exports[`itemMap should render a link icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="Link"
+  <ForwardRef(Tooltip)
+    title="Link"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://google.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://google.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
 
 exports[`itemMap should render a linkedin icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="LinkedIn"
+  <ForwardRef(Tooltip)
+    title="LinkedIn"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://linkedin.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://linkedin.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
 
 exports[`itemMap should render a youtube icon 1`] = `
 <div>
-  <div>
-    <ForwardRef(Tooltip)
-      title="YouTube"
+  <ForwardRef(Tooltip)
+    title="YouTube"
+  >
+    <ForwardRef(LinkComponent)
+      href="https://youtube.com"
     >
-      <ForwardRef(LinkComponent)
-        href="https://youtube.com"
-      >
-        <Memo />
-      </ForwardRef(LinkComponent)>
-    </ForwardRef(Tooltip)>
-  </div>
+      <Memo
+        sx={
+          {
+            "mt": 0.7,
+          }
+        }
+      />
+    </ForwardRef(LinkComponent)>
+  </ForwardRef(Tooltip)>
 </div>
 `;
