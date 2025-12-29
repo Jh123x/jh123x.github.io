@@ -51,13 +51,15 @@ export default function ProjectCard({
       />
 
       <CardContent>
-        <Stack direction="row" spacing={1}>
+        <Stack direction="row" spacing={{ justifyContent: "space-between" }}>
           <Typography variant="h6" sx={{ fontWeight: 600 }}>
             {Title}
           </Typography>
-          {Object.entries(Icons).map(([iconType, links], idx) =>
-            mapItem([iconType as IconTypes, links]),
-          )}
+          <Stack direction="row" spacing={1}>
+            {Object.entries(Icons).map(([iconType, links], idx) =>
+              mapItem([iconType as IconTypes, links]),
+            )}
+          </Stack>
         </Stack>
 
         <Typography variant="body2" sx={{ color: "#9CA3AF", mb: 2 }}>
