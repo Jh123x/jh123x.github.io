@@ -32,13 +32,11 @@ const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
   const url = link.link ?? "";
 
   return (
-    <div key={name + link.link + tooltip}>
-      <Tooltip title={tooltip}>
-        <Link href={url}>
-          <Icon />
-        </Link>
-      </Tooltip>
-    </div>
+    <Tooltip title={tooltip} key={name + link.link + tooltip}>
+      <Link href={url}>
+        <Icon sx={{ mt: 0.7 }} />
+      </Link>
+    </Tooltip>
   );
 };
 
