@@ -1,8 +1,7 @@
 "use client";
 import * as React from "react";
 import { PortfolioEntry } from "../data/types";
-import { Chip, Stack, Typography } from "@mui/material";
-import mapItem from "src/data/iconMap";
+import { Stack } from "@mui/material";
 import ProjectCard from "./ProjectCard";
 
 function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
