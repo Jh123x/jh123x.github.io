@@ -2,16 +2,17 @@
 import * as React from "react";
 import styled from "styled-components";
 import { GitHub, Link as LinkIcon, LinkedIn } from "@mui/icons-material";
-import { Tooltip, Typography } from "@mui/material";
+import { Box, Tooltip, Typography } from "@mui/material";
 import Link from "next/link";
 
 const HomePage = () => (
   <HomePageStyled>
-    <div className="typography">
+    <Box className="typography">
       <Typography
         variant="h1"
         sx={{
           fontWeight: "bold",
+          padding: 2,
         }}
       >
         Hi, I'm{" "}
@@ -23,7 +24,14 @@ const HomePage = () => (
           Junhua
         </span>
       </Typography>
-      <p>
+      <Typography
+        variant="body1"
+        sx={{
+          lineHeight: 1.5,
+          mb: 1,
+          padding: 0,
+        }}
+      >
         I am currently a Backend Software Engineer at Bytedance based in
         Singapore. I have {new Date().getFullYear() - 2023} years of
         experiences. On the side, I run{" "}
@@ -31,8 +39,8 @@ const HomePage = () => (
         personal adventures and work on side projects on my{" "}
         <Link href="https://github.com/Jh123x">Github</Link>. I mainly work with
         Golang (for work), Python and TypeScript (for side projects).
-      </p>
-      <div className="icons">
+      </Typography>
+      <Box className="icons">
         <Link
           href="https://github.com/Jh123x"
           className="icon i-github"
@@ -56,8 +64,8 @@ const HomePage = () => (
             <LinkIcon />
           </Link>
         </Tooltip>
-      </div>
-    </div>
+      </Box>
+    </Box>
   </HomePageStyled>
 );
 
