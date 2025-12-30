@@ -1,6 +1,6 @@
-import NUS_LOGO from "../img/logos/nus_logo.jpeg";
-import UNC_LOGO from "../img/logos/unc_logo.jpeg";
-import JJC_LOGO from "../img/logos/jjc_logo.png";
+import NUS_LOGO from "../img/logos/nus_logo_full.svg";
+import UNC_LOGO from "../img/logos/unc_logo.svg";
+import JJC_LOGO from "../img/logos/jurong_jc.png";
 import { Entry } from "./types";
 
 /**

@@ -3,19 +3,15 @@ import styled from "styled-components";
 import itemMap from "../data/iconMap";
 import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
-import { Stack, Typography } from "@mui/material";
+import { Stack, Typography, Box } from "@mui/material";
 
 const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
   <ResumeItemStyled>
-    <div className="left-content">
+    <Box className="left-content">
       <p>{year}</p>
-    </div>
-    <div className="right-content">
-      {logo !== undefined ? (
-        <Image src={logo.src} width={100} height={100} alt={subTitle} />
-      ) : (
-        <></>
-      )}
+    </Box>
+    <Box className="right-content">
+      <Image src={logo.src} width={100} height={100} alt={subTitle} />
       <Typography
         variant="h5"
         sx={{
@@ -25,8 +21,24 @@ const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
       >
         {title}
       </Typography>
-      <h6>{subTitle}</h6>
-      <p>{text}</p>
+      <Typography
+        variant="h6"
+        sx={{
+          padding: 0,
+          margin: 0,
+        }}
+      >
+        {subTitle}
+      </Typography>
+      <Typography
+        variant="body1"
+        sx={{
+          marginBottom: 0,
+          marginTop: 1,
+        }}
+      >
+        {text}
+      </Typography>
       {link ? (
         <Stack direction="row" spacing={1}>
           {Object.entries(link).map(([iconType, link]) =>
@@ -36,7 +48,7 @@ const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
       ) : (
         <></>
       )}
-    </div>
+    </Box>
   </ResumeItemStyled>
 );
 

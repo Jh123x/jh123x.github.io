@@ -9,12 +9,13 @@ import intelligence from "../img/intelligence.svg";
 import flag from "../img/flag.svg";
 import blog from "../img/blog.svg";
 import gamedev from "../img/game-dev.svg";
+import { Box } from "@mui/material";
 
 const InterestsSection = () => (
   <InnerLayout>
     <InterestSectionStyled>
       <Title title="Interests" span="interests" />
-      <div className="interests">
+      <Box className="interests">
         <InterestCard
           image={design}
           title="Software Development"
@@ -40,7 +41,7 @@ const InterestsSection = () => (
           title="School Blog"
           href="https://nus.jh123x.com"
         />
-      </div>
+      </Box>
     </InterestSectionStyled>
   </InnerLayout>
 );

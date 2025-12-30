@@ -12,6 +12,7 @@ import {
 import ExperienceItem from "./ExperienceItem";
 import workExperience from "../data/workExperience";
 import schExperience from "../data/schExperience";
+import { Box } from "@mui/material";
 
 const Experiences = () => {
   const briefcase = <BusinessCenterIcon />;
@@ -20,28 +21,28 @@ const Experiences = () => {
     <ResumeStyled>
       <Title title={"Work & Education"} span={"Work & Education"} />
       <InnerLayout>
-        <div className="small-title">
+        <Box className="small-title">
           <SmallTitle icon={briefcase} title={"Working Experience"} />
-        </div>
-        <div className="resume-content">
+        </Box>
+        <Box className="resume-content">
           {workExperience.map((experience) => (
             <ExperienceItem
               key={experience.title + experience.year}
               {...experience}
             />
           ))}
-        </div>
-        <div className="small-title u-small-title-margin">
+        </Box>
+        <Box className="small-title u-small-title-margin">
           <SmallTitle icon={school} title={"Educational Qualifications"} />
-        </div>
-        <div className="resume-content ">
+        </Box>
+        <Box className="resume-content ">
           {schExperience.map((experience) => (
             <ExperienceItem
               key={experience.title + experience.year}
               {...experience}
             />
           ))}
-        </div>
+        </Box>
       </InnerLayout>
     </ResumeStyled>
   );

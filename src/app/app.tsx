@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
-import { createTheme, IconButton, ThemeProvider } from "@mui/material";
+import { Box, createTheme, IconButton, ThemeProvider } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 import styled from "styled-components";
 
@@ -19,9 +19,9 @@ const Nav = ({ children }: NavProp) => {
   const [navToggle, setNavToggle] = React.useState(false);
   return (
     <ThemeProvider theme={darkTheme}>
-      <div className="App dark-theme">
+      <Box className="App dark-theme">
         <Sidebar navToggle={navToggle} />
-        <div className="ham-burger-menu">
+        <Box className="ham-burger-menu">
           <IconButton
             onClick={() => setNavToggle(!navToggle)}
             className="light-dark-mode"
@@ -30,9 +30,9 @@ const Nav = ({ children }: NavProp) => {
           >
             <MenuIcon />
           </IconButton>
-        </div>
+        </Box>
         <MainContentStyled>{children}</MainContentStyled>
-      </div>
+      </Box>
     </ThemeProvider>
   );
 };

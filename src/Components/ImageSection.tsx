@@ -1,11 +1,17 @@
 "use client";
 import * as React from "react";
 import styled from "styled-components";
-import { Typography } from "@mui/material";
+import { Box, SxProps, Theme, Typography } from "@mui/material";
+
+const infoStyle: SxProps<Theme> = {
+  margin: 0,
+  padding: "0.3rem 0",
+  lineHeight: 1.5,
+};
 
 const ImageSection = () => (
   <ImageSectionStyled>
-    <div className="right-content">
+    <Box className="right-content">
       <Typography
         variant="h4"
         sx={{
@@ -27,21 +33,21 @@ const ImageSection = () => (
         <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and run my{" "}
         <b>Home Lab</b> and <b>blogs</b> during my free time.
       </Typography>
-      <div className="about-info">
-        <div className="info-title">
-          <p style={{ margin: 0, padding: "5px" }}>Full Name:</p>
-          <p style={{ margin: 0, padding: "5px" }}>Nationality:</p>
-          <p style={{ margin: 0, padding: "5px" }}>Languages:</p>
-          <p style={{ margin: 0, padding: "5px" }}>Location:</p>
-        </div>
-        <div className="info">
-          <p style={{ margin: 0, padding: "5px" }}>Wen Junhua</p>
-          <p style={{ margin: 0, padding: "5px" }}>Singaporean </p>
-          <p style={{ margin: 0, padding: "5px" }}>English, Chinese </p>
-          <p style={{ margin: 0, padding: "5px" }}>Singapore</p>
-        </div>
-      </div>
-    </div>
+      <Box className="about-info">
+        <Box className="info-title">
+          <Typography sx={infoStyle}>Full Name:</Typography>
+          <Typography sx={infoStyle}>Nationality:</Typography>
+          <Typography sx={infoStyle}>Languages:</Typography>
+          <Typography sx={infoStyle}>Location:</Typography>
+        </Box>
+        <Box className="info">
+          <Typography sx={infoStyle}>Wen Junhua</Typography>
+          <Typography sx={infoStyle}>Singaporean</Typography>
+          <Typography sx={infoStyle}>English, Chinese (Simplified)</Typography>
+          <Typography sx={infoStyle}>Singapore</Typography>
+        </Box>
+      </Box>
+    </Box>
   </ImageSectionStyled>
 );
 
@@ -80,12 +86,6 @@ const ImageSectionStyled = styled.div`
         padding-right: 3rem;
         p {
           font-weight: 600;
-        }
-      }
-      .info-title,
-      .info {
-        p {
-          padding: 0.3rem 0;
         }
       }
     }

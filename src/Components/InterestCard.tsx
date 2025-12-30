@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { InterestDescription } from "./types";
 import Image from "next/image";
 import Link from "next/link";
+import { Box, Typography } from "@mui/material";
 
 const InterestCard = ({
   image,
@@ -13,11 +14,28 @@ const InterestCard = ({
 }: InterestDescription) => (
   <InterestCardStyled>
     <Link href={href} target="_blank" rel="noreferrer" aria-label={title}>
-      <div className="container">
+      <Box className="container">
         <Image src={image.src} width={100} height={100} alt={title} />
-        <h4>{title}</h4>
-        <p>{paragraph}</p>
-      </div>
+        <Typography
+          variant="h4"
+          sx={{
+            color: "var(--white-color)",
+            fontSize: "1.6em 0",
+            padding: "1em 0",
+            position: "relative",
+          }}
+        >
+          {title}
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{
+            padding: "0.8rem 0",
+          }}
+        >
+          {paragraph}
+        </Typography>
+      </Box>
     </Link>
   </InterestCardStyled>
 );
@@ -36,10 +54,6 @@ const InterestCardStyled = styled.div`
   .container {
     padding: 1.2rem;
     h4 {
-      color: var(--white-color);
-      font-size: 1.6rem;
-      padding: 1rem 0;
-      position: relative;
       &::after {
         content: "";
         width: 4rem;
@@ -50,10 +64,6 @@ const InterestCardStyled = styled.div`
         bottom: 0;
         border-radius: 10px;
       }
-    }
-
-    p {
-      padding: 0.8rem 0;
     }
   }
 `;
