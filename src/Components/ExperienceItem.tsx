@@ -11,11 +11,7 @@ const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
       <p>{year}</p>
     </div>
     <div className="right-content">
-      {logo !== undefined ? (
-        <Image src={logo.src} width={100} height={100} alt={subTitle} />
-      ) : (
-        <></>
-      )}
+      <Image src={logo.src} width={100} height={100} alt={subTitle} />
       <Typography
         variant="h5"
         sx={{
