@@ -9,6 +9,7 @@ function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
     <Stack direction="column" rowGap={"20px"}>
       {menuItem.map((item, index) => (
         <ProjectCard
+          key={index}
           ImageSrc={item.image.src}
           ImageAlt={item.title}
           Title={item.title}
