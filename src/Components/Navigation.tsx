@@ -4,6 +4,7 @@ import styled from "styled-components";
 import avatar from "../img/avatar.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Box, Typography } from "@mui/material";
 
 enum MenuItem {
   Home = "/",
@@ -17,9 +18,9 @@ const Navigation = () => {
 
   return (
     <NavigationStyled>
-      <div className="avatar">
+      <Box className="avatar">
         <Image src={avatar.src} width={100} height={200} alt="Avatar" />
-      </div>
+      </Box>
       <ul className="nav-items">
         <li className="nav-item" key="Home">
           <Link
@@ -59,9 +60,9 @@ const Navigation = () => {
         </li>
       </ul>
       <footer className="footer">
-        <p suppressHydrationWarning>
+        <Typography variant="body1" suppressHydrationWarning>
           @{new Date().getFullYear()} <b>Wen Junhua</b>
-        </p>
+        </Typography>
       </footer>
     </NavigationStyled>
   );
