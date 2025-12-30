@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import styled from "styled-components";
-import avatar from "../img/avatar.jpg";
+import avatar from "../img/avatar.png";
 import Image from "next/image";
 import Link from "next/link";
 
