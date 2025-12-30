@@ -2,7 +2,7 @@ import DSO_Logo from "../img/logos/dso_logo.jpeg";
 import NUS_LOGO from "../img/logos/nus_logo.jpeg";
 import FORUS_LABS_LOGO from "../img/logos/foruslabs_logo.jpeg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.jpeg";
-import BYTEDANCE_LOGO from "../img/logos/bytedance.png";
+import BYTEDANCE_LOGO from "../img/logos/bytedance.svg";
 import { Entry } from "./types";
 
 
