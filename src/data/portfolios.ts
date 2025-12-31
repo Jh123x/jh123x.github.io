@@ -106,19 +106,6 @@ const portfolios: PortfolioEntry[] = [
     },
   },
   {
-    title: "Astroids Game",
-    text: "An astroids game where you shoot asteroids and survive.",
-    categories: ["python", "game"],
-    stack: ["Python", "Pygame"],
-    image: astroid,
-    links: {
-      github: {
-        link: "https://github.com/Jh123x/Asteroids",
-        tooltip: "Github",
-      },
-    },
-  },
-  {
     title: "NUS Website",
     text: "A website for NUS students to find useful links, resources and module reviews.",
     categories: ["Hugo", "Markdown"],
@@ -309,23 +296,6 @@ const portfolios: PortfolioEntry[] = [
       },
       link: {
         link: "https://jh123x.com/projects/reversi-simulator/",
-        tooltip: "Project Details",
-      },
-    },
-  },
-  {
-    title: "Wordle Solver",
-    image: wordle_solver,
-    categories: ["Python", "Statistical Analysis"],
-    stack: ["Python"],
-    text: "A CLI application that solves wordle puzzles with a GUI game",
-    links: {
-      github: {
-        link: "https://github.com/Jh123x/Wordle-Solver",
-        tooltip: "GitHub Repository",
-      },
-      link: {
-        link: "https://jh123x.com/projects/wordle-solver/",
         tooltip: "Project Details",
       },
     },
