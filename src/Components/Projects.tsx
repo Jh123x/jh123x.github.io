@@ -1,24 +1,29 @@
 "use client";
 import * as React from "react";
 import { PortfolioEntry } from "../data/types";
-import { Stack } from "@mui/material";
+import { Grid } from "@mui/material";
 import ProjectCard from "./ProjectCard";
 
 function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
   return (
-    <Stack direction="column" rowGap={"20px"}>
+    <Grid
+      container
+      spacing={5}
+    >
       {menuItem.map((item, index) => (
-        <ProjectCard
-          key={index}
-          ImageSrc={item.image.src}
-          ImageAlt={item.title}
-          Title={item.title}
-          Description={item.text}
-          TechStack={item.stack}
-          Icons={item.links}
-        />
+        <Grid item xs={12} sm={12} md={6} lg={4} xl={3} key={index}>
+          <ProjectCard
+            key={index}
+            ImageSrc={item.image.src}
+            ImageAlt={item.title}
+            Title={item.title}
+            Description={item.text}
+            TechStack={item.stack}
+            Icons={item.links}
+          />
+        </Grid>
       ))}
-    </Stack>
+    </Grid>
   );
 }
 
