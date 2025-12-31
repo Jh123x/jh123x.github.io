@@ -5,11 +5,12 @@ import Navigation from "./Navigation";
 
 interface SidebarProps {
   navToggle: boolean;
+  setNavToggle: (showNav: boolean) => void
 }
 
-const Sidebar = ({ navToggle }: SidebarProps) => (
+const Sidebar = ({ navToggle, setNavToggle }: SidebarProps) => (
   <SidebarStyled style={{ transform: navToggle ? "translateX(0)" : "" }}>
-    <Navigation />
+    <Navigation setNav={setNavToggle}/>
   </SidebarStyled>
 );
 

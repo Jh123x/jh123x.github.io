@@ -6,7 +6,6 @@ import {
   Typography,
   Chip,
   Stack,
-  Box,
 } from "@mui/material";
 import { IconTypes, LinkTypes } from "src/data/types";
 import mapItem from "src/data/iconMap";

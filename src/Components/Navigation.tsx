@@ -13,7 +13,11 @@ enum MenuItem {
   About = "/about",
 }
 
-const Navigation = () => {
+interface NavigationProps {
+  setNav: (showNav: boolean)=>void;
+}
+
+const Navigation = ({setNav}: NavigationProps) => {
   const activeMenu = new URL(window.location.href).pathname ?? "/";
 
   return (
@@ -27,6 +31,7 @@ const Navigation = () => {
             href={MenuItem.Home}
             aria-label="Home"
             prefetch={activeMenu !== MenuItem.Home}
+            onClick={()=> setNav(false)}
           >
             Home
           </Link>
@@ -36,6 +41,7 @@ const Navigation = () => {
             href={MenuItem.Experience}
             aria-label="Experience"
             prefetch={activeMenu !== MenuItem.Experience}
+            onClick={()=> setNav(false)}
           >
             Experience
           </Link>
@@ -45,6 +51,7 @@ const Navigation = () => {
             href={MenuItem.Projects}
             aria-label="Projects"
             prefetch={activeMenu !== MenuItem.Projects}
+            onClick={()=> setNav(false)}
           >
             Projects
           </Link>
@@ -54,6 +61,7 @@ const Navigation = () => {
             href={MenuItem.About}
             aria-label="About"
             prefetch={activeMenu !== MenuItem.About}
+            onClick={()=> setNav(false)}
           >
             About
           </Link>

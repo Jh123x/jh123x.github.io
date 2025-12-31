@@ -20,7 +20,7 @@ const Nav = ({ children }: NavProp) => {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box className="App dark-theme">
-        <Sidebar navToggle={navToggle} />
+        <Sidebar navToggle={navToggle} setNavToggle={setNavToggle}/>
         <Box className="ham-burger-menu">
           <IconButton
             onClick={() => setNavToggle(!navToggle)}
