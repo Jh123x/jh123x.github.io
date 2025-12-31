@@ -32,8 +32,8 @@ const HomePage = () => (
           padding: 0,
         }}
       >
-        I am currently a Backend Software Engineer at Bytedance based in
-        Singapore. I have {new Date().getFullYear() - 2023} years of
+        I am currently a <b>Backend Software Engineer</b> at Bytedance based in{" "}
+        <b>Singapore</b>. I have {new Date().getFullYear() - 2023} years of
         experiences. On the side, I run{" "}
         <Link href="https://jh123x.com">a blog</Link> about my technical and
         personal adventures and work on side projects on my{" "}
