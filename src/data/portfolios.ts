@@ -6,7 +6,6 @@ import typeracerbot from "../img/projects/typeracer_bot.jpg";
 import pdfcombiner from "../img/projects/pdf_combiner.svg";
 import ow_toolkit from "../img/projects/ow_toolkit.png";
 import reversi_sim from "../img/projects/reversi_sim.png";
-import wordle_solver from "../img/projects/wordle_solver.png";
 import comp562_proj from "../img/projects/comp562_proj.png";
 import code2gather from "../img/projects/code2gather.png";
 import mcgymmy from "../img/projects/mcgymmy.png";
@@ -20,7 +19,6 @@ import go_builder_gen from "../img/projects/go_buildergen.webp";
 import lox_interpreter from "../img/projects/lox_interpreter.png";
 import hysa_calculator from "../img/projects/hysa.webp";
 import browser_telebot from "../img/projects/browser_telebot.png";
-import astroid from "../img/projects/astroid.png";
 import { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
