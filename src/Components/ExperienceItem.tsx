@@ -43,6 +43,8 @@ const ExperienceItem = ({
             display: "inline-block",
             padding: "3px",
             margin: 0,
+            fontSize: "15px",
+            color: theme.palette.text.primary,
           }}
         >
           {year}

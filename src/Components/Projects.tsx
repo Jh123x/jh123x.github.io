@@ -17,7 +17,7 @@ function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
       }}
     >
       {menuItem.map((item, index) => (
-        <Grid item>
+        <Grid item key={index}>
           <ProjectCard
             key={index}
             ImageSrc={item.image.src}

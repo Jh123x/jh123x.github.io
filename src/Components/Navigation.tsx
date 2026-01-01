@@ -32,13 +32,14 @@ const Navigation = ({ setNav }: NavigationProps) => {
           textAlign: "center",
           padding: "1rem 0",
           img: {
-            width: "70%",
+            height: "auto",
+            width: "75%",
             borderRadius: "50%",
             border: "8px solid var(--border-color)",
           },
         }}
       >
-        <Image src={avatar.src} width="200" height="200" alt="Avatar" />
+        <Image src={avatar.src} width={200} height={200} alt="Avatar" />
       </Box>
       <Stack
         sx={{
