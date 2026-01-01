@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`itemMap should render a apple icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Apple"
   >
@@ -9,11 +9,11 @@ exports[`itemMap should render a apple icon 1`] = `
       href="https://apple.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a docs icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Docs"
   >
@@ -21,11 +21,11 @@ exports[`itemMap should render a docs icon 1`] = `
       href="https://docs.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a github icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Github"
   >
@@ -33,11 +33,11 @@ exports[`itemMap should render a github icon 1`] = `
       href="https://github.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a google icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Google"
   >
@@ -45,11 +45,11 @@ exports[`itemMap should render a google icon 1`] = `
       href="https://google.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a link icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Link"
   >
@@ -57,11 +57,11 @@ exports[`itemMap should render a link icon 1`] = `
       href="https://google.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a linkedin icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="LinkedIn"
   >
@@ -69,11 +69,11 @@ exports[`itemMap should render a linkedin icon 1`] = `
       href="https://linkedin.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a youtube icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="YouTube"
   >
@@ -81,5 +81,5 @@ exports[`itemMap should render a youtube icon 1`] = `
       href="https://youtube.com"
     />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;

@@ -2,6 +2,7 @@ import * as React from "react";
 import itemMap from "./iconMap";
 import { IconTypes, LinkTypes } from "./types";
 import { describe, expect, test } from "@jest/globals";
+import { Box } from "@mui/material";
 
 type testCase = [IconTypes, LinkTypes];
 
@@ -39,9 +40,9 @@ describe("itemMap", () => {
   for (const [icon, links] of tests) {
     test(`should render a ${icon} icon`, () => {
       const wrapper = (
-        <div>
+        <Box>
           {Object.entries(links).map(([key, link]) => itemMap([icon, link]))}
-        </div>
+        </Box>
       );
       expect(wrapper).toMatchSnapshot();
     });
