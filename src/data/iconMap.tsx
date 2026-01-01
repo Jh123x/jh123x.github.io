@@ -11,7 +11,7 @@ import { AppleIcon } from "src/Components/icons/apple";
 import { DocumentScannerIcon } from "src/Components/icons/scanner";
 import { YoutubeIcon } from "src/Components/icons/youtube";
 
-type IconWrapper = (icon: IconProps) => JSX.Element;
+type IconWrapper = (icon: IconProps) => React.JSX.Element;
 
 const iconMap: Map<IconTypes, IconWrapper> = new Map<IconTypes, IconWrapper>([
   [IconTypes.github, GithubIcon],
@@ -27,8 +27,7 @@ const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
   any,
   any
 > => {
-  const Icon: ({ href }: IconProps) => JSX.Element =
-    iconMap.get(name) ?? LinkIcon;
+  const Icon = iconMap.get(name) ?? LinkIcon;
   const tooltip = link.tooltip ?? "";
   const url = link.link ?? "";
 
