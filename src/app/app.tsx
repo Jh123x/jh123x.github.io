@@ -1,21 +1,15 @@
 "use client";
 import * as React from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
-import {
-  Box,
-  createTheme,
-  IconButton,
-  Theme,
-  ThemeProvider,
-  useMediaQuery,
-} from "@mui/material";
+import { Box, IconButton, ThemeProvider, useMediaQuery } from "@mui/material";
+import { createTheme } from "@mui/material/styles";
 import Sidebar from "src/Components/Sidebar";
 
 export interface NavProp {
   children: React.ReactNode;
 }
 
-const darkTheme: Theme = createTheme({
+const darkTheme = createTheme({
   palette: {
     mode: "dark",
     primary: {
