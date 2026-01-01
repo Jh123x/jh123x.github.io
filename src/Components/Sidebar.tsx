@@ -16,7 +16,7 @@ const Sidebar = ({ navToggle, setNavToggle }: SidebarProps) => {
       style={{
         transform: navToggle ? "translateX(0)" : "",
         transition: "all 0.3s ease-in-out",
-        backgroundColor: theme.palette.custom.cardBackground,
+        backgroundColor: theme.custom.cardBackground,
       }}
     >
       <Navigation setNav={setNavToggle} />

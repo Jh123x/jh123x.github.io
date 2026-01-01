@@ -10,6 +10,10 @@ export interface NavProp {
 }
 
 const darkTheme = createTheme({
+  custom: {
+    border: "#2e344e",
+    cardBackground: "#191d2b",
+  },
   palette: {
     mode: "dark",
     primary: {
@@ -27,10 +31,6 @@ const darkTheme = createTheme({
     text: {
       primary: "#A4ACC4",
       secondary: "#313131",
-    },
-    custom: {
-      border: "#2e344e",
-      cardBackground: "#191d2b",
     },
   },
   typography: {
@@ -55,7 +55,7 @@ const Nav = ({ children }: NavProp) => {
     <ThemeProvider theme={darkTheme}>
       <Box
         sx={{
-          backgroundColor: darkTheme.palette.custom.cardBackground,
+          backgroundColor: darkTheme.custom.cardBackground,
         }}
         className="dark-theme"
       >

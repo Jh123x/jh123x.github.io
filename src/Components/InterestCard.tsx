@@ -15,12 +15,12 @@ const InterestCard = ({
   return (
     <Box
       sx={{
-        borderLeft: `1px solid ${theme.palette.custom.border}`,
+        borderLeft: `1px solid ${theme.custom.border}`,
         borderTop: `8px solid var(--border-color)`,
         borderRight: `1px solid var(--border-color)`,
         borderBottom: `1px solid var(--border-color)`,
         transition: "all 0.4s ease-in-out",
-        backgroundColor: theme.palette.custom.cardBackground,
+        backgroundColor: theme.custom.cardBackground,
         "&:hover": {
           borderTop: `8px solid ${theme.palette.primary.main}`,
         },
