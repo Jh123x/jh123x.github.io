@@ -70,7 +70,10 @@ export default function ProjectCard({
             </Stack>
           </Stack>
 
-          <Typography variant="body2" sx={{ color: "#9CA3AF", mb: 2 }}>
+          <Typography
+            variant="body1"
+            sx={{ color: "#9CA3AF", mb: 2, fontSize: "14px" }}
+          >
             {Description}
           </Typography>
 
