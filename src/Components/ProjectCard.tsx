@@ -36,6 +36,7 @@ export default function ProjectCard({
         borderRadius: 3,
         padding: "5px",
         m: "5px",
+        mb: "30px",
         verticalAlign: "top",
       }}
     >

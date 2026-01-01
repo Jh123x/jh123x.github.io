@@ -43,7 +43,7 @@ const InterestCard = ({
         >
           <Image src={image.src} width={100} height={100} alt={title} />
           <Typography
-            variant="h4"
+            variant="h6"
             sx={{
               color: "var(--white-color)",
               fontSize: "1.6em 0",
