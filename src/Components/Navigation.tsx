@@ -38,7 +38,7 @@ const Navigation = ({ setNav }: NavigationProps) => {
           },
         }}
       >
-        <Image src={avatar.src} width={100} height={200} alt="Avatar" />
+        <Image src={avatar.src} width="200" height="200" alt="Avatar" />
       </Box>
       <Stack
         sx={{

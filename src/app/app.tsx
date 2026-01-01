@@ -28,6 +28,10 @@ const darkTheme = createTheme({
       primary: "#A4ACC4",
       secondary: "#313131",
     },
+    custom: {
+      border: "#2e344e",
+      cardBackground: "#191d2b",
+    },
   },
   typography: {
     allVariants: {

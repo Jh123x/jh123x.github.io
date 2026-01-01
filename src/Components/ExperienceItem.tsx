@@ -1,5 +1,4 @@
 import * as React from "react";
-import styled from "styled-components";
 import itemMap from "../data/iconMap";
 import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
@@ -14,7 +13,7 @@ const ExperienceItem = ({
   text,
   logo,
   link,
-}: Entry): React.ReactNode => {
+}: Entry): React.JSX.Element => {
   const theme = useTheme();
   return (
     <ResumeItemStyled>
@@ -110,41 +109,4 @@ const ResumeItemStyled = ({ children }: WithChildren) => {
   );
 };
 
-styled.div`
-  @media screen and (max-width: 421px) {
-    p,
-    h5,
-    h6 {
-      font-size: 80%;
-      padding: 0;
-      margin: 0;
-    }
-  }
-
-  .right-content {
-    padding-right: 5rem;
-    position: relative;
-    max-width: 60%;
-
-    &::before {
-      content: "";
-      top: 15px;
-      height: 2px;
-      width: 3rem;
-      padding: 0px;
-      margin: 0px;
-      background-color: var(--border-color);
-    }
-    h5 {
-      color: var(--primary-color);
-      font-size: 1.5rem;
-      margin: 0px;
-    }
-    h6 {
-      padding: 0 0.6rem 0 0;
-      margin: 0px;
-      font-size: 1rem;
-    }
-  }
-`;
 export default ExperienceItem;

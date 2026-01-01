@@ -18,7 +18,7 @@ const InterestsSection = () => (
       <Box className="interests">
         <InterestCard
           image={design}
-          title="Software Development"
+          title="Software Dev"
           href="https://github.com/Jh123x"
         />
         <InterestCard

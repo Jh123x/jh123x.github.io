@@ -1,7 +1,6 @@
 "use client";
 
 import * as React from "react";
-import styled from "styled-components";
 import { InnerLayout } from "../styles/Layouts";
 import Title from "./Title";
 import SmallTitle from "./SmallTitle";
@@ -32,7 +31,7 @@ const Experiences = () => {
     />
   );
   return (
-    <ResumeStyled>
+    <>
       <Title title={"Work & Education"} span={"Work & Education"} />
       <InnerLayout>
         <Box
@@ -73,25 +72,8 @@ const Experiences = () => {
           ))}
         </Box>
       </InnerLayout>
-    </ResumeStyled>
+    </>
   );
 };
 
-const ResumeStyled = ({ children }: WithChildren) => {
-  return <Box>{children}</Box>;
-};
-styled.section`
-  .small-title {
-    padding-bottom: 3rem;
-  }
-  .u-small-title-margin {
-    margin: 0px;
-    margin-top: 4rem;
-  }
-  .resume-content {
-    border-left: 2px solid var(--border-color);
-    padding: 0px;
-    margin: 0px;
-  }
-`;
 export default Experiences;

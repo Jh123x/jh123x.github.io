@@ -14,7 +14,7 @@ export const MainLayout = ({ children }: WithChildren) => {
       justifyContent="center"
       sx={{
         minHeight: "100vh",
-        p: "5% 0 5% 5%",
+        p: "5%",
         boxSizing: "border-box",
         listStyle: "none",
         backgroundColor: theme.palette.background.default,
