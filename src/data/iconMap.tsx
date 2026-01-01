@@ -1,26 +1,26 @@
 import * as React from "react";
-import {
-  GitHub,
-  Link as LinkIcon,
-  Google,
-  Apple,
-  LinkedIn,
-  DocumentScannerOutlined,
-  YouTube,
-} from "@mui/icons-material";
 import { Tooltip } from "@mui/material";
-import { PortfolioLink, IconTypes, Icon } from "./types";
+import { PortfolioLink, IconTypes } from "./types";
 import { ReactElement } from "react";
-import Link from "next/link";
+import { LinkedinIcon } from "src/Components/icons/linkedin";
+import { GithubIcon } from "src/Components/icons/github";
+import { LinkIcon } from "src/Components/icons/link";
+import { IconProps } from "src/Components/icons/types";
+import { GoogleIcon } from "src/Components/icons/google";
+import { AppleIcon } from "src/Components/icons/apple";
+import { DocumentScannerIcon } from "src/Components/icons/scanner";
+import { YoutubeIcon } from "src/Components/icons/youtube";
 
-const iconMap: Map<IconTypes, Icon> = new Map<IconTypes, Icon>([
-  [IconTypes.github, GitHub],
-  [IconTypes.google, Google],
-  [IconTypes.apple, Apple],
-  [IconTypes.linkedin, LinkedIn],
+type IconWrapper = (icon: IconProps) => React.JSX.Element;
+
+const iconMap: Map<IconTypes, IconWrapper> = new Map<IconTypes, IconWrapper>([
+  [IconTypes.github, GithubIcon],
+  [IconTypes.google, GoogleIcon],
+  [IconTypes.apple, AppleIcon],
+  [IconTypes.linkedin, LinkedinIcon],
   [IconTypes.link, LinkIcon],
-  [IconTypes.youtube, YouTube],
-  [IconTypes.docs, DocumentScannerOutlined],
+  [IconTypes.youtube, YoutubeIcon],
+  [IconTypes.docs, DocumentScannerIcon],
 ]);
 
 const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
@@ -33,9 +33,7 @@ const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
 
   return (
     <Tooltip title={tooltip} key={name + link.link + tooltip}>
-      <Link href={url}>
-        <Icon sx={{ mt: 0.7 }} />
-      </Link>
+      <Icon href={url} />
     </Tooltip>
   );
 };

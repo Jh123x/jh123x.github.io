@@ -13,12 +13,12 @@ import { Box } from "@mui/material";
 
 const InterestsSection = () => (
   <InnerLayout>
+    <Title title="Interests" span="interests" />
     <InterestSectionStyled>
-      <Title title="Interests" span="interests" />
       <Box className="interests">
         <InterestCard
           image={design}
-          title="Software Development"
+          title="Software Dev"
           href="https://github.com/Jh123x"
         />
         <InterestCard

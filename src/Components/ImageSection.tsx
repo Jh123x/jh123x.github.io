@@ -1,94 +1,107 @@
 "use client";
 import * as React from "react";
-import styled from "styled-components";
-import { Box, SxProps, Theme, Typography } from "@mui/material";
+import {
+  Box,
+  Stack,
+  SxProps,
+  Theme,
+  Typography,
+  useTheme,
+} from "@mui/material";
 
-const infoStyle: SxProps<Theme> = {
-  margin: 0,
-  padding: "0.3rem 0",
-  lineHeight: 1.5,
-};
-
-const ImageSection = () => (
-  <ImageSectionStyled>
-    <Box className="right-content">
-      <Typography
-        variant="h4"
-        sx={{
-          fontWeight: "bold",
-        }}
-      >
-        I am{" "}
-        <span
-          style={{
-            color: "var(--primary-color)",
+const ImageSection = () => {
+  const theme = useTheme();
+  const infoStyle: SxProps<Theme> = {
+    margin: 0,
+    padding: "0.3rem 0",
+    lineHeight: 1.5,
+    color: theme.palette.text.primary,
+  };
+  return (
+    <>
+      <Box sx={{ width: "100%", pt: "5rem", pb: "5rem" }}>
+        <Typography
+          variant="h4"
+          sx={{
+            fontWeight: "bold",
+            pb: "2rem",
           }}
         >
-          Junhua
-        </span>
-      </Typography>
-      <Typography variant="body2" className="paragraph">
-        I specialize in in Backend Development. Beyond development, I am also
-        interested in upcoming technologies such as <b>Machine Learning</b> and{" "}
-        <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and run my{" "}
-        <b>Home Lab</b> and <b>blogs</b> during my free time.
-      </Typography>
-      <Box className="about-info">
-        <Box className="info-title">
-          <Typography sx={infoStyle}>Full Name:</Typography>
-          <Typography sx={infoStyle}>Nationality:</Typography>
-          <Typography sx={infoStyle}>Languages:</Typography>
-          <Typography sx={infoStyle}>Location:</Typography>
-        </Box>
-        <Box className="info">
-          <Typography sx={infoStyle}>Wen Junhua</Typography>
-          <Typography sx={infoStyle}>Singaporean</Typography>
-          <Typography sx={infoStyle}>English, Chinese (Simplified)</Typography>
-          <Typography sx={infoStyle}>Singapore</Typography>
-        </Box>
+          I am{" "}
+          <span
+            style={{
+              color: theme.palette.primary.main,
+            }}
+          >
+            Junhua
+          </span>
+        </Typography>
+        <Typography
+          variant="h6"
+          sx={{
+            color: theme.palette.text.primary,
+            p: "1rem 0",
+          }}
+        >
+          I specialize in in Backend Development. Beyond development, I am also
+          interested in upcoming technologies such as <b>Machine Learning</b>{" "}
+          and <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and
+          run my <b>Home Lab</b> and <b>blogs</b> during my free time.
+        </Typography>
+        <Stack
+          direction="column"
+          sx={{
+            pb: "1.4rem",
+          }}
+        >
+          <Stack direction="row">
+            <Typography
+              variant="h6"
+              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+            >
+              Full Name:
+            </Typography>
+            <Typography variant="h6" sx={infoStyle}>
+              Wen Junhua
+            </Typography>
+          </Stack>
+          <Stack direction="row">
+            <Typography
+              variant="h6"
+              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+            >
+              Nationality:
+            </Typography>
+            <Typography variant="h6" sx={infoStyle}>
+              Singaporean
+            </Typography>
+          </Stack>
+          <Stack direction="row">
+            <Typography
+              variant="h6"
+              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+            >
+              Languages:
+            </Typography>
+            <Typography variant="h6" sx={infoStyle}>
+              English, Chinese (Simplified)
+            </Typography>
+          </Stack>
+          <Stack direction="row">
+            <Typography
+              variant="h6"
+              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+            >
+              Location:
+            </Typography>
+            <Typography variant="h6" sx={infoStyle}>
+              Singapore
+            </Typography>
+          </Stack>
+        </Stack>
       </Box>
-    </Box>
-  </ImageSectionStyled>
-);
+    </>
+  );
+};
 
-const ImageSectionStyled = styled.div`
-  margin-top: 5rem;
-  display: flex;
-  @media screen and (max-width: 1000px) {
-    flex-direction: column;
-    .left-content {
-      margin-bottom: 2rem;
-    }
-  }
-  .left-content {
-    width: 100%;
-    img {
-      width: 70%;
-      object-fit: cover;
-    }
-  }
-  .right-content {
-    width: 100%;
-    h4 {
-      font-size: 2rem;
-      color: var(--white-color);
-      span {
-        font-size: 2rem;
-      }
-    }
-    .paragraph {
-      padding: 1rem 0;
-    }
-    .about-info {
-      display: flex;
-      padding-bottom: 1.4rem;
-      .info-title {
-        padding-right: 3rem;
-        p {
-          font-weight: 600;
-        }
-      }
-    }
-  }
-`;
 export default ImageSection;

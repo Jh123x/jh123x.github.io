@@ -6,7 +6,7 @@ import {
   Typography,
   Chip,
   Stack,
-  Box,
+  Grid,
 } from "@mui/material";
 import { IconTypes, LinkTypes } from "src/data/types";
 import mapItem from "src/data/iconMap";
@@ -31,60 +31,68 @@ export default function ProjectCard({
   return (
     <Card
       sx={{
-        maxWidth: "100%",
+        width: "350px",
         bgcolor: "#0B1220",
-        color: "#E5E7EB",
         borderRadius: 3,
-        boxShadow: "0 20px 40px rgba(0,0,0,0.6)",
+        padding: "5px",
+        m: "5px",
+        verticalAlign: "top",
       }}
     >
-
       <CardMedia
         component="img"
-        height="100%"
         image={ImageSrc}
         alt={ImageAlt}
         loading="lazy"
         sx={{
           objectFit: "contain",
-          borderTopLeftRadius: 12,
-          borderTopRightRadius: 12,
-          width: "auto",
-          margin: "auto",
-          maxHeight: "100%",
           maxWidth: "100%",
+          height: "300px",
         }}
       />
       <CardContent>
-        <Stack direction="row" spacing={{ justifyContent: "space-between" }}>
-          <Typography variant="h6" sx={{ fontWeight: 600 }}>
-            {Title}
-          </Typography>
-          <Stack direction="row" spacing={1}>
-            {Object.entries(Icons).map(([iconType, links]) =>
-              mapItem([iconType as IconTypes, links]),
-            )}
+        <Stack
+          direction="column"
+          spacing={2}
+          height="200px"
+          sx={{
+            justifyContent: "space-between",
+          }}
+        >
+          <Stack direction="row" spacing={{ justifyContent: "space-between" }}>
+            <Typography variant="h6" sx={{ fontWeight: 600 }}>
+              {Title}
+            </Typography>
+            <Stack direction="row" spacing={1}>
+              {Object.entries(Icons).map(([iconType, links]) =>
+                mapItem([iconType as IconTypes, links]),
+              )}
+            </Stack>
           </Stack>
-        </Stack>
 
-        <Typography variant="body2" sx={{ color: "#9CA3AF", mb: 2 }}>
-          {Description}
-        </Typography>
+          <Typography variant="body2" sx={{ color: "#9CA3AF", mb: 2 }}>
+            {Description}
+          </Typography>
 
-        <Stack direction="row" spacing={1} flexWrap="wrap">
-          {TechStack.map((tech) => (
-            <Chip
-              key={tech}
-              label={tech}
-              size="small"
-              sx={{
-                bgcolor: "#111827",
-                color: "#D1D5DB",
-                fontSize: "0.75rem",
-                borderRadius: 2,
-              }}
-            />
-          ))}
+          <Grid container spacing={1}>
+            {TechStack.map((tech, index) => (
+              <Grid item key={index}>
+                <Chip
+                  key={tech}
+                  label={tech}
+                  size="small"
+                  sx={{
+                    padding: 0,
+                    margin: 0,
+                    bgcolor: "#111827",
+                    color: "#D1D5DB",
+                    fontSize: "0.75rem",
+                    borderRadius: 2,
+                  }}
+                />
+              </Grid>
+            ))}
+          </Grid>
         </Stack>
       </CardContent>
     </Card>

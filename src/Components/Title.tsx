@@ -2,15 +2,11 @@
 import * as React from "react";
 import * as types from "../data/types";
 import styled from "styled-components";
+import { Typography } from "@mui/material";
 
 const Title = ({ title, span }: types.Title) => (
   <TitleStyled>
-    <h2>
-      {title}
-      <b>
-        <span>{span}</span>
-      </b>
-    </h2>
+    <Typography variant="h2">{title}</Typography>
   </TitleStyled>
 );
 

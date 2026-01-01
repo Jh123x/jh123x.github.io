@@ -1,24 +1,31 @@
 "use client";
 import * as React from "react";
-import styled from "styled-components";
 import ImageSection from "./ImageSection";
 import Title from "./Title";
 import { MainLayout } from "../styles/Layouts";
 import InterestsSection from "./InterestsSection";
+import { WithChildren } from "./types";
+import { Box } from "@mui/material";
 
 const AboutComponent = () => (
   <MainLayout>
-    <AboutStyled>
+    <AboutLayout>
       <Title title="About Me" span="About Me" />
       <ImageSection />
       <InterestsSection />
-    </AboutStyled>
+    </AboutLayout>
   </MainLayout>
 );
 
-const AboutStyled = styled.section`
-  margin: 0px;
-  padding: 0px;
-`;
+const AboutLayout = ({ children }: WithChildren) => (
+  <Box
+    sx={{
+      p: 0,
+      m: 0,
+    }}
+  >
+    {children}
+  </Box>
+);
 
 export default AboutComponent;

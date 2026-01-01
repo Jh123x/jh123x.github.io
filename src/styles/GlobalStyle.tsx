@@ -2,7 +2,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-.dark-theme{
+.dark-theme {
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
     --secondary-color: #6c757d;
@@ -21,107 +21,25 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
 }
 
-*{
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.1rem;
-}
-
-body{
-    background-color: var(--background-dark-color);
-    color: var(--font-light-color);
-    transition: all .4s ease-in-out;
+body {
     margin: 0px;
     padding: 0px;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 9px;
     background-color: #383838;
 }
-body::-webkit-scrollbar-thumb{
+
+body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #6b6b6b;
 }
-body::-webkit-scrollbar-track{
+
+body::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #383838;
 }
-
-textarea{
-    max-width: 100%;
-}
-a{
-    font-family: inherit;
-    color: inherit;
-    font-size: inherit;
-    font-size: 1rem;
-}
-
-h1{
-    font-size: 4rem;
-    color: var(--white-color);
-    span{
-        font-size: 4rem;
-        @media screen and (max-width: 502px){
-            font-size: 3rem
-        }
-    }
-    @media screen and (max-width: 502px){
-        font-size: 3rem
-    }
-}
-
-h6{
-    color: var(--white-color);
-    font-size: 1.2rem;
-    padding-bottom: .6rem;
-}
-
-//Utilities
-.u-margin-bottom{
-    margin-bottom: 4rem;
-}
-
-
-//Floting Toggler
-.light-dark-mode{
-    position: fixed;
-    right: 0;
-    top: 50%;
-    width: 4rem;
-    height: 2rem;
-    background-color: var(--background-light-color-2);
-    z-index: 15;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    svg{
-      display: flex;
-      align-items: center;
-      font-size: 1.7rem;
-      color: var(--white-color);
-    }
-  }
-
-  //Nav Toggler
-  .ham-burger-menu{
-      position: absolute;
-      right: 5%;
-      top: 3%;
-      display: none;
-      z-index: 15;
-      svg{
-          font-size: 3rem;
-      }
-  }
-  @media screen and (max-width:1200px){
-    .ham-burger-menu{
-        display: block;
-    }
-  }
 `;
 
 export default GlobalStyle;

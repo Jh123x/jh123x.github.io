@@ -1,141 +1,85 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`itemMap should render a apple icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Apple"
   >
-    <ForwardRef(LinkComponent)
+    <AppleIcon
       href="https://apple.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a docs icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Docs"
   >
-    <ForwardRef(LinkComponent)
+    <DocumentScannerIcon
       href="https://docs.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a github icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Github"
   >
-    <ForwardRef(LinkComponent)
+    <GithubIcon
       href="https://github.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a google icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Google"
   >
-    <ForwardRef(LinkComponent)
+    <GoogleIcon
       href="https://google.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a link icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="Link"
   >
-    <ForwardRef(LinkComponent)
+    <LinkIcon
       href="https://google.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a linkedin icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="LinkedIn"
   >
-    <ForwardRef(LinkComponent)
+    <LinkedinIcon
       href="https://linkedin.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
 
 exports[`itemMap should render a youtube icon 1`] = `
-<div>
+<ForwardRef(Box)>
   <ForwardRef(Tooltip)
     title="YouTube"
   >
-    <ForwardRef(LinkComponent)
+    <YoutubeIcon
       href="https://youtube.com"
-    >
-      <Memo
-        sx={
-          {
-            "mt": 0.7,
-          }
-        }
-      />
-    </ForwardRef(LinkComponent)>
+    />
   </ForwardRef(Tooltip)>
-</div>
+</ForwardRef(Box)>
 `;
