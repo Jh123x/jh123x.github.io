@@ -1,18 +1,37 @@
-'use client';
-import styled from "styled-components";
+"use client";
+import * as React from "react";
+import { Grid, useTheme } from "@mui/material";
+import { WithChildren } from "src/Components/types";
 
-export const MainLayout = styled.div`
-  padding: 5rem;
-  @media screen and (max-width: 642px) {
-    padding: 4rem;
-  }
-  /* @media screen and (max-width: 510px){
-        padding: 3rem;
-    } */
-  @media screen and (max-width: 571px) {
-    padding: 2rem 0.4rem;
-  }
-`;
-export const InnerLayout = styled.div`
-  padding: 5rem 0;
-`;
+export const MainLayout = ({ children }: WithChildren) => {
+  const theme = useTheme();
+  return (
+    <Grid
+      container
+      spacing={0}
+      direction="column"
+      alignItems="center"
+      justifyContent="center"
+      sx={{
+        minHeight: "100vh",
+        p: "5% 0 5% 5%",
+        boxSizing: "border-box",
+        listStyle: "none",
+        backgroundColor: theme.palette.background.default,
+        transition: "all .4s ease-in-out",
+      }}
+    >
+      {children}
+    </Grid>
+  );
+};
+
+export const InnerLayout = (props: WithChildren) => {
+  return (
+    <Grid container spacing={0}>
+      <Grid item xs={12} key={"single-child"}>
+        {props.children}
+      </Grid>
+    </Grid>
+  );
+};

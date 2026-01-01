@@ -13,7 +13,15 @@ const InterestCard = ({
   href,
 }: InterestDescription) => (
   <InterestCardStyled>
-    <Link href={href} target="_blank" rel="noreferrer" aria-label={title}>
+    <Link
+      href={href}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={title}
+      style={{
+        textDecoration: "none",
+      }}
+    >
       <Box className="container">
         <Image src={image.src} width={100} height={100} alt={title} />
         <Typography

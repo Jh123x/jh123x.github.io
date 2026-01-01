@@ -1,5 +1,5 @@
 import * as React from "react";
-import { MainLayout, InnerLayout } from "../../styles/Layouts";
+import { InnerLayout, MainLayout } from "../../styles/Layouts";
 import Title from "../../Components/Title";
 import projects from "../../data/portfolios";
 import ProjectsMenu from "../../Components/Projects";
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 
 const PortfoliosPage = () => (
   <MainLayout>
-    <Title title={"Projects"} span={"Projects"} />
     <InnerLayout>
+      <Title title={"Projects"} span={"Projects"} />
       <ProjectsMenu menuItem={projects} />
     </InnerLayout>
   </MainLayout>

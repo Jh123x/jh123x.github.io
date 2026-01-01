@@ -6,7 +6,6 @@ import {
   Typography,
   Chip,
   Stack,
-  Box,
 } from "@mui/material";
 import { IconTypes, LinkTypes } from "src/data/types";
 import mapItem from "src/data/iconMap";
@@ -31,33 +30,33 @@ export default function ProjectCard({
   return (
     <Card
       sx={{
-        width: "300px",
+        width: "400px",
         bgcolor: "#0B1220",
         color: "#E5E7EB",
         borderRadius: 3,
         boxShadow: "0 20px 40px rgba(0,0,0,0.6)",
+        m: 5,
       }}
     >
-
       <CardMedia
         component="img"
-        height="350px"
         image={ImageSrc}
         alt={ImageAlt}
         loading="lazy"
         sx={{
           objectFit: "contain",
-          borderTopLeftRadius: 12,
-          borderTopRightRadius: 12,
-          width: "auto",
-          margin: "auto",
           maxWidth: "100%",
         }}
       />
-      <CardContent
-        sx={{ height: "350px" }}
-      >
-        <Stack direction="column" spacing={3} sx={{ justifyContent: "space-between" }}>
+      <CardContent>
+        <Stack
+          direction="column"
+          spacing={2}
+          height="250px"
+          sx={{
+            justifyContent: "space-between",
+          }}
+        >
           <Stack direction="row" spacing={{ justifyContent: "space-between" }}>
             <Typography variant="h6" sx={{ fontWeight: 600 }}>
               {Title}

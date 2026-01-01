@@ -3,60 +3,114 @@ import styled from "styled-components";
 import itemMap from "../data/iconMap";
 import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
-import { Stack, Typography, Box } from "@mui/material";
+import { Stack, Typography, Box, useTheme } from "@mui/material";
+import { Circle } from "@mui/icons-material";
+import { WithChildren } from "./types";
 
-const ExperienceItem = ({ year, title, subTitle, text, logo, link }: Entry) => (
-  <ResumeItemStyled>
-    <Box className="left-content">
-      <p>{year}</p>
-    </Box>
-    <Box className="right-content">
-      <Image src={logo.src} width={100} height={100} alt={subTitle} />
-      <Typography
-        variant="h5"
+const ExperienceItem = ({
+  year,
+  title,
+  subTitle,
+  text,
+  logo,
+  link,
+}: Entry): React.ReactNode => {
+  const theme = useTheme();
+  return (
+    <ResumeItemStyled>
+      <Box
         sx={{
-          padding: 0,
-          margin: 0,
+          width: "50%",
+          paddingLeft: "20px",
+          position: "relative",
         }}
       >
-        {title}
-      </Typography>
-      <Typography
-        variant="h6"
-        sx={{
-          padding: 0,
-          margin: 0,
-        }}
-      >
-        {subTitle}
-      </Typography>
-      <Typography
-        variant="body1"
-        sx={{
-          marginBottom: 0,
-          marginTop: 1,
-        }}
-      >
-        {text}
-      </Typography>
-      {link ? (
-        <Stack direction="row" spacing={1}>
-          {Object.entries(link).map(([iconType, link]) =>
-            itemMap([iconType as IconTypes, link]),
-          )}
-        </Stack>
-      ) : (
-        <></>
-      )}
-    </Box>
-  </ResumeItemStyled>
-);
+        <Circle
+          sx={{
+            position: "absolute",
+            left: "-8.5px",
+            top: "5px",
+            height: "15px",
+            width: "15px",
+            color: theme.palette.background.default,
+            border: "1px solid",
+            borderRadius: "50%",
+            borderColor: "var(--border-color)",
+          }}
+        />
+        <Typography
+          variant="body2"
+          sx={{
+            display: "inline-block",
+            padding: "3px",
+            margin: 0,
+          }}
+        >
+          {year}
+        </Typography>
+      </Box>
+      <Box className="right-content">
+        <Image src={logo.src} width={100} height={100} alt={subTitle} />
+        <Typography
+          variant="h5"
+          sx={{
+            padding: "0 0.4 0 0",
+            margin: 0,
+          }}
+        >
+          {title}
+        </Typography>
+        <Typography
+          variant="h6"
+          sx={{
+            padding: "0 0.6rem 0 0",
+            margin: 0,
+          }}
+        >
+          {subTitle}
+        </Typography>
+        <Typography
+          variant="body1"
+          sx={{
+            marginBottom: 0,
+            marginTop: 1,
+          }}
+        >
+          {text}
+        </Typography>
+        {link ? (
+          <Stack direction="row" spacing={1}>
+            {Object.entries(link).map(([iconType, link]) =>
+              itemMap([iconType as IconTypes, link]),
+            )}
+          </Stack>
+        ) : (
+          <></>
+        )}
+      </Box>
+    </ResumeItemStyled>
+  );
+};
 
-const ResumeItemStyled = styled.div`
-  display: flex;
-  flex-direction: row;
-  padding: 0px;
-  margin: 0px;
+const ResumeItemStyled = ({ children }: WithChildren) => {
+  return (
+    <Stack
+      direction="row"
+      sx={{
+        borderLeft: `2px solid var(--border-color)`,
+        padding: 0,
+        margin: 0,
+        "&:not(:last-child)": {
+          pb: "3rem",
+        },
+      }}
+    >
+      {children}
+    </Stack>
+  );
+};
+
+styled.div`
   @media screen and (max-width: 421px) {
     p,
     h5,
@@ -66,30 +120,7 @@ const ResumeItemStyled = styled.div`
       margin: 0;
     }
   }
-  &:not(:last-child) {
-    padding-bottom: 3rem;
-  }
-  .left-content {
-    width: 50%;
-    padding-left: 20px;
-    position: relative;
-    &::before {
-      content: "";
-      position: absolute;
-      left: -10px;
-      top: 5px;
-      height: 15px;
-      width: 15px;
-      border-radius: 50%;
-      border: 2px solid var(--border-color);
-      background-color: var(--background-dark-color);
-    }
-    p {
-      display: inline-block;
-      padding: 3px;
-      margin: 0;
-    }
-  }
+
   .right-content {
     padding-right: 5rem;
     position: relative;
@@ -107,7 +138,6 @@ const ResumeItemStyled = styled.div`
     h5 {
       color: var(--primary-color);
       font-size: 1.5rem;
-      padding: 0 0.4 0 0;
       margin: 0px;
     }
     h6 {

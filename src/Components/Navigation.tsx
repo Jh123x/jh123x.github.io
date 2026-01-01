@@ -1,10 +1,13 @@
 "use client";
 import * as React from "react";
-import styled from "styled-components";
 import avatar from "../img/avatar.png";
 import Image from "next/image";
-import Link from "next/link";
-import { Box, Typography } from "@mui/material";
+import { Box, Stack, Typography, useTheme } from "@mui/material";
+import { WithChildren } from "./types";
+import { StyledLink } from "./Link";
+import { GithubIcon } from "./icons/github";
+import { LinkIcon } from "./icons/link";
+import { LinkedinIcon } from "./icons/linkedin";
 
 enum MenuItem {
   Home = "/",
@@ -14,144 +17,142 @@ enum MenuItem {
 }
 
 interface NavigationProps {
-  setNav: (showNav: boolean)=>void;
+  setNav: (showNav: boolean) => void;
 }
 
-const Navigation = ({setNav}: NavigationProps) => {
-  const activeMenu = new URL(window.location.href).pathname ?? "/";
-
+const Navigation = ({ setNav }: NavigationProps) => {
+  const theme = useTheme();
   return (
-    <NavigationStyled>
-      <Box className="avatar">
+    <NavigationLayout>
+      <Box
+        className="avatar"
+        sx={{
+          width: "100%",
+          borderBottom: "1px solid var(--border-color)",
+          textAlign: "center",
+          padding: "1rem 0",
+          img: {
+            width: "70%",
+            borderRadius: "50%",
+            border: "8px solid var(--border-color)",
+          },
+        }}
+      >
         <Image src={avatar.src} width={100} height={200} alt="Avatar" />
       </Box>
-      <ul className="nav-items">
-        <li className="nav-item" key="Home">
-          <Link
-            href={MenuItem.Home}
-            aria-label="Home"
-            prefetch={activeMenu !== MenuItem.Home}
-            onClick={()=> setNav(false)}
+      <Stack
+        sx={{
+          margin: "0px",
+          padding: "0px",
+          width: "100%",
+          textAlign: "center",
+        }}
+        spacing={0}
+      >
+        <NavItem name="Home" path={MenuItem.Home} setNav={setNav} />
+        <NavItem name="Experience" path={MenuItem.Experience} setNav={setNav} />
+        <NavItem name="Projects" path={MenuItem.Projects} setNav={setNav} />
+        <NavItem name="About" path={MenuItem.About} setNav={setNav} />
+      </Stack>
+      <Box>
+        <Stack
+          direction="row"
+          spacing={2}
+          sx={{
+            p: 1,
+            justifyContent: "center",
+          }}
+        >
+          <GithubIcon href="https://github.com/Jh123x" />
+          <LinkedinIcon href="https://www.linkedin.com/in/junhua-wen/" />
+          <LinkIcon href="https://jh123x.com/" />
+        </Stack>
+        <Box
+          sx={{
+            borderTop: "1px solid var(--border-color)",
+            width: "100%",
+            display: "block",
+            textAlign: "center",
+          }}
+        >
+          <Typography
+            variant="body1"
+            sx={{
+              p: "1.3rem 0",
+              color: theme.palette.text.primary,
+            }}
           >
-            Home
-          </Link>
-        </li>
-        <li className="nav-item" key="experience">
-          <Link
-            href={MenuItem.Experience}
-            aria-label="Experience"
-            prefetch={activeMenu !== MenuItem.Experience}
-            onClick={()=> setNav(false)}
-          >
-            Experience
-          </Link>
-        </li>
-        <li className="nav-item" key="portfolios">
-          <Link
-            href={MenuItem.Projects}
-            aria-label="Projects"
-            prefetch={activeMenu !== MenuItem.Projects}
-            onClick={()=> setNav(false)}
-          >
-            Projects
-          </Link>
-        </li>
-        <li className="nav-item" key="about">
-          <Link
-            href={MenuItem.About}
-            aria-label="About"
-            prefetch={activeMenu !== MenuItem.About}
-            onClick={()=> setNav(false)}
-          >
-            About
-          </Link>
-        </li>
-      </ul>
-      <footer className="footer">
-        <Typography variant="body1" suppressHydrationWarning>
-          @{new Date().getFullYear()} <b>Wen Junhua</b>
-        </Typography>
-      </footer>
-    </NavigationStyled>
+            @{new Date().getFullYear()} <b>Wen Junhua</b>
+          </Typography>
+        </Box>
+      </Box>
+    </NavigationLayout>
   );
 };
 
-const NavigationStyled = styled.nav`
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  border-right: 1px solid var(--border-color);
-  .avatar {
-    width: 100%;
-    border-bottom: 1px solid var(--border-color);
-    text-align: center;
-    padding: 1rem 0;
-    img {
-      width: 70%;
-      border-radius: 50%;
-      border: 8px solid var(--border-color);
-    }
-  }
+interface NavItemProps {
+  name: string;
+  path: MenuItem;
+  setNav: (showNav: boolean) => void;
+}
 
-  .nav-items {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    text-align: center;
-    .active-class {
-      background-color: var(--primary-color-light);
-      color: white;
-    }
-    li {
-      display: block;
-      a {
-        display: block;
-        padding: 0.45rem 0;
-        position: relative;
-        z-index: 10;
-        text-transform: uppercase;
-        transition: all 0.4s ease-in-out;
-        font-weight: 600;
-        letter-spacing: 1px;
-        &:hover {
-          cursor: pointer;
-          color: var(--white-color);
-        }
-        &::before {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 0;
-          height: 50%;
-          background-color: var(--primary-color);
-          transition: All 0.4s cubic-bezier(1, -0.2, 0.25, 0.95);
-          opacity: 0.21;
-          z-index: -1;
-        }
-      }
+const NavItem = ({ name, path, setNav }: NavItemProps): React.JSX.Element => {
+  const theme = useTheme();
+  return (
+    <Box
+      sx={{
+        textAlign: "center",
+        padding: "5px 0",
+        margin: 0,
+        color: theme.palette.text.primary,
+        transition: "color 0.3s ease",
+        "&:hover": {
+          color: "#FFF",
+          backgroundColor: theme.palette.background.paper,
+        },
+      }}
+    >
+      <StyledLink href={path} aria-label={name} onClick={() => setNav(false)}>
+        <Box
+          sx={{
+            width: "100%",
+          }}
+        >
+          <Typography
+            variant="body1"
+            sx={{
+              p: 0,
+              m: 0,
+              fontWeight: 600,
+              letterSpacing: "1px",
+              color: theme.palette.text.primary,
+              "&:hover": {
+                color: "#FFF",
+              },
+            }}
+          >
+            {name.toUpperCase()}
+          </Typography>
+        </Box>
+      </StyledLink>
+    </Box>
+  );
+};
 
-      a:hover::before {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
+const NavigationLayout = ({ children }: WithChildren) => (
+  <Stack
+    direction="column"
+    sx={{
+      m: 0,
+      p: 0,
+      justifyContent: "space-between",
+      height: "100%",
+      width: "100%",
+      borderRight: "1px solid var(--border-color)",
+    }}
+  >
+    {children}
+  </Stack>
+);
 
-  footer {
-    border-top: 1px solid var(--border-color);
-    width: 100%;
-    p {
-      padding: 1.3rem 0;
-      font-size: 1.1rem;
-      display: block;
-      text-align: center;
-    }
-  }
-`;
 export default Navigation;

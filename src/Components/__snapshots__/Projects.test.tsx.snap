@@ -138,30 +138,6 @@ exports[`Menu should render correctly portfolio 1`] = `
       },
       {
         "categories": [
-          "python",
-          "game",
-        ],
-        "image": {
-          "blurDataURL": "data:image/png;base64,imagedata",
-          "height": 40,
-          "src": "/img.jpg",
-          "width": 40,
-        },
-        "links": {
-          "github": {
-            "link": "https://github.com/Jh123x/Asteroids",
-            "tooltip": "Github",
-          },
-        },
-        "stack": [
-          "Python",
-          "Pygame",
-        ],
-        "text": "An astroids game where you shoot asteroids and survive.",
-        "title": "Astroids Game",
-      },
-      {
-        "categories": [
           "Hugo",
           "Markdown",
         ],
@@ -477,33 +453,6 @@ exports[`Menu should render correctly portfolio 1`] = `
         ],
         "text": "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
         "title": "Reversi Bot",
-      },
-      {
-        "categories": [
-          "Python",
-          "Statistical Analysis",
-        ],
-        "image": {
-          "blurDataURL": "data:image/png;base64,imagedata",
-          "height": 40,
-          "src": "/img.jpg",
-          "width": 40,
-        },
-        "links": {
-          "github": {
-            "link": "https://github.com/Jh123x/Wordle-Solver",
-            "tooltip": "GitHub Repository",
-          },
-          "link": {
-            "link": "https://jh123x.com/projects/wordle-solver/",
-            "tooltip": "Project Details",
-          },
-        },
-        "stack": [
-          "Python",
-        ],
-        "text": "A CLI application that solves wordle puzzles with a GUI game",
-        "title": "Wordle Solver",
       },
       {
         "categories": [

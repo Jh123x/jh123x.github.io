@@ -12,6 +12,35 @@ export interface NavProp {
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
+    primary: {
+      main: "#007bff",
+      dark: "#007bff",
+      light: "#057FFF",
+    },
+    secondary: {
+      main: "#6c757",
+    },
+    background: {
+      default: "#10121A",
+      paper: "#143158",
+    },
+    text: {
+      primary: "#A4ACC4",
+      secondary: "#313131",
+    },
+  },
+  typography: {
+    allVariants: {
+      color: "#FFF",
+      fontFamily: "'Nunito', sans-serif",
+    },
+    h1: {
+      fontSize: "4rem",
+    },
+    h6: {
+      fontSize: "1.2rem",
+      pb: ".6rem",
+    },
   },
 });
 
@@ -20,7 +49,7 @@ const Nav = ({ children }: NavProp) => {
   return (
     <ThemeProvider theme={darkTheme}>
       <Box className="App dark-theme">
-        <Sidebar navToggle={navToggle} setNavToggle={setNavToggle}/>
+        <Sidebar navToggle={navToggle} setNavToggle={setNavToggle} />
         <Box className="ham-burger-menu">
           <IconButton
             onClick={() => setNavToggle(!navToggle)}
@@ -43,23 +72,6 @@ const MainContentStyled = styled.main`
   min-height: 100vh;
   @media screen and (max-width: 1200px) {
     margin-left: 0;
-  }
-  .lines {
-    position: absolute;
-    min-height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    opacity: 0.4;
-    z-index: -1;
-    .line-1,
-    .line-2,
-    .line-3,
-    .line-4 {
-      width: 1px;
-      min-height: 100vh;
-      background-color: var(--border-color);
-    }
   }
 `;
 
