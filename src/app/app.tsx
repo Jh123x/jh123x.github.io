@@ -8,6 +8,7 @@ import {
   Theme,
   ThemeProvider,
   useMediaQuery,
+  useTheme,
 } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 
@@ -56,19 +57,46 @@ const darkTheme: Theme = createTheme({
 
 const Nav = ({ children }: NavProp) => {
   const [navToggle, setNavToggle] = React.useState(false);
-  const isSmall = useMediaQuery("(max-width: 1200px)");
+  const isSmall: boolean = useMediaQuery("(max-width: 1200px)");
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box className="App dark-theme">
+      <Box
+        sx={{
+          backgroundColor: darkTheme.palette.custom.cardBackground,
+        }}
+        className="dark-theme"
+      >
         <Sidebar navToggle={navToggle} setNavToggle={setNavToggle} />
-        <Box className="ham-burger-menu">
+        <Box
+          sx={{
+            position: "absolute",
+            right: "5%",
+            top: "3%",
+            display: isSmall ? "block" : "none",
+            zIndex: 15,
+          }}
+        >
           <IconButton
             onClick={() => setNavToggle(!navToggle)}
-            className="light-dark-mode"
-            style={{ position: "absolute" }}
+            sx={{
+              position: "absolute",
+              right: 0,
+              top: "50%",
+              width: "4rem",
+              height: "2rem",
+              zIndex: 15,
+              display: "flex",
+              "&:hover": {
+                backgroundColor: "transparent",
+              },
+            }}
             aria-label="Toggle Sidebar"
           >
-            <MenuIcon />
+            <MenuIcon
+              sx={{
+                fontSize: "3rem",
+              }}
+            />
           </IconButton>
         </Box>
         <Box

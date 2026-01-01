@@ -40,43 +40,6 @@ body::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #383838;
 }
-
-.light-dark-mode {
-    position: fixed;
-    right: 0;
-    top: 50%;
-    width: 4rem;
-    height: 2rem;
-    background-color: var(--background-light-color-2);
-    z-index: 15;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    svg{
-      display: flex;
-      align-items: center;
-      font-size: 1.7rem;
-      color: var(--white-color);
-    }
-  }
-
-  //Nav Toggler
-  .ham-burger-menu {
-      position: absolute;
-      right: 5%;
-      top: 3%;
-      display: none;
-      z-index: 15;
-      svg{
-          font-size: 3rem;
-      }
-  }
-
-  @media screen and (max-width:1200px) {
-    .ham-burger-menu{
-        display: block;
-    }
-  }
 `;
 
 export default GlobalStyle;

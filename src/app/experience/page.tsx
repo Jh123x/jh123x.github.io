@@ -1,6 +1,6 @@
 import * as React from "react";
 import Experience from "../../Components/Experience";
-import { MainLayout } from "../../styles/Layouts";
+import { InnerLayout, MainLayout } from "../../styles/Layouts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,7 +12,9 @@ export const metadata: Metadata = {
 const ExperiencePage = () => {
   return (
     <MainLayout>
-      <Experience />
+      <InnerLayout>
+        <Experience />
+      </InnerLayout>
     </MainLayout>
   );
 };

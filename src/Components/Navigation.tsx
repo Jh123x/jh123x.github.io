@@ -36,6 +36,7 @@ const Navigation = ({ setNav }: NavigationProps) => {
             width: "75%",
             borderRadius: "50%",
             border: "8px solid var(--border-color)",
+            transition: "all 0.4s ease-in-out",
           },
         }}
       >
@@ -106,6 +107,7 @@ const NavItem = ({ name, path, setNav }: NavItemProps): React.JSX.Element => {
         padding: "5px 0",
         margin: 0,
         color: theme.palette.text.primary,
+        transition: "all 0.3s ease-in-out",
         "&:hover": {
           color: "#FFF",
           backgroundColor: theme.palette.background.paper,
