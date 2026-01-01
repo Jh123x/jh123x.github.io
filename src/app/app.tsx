@@ -8,7 +8,6 @@ import {
   Theme,
   ThemeProvider,
   useMediaQuery,
-  useTheme,
 } from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
 
