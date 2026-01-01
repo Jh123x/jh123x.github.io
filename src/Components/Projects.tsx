@@ -6,9 +6,18 @@ import ProjectCard from "./ProjectCard";
 
 function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
   return (
-    <Grid container xs={12} m={6} lg={4} sx={{ padding: 0 }}>
+    <Grid
+      container
+      style={{
+        padding: 0,
+        margin: 0,
+        width: "100%",
+        justifyContent: "space-evenly",
+        fontSize: 0,
+      }}
+    >
       {menuItem.map((item, index) => (
-        <Grid item key={index}>
+        <Grid item>
           <ProjectCard
             key={index}
             ImageSrc={item.image.src}

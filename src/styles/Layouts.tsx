@@ -14,11 +14,10 @@ export const MainLayout = ({ children }: WithChildren) => {
       justifyContent="center"
       sx={{
         minHeight: "100vh",
-        p: "5%",
+        p: "10%",
         boxSizing: "border-box",
         listStyle: "none",
         backgroundColor: theme.palette.background.default,
-        transition: "all .4s ease-in-out",
       }}
     >
       {children}

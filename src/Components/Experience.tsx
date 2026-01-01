@@ -12,7 +12,6 @@ import ExperienceItem from "./ExperienceItem";
 import workExperience from "../data/workExperience";
 import schExperience from "../data/schExperience";
 import { Box, useTheme } from "@mui/material";
-import { WithChildren } from "./types";
 
 const Experiences = () => {
   const theme = useTheme();

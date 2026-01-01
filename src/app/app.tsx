@@ -1,15 +1,21 @@
 "use client";
 import * as React from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
-import { Box, createTheme, IconButton, ThemeProvider } from "@mui/material";
+import {
+  Box,
+  createTheme,
+  IconButton,
+  Theme,
+  ThemeProvider,
+  useMediaQuery,
+} from "@mui/material";
 import Sidebar from "src/Components/Sidebar";
-import styled from "styled-components";
 
 export interface NavProp {
   children: React.ReactNode;
 }
 
-const darkTheme = createTheme({
+const darkTheme: Theme = createTheme({
   palette: {
     mode: "dark",
     primary: {
@@ -50,6 +56,7 @@ const darkTheme = createTheme({
 
 const Nav = ({ children }: NavProp) => {
   const [navToggle, setNavToggle] = React.useState(false);
+  const isSmall = useMediaQuery("(max-width: 1200px)");
   return (
     <ThemeProvider theme={darkTheme}>
       <Box className="App dark-theme">
@@ -64,19 +71,17 @@ const Nav = ({ children }: NavProp) => {
             <MenuIcon />
           </IconButton>
         </Box>
-        <MainContentStyled>{children}</MainContentStyled>
+        <Box
+          sx={{
+            ml: isSmall ? 0 : "16.3rem",
+            minHeight: "100vh",
+          }}
+        >
+          {children}
+        </Box>
       </Box>
     </ThemeProvider>
   );
 };
-
-const MainContentStyled = styled.main`
-  position: relative;
-  margin-left: 16.3rem;
-  min-height: 100vh;
-  @media screen and (max-width: 1200px) {
-    margin-left: 0;
-  }
-`;
 
 export default Nav;

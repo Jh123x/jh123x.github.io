@@ -5,12 +5,12 @@ import Navigation from "./Navigation";
 
 interface SidebarProps {
   navToggle: boolean;
-  setNavToggle: (showNav: boolean) => void
+  setNavToggle: (showNav: boolean) => void;
 }
 
 const Sidebar = ({ navToggle, setNavToggle }: SidebarProps) => (
   <SidebarStyled style={{ transform: navToggle ? "translateX(0)" : "" }}>
-    <Navigation setNav={setNavToggle}/>
+    <Navigation setNav={setNavToggle} />
   </SidebarStyled>
 );
 
@@ -20,7 +20,6 @@ const SidebarStyled = styled.div`
   height: 100vh;
   background-color: var(--sidebar-dark-color);
   overflow: hidden;
-  transition: all 0.4s ease-in-out;
   @media screen and (max-width: 1200px) {
     transform: translateX(-100%);
     z-index: 20;

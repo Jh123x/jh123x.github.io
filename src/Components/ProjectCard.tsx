@@ -6,6 +6,7 @@ import {
   Typography,
   Chip,
   Stack,
+  Grid,
 } from "@mui/material";
 import { IconTypes, LinkTypes } from "src/data/types";
 import mapItem from "src/data/iconMap";
@@ -30,12 +31,12 @@ export default function ProjectCard({
   return (
     <Card
       sx={{
-        width: "400px",
+        width: "350px",
         bgcolor: "#0B1220",
-        color: "#E5E7EB",
         borderRadius: 3,
-        boxShadow: "0 20px 40px rgba(0,0,0,0.6)",
-        m: 5,
+        padding: "5px",
+        m: "5px",
+        verticalAlign: "top",
       }}
     >
       <CardMedia
@@ -46,13 +47,14 @@ export default function ProjectCard({
         sx={{
           objectFit: "contain",
           maxWidth: "100%",
+          height: "300px",
         }}
       />
       <CardContent>
         <Stack
           direction="column"
           spacing={2}
-          height="250px"
+          height="200px"
           sx={{
             justifyContent: "space-between",
           }}
@@ -72,21 +74,25 @@ export default function ProjectCard({
             {Description}
           </Typography>
 
-          <Stack direction="row" spacing={1} flexWrap="wrap">
+          <Grid container spacing={1}>
             {TechStack.map((tech) => (
-              <Chip
-                key={tech}
-                label={tech}
-                size="small"
-                sx={{
-                  bgcolor: "#111827",
-                  color: "#D1D5DB",
-                  fontSize: "0.75rem",
-                  borderRadius: 2,
-                }}
-              />
+              <Grid item>
+                <Chip
+                  key={tech}
+                  label={tech}
+                  size="small"
+                  sx={{
+                    padding: 0,
+                    margin: 0,
+                    bgcolor: "#111827",
+                    color: "#D1D5DB",
+                    fontSize: "0.75rem",
+                    borderRadius: 2,
+                  }}
+                />
+              </Grid>
             ))}
-          </Stack>
+          </Grid>
         </Stack>
       </CardContent>
     </Card>

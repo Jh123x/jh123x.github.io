@@ -105,7 +105,6 @@ const NavItem = ({ name, path, setNav }: NavItemProps): React.JSX.Element => {
         padding: "5px 0",
         margin: 0,
         color: theme.palette.text.primary,
-        transition: "color 0.3s ease",
         "&:hover": {
           color: "#FFF",
           backgroundColor: theme.palette.background.paper,

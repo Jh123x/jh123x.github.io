@@ -6,14 +6,10 @@ import { WithChildren } from "src/Components/types";
 const HomePage = () => {
   const theme = useTheme();
   return (
-    <HomePageStyled>
+    <HomePageLayout>
       <Box
         className="typography"
         sx={{
-          position: "absolute",
-          top: "50%",
-          left: " 50%",
-          transform: "translate(-50%, -50%)",
           textAlign: "center",
           width: "80%",
         }}
@@ -44,11 +40,11 @@ const HomePage = () => {
           Golang (for work), Python and TypeScript (for side projects).
         </Typography>
       </Box>
-    </HomePageStyled>
+    </HomePageLayout>
   );
 };
 
-const HomePageStyled = ({ children }: WithChildren) => {
+const HomePageLayout = ({ children }: WithChildren) => {
   const theme = useTheme();
   return (
     <Stack

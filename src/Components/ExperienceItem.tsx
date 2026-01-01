@@ -19,7 +19,7 @@ const ExperienceItem = ({
     <ResumeItemStyled>
       <Box
         sx={{
-          width: "50%",
+          width: "20%",
           paddingLeft: "20px",
           position: "relative",
         }}
@@ -48,13 +48,14 @@ const ExperienceItem = ({
           {year}
         </Typography>
       </Box>
-      <Box className="right-content">
+      <Box className="right-content" width="70%" marginLeft="10%">
         <Image src={logo.src} width={100} height={100} alt={subTitle} />
         <Typography
           variant="h5"
           sx={{
             padding: "0 0.4 0 0",
             margin: 0,
+            color: theme.palette.primary.main,
           }}
         >
           {title}
@@ -71,8 +72,9 @@ const ExperienceItem = ({
         <Typography
           variant="body1"
           sx={{
-            marginBottom: 0,
+            marginBottom: 2,
             marginTop: 1,
+            color: theme.palette.text.primary,
           }}
         >
           {text}
