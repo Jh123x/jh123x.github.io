@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InnerLayout should render correctly 1`] = `<styled.div />`;
+exports[`InnerLayout should render correctly 1`] = `<InnerLayout />`;
 
-exports[`MainLayout should render correctly 1`] = `<styled.div />`;
+exports[`MainLayout should render correctly 1`] = `<MainLayout />`;
