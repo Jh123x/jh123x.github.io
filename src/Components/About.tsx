@@ -10,7 +10,7 @@ import { Box } from "@mui/material";
 const AboutComponent = () => (
   <MainLayout>
     <AboutLayout>
-      <Title title="About Me" span="About Me" />
+      <Title title="About Me" />
       <ImageSection />
       <InterestsSection />
     </AboutLayout>

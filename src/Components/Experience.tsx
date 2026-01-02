@@ -31,7 +31,7 @@ const Experiences = () => {
   );
   return (
     <>
-      <Title title={"Work & Education"} />
+      <Title title="Work & Education" />
       <InnerLayout>
         <Box
           sx={{

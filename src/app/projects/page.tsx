@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const PortfoliosPage = () => (
   <MainLayout>
     <InnerLayout>
-      <Title title={"Projects"} span={"Projects"} />
+      <Title title="Projects" />
       <ProjectsMenu menuItem={projects} />
     </InnerLayout>
   </MainLayout>
