@@ -6,7 +6,7 @@ import { IconProps } from "./types";
 export const LinkedinIcon = ({ href, ariaLabel }: IconProps) => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label={ariaLabel ?? "LinkedIn"}>
+    <Link href={href} aria-label={ariaLabel ?? "LinkedIn"} target="_blank">
       <LinkedIn
         sx={{
           color: theme.palette.text.primary,

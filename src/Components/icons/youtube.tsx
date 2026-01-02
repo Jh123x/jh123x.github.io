@@ -6,7 +6,7 @@ import { IconProps } from "./types";
 export const YoutubeIcon = ({ href }: IconProps) => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label="Blog">
+    <Link href={href} aria-label="Blog" target="_blank">
       <YouTube
         sx={{
           color: theme.palette.text.primary,

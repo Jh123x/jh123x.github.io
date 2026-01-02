@@ -6,7 +6,7 @@ import { IconProps } from "./types";
 export const GithubIcon = ({ href, ariaLabel }: IconProps) => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label={ariaLabel ?? "Github"}>
+    <Link href={href} aria-label={ariaLabel ?? "Github"} target="_blank">
       <GitHub
         sx={{
           color: theme.palette.text.primary,

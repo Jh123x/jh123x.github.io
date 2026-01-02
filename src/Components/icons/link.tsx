@@ -6,7 +6,7 @@ import { IconProps } from "./types";
 export const LinkIcon = ({ href }: IconProps) => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label="Blog">
+    <Link href={href} aria-label="Blog" target="_blank">
       <LinkI
         sx={{
           color: theme.palette.text.primary,

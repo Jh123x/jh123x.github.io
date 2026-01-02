@@ -6,7 +6,7 @@ import { IconProps } from "./types";
 export const GoogleIcon = ({ href, ariaLabel }: IconProps) => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label={ariaLabel ?? "Google"}>
+    <Link href={href} aria-label={ariaLabel ?? "Google"} target="_blank">
       <Google
         sx={{
           color: theme.palette.text.primary,
