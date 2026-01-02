@@ -53,9 +53,6 @@ const InterestCard = ({
           >
             {title}
           </Typography>
-          <Typography variant="body1" sx={{ padding: 0 }}>
-            {paragraph}
-          </Typography>
           <Box
             sx={{
               p: 0,
