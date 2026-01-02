@@ -12,7 +12,7 @@ export const LinkIcon = ({ href }: IconProps) => {
           color: theme.palette.text.primary,
           transition: "all 0.4s ease-in-out",
           "&:hover": {
-            color: "var(--white-color)",
+            color: "#FFF",
           },
         }}
       />

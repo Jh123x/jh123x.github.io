@@ -1,7 +1,6 @@
 "use client";
-import { useTheme } from "@mui/material";
+import { Box, useMediaQuery, useTheme } from "@mui/material";
 import * as React from "react";
-import styled from "styled-components";
 import Navigation from "./Navigation";
 
 interface SidebarProps {
@@ -11,29 +10,27 @@ interface SidebarProps {
 
 const Sidebar = ({ navToggle, setNavToggle }: SidebarProps) => {
   const theme = useTheme();
+  const isSmall = useMediaQuery("(max-width: 1200px)");
   return (
-    <SidebarStyled
-      style={{
-        transform: navToggle ? "translateX(0)" : "",
+    <Box
+      sx={{
+        transform: navToggle
+          ? "translateX(0)"
+          : isSmall
+            ? "translateX(-100%)"
+            : "",
         transition: "all 0.3s ease-in-out",
         backgroundColor: theme.custom.cardBackground,
+        width: "16.3rem",
+        position: "fixed",
+        height: "100vh",
+        overflow: "hidden",
+        zIndex: isSmall ? 20 : 0,
       }}
     >
       <Navigation setNav={setNavToggle} />
-    </SidebarStyled>
+    </Box>
   );
 };
-
-const SidebarStyled = styled.div`
-  width: 16.3rem;
-  position: fixed;
-  height: 100vh;
-  background-color: var(--sidebar-dark-color);
-  overflow: hidden;
-  @media screen and (max-width: 1200px) {
-    transform: translateX(-100%);
-    z-index: 20;
-  }
-`;
 
 export default Sidebar;

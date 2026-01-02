@@ -16,7 +16,7 @@ const ExperienceItem = ({
 }: Entry): React.JSX.Element => {
   const theme = useTheme();
   return (
-    <ResumeItemStyled>
+    <ResumeItem>
       <Box
         sx={{
           width: "20%",
@@ -34,7 +34,7 @@ const ExperienceItem = ({
             color: theme.palette.background.default,
             border: "1px solid",
             borderRadius: "50%",
-            borderColor: "var(--border-color)",
+            borderColor: theme.custom.border,
           }}
         />
         <Typography
@@ -91,16 +91,17 @@ const ExperienceItem = ({
           <></>
         )}
       </Box>
-    </ResumeItemStyled>
+    </ResumeItem>
   );
 };
 
-const ResumeItemStyled = ({ children }: WithChildren) => {
+const ResumeItem = ({ children }: WithChildren) => {
+  const theme = useTheme();
   return (
     <Stack
       direction="row"
       sx={{
-        borderLeft: `2px solid var(--border-color)`,
+        borderLeft: `2px solid ${theme.custom.border}`,
         padding: 0,
         margin: 0,
         "&:not(:last-child)": {

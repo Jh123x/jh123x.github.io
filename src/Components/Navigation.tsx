@@ -28,14 +28,14 @@ const Navigation = ({ setNav }: NavigationProps) => {
         className="avatar"
         sx={{
           width: "100%",
-          borderBottom: "1px solid var(--border-color)",
+          borderBottom: `1px solid ${theme.custom.border}`,
           textAlign: "center",
           padding: "1rem 0",
           img: {
             height: "auto",
             width: "75%",
             borderRadius: "50%",
-            border: "8px solid var(--border-color)",
+            border: `8px solid ${theme.custom.border}`,
             transition: "all 0.4s ease-in-out",
           },
         }}
@@ -71,7 +71,7 @@ const Navigation = ({ setNav }: NavigationProps) => {
         </Stack>
         <Box
           sx={{
-            borderTop: "1px solid var(--border-color)",
+            borderTop: `1px solid ${theme.custom.border}`,
             width: "100%",
             display: "block",
             textAlign: "center",
@@ -141,20 +141,23 @@ const NavItem = ({ name, path, setNav }: NavItemProps): React.JSX.Element => {
   );
 };
 
-const NavigationLayout = ({ children }: WithChildren) => (
-  <Stack
-    direction="column"
-    sx={{
-      m: 0,
-      p: 0,
-      justifyContent: "space-between",
-      height: "100%",
-      width: "100%",
-      borderRight: "1px solid var(--border-color)",
-    }}
-  >
-    {children}
-  </Stack>
-);
+const NavigationLayout = ({ children }: WithChildren) => {
+  const theme = useTheme();
+  return (
+    <Stack
+      direction="column"
+      sx={{
+        m: 0,
+        p: 0,
+        justifyContent: "space-between",
+        height: "100%",
+        width: "100%",
+        borderRight: `1px solid ${theme.custom.border}`,
+      }}
+    >
+      {children}
+    </Stack>
+  );
+};
 
 export default Navigation;

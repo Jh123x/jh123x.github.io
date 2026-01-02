@@ -10,6 +10,28 @@ export interface NavProp {
 }
 
 const darkTheme = createTheme({
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          margin: "0px",
+          padding: "0px",
+          "::-webkit-scrollbar": {
+            width: "9px",
+            backgroundColor: "#383838",
+          },
+          "::-webkit-scrollbar-thumb": {
+            borderRadius: "10px",
+            backgroundColor: "#6b6b6b",
+          },
+          "::-webkit-scrollbar-track": {
+            borderRadius: "10px",
+            backgroundColor: "#383838",
+          },
+        },
+      },
+    },
+  },
   custom: {
     border: "#2e344e",
     cardBackground: "#191d2b",
@@ -34,9 +56,9 @@ const darkTheme = createTheme({
     },
   },
   typography: {
+    fontFamily: ['"Nunito"', "sans-serif"].join(","),
     allVariants: {
       color: "#FFF",
-      fontFamily: "'Nunito', sans-serif",
     },
     h1: {
       fontSize: "4rem",

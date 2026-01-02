@@ -51,5 +51,4 @@ export interface SchoolExperienceEntry {
 
 export interface Title {
   title: string;
-  span: string;
 }

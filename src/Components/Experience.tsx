@@ -15,30 +15,26 @@ import { Box, useTheme } from "@mui/material";
 
 const Experiences = () => {
   const theme = useTheme();
-  const briefcase = (
-    <BusinessCenterIcon
-      sx={{
-        color: theme.palette.text.primary,
-      }}
-    />
-  );
-  const school = (
-    <SchoolIcon
-      sx={{
-        color: theme.palette.text.primary,
-      }}
-    />
-  );
   return (
     <>
-      <Title title={"Work & Education"} span={"Work & Education"} />
+      <Title title="Work & Education" />
       <InnerLayout>
         <Box
           sx={{
             pb: "3rem",
           }}
         >
-          <SmallTitle icon={briefcase} title={"Working Experience"} />
+          <SmallTitle
+            icon={
+              <BusinessCenterIcon
+                sx={{
+                  color: theme.palette.text.primary,
+                  fontSize: "3rem",
+                }}
+              />
+            }
+            title="Working Experience"
+          />
         </Box>
         <Box className="resume-content">
           {workExperience.map((experience) => (
@@ -55,7 +51,17 @@ const Experiences = () => {
             mt: "4rem",
           }}
         >
-          <SmallTitle icon={school} title={"Educational Qualifications"} />
+          <SmallTitle
+            icon={
+              <SchoolIcon
+                sx={{
+                  color: theme.palette.text.primary,
+                  fontSize: "3rem",
+                }}
+              />
+            }
+            title="Educational Qualifications"
+          />
         </Box>
         <Box
           className="resume-content"

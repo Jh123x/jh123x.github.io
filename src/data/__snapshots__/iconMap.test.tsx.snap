@@ -5,9 +5,11 @@ exports[`itemMap should render a apple icon 1`] = `
   <ForwardRef(Tooltip)
     title="Apple"
   >
-    <AppleIcon
-      href="https://apple.com"
-    />
+    <span>
+      <AppleIcon
+        href="https://apple.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;
@@ -17,9 +19,11 @@ exports[`itemMap should render a docs icon 1`] = `
   <ForwardRef(Tooltip)
     title="Docs"
   >
-    <DocumentScannerIcon
-      href="https://docs.com"
-    />
+    <span>
+      <DocumentScannerIcon
+        href="https://docs.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;
@@ -29,9 +33,11 @@ exports[`itemMap should render a github icon 1`] = `
   <ForwardRef(Tooltip)
     title="Github"
   >
-    <GithubIcon
-      href="https://github.com"
-    />
+    <span>
+      <GithubIcon
+        href="https://github.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;
@@ -41,9 +47,11 @@ exports[`itemMap should render a google icon 1`] = `
   <ForwardRef(Tooltip)
     title="Google"
   >
-    <GoogleIcon
-      href="https://google.com"
-    />
+    <span>
+      <GoogleIcon
+        href="https://google.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;
@@ -53,9 +61,11 @@ exports[`itemMap should render a link icon 1`] = `
   <ForwardRef(Tooltip)
     title="Link"
   >
-    <LinkIcon
-      href="https://google.com"
-    />
+    <span>
+      <LinkIcon
+        href="https://google.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;
@@ -65,9 +75,11 @@ exports[`itemMap should render a linkedin icon 1`] = `
   <ForwardRef(Tooltip)
     title="LinkedIn"
   >
-    <LinkedinIcon
-      href="https://linkedin.com"
-    />
+    <span>
+      <LinkedinIcon
+        href="https://linkedin.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;
@@ -77,9 +89,11 @@ exports[`itemMap should render a youtube icon 1`] = `
   <ForwardRef(Tooltip)
     title="YouTube"
   >
-    <YoutubeIcon
-      href="https://youtube.com"
-    />
+    <span>
+      <YoutubeIcon
+        href="https://youtube.com"
+      />
+    </span>
   </ForwardRef(Tooltip)>
 </ForwardRef(Box)>
 `;

@@ -1,27 +1,39 @@
 "use client";
+import { Box, Stack, Typography } from "@mui/material";
 import * as React from "react";
-import styled from "styled-components";
 
-const SmallTitle = ({ icon, title }) => (
-  <SmallTitleStyled>
-    <p>{icon}</p>
-    <h3>{title}</h3>
-  </SmallTitleStyled>
-);
+interface SmallTitleProps {
+  icon: React.JSX.Element;
+  title: string;
+}
 
-const SmallTitleStyled = styled.div`
-  display: flex;
-  align-items: center;
-  p {
-    padding-right: 1rem;
-    svg {
-      font-size: 3rem;
-    }
-  }
-  h3 {
-    color: var(--white-color);
-    font-size: 2rem;
-  }
-`;
+const SmallTitle = ({ icon, title }: SmallTitleProps) => {
+  return (
+    <Stack
+      direction="row"
+      sx={{
+        alignItems: "center",
+        m: "1rem 0",
+      }}
+    >
+      <Box
+        sx={{
+          pr: "1rem",
+        }}
+      >
+        {icon}
+      </Box>
+      <Typography
+        variant="h3"
+        sx={{
+          color: "#FFF",
+          fontSize: "2rem",
+        }}
+      >
+        {title}
+      </Typography>
+    </Stack>
+  );
+};
 
 export default SmallTitle;
