@@ -80,7 +80,7 @@ export default function ProjectCard({
 
           <Grid container spacing={1}>
             {TechStack.map((tech, index) => (
-              <Grid item key={index}>
+              <Grid key={index}>
                 <Chip
                   key={tech}
                   label={tech}

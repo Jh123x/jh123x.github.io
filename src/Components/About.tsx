@@ -2,30 +2,20 @@
 import * as React from "react";
 import ImageSection from "./ImageSection";
 import Title from "./Title";
-import { MainLayout } from "../styles/Layouts";
 import InterestsSection from "./InterestsSection";
-import { WithChildren } from "./types";
 import { Box } from "@mui/material";
 
-const AboutComponent = () => (
-  <MainLayout>
-    <AboutLayout>
-      <Title title="About Me" />
-      <ImageSection />
-      <InterestsSection />
-    </AboutLayout>
-  </MainLayout>
-);
-
-const AboutLayout = ({ children }: WithChildren) => (
+const About = () => (
   <Box
     sx={{
       p: 0,
       m: 0,
     }}
   >
-    {children}
+    <Title title="About Me" />
+    <ImageSection />
+    <InterestsSection />
   </Box>
 );
 
-export default AboutComponent;
+export default About;

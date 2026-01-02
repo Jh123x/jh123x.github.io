@@ -1,5 +1,6 @@
 import { Metadata } from "next";
-import AboutComponent from "src/Components/About";
+import About from "src/Components/About";
+import { MainLayout } from "src/styles/Layouts";
 
 export const metadata: Metadata = {
   title: "About",
@@ -7,6 +8,10 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 };
 
-const AboutPage = () => <AboutComponent></AboutComponent>;
+const AboutPage = () => (
+  <MainLayout>
+    <About></About>
+  </MainLayout>
+);
 
 export default AboutPage;

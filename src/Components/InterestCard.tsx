@@ -11,9 +11,9 @@ const InterestCard = ({ image, title, href }: InterestDescription) => {
     <Box
       sx={{
         borderLeft: `1px solid ${theme.custom.border}`,
-        borderTop: `8px solid var(--border-color)`,
-        borderRight: `1px solid var(--border-color)`,
-        borderBottom: `1px solid var(--border-color)`,
+        borderTop: `8px solid ${theme.custom.border}`,
+        borderRight: `1px solid ${theme.custom.border}`,
+        borderBottom: `1px solid ${theme.custom.border}`,
         width: 250,
         transition: "all 0.4s ease-in-out",
         backgroundColor: theme.custom.cardBackground,
@@ -41,7 +41,7 @@ const InterestCard = ({ image, title, href }: InterestDescription) => {
           <Typography
             variant="h6"
             sx={{
-              color: "var(--white-color)",
+              color: "#FFF",
               fontSize: "1.6em 0",
               padding: "1em 0",
               position: "relative",
@@ -56,7 +56,7 @@ const InterestCard = ({ image, title, href }: InterestDescription) => {
               width: "50%",
               height: "2px",
               borderRadius: "5px",
-              backgroundColor: "var(--border-color)",
+              backgroundColor: theme.custom.border,
             }}
           ></Box>
         </Link>

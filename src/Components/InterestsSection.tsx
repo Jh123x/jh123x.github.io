@@ -18,37 +18,38 @@ const InterestsSection = () => (
       sx={{
         mt: "5rem",
         gridGap: "1.5rem",
+        justifyContent: "space-evenly",
       }}
     >
-      <Grid item key="swe">
+      <Grid key="swe">
         <InterestCard
           image={design}
           title="Software Development"
           href="https://github.com/Jh123x"
         />
       </Grid>
-      <Grid item key="home-lab">
+      <Grid key="home-lab">
         <InterestCard
           image={intelligence}
           title="Home Lab"
           href="https://jh123x.com/blog/2023/home-lab/"
         />
       </Grid>
-      <Grid item key="ctfs">
+      <Grid key="ctfs">
         <InterestCard
           image={flag}
           title="CTFs"
           href="https://jh123x.com/tags/ctf/"
         />
       </Grid>
-      <Grid item key="blog">
+      <Grid key="blog">
         <InterestCard
           image={blog}
           title="Tech Blog"
           href="https://jh123x.com"
         />
       </Grid>
-      <Grid item key="nus-blog">
+      <Grid key="nus-blog">
         <InterestCard
           image={gamedev}
           title="School Blog"
