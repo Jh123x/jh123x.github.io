@@ -16,7 +16,7 @@ const ExperienceItem = ({
 }: Entry): React.JSX.Element => {
   const theme = useTheme();
   return (
-    <ResumeItemStyled>
+    <ResumeItem>
       <Box
         sx={{
           width: "20%",
@@ -91,11 +91,11 @@ const ExperienceItem = ({
           <></>
         )}
       </Box>
-    </ResumeItemStyled>
+    </ResumeItem>
   );
 };
 
-const ResumeItemStyled = ({ children }: WithChildren) => {
+const ResumeItem = ({ children }: WithChildren) => {
   return (
     <Stack
       direction="row"
