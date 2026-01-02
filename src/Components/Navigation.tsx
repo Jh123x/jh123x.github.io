@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import avatar from "../img/avatar.png";
+import avatar from "../img/avatar.jpg";
 import Image from "next/image";
 import { Box, Stack, Typography, useTheme } from "@mui/material";
 import { WithChildren } from "./types";
