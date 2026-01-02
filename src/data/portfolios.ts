@@ -17,7 +17,7 @@ import nus_jh123x from "../img/projects/nus_jh123x.png";
 import go_test from "../img/projects/go_test.png";
 import go_builder_gen from "../img/projects/buildergen.png";
 import lox_interpreter from "../img/projects/lox_interpreter.png";
-import hysa_calculator from "../img/projects/hysa.webp";
+import hysa_calculator from "../img/projects/hysa.png";
 import browser_telebot from "../img/projects/browser_telebot.png";
 import { PortfolioEntry } from "./types";
 
