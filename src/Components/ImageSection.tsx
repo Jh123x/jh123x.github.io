@@ -57,7 +57,12 @@ const ImageSection = () => {
           <Stack direction="row">
             <Typography
               variant="h6"
-              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+              sx={{
+                ...infoStyle,
+                fontWeight: "600",
+                pr: "5px",
+                color: theme.palette.secondary.main,
+              }}
             >
               Full Name:
             </Typography>
@@ -68,7 +73,12 @@ const ImageSection = () => {
           <Stack direction="row">
             <Typography
               variant="h6"
-              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+              sx={{
+                ...infoStyle,
+                fontWeight: "600",
+                pr: "5px",
+                color: theme.palette.secondary.main,
+              }}
             >
               Nationality:
             </Typography>
@@ -79,7 +89,12 @@ const ImageSection = () => {
           <Stack direction="row">
             <Typography
               variant="h6"
-              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+              sx={{
+                ...infoStyle,
+                fontWeight: "600",
+                pr: "5px",
+                color: theme.palette.secondary.main,
+              }}
             >
               Languages:
             </Typography>
@@ -90,7 +105,12 @@ const ImageSection = () => {
           <Stack direction="row">
             <Typography
               variant="h6"
-              sx={{ ...infoStyle, fontWeight: "600", pr: "5px" }}
+              sx={{
+                ...infoStyle,
+                fontWeight: "600",
+                pr: "5px",
+                color: theme.palette.secondary.main,
+              }}
             >
               Location:
             </Typography>
