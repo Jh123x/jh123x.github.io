@@ -3,4 +3,4 @@ export interface IconProps {
   ariaLabel?: string;
 }
 
-export type IconElement = (props: IconProps) => React.ReactNode;
+export type IconElement = (props: IconProps) => React.JSX.Element;

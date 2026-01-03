@@ -19,7 +19,7 @@ import go_builder_gen from "../img/projects/buildergen.jpg";
 import lox_interpreter from "../img/projects/lox_interpreter.jpg";
 import hysa_calculator from "../img/projects/hysa.jpg";
 import browser_telebot from "../img/projects/browser_telebot.jpg";
-import { PortfolioEntry } from "./types";
+import type { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
   {

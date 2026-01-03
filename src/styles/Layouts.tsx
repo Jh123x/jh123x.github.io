@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import { Grid, useTheme } from "@mui/material";
-import { WithChildren } from "src/Components/types";
+import type { WithChildren } from "src/Components/types";
 
 interface MainLayoutProps extends WithChildren {
   padding?: string;

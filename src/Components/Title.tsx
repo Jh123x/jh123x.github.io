@@ -1,9 +1,9 @@
 "use client";
 import * as React from "react";
-import * as types from "../data/types";
+import type { Title } from "../data/types";
 import { Box, Typography, useTheme } from "@mui/material";
 
-const Title = ({ title }: types.Title) => {
+const Title = ({ title }: Title) => {
   const theme = useTheme();
   return (
     <Box

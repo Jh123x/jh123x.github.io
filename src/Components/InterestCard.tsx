@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { InterestDescription } from "./types";
+import type { InterestDescription } from "./types";
 import Image from "next/image";
 import Link from "next/link";
 import { Box, Stack, Typography, useTheme } from "@mui/material";

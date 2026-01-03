@@ -3,11 +3,13 @@
 exports[`Sidebar should render correctly toggled 1`] = `
 <Sidebar
   navToggle={true}
+  setNavToggle={[Function]}
 />
 `;
 
 exports[`Sidebar should render correctly untoggled 1`] = `
 <Sidebar
   navToggle={false}
+  setNavToggle={[Function]}
 />
 `;

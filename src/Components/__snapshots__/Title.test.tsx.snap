@@ -2,7 +2,6 @@
 
 exports[`Title should render correctly 1`] = `
 <Title
-  span="Test Span"
   title="Test Title"
 />
 `;

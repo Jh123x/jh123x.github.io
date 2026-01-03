@@ -1,10 +1,12 @@
+"use client";
+
 import * as React from "react";
-import itemMap from "../data/iconMap";
-import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
-import { Stack, Typography, Box, useTheme } from "@mui/material";
+import itemMap from "../data/iconMap";
 import { Circle } from "@mui/icons-material";
-import { WithChildren } from "./types";
+import type { WithChildren } from "./types";
+import type { Entry, IconTypes } from "../data/types";
+import { Stack, Typography, Box, useTheme } from "@mui/material";
 
 const ExperienceItem = ({
   year,

@@ -2,7 +2,7 @@
 
 exports[`Small Title should render correctly 1`] = `
 <SmallTitle
-  icon="icon"
+  icon={<React.Fragment />}
   title="Test Title"
 />
 `;

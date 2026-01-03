@@ -8,7 +8,7 @@ import {
   Stack,
   Grid,
 } from "@mui/material";
-import { IconTypes, LinkTypes } from "src/data/types";
+import type { IconTypes, LinkTypes } from "src/data/types";
 import mapItem from "src/data/iconMap";
 
 interface ProjectProps {
@@ -20,14 +20,14 @@ interface ProjectProps {
   ImageAlt?: string;
 }
 
-export default function ProjectCard({
+export const ProjectCard = ({
   ImageSrc,
   ImageAlt,
   Title,
   Description,
   Icons,
   TechStack,
-}: ProjectProps) {
+}: ProjectProps) => {
   return (
     <Card
       sx={{
@@ -101,4 +101,6 @@ export default function ProjectCard({
       </CardContent>
     </Card>
   );
-}
+};
+
+export default ProjectCard;

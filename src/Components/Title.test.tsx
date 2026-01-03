@@ -4,6 +4,6 @@ import Title from "./Title";
 
 describe("Title", () => {
   test("should render correctly", () => {
-    expect(<Title title="Test Title" span="Test Span" />).toMatchSnapshot();
+    expect(<Title title="Test Title" />).toMatchSnapshot();
   });
 });

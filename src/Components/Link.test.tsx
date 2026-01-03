@@ -1,9 +1,9 @@
 import * as React from "react";
 import { describe, expect, test } from "@jest/globals";
-import Navigation from "./Navigation";
+import { StyledLink } from "./Link";
 
-describe("Navigation", () => {
+describe("StyledLink", () => {
   test("should render correctly", () => {
-    expect(<Navigation setNav={() => {}} />).toMatchSnapshot();
+    expect(<StyledLink href="jh123x.com" />);
   });
 });

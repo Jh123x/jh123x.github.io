@@ -1,9 +1,9 @@
 import * as React from "react";
 import { describe, expect, test } from "@jest/globals";
-import Navigation from "./Navigation";
+import About from "./About";
 
-describe("Navigation", () => {
+describe("About", () => {
   test("should render correctly", () => {
-    expect(<Navigation setNav={() => {}} />).toMatchSnapshot();
+    expect(<About />).toMatchSnapshot();
   });
 });

@@ -1,10 +1,10 @@
 "use client";
-import { Grid } from "@mui/material";
 import * as React from "react";
-import { PortfolioEntry } from "../data/types";
+import { Grid } from "@mui/material";
+import type { PortfolioEntry } from "../data/types";
 import ProjectCard from "./ProjectCard";
 
-function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
+const ProjectsMenu = ({ menuItem }: { menuItem: Array<PortfolioEntry> }) => {
   return (
     <Grid
       container
@@ -31,6 +31,6 @@ function ProjectsMenu({ menuItem }: { menuItem: Array<PortfolioEntry> }) {
       ))}
     </Grid>
   );
-}
+};
 
 export default ProjectsMenu;
