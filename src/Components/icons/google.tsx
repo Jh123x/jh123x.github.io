@@ -7,7 +7,7 @@ import type { IconElement, IconProps } from "./types";
 export const GoogleIcon: IconElement = ({
   href,
   ariaLabel,
-}: IconProps): React.ReactNode => {
+}: IconProps): React.JSX.Element => {
   const theme = useTheme();
   return (
     <Link href={href} aria-label={ariaLabel ?? "Google"} target="_blank">

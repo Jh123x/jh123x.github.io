@@ -4,7 +4,7 @@ const nextConfig = {
   distDir: "./build", // Changes the build output directory to `./build`.
   reactStrictMode: true, // Enables React Strict Mode.
   images: {
-    unoptimized: false, // Disables image optimization.
+    unoptimized: true, // Disables image optimization.
   },
 };
 
