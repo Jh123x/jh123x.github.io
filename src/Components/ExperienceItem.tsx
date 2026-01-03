@@ -50,7 +50,7 @@ const ExperienceItem = ({
           {year}
         </Typography>
       </Box>
-      <Box className="right-content" width="70%" marginLeft="10%">
+      <Box width="70%" marginLeft="10%">
         <Image src={logo.src} width={100} height={100} alt={subTitle} />
         <Typography
           variant="h5"
