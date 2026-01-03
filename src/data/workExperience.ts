@@ -3,8 +3,7 @@ import NUS_LOGO from "../img/logos/nus_logo_full.svg";
 import FORUS_LABS_LOGO from "../img/logos/forus_labs.svg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.svg";
 import BYTEDANCE_LOGO from "../img/logos/bytedance.svg";
-import { Entry } from "./types";
-
+import type { Entry } from "./types";
 
 /**
  * Latest experience at the front of the array
@@ -62,7 +61,7 @@ const workExperience: Entry[] = [
       google: {
         link: "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
         tooltip: "Google Play Store",
-      }
+      },
     },
   },
   {

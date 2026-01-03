@@ -1,9 +1,13 @@
+"use client";
 import { GitHub } from "@mui/icons-material";
 import { useTheme } from "@mui/material";
 import Link from "next/link";
-import { IconProps } from "./types";
+import type { IconElement, IconProps } from "./types";
 
-export const GithubIcon = ({ href, ariaLabel }: IconProps) => {
+export const GithubIcon: IconElement = ({
+  href,
+  ariaLabel,
+}: IconProps): React.JSX.Element => {
   const theme = useTheme();
   return (
     <Link href={href} aria-label={ariaLabel ?? "Github"} target="_blank">

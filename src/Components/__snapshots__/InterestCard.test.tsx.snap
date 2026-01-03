@@ -1,16 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InterestCard should render correctly 1`] = `
-<InterestCard
-  href="https://nus.jh123x.com"
-  image={
-    {
-      "blurDataURL": "data:image/png;base64,imagedata",
-      "height": 40,
-      "src": "/img.jpg",
-      "width": 40,
-    }
-  }
-  title="School Blog"
-/>
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1hu5f36"
+  >
+    <div
+      class="MuiStack-root css-171q33r-MuiStack-root"
+    >
+      <a
+        aria-label="School Blog"
+        href="https://nus.jh123x.com"
+        rel="noreferrer"
+        style="text-decoration: none;"
+        target="_blank"
+      >
+        <img
+          alt="School Blog"
+          data-nimg="1"
+          decoding="async"
+          height="100"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+          style="color: transparent;"
+          width="100"
+        />
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+        >
+          School Blog
+        </h6>
+        <div
+          class="MuiBox-root css-1nmxpgi"
+        />
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
 `;

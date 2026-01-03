@@ -1,3 +1,5 @@
+"use client";
+
 import { OverridableComponent } from "@mui/material/OverridableComponent";
 import { SvgIconTypeMap } from "@mui/material";
 import { StaticImageData } from "next/image";

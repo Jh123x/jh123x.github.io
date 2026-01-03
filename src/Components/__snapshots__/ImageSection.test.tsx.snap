@@ -1,3 +1,105 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ImageSection should render correctly 1`] = `<ImageSection />`;
+exports[`ImageSection should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-11xdzp8"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-rewcm0-MuiTypography-root"
+    >
+      I am 
+      <span
+        style="color: rgb(0, 123, 255);"
+      >
+        Junhua
+      </span>
+    </h4>
+    <h6
+      class="MuiTypography-root MuiTypography-h6 css-h7rwv9-MuiTypography-root"
+    >
+      I specialize in in Backend Development. Beyond development, I am also interested in upcoming technologies such as 
+      <b>
+        Machine Learning
+      </b>
+       and 
+      <b>
+        Artificial Intelligence
+      </b>
+      . I participate in 
+      <b>
+        CTFs
+      </b>
+       and run my 
+      <b>
+        Home Lab
+      </b>
+       and 
+      <b>
+        blogs
+      </b>
+       during my free time.
+    </h6>
+    <div
+      class="MuiStack-root css-lud791-MuiStack-root"
+    >
+      <div
+        class="MuiStack-root css-m69qwo-MuiStack-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+        >
+          Full Name:
+        </h6>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+        >
+          Wen Junhua
+        </h6>
+      </div>
+      <div
+        class="MuiStack-root css-m69qwo-MuiStack-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+        >
+          Nationality:
+        </h6>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+        >
+          Singaporean
+        </h6>
+      </div>
+      <div
+        class="MuiStack-root css-m69qwo-MuiStack-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+        >
+          Languages:
+        </h6>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+        >
+          English, Chinese (Simplified)
+        </h6>
+      </div>
+      <div
+        class="MuiStack-root css-m69qwo-MuiStack-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+        >
+          Location:
+        </h6>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+        >
+          Singapore
+        </h6>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

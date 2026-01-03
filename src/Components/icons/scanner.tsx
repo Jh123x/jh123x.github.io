@@ -1,9 +1,13 @@
+"use client";
 import { DocumentScannerOutlined } from "@mui/icons-material";
 import { useTheme } from "@mui/material";
 import Link from "next/link";
-import { IconProps } from "./types";
+import type { IconElement, IconProps } from "./types";
 
-export const DocumentScannerIcon = ({ href }: IconProps) => {
+export const DocumentScannerIcon: IconElement = ({
+  href,
+  ariaLabel,
+}: IconProps): React.JSX.Element => {
   const theme = useTheme();
   return (
     <Link href={href} aria-label="Blog" target="_blank">

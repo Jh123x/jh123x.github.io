@@ -3,6 +3,7 @@ import itemMap from "./iconMap";
 import { IconTypes, LinkTypes } from "./types";
 import { describe, expect, test } from "@jest/globals";
 import { Box } from "@mui/material";
+import { render } from "@testing-library/react";
 
 type testCase = [IconTypes, LinkTypes];
 
@@ -39,12 +40,12 @@ describe("itemMap", () => {
 
   for (const [icon, links] of tests) {
     test(`should render a ${icon} icon`, () => {
-      const wrapper = (
+      const wrapper = render(
         <Box>
           {Object.entries(links).map(([key, link]) => itemMap([icon, link]))}
-        </Box>
+        </Box>,
       );
-      expect(wrapper).toMatchSnapshot();
+      expect(wrapper.asFragment()).toMatchSnapshot();
     });
   }
 });

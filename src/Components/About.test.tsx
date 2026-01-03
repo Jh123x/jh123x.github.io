@@ -1,17 +1,17 @@
 import * as React from "react";
-import PortfoliosPage from "./page";
 import { describe, expect, test } from "@jest/globals";
+import About from "./About";
 import { render } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material";
-import { darkTheme } from "../app";
+import { darkTheme } from "src/app/app";
 
-describe("Portfolio Page", () => {
+describe("About", () => {
   test("should render correctly", () => {
-    const page = render(
+    const component = render(
       <ThemeProvider theme={darkTheme}>
-        <PortfoliosPage />
+        <About />
       </ThemeProvider>,
     );
-    expect(page.asFragment()).toMatchSnapshot();
+    expect(component.asFragment()).toMatchSnapshot();
   });
 });

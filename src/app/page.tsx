@@ -1,12 +1,13 @@
 "use client";
+
 import * as React from "react";
-import { Box, Stack, Typography, useTheme } from "@mui/material";
-import { WithChildren } from "src/Components/types";
+import { Box, Typography, useTheme } from "@mui/material";
+import { MainLayout } from "src/styles/Layouts";
 
 const HomePage = () => {
   const theme = useTheme();
   return (
-    <HomePageLayout>
+    <MainLayout padding="0">
       <Box
         className="typography"
         sx={{
@@ -40,26 +41,7 @@ const HomePage = () => {
           Golang (for work), Python and TypeScript (for side projects).
         </Typography>
       </Box>
-    </HomePageLayout>
-  );
-};
-
-const HomePageLayout = ({ children }: WithChildren) => {
-  const theme = useTheme();
-  return (
-    <Stack
-      direction="column"
-      sx={{
-        width: "100%",
-        height: "100vh",
-        alignItems: "center",
-        justifyContent: "center",
-        textAlign: "center",
-        backgroundColor: theme.palette.background.default,
-      }}
-    >
-      {children}
-    </Stack>
+    </MainLayout>
   );
 };
 

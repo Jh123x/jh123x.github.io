@@ -1,17 +1,17 @@
 import * as React from "react";
-import PortfoliosPage from "./page";
 import { describe, expect, test } from "@jest/globals";
+import { StyledLink } from "./Link";
 import { render } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material";
-import { darkTheme } from "../app";
+import { darkTheme } from "src/app/app";
 
-describe("Portfolio Page", () => {
+describe("StyledLink", () => {
   test("should render correctly", () => {
-    const page = render(
+    const component = render(
       <ThemeProvider theme={darkTheme}>
-        <PortfoliosPage />
+        <StyledLink href="jh123x.com" />
       </ThemeProvider>,
     );
-    expect(page.asFragment()).toMatchSnapshot();
+    expect(component.asFragment()).toMatchSnapshot();
   });
 });

@@ -3,7 +3,7 @@ import * as React from "react";
 import avatar from "../img/avatar.jpg";
 import Image from "next/image";
 import { Box, Stack, Typography, useTheme } from "@mui/material";
-import { WithChildren } from "./types";
+import type { WithChildren } from "./types";
 import { StyledLink } from "./Link";
 import { GithubIcon } from "./icons/github";
 import { LinkIcon } from "./icons/link";

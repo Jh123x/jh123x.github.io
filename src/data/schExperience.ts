@@ -1,7 +1,7 @@
 import NUS_LOGO from "../img/logos/nus_logo_full.svg";
 import UNC_LOGO from "../img/logos/unc_logo.svg";
 import JJC_LOGO from "../img/logos/jurong_jc.png";
-import { Entry } from "./types";
+import type { Entry } from "./types";
 
 /**
  * Latest experience at the front of the array
@@ -34,7 +34,7 @@ const schExperience: Entry[] = [
     title: "Science Course",
     subTitle: "Jurong Junior College",
     text: "I studied Science at Jurong Junior College. I took the A Level H2 Mathematics, H2 Physics, H2 Chemistry, H1 Economics, H1 General Paper, H1 Mother Tongue (Chinese) and H1 Project work.",
-  }
+  },
 ];
 
 export default schExperience;

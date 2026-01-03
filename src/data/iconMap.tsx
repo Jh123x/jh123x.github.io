@@ -1,19 +1,17 @@
 import * as React from "react";
 import { Tooltip } from "@mui/material";
-import { PortfolioLink, IconTypes } from "./types";
+import { type PortfolioLink, IconTypes } from "./types";
+import type { IconElement } from "src/Components/icons/types";
 import { ReactElement } from "react";
 import { LinkedinIcon } from "src/Components/icons/linkedin";
 import { GithubIcon } from "src/Components/icons/github";
 import { LinkIcon } from "src/Components/icons/link";
-import { IconProps } from "src/Components/icons/types";
 import { GoogleIcon } from "src/Components/icons/google";
 import { AppleIcon } from "src/Components/icons/apple";
 import { DocumentScannerIcon } from "src/Components/icons/scanner";
 import { YoutubeIcon } from "src/Components/icons/youtube";
 
-type IconWrapper = (icon: IconProps) => React.JSX.Element;
-
-const iconMap: Map<IconTypes, IconWrapper> = new Map<IconTypes, IconWrapper>([
+const iconMap: Map<IconTypes, IconElement> = new Map<IconTypes, IconElement>([
   [IconTypes.github, GithubIcon],
   [IconTypes.google, GoogleIcon],
   [IconTypes.apple, AppleIcon],

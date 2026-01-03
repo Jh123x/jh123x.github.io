@@ -1,9 +1,9 @@
 "use client";
 import * as React from "react";
-import * as types from "../data/types";
+import type { Title } from "../data/types";
 import { Box, Typography, useTheme } from "@mui/material";
 
-const Title = ({ title }: types.Title) => {
+const Title = ({ title }: Title) => {
   const theme = useTheme();
   return (
     <Box
@@ -21,7 +21,7 @@ const Title = ({ title }: types.Title) => {
           bottom: 0,
           width: "7.4rem",
           height: "0.33rem",
-          backgroundColor: theme.palette.background.paper,
+          backgroundColor: theme.palette.primary.main,
           borderRadius: "15px",
           left: "0",
         }}
@@ -41,7 +41,7 @@ const Title = ({ title }: types.Title) => {
           bottom: 0,
           width: "3.5rem",
           height: "0.33rem",
-          backgroundColor: theme.palette.primary.main,
+          backgroundColor: theme.palette.background.paper,
           borderRadius: "15px",
           left: 0,
         }}

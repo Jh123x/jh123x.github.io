@@ -1,9 +1,13 @@
 "use client";
 import * as React from "react";
 import { Grid, useTheme } from "@mui/material";
-import { WithChildren } from "src/Components/types";
+import type { WithChildren } from "src/Components/types";
 
-export const MainLayout = ({ children }: WithChildren) => {
+interface MainLayoutProps extends WithChildren {
+  padding?: string;
+}
+
+export const MainLayout = ({ children, padding }: MainLayoutProps) => {
   const theme = useTheme();
   return (
     <Grid
@@ -14,7 +18,7 @@ export const MainLayout = ({ children }: WithChildren) => {
       justifyContent="center"
       sx={{
         minHeight: "100vh",
-        p: "10%",
+        p: padding ?? "10%",
         boxSizing: "border-box",
         listStyle: "none",
         backgroundColor: theme.palette.background.default,

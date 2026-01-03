@@ -9,7 +9,8 @@ export interface NavProp {
   children: React.ReactNode;
 }
 
-const darkTheme = createTheme({
+// Exported for use during unit tests only
+export const darkTheme = createTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: {

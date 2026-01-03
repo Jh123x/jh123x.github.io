@@ -1,12 +1,16 @@
+"use client";
 import { Apple } from "@mui/icons-material";
 import { useTheme } from "@mui/material";
 import Link from "next/link";
-import { IconProps } from "./types";
+import type { IconElement, IconProps } from "./types";
 
-export const AppleIcon = ({ href }: IconProps) => {
+export const AppleIcon: IconElement = ({
+  href,
+  ariaLabel,
+}: IconProps): React.JSX.Element => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label="Blog" target="_blank">
+    <Link href={href} aria-label={ariaLabel ?? "Apple"} target="_blank">
       <Apple
         sx={{
           color: theme.palette.text.primary,

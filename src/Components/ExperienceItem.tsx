@@ -1,10 +1,12 @@
+"use client";
+
 import * as React from "react";
-import itemMap from "../data/iconMap";
-import { Entry, IconTypes } from "../data/types";
 import Image from "next/image";
-import { Stack, Typography, Box, useTheme } from "@mui/material";
+import itemMap from "../data/iconMap";
 import { Circle } from "@mui/icons-material";
-import { WithChildren } from "./types";
+import type { WithChildren } from "./types";
+import type { Entry, IconTypes } from "../data/types";
+import { Stack, Typography, Box, useTheme } from "@mui/material";
 
 const ExperienceItem = ({
   year,
@@ -50,7 +52,7 @@ const ExperienceItem = ({
           {year}
         </Typography>
       </Box>
-      <Box className="right-content" width="70%" marginLeft="10%">
+      <Box width="70%" marginLeft="10%">
         <Image src={logo.src} width={100} height={100} alt={subTitle} />
         <Typography
           variant="h5"
