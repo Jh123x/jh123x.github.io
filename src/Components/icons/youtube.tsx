@@ -1,12 +1,16 @@
+"use client";
 import { YouTube } from "@mui/icons-material";
 import { useTheme } from "@mui/material";
 import Link from "next/link";
-import { IconProps } from "./types";
+import type { IconElement, IconProps } from "./types";
 
-export const YoutubeIcon = ({ href }: IconProps) => {
+export const YoutubeIcon: IconElement = ({
+  href,
+  ariaLabel,
+}: IconProps): React.ReactNode => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label="Blog" target="_blank">
+    <Link href={href} aria-label={ariaLabel ?? "Youtube"} target="_blank">
       <YouTube
         sx={{
           color: theme.palette.text.primary,

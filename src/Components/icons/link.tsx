@@ -1,12 +1,16 @@
+"use client";
 import Link from "next/link";
 import { Link as LinkI } from "@mui/icons-material";
 import { useTheme } from "@mui/material";
-import { IconProps } from "./types";
+import type { IconElement, IconProps } from "./types";
 
-export const LinkIcon = ({ href }: IconProps) => {
+export const LinkIcon: IconElement = ({
+  href,
+  ariaLabel,
+}: IconProps): React.ReactNode => {
   const theme = useTheme();
   return (
-    <Link href={href} aria-label="Blog" target="_blank">
+    <Link href={href} aria-label={ariaLabel ?? "Link"} target="_blank">
       <LinkI
         sx={{
           color: theme.palette.text.primary,
