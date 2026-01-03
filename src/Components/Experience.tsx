@@ -17,8 +17,8 @@ const Experiences = () => {
   const theme = useTheme();
   return (
     <>
-      <Title title="Work & Education" />
       <InnerLayout>
+        <Title title="Work & Education" />
         <Box
           sx={{
             pb: "3rem",
@@ -36,7 +36,7 @@ const Experiences = () => {
             title="Working Experience"
           />
         </Box>
-        <Box className="resume-content">
+        <Box>
           {workExperience.map((experience) => (
             <ExperienceItem
               key={experience.title + experience.year}
@@ -63,12 +63,7 @@ const Experiences = () => {
             title="Educational Qualifications"
           />
         </Box>
-        <Box
-          className="resume-content"
-          sx={{
-            borderLeft: `2px solid ${theme.palette.text.secondary}`,
-          }}
-        >
+        <Box>
           {schExperience.map((experience) => (
             <ExperienceItem
               key={experience.title + experience.year}
