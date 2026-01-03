@@ -1,8 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Small Title should render correctly 1`] = `
-<SmallTitle
-  icon={<React.Fragment />}
-  title="Test Title"
-/>
+<DocumentFragment>
+  <div
+    class="MuiStack-root css-10mmyjl-MuiStack-root"
+  >
+    <div
+      class="MuiBox-root css-1qn494p"
+    />
+    <h3
+      class="MuiTypography-root MuiTypography-h3 css-1rjdojz-MuiTypography-root"
+    >
+      Test Title
+    </h3>
+  </div>
+</DocumentFragment>
 `;

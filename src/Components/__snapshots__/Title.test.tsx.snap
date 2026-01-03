@@ -1,7 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Title should render correctly 1`] = `
-<Title
-  title="Test Title"
-/>
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1rwyitq"
+  >
+    <div
+      class="MuiBox-root css-16fue1n"
+    />
+    <h2
+      class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+    >
+      Test Title
+    </h2>
+    <div
+      class="MuiBox-root css-1tyfr2p"
+    />
+  </div>
+</DocumentFragment>
 `;

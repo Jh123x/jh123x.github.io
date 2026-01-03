@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledLink should render correctly 1`] = `
+<DocumentFragment>
+  <a
+    href="jh123x.com"
+    style="text-decoration: none;"
+  />
+</DocumentFragment>
+`;

@@ -1,3 +1,346 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render AboutPage renders AboutPage component 1`] = `<AboutPage />`;
+exports[`Render AboutPage renders AboutPage component 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1wf2p09-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-1rwyitq"
+        >
+          <div
+            class="MuiBox-root css-16fue1n"
+          />
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+          >
+            About Me
+          </h2>
+          <div
+            class="MuiBox-root css-1tyfr2p"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-11xdzp8"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 css-rewcm0-MuiTypography-root"
+          >
+            I am 
+            <span
+              style="color: rgb(0, 123, 255);"
+            >
+              Junhua
+            </span>
+          </h4>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-h7rwv9-MuiTypography-root"
+          >
+            I specialize in in Backend Development. Beyond development, I am also interested in upcoming technologies such as 
+            <b>
+              Machine Learning
+            </b>
+             and 
+            <b>
+              Artificial Intelligence
+            </b>
+            . I participate in 
+            <b>
+              CTFs
+            </b>
+             and run my 
+            <b>
+              Home Lab
+            </b>
+             and 
+            <b>
+              blogs
+            </b>
+             during my free time.
+          </h6>
+          <div
+            class="MuiStack-root css-lud791-MuiStack-root"
+          >
+            <div
+              class="MuiStack-root css-m69qwo-MuiStack-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+              >
+                Full Name:
+              </h6>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+              >
+                Wen Junhua
+              </h6>
+            </div>
+            <div
+              class="MuiStack-root css-m69qwo-MuiStack-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+              >
+                Nationality:
+              </h6>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+              >
+                Singaporean
+              </h6>
+            </div>
+            <div
+              class="MuiStack-root css-m69qwo-MuiStack-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+              >
+                Languages:
+              </h6>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+              >
+                English, Chinese (Simplified)
+              </h6>
+            </div>
+            <div
+              class="MuiStack-root css-m69qwo-MuiStack-root"
+            >
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+              >
+                Location:
+              </h6>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+              >
+                Singapore
+              </h6>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1rwyitq"
+        >
+          <div
+            class="MuiBox-root css-16fue1n"
+          />
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+          >
+            Interests
+          </h2>
+          <div
+            class="MuiBox-root css-1tyfr2p"
+          />
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-w50q5u-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1hu5f36"
+            >
+              <div
+                class="MuiStack-root css-171q33r-MuiStack-root"
+              >
+                <a
+                  aria-label="Software Development"
+                  href="https://github.com/Jh123x"
+                  rel="noreferrer"
+                  style="text-decoration: none;"
+                  target="_blank"
+                >
+                  <img
+                    alt="Software Development"
+                    data-nimg="1"
+                    decoding="async"
+                    height="100"
+                    loading="lazy"
+                    src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                    srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                    style="color: transparent;"
+                    width="100"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                  >
+                    Software Development
+                  </h6>
+                  <div
+                    class="MuiBox-root css-1nmxpgi"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1hu5f36"
+            >
+              <div
+                class="MuiStack-root css-171q33r-MuiStack-root"
+              >
+                <a
+                  aria-label="Home Lab"
+                  href="https://jh123x.com/blog/2023/home-lab/"
+                  rel="noreferrer"
+                  style="text-decoration: none;"
+                  target="_blank"
+                >
+                  <img
+                    alt="Home Lab"
+                    data-nimg="1"
+                    decoding="async"
+                    height="100"
+                    loading="lazy"
+                    src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                    srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                    style="color: transparent;"
+                    width="100"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                  >
+                    Home Lab
+                  </h6>
+                  <div
+                    class="MuiBox-root css-1nmxpgi"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1hu5f36"
+            >
+              <div
+                class="MuiStack-root css-171q33r-MuiStack-root"
+              >
+                <a
+                  aria-label="CTFs"
+                  href="https://jh123x.com/tags/ctf/"
+                  rel="noreferrer"
+                  style="text-decoration: none;"
+                  target="_blank"
+                >
+                  <img
+                    alt="CTFs"
+                    data-nimg="1"
+                    decoding="async"
+                    height="100"
+                    loading="lazy"
+                    src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                    srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                    style="color: transparent;"
+                    width="100"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                  >
+                    CTFs
+                  </h6>
+                  <div
+                    class="MuiBox-root css-1nmxpgi"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1hu5f36"
+            >
+              <div
+                class="MuiStack-root css-171q33r-MuiStack-root"
+              >
+                <a
+                  aria-label="Tech Blog"
+                  href="https://jh123x.com"
+                  rel="noreferrer"
+                  style="text-decoration: none;"
+                  target="_blank"
+                >
+                  <img
+                    alt="Tech Blog"
+                    data-nimg="1"
+                    decoding="async"
+                    height="100"
+                    loading="lazy"
+                    src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                    srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                    style="color: transparent;"
+                    width="100"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                  >
+                    Tech Blog
+                  </h6>
+                  <div
+                    class="MuiBox-root css-1nmxpgi"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1hu5f36"
+            >
+              <div
+                class="MuiStack-root css-171q33r-MuiStack-root"
+              >
+                <a
+                  aria-label="School Blog"
+                  href="https://nus.jh123x.com"
+                  rel="noreferrer"
+                  style="text-decoration: none;"
+                  target="_blank"
+                >
+                  <img
+                    alt="School Blog"
+                    data-nimg="1"
+                    decoding="async"
+                    height="100"
+                    loading="lazy"
+                    src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                    srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                    style="color: transparent;"
+                    width="100"
+                  />
+                  <h6
+                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                  >
+                    School Blog
+                  </h6>
+                  <div
+                    class="MuiBox-root css-1nmxpgi"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

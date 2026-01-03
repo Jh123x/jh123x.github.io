@@ -1,3 +1,1011 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ResumePage Page should render correctly 1`] = `<ExperiencePage />`;
+exports[`ResumePage Page should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1wf2p09-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-1rwyitq"
+        >
+          <div
+            class="MuiBox-root css-16fue1n"
+          />
+          <h2
+            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+          >
+            Work & Education
+          </h2>
+          <div
+            class="MuiBox-root css-1tyfr2p"
+          />
+        </div>
+        <div
+          class="MuiBox-root css-3gbbd7"
+        >
+          <div
+            class="MuiStack-root css-10mmyjl-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-1qn494p"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1s0vu1z-MuiSvgIcon-root"
+                data-testid="BusinessCenterIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 16v-1H3.01L3 19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-4h-7v1zm10-9h-4.01V5l-2-2h-4l-2 2v2H4c-1.1 0-2 .9-2 2v3c0 1.11.89 2 2 2h6v-2h4v2h6c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2m-6 0h-4V5h4z"
+                />
+              </svg>
+            </div>
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-1rjdojz-MuiTypography-root"
+            >
+              Working Experience
+            </h3>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Jan 2025 - Present
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="Bytedance Pte Ltd"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Backend Software Engineer II (Global Payments)
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                Bytedance Pte Ltd
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Jun 2023 - Dec 2024
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="Bytedance Pte Ltd"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Backend Software Engineer (Global Payments)
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                Bytedance Pte Ltd
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Aug 2022 - May 2023
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                CS2107 (Introduction to Information Security) Assignment Teaching Assistant
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                In this role, my responsibilities includes creating CTF style assignments, holding CTF consultations, answering queries and marking assignments. We work closely with the professors to ensure that the assignment questions covers the scope of the lecture and bridge the theory taught with lecture with practical applications.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                May 2022 - Aug 2022
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="DSO National Laboratories"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Security Research Intern
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                DSO National Laboratories
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                During my internship, I research on tools for automated vulnerability discovery and analysis. I also developed a proof of concept for finding vulnerabilities in binary code. These tools are useful in automatic vulnerability discovery and analysis. As this is not a commercial product, I am unable to disclose the details of the project.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                May 2022
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                CP2106 (Orbital Project) Teaching Assistant
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.
+              </p>
+              <div
+                class="MuiStack-root css-niqf4j-MuiStack-root"
+              >
+                <span
+                  aria-label="GitHub Repository"
+                  class=""
+                  data-mui-internal-clone-element="true"
+                >
+                  <a
+                    aria-label="Github"
+                    href="https://github.com/NUSGreyhats/Orbital-2022"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                      data-testid="GitHubIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                      />
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Aug 2021 - Nov 2021
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="Forus Labs"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Part Time Fullstack Engineering Intern
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                Forus Labs
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.
+              </p>
+              <div
+                class="MuiStack-root css-niqf4j-MuiStack-root"
+              >
+                <span
+                  aria-label="Google Play Store"
+                  class=""
+                  data-mui-internal-clone-element="true"
+                >
+                  <a
+                    aria-label="Google"
+                    href="https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                      data-testid="GoogleIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12.545,10.239v3.821h5.445c-0.712,2.315-2.647,3.972-5.445,3.972c-3.332,0-6.033-2.701-6.033-6.032s2.701-6.032,6.033-6.032c1.498,0,2.866,0.549,3.921,1.453l2.814-2.814C17.503,2.988,15.139,2,12.545,2C7.021,2,2.543,6.477,2.543,12s4.478,10,10.002,10c8.396,0,10.249-7.85,9.426-11.748L12.545,10.239z"
+                      />
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Aug 2021 - Nov 2021
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                CS2103T (Software Engineering Project) Senior Student Mentor
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                In this role, my responsibilities include guiding students on technical difficulties encountered within their assignments and creating solutions.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                May 2021 - Jul 2021
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="Shopee Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Software Engineering Intern (Backend)
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                Shopee Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                During my internship, I worked on projects related to the backend of Shopee's e-commerce platform. This includes the usage of Golang, Python2, Django and MySQL.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                May 2021
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                CP2106 (Orbital Project) Teaching Assistant
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106.
+              </p>
+              <div
+                class="MuiStack-root css-niqf4j-MuiStack-root"
+              >
+                <span
+                  aria-label="YouTube Video"
+                  class=""
+                  data-mui-internal-clone-element="true"
+                >
+                  <a
+                    aria-label="Youtube"
+                    href="https://www.youtube.com/watch?v=yUs9zKqGJDU"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ikiakn-MuiSvgIcon-root"
+                      data-testid="YouTubeIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"
+                      />
+                    </svg>
+                  </a>
+                </span>
+                <span
+                  aria-label="GitHub Repository"
+                  class=""
+                  data-mui-internal-clone-element="true"
+                >
+                  <a
+                    aria-label="Github"
+                    href="https://github.com/NUSGreyhats/Orbital-2021"
+                    target="_blank"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                      data-testid="GitHubIcon"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                      />
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Jan 2021 - May 2021
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                CS2107 (Introduction to Information Security) Assignment Teaching Assistant
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                In this role, my responsibilities includes creating CTF style assignments, hold consultations and marking assignments.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Jan 2021 - Apr 2021
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                CS2103T (Software Engineering Project) Student Mentor
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                In this role, my responsibilities include guiding students on technical difficulties encountered within their assignments and creating solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-ljrlhj"
+        >
+          <div
+            class="MuiStack-root css-10mmyjl-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-1qn494p"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1s0vu1z-MuiSvgIcon-root"
+                data-testid="SchoolIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5 13.18v4L12 21l7-3.82v-4L12 17zM12 3 1 9l11 6 9-4.91V17h2V9z"
+                />
+              </svg>
+            </div>
+            <h3
+              class="MuiTypography-root MuiTypography-h3 css-1rjdojz-MuiTypography-root"
+            >
+              Educational Qualifications
+            </h3>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Aug 2019 - May 2023
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Bachelor of Computing (Honours) in Computer Science
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                Studied Computer Science at the National University of Singapore. I am currently in my final year of my undergraduate studies.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Jan 2022 - May 2022
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="University of North Carolina at Chapel Hill"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Exchange Programme
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                University of North Carolina at Chapel Hill
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                I went on exchange at the University of North Carolina at Chapel Hill. I am taking courses in Computer Science.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Feb 2019 - May 2019
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="National University of Singapore"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                iBlocs for CS1010X & CS2030
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                National University of Singapore
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                I was a student under the iBlocs programme for CS1010X Programming Methodology and CS2030 Programming Methodology II.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+              >
+                Jan 2015 - Dec 2016
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="Jurong Junior College"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+              >
+                Science Course
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+              >
+                Jurong Junior College
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+              >
+                I studied Science at Jurong Junior College. I took the A Level H2 Mathematics, H2 Physics, H2 Chemistry, H1 Economics, H1 General Paper, H1 Mother Tongue (Chinese) and H1 Project work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
