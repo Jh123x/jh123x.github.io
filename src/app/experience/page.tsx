@@ -12,7 +12,9 @@ export const metadata: Metadata = {
 const ExperiencePage = () => {
   return (
     <MainLayout>
-      <Experience />
+      <InnerLayout>
+        <Experience />
+      </InnerLayout>
     </MainLayout>
   );
 };

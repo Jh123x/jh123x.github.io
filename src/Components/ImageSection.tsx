@@ -9,7 +9,7 @@ import {
   useTheme,
 } from "@mui/material";
 
-const ImageSection = () => {
+const AboutDescription = () => {
   const theme = useTheme();
   const infoStyle: SxProps<Theme> = {
     margin: 0,
@@ -124,4 +124,4 @@ const ImageSection = () => {
   );
 };
 
-export default ImageSection;
+export default AboutDescription;

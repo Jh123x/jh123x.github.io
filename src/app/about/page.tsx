@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import About from "src/Components/About";
-import { MainLayout } from "src/styles/Layouts";
+import { InnerLayout, MainLayout } from "src/styles/Layouts";
 
 export const metadata: Metadata = {
   title: "About",
@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 
 const AboutPage = () => (
   <MainLayout>
-    <About></About>
+    <InnerLayout>
+      <About />
+    </InnerLayout>
   </MainLayout>
 );
 
