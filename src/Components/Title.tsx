@@ -35,6 +35,17 @@ const Title = ({ title }: types.Title) => {
       >
         {title}
       </Typography>
+      <Box
+        sx={{
+          position: "absolute",
+          bottom: 0,
+          width: "3.5rem",
+          height: "0.33rem",
+          backgroundColor: theme.palette.background.paper,
+          borderRadius: "15px",
+          left: 0,
+        }}
+      />
     </Box>
   );
 };
