@@ -13,7 +13,7 @@ describe("ProjectCard", () => {
         <ProjectCard
           Title="Test"
           Description="Test Description"
-          ImageSrc={Icon}
+          ImageSrc={Icon.src}
           Icons={{}}
           TechStack={["Stack1", "Stack2"]}
         />

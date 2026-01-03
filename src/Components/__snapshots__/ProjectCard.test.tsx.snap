@@ -9,7 +9,7 @@ exports[`ProjectCard should render correctly 1`] = `
     <img
       class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
       loading="lazy"
-      src="[object Object]"
+      src="/img.jpg"
     />
     <div
       class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
