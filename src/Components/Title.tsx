@@ -21,7 +21,7 @@ const Title = ({ title }: types.Title) => {
           bottom: 0,
           width: "7.4rem",
           height: "0.33rem",
-          backgroundColor: theme.palette.background.paper,
+          backgroundColor: theme.palette.primary.main,
           borderRadius: "15px",
           left: "0",
         }}
