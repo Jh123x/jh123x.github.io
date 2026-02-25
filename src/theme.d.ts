@@ -2,6 +2,7 @@ import {
   Theme as MUITheme,
   ThemeOptions as MUIThemeOptions,
 } from "@mui/material/styles";
+import type {} from "@mui/material/themeCssVarsAugmentation";
 
 declare module "@mui/material/styles" {
   interface Theme extends MUITheme {
