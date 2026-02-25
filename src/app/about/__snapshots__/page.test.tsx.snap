@@ -40,7 +40,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </span>
           </h4>
           <h6
-            class="MuiTypography-root MuiTypography-h6 css-h7rwv9-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h6 css-1hmf6w3-MuiTypography-root"
           >
             I specialize in in Backend Development. Beyond development, I am also interested in upcoming technologies such as 
             <b>
@@ -71,12 +71,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1mfy9e1-MuiTypography-root"
               >
                 Full Name:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1fb64zl-MuiTypography-root"
               >
                 Wen Junhua
               </h6>
@@ -85,12 +85,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1mfy9e1-MuiTypography-root"
               >
                 Nationality:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1fb64zl-MuiTypography-root"
               >
                 Singaporean
               </h6>
@@ -99,12 +99,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1mfy9e1-MuiTypography-root"
               >
                 Languages:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1fb64zl-MuiTypography-root"
               >
                 English, Chinese (Simplified)
               </h6>
@@ -113,12 +113,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1mfy9e1-MuiTypography-root"
               >
                 Location:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1fb64zl-MuiTypography-root"
               >
                 Singapore
               </h6>
@@ -171,12 +171,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
                   >
                     Software Development
                   </h6>
                   <div
-                    class="MuiBox-root css-1nmxpgi"
+                    class="MuiBox-root css-1lyraj2"
                   />
                 </a>
               </div>
@@ -210,12 +210,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
                   >
                     Home Lab
                   </h6>
                   <div
-                    class="MuiBox-root css-1nmxpgi"
+                    class="MuiBox-root css-1lyraj2"
                   />
                 </a>
               </div>
@@ -249,12 +249,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
                   >
                     CTFs
                   </h6>
                   <div
-                    class="MuiBox-root css-1nmxpgi"
+                    class="MuiBox-root css-1lyraj2"
                   />
                 </a>
               </div>
@@ -288,12 +288,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
                   >
                     Tech Blog
                   </h6>
                   <div
-                    class="MuiBox-root css-1nmxpgi"
+                    class="MuiBox-root css-1lyraj2"
                   />
                 </a>
               </div>
@@ -327,12 +327,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
                   >
                     School Blog
                   </h6>
                   <div
-                    class="MuiBox-root css-1nmxpgi"
+                    class="MuiBox-root css-1lyraj2"
                   />
                 </a>
               </div>
