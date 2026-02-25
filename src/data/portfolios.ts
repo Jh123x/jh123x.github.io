@@ -56,7 +56,7 @@ const portfolios: PortfolioEntry[] = [
   {
     title: "HYSA Calculator",
     text: "A high yield savings account calculator for Singapore Banks",
-    categories: ["Typescript", "React"],
+    categories: ["TypeScript", "React"],
     stack: ["TypeScript", "React"],
     image: hysa_calculator,
     links: {
@@ -73,7 +73,7 @@ const portfolios: PortfolioEntry[] = [
   {
     title: "Browser Telebot",
     text: "Running a Telegram bot from within a browser",
-    categories: ["Typescript", "React", "Telegram"],
+    categories: ["TypeScript", "React", "Telegram"],
     stack: ["TypeScript", "React"],
     image: browser_telebot,
     links: {
@@ -166,14 +166,7 @@ const portfolios: PortfolioEntry[] = [
     text: "Created using Hugo",
   },
   {
-    categories: [
-      "ReactJs",
-      "Django",
-      "Python",
-      "PostgreSQL",
-      "Docker",
-      "Judge0",
-    ],
+    categories: ["React", "Django", "Python", "PostgreSQL", "Docker", "Judge0"],
     stack: [
       "React",
       "JavaScript",
@@ -217,7 +210,7 @@ const portfolios: PortfolioEntry[] = [
   {
     title: "Orderonus",
     image: order_on_us,
-    categories: ["Django", "ReactJs", "Python"],
+    categories: ["Django", "React", "Python"],
     stack: ["Python", "Django", "React", "JavaScript"],
     text: "It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023",
     links: {
@@ -234,7 +227,7 @@ const portfolios: PortfolioEntry[] = [
   {
     title: "JioU",
     text: "JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.",
-    categories: ["ReactJs", "NodeJs", "JavaScript", "Django"],
+    categories: ["React", "NodeJs", "JavaScript", "Django"],
     stack: ["React", "JavaScript", "Python", "Django"],
     image: jiou,
     links: {
@@ -285,7 +278,7 @@ const portfolios: PortfolioEntry[] = [
   {
     title: "Overwatch Toolkit",
     image: ow_toolkit,
-    categories: ["ReactJs", "NodeJs", "JavaScript"],
+    categories: ["React", "NodeJs", "JavaScript"],
     stack: ["React", "JavaScript"],
     text: "A toolkit for Overwatch players.",
     links: {
@@ -337,7 +330,7 @@ const portfolios: PortfolioEntry[] = [
     title: "Code2Gather",
     image: code2gather,
     categories: [
-      "ReactJs",
+      "React",
       "NodeJs",
       "JavaScript",
       "Microservices",
