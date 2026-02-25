@@ -11,6 +11,7 @@ export interface NavProp {
 
 // Exported for use during unit tests only
 export const darkTheme = createTheme({
+  cssVariables: true,
   components: {
     MuiCssBaseline: {
       styleOverrides: {
