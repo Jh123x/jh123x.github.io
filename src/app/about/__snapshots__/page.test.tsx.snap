@@ -3,13 +3,13 @@
 exports[`Render AboutPage renders AboutPage component 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1wf2p09-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-aldfg4-MuiGrid-root"
   >
     <div
-      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
     >
       <div
-        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        class="MuiGrid-root css-vj1n65-MuiGrid-root"
       >
         <div
           class="MuiBox-root css-1rwyitq"
@@ -18,7 +18,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             class="MuiBox-root css-16fue1n"
           />
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h2 css-15jw5o5-MuiTypography-root"
           >
             About Me
           </h2>
@@ -30,7 +30,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
           class="MuiBox-root css-11xdzp8"
         >
           <h4
-            class="MuiTypography-root MuiTypography-h4 css-rewcm0-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h4 css-15wet9s-MuiTypography-root"
           >
             I am 
             <span
@@ -40,7 +40,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </span>
           </h4>
           <h6
-            class="MuiTypography-root MuiTypography-h6 css-h7rwv9-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h6 css-luzwxj-MuiTypography-root"
           >
             I specialize in in Backend Development. Beyond development, I am also interested in upcoming technologies such as 
             <b>
@@ -71,12 +71,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
               >
                 Full Name:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
               >
                 Wen Junhua
               </h6>
@@ -85,12 +85,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
               >
                 Nationality:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
               >
                 Singaporean
               </h6>
@@ -99,12 +99,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
               >
                 Languages:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
               >
                 English, Chinese (Simplified)
               </h6>
@@ -113,12 +113,12 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
               class="MuiStack-root css-m69qwo-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
               >
                 Location:
               </h6>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
               >
                 Singapore
               </h6>
@@ -132,7 +132,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             class="MuiBox-root css-16fue1n"
           />
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h2 css-15jw5o5-MuiTypography-root"
           >
             Interests
           </h2>
@@ -141,10 +141,10 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
           />
         </div>
         <div
-          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-w50q5u-MuiGrid-root"
+          class="MuiGrid-root MuiGrid-container css-ynvr9n-MuiGrid-root"
         >
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
               class="MuiBox-root css-1hu5f36"
@@ -171,7 +171,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
                   >
                     Software Development
                   </h6>
@@ -183,7 +183,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
               class="MuiBox-root css-1hu5f36"
@@ -210,7 +210,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
                   >
                     Home Lab
                   </h6>
@@ -222,7 +222,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
               class="MuiBox-root css-1hu5f36"
@@ -249,7 +249,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
                   >
                     CTFs
                   </h6>
@@ -261,7 +261,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
               class="MuiBox-root css-1hu5f36"
@@ -288,7 +288,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
                   >
                     Tech Blog
                   </h6>
@@ -300,7 +300,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
               class="MuiBox-root css-1hu5f36"
@@ -327,7 +327,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
                     width="100"
                   />
                   <h6
-                    class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
                   >
                     School Blog
                   </h6>

@@ -6,7 +6,7 @@ exports[`ImageSection should render correctly 1`] = `
     class="MuiBox-root css-11xdzp8"
   >
     <h4
-      class="MuiTypography-root MuiTypography-h4 css-rewcm0-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h4 css-15wet9s-MuiTypography-root"
     >
       I am 
       <span
@@ -16,7 +16,7 @@ exports[`ImageSection should render correctly 1`] = `
       </span>
     </h4>
     <h6
-      class="MuiTypography-root MuiTypography-h6 css-h7rwv9-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h6 css-luzwxj-MuiTypography-root"
     >
       I specialize in in Backend Development. Beyond development, I am also interested in upcoming technologies such as 
       <b>
@@ -47,12 +47,12 @@ exports[`ImageSection should render correctly 1`] = `
         class="MuiStack-root css-m69qwo-MuiStack-root"
       >
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
         >
           Full Name:
         </h6>
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
         >
           Wen Junhua
         </h6>
@@ -61,12 +61,12 @@ exports[`ImageSection should render correctly 1`] = `
         class="MuiStack-root css-m69qwo-MuiStack-root"
       >
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
         >
           Nationality:
         </h6>
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
         >
           Singaporean
         </h6>
@@ -75,12 +75,12 @@ exports[`ImageSection should render correctly 1`] = `
         class="MuiStack-root css-m69qwo-MuiStack-root"
       >
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
         >
           Languages:
         </h6>
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
         >
           English, Chinese (Simplified)
         </h6>
@@ -89,12 +89,12 @@ exports[`ImageSection should render correctly 1`] = `
         class="MuiStack-root css-m69qwo-MuiStack-root"
       >
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-1y46i1y-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1az99e5-MuiTypography-root"
         >
           Location:
         </h6>
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-12hz7is-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-1cti15n-MuiTypography-root"
         >
           Singapore
         </h6>

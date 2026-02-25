@@ -3,13 +3,13 @@
 exports[`Portfolio Page should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1wf2p09-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-aldfg4-MuiGrid-root"
   >
     <div
-      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
     >
       <div
-        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        class="MuiGrid-root css-vj1n65-MuiGrid-root"
       >
         <div
           class="MuiBox-root css-1rwyitq"
@@ -18,7 +18,7 @@ exports[`Portfolio Page should render correctly 1`] = `
             class="MuiBox-root css-16fue1n"
           />
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h2 css-15jw5o5-MuiTypography-root"
           >
             Projects
           </h2>
@@ -27,24 +27,23 @@ exports[`Portfolio Page should render correctly 1`] = `
           />
         </div>
         <div
-          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
+          class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
           style="padding: 0px; margin: 0px; width: 100%; justify-content: space-evenly; font-size: 0px;"
         >
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
-                alt="Lox Interpreter"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                alt="Data Tool"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -53,7 +52,123 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                    >
+                      Data Tool
+                    </h6>
+                    <div
+                      class="MuiStack-root css-niqf4j-MuiStack-root"
+                    >
+                      <span
+                        aria-label="GitHub Repository"
+                        class=""
+                        data-mui-internal-clone-element="true"
+                      >
+                        <a
+                          aria-label="Github"
+                          href="https://github.com/Jh123x/data-tool"
+                          target="_blank"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                            data-testid="GitHubIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"
+                            />
+                          </svg>
+                        </a>
+                      </span>
+                      <span
+                        aria-label="Website"
+                        class=""
+                        data-mui-internal-clone-element="true"
+                      >
+                        <a
+                          aria-label="Link"
+                          href="https://data.jh123x.com"
+                          target="_blank"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                            data-testid="LinkIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5"
+                            />
+                          </svg>
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+                  >
+                    A Click Optimized Data Tool to convert between JSON, CSV and TSV.
+                  </p>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                      >
+                        <span
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                        >
+                          TypeScript
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                      >
+                        <span
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                        >
+                          React
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+            >
+              <img
+                alt="Lox Interpreter"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+                loading="lazy"
+                src="/img.jpg"
+              />
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+              >
+                <div
+                  class="MuiStack-root css-oxmadn-MuiStack-root"
+                >
+                  <div
+                    class="MuiStack-root css-gmwslw-MuiStack-root"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Lox Interpreter
                     </h6>
@@ -72,7 +187,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -86,21 +201,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A interpreter for Lox in Golang
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Golang
                         </span>
@@ -112,20 +227,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="HYSA Calculator"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -134,7 +248,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       HYSA Calculator
                     </h6>
@@ -153,7 +267,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -176,7 +290,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -190,34 +304,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A high yield savings account calculator for Singapore Banks
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           TypeScript
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
@@ -229,20 +343,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Browser Telebot"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -251,7 +364,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Browser Telebot
                     </h6>
@@ -270,7 +383,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -293,7 +406,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -307,34 +420,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     Running a Telegram bot from within a browser
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           TypeScript
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
@@ -346,20 +459,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="BuilderGen"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -368,7 +480,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       BuilderGen
                     </h6>
@@ -387,7 +499,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -410,7 +522,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -424,21 +536,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A code generation tools to build builders in Golang
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Golang
                         </span>
@@ -450,20 +562,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Go Test"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -472,7 +583,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Go Test
                     </h6>
@@ -491,7 +602,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -514,7 +625,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -528,21 +639,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A simple validation library in Pure Go
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Golang
                         </span>
@@ -554,20 +665,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="NUS Website"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -576,7 +686,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       NUS Website
                     </h6>
@@ -595,7 +705,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -609,34 +719,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A website for NUS students to find useful links, resources and module reviews.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Hugo
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Markdown
                         </span>
@@ -648,20 +758,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Go Validate"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -670,7 +779,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Go Validate
                     </h6>
@@ -689,7 +798,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -712,7 +821,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="DocumentScannerOutlinedIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -735,7 +844,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -749,21 +858,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A simple library for validations in Pure Go.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Golang
                         </span>
@@ -775,20 +884,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Blog Website"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -797,7 +905,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Blog Website
                     </h6>
@@ -816,7 +924,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -830,34 +938,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     Created using Hugo
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Hugo
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Markdown
                         </span>
@@ -869,20 +977,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="VisualPython"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -891,7 +998,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       VisualPython
                     </h6>
@@ -910,7 +1017,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -933,7 +1040,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="DocumentScannerOutlinedIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -947,99 +1054,99 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A Visual Programming Platform for learning Python for my Final Year Project.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           JavaScript
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Django
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           PostgreSQL
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Docker
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Judge0
                         </span>
@@ -1051,20 +1158,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Go Shell"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1073,7 +1179,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Go Shell
                     </h6>
@@ -1092,7 +1198,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1115,7 +1221,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1129,21 +1235,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A simple shell written in Go, complete with unit tests and github actions pipelines.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Golang
                         </span>
@@ -1155,20 +1261,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Orderonus"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1177,7 +1282,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Orderonus
                     </h6>
@@ -1196,7 +1301,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1219,7 +1324,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1233,60 +1338,60 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Django
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           JavaScript
                         </span>
@@ -1298,20 +1403,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="JioU"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1320,7 +1424,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       JioU
                     </h6>
@@ -1339,7 +1443,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1362,7 +1466,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1376,60 +1480,60 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           JavaScript
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Django
                         </span>
@@ -1441,20 +1545,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Typeracer Bot"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1463,7 +1566,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Typeracer Bot
                     </h6>
@@ -1482,7 +1585,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1505,7 +1608,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1519,21 +1622,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A bot that plays typeracer for you.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
@@ -1545,20 +1648,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="PDF Combiner"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1567,7 +1669,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       PDF Combiner
                     </h6>
@@ -1586,7 +1688,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1609,7 +1711,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1623,21 +1725,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A CLI application that combines multiple PDF files into one
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
@@ -1649,20 +1751,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Overwatch Toolkit"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1671,7 +1772,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Overwatch Toolkit
                     </h6>
@@ -1690,7 +1791,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1713,7 +1814,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1727,34 +1828,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A toolkit for Overwatch players.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           JavaScript
                         </span>
@@ -1766,20 +1867,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Reversi Bot"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1788,7 +1888,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Reversi Bot
                     </h6>
@@ -1807,7 +1907,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1830,7 +1930,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1844,21 +1944,21 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
@@ -1870,20 +1970,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="COMP562 Project: Political Leaning Predictor"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -1892,7 +1991,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       COMP562 Project: Political Leaning Predictor
                     </h6>
@@ -1911,7 +2010,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1934,7 +2033,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -1948,34 +2047,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A Machine learning project that learns about a user's political leaning in the United States based on a series of questions. A project for COMP562: Introduction to Machine Learning.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           PyTorch
                         </span>
@@ -1987,20 +2086,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Code2Gather"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -2009,7 +2107,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Code2Gather
                     </h6>
@@ -2028,7 +2126,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2042,86 +2140,86 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A platform for developers to conduct mock interviews. This was completed as a CS3219 Project
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           TypeScript
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Golang
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Docker
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Kubernetes
                         </span>
@@ -2133,20 +2231,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="McGymmy"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -2155,7 +2252,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       McGymmy
                     </h6>
@@ -2174,7 +2271,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2188,47 +2285,47 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Java
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Maven
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           JavaFx
                         </span>
@@ -2240,20 +2337,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="Research Project on Server Side Request Forgery (SSRF)"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -2262,7 +2358,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       Research Project on Server Side Request Forgery (SSRF)
                     </h6>
@@ -2281,7 +2377,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2304,7 +2400,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2318,47 +2414,47 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     A research project on Server Side Request Forgery. This was completed as a CS4239 Project
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Flask
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Docker
                         </span>
@@ -2370,20 +2466,19 @@ exports[`Portfolio Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+            class="MuiGrid-root css-vj1n65-MuiGrid-root"
           >
             <div
-              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-nzgrg3-MuiPaper-root-MuiCard-root"
-              style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
             >
               <img
                 alt="NOT Schrödinger's Box"
-                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
                 loading="lazy"
                 src="/img.jpg"
               />
               <div
-                class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
               >
                 <div
                   class="MuiStack-root css-oxmadn-MuiStack-root"
@@ -2392,7 +2487,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                     class="MuiStack-root css-gmwslw-MuiStack-root"
                   >
                     <h6
-                      class="MuiTypography-root MuiTypography-h6 css-vuvok4-MuiTypography-root"
+                      class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
                     >
                       NOT Schrödinger's Box
                     </h6>
@@ -2411,7 +2506,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                             data-testid="GitHubIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2434,7 +2529,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="DocumentScannerOutlinedIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2457,7 +2552,7 @@ exports[`Portfolio Page should render correctly 1`] = `
                         >
                           <svg
                             aria-hidden="true"
-                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                             data-testid="LinkIcon"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2471,34 +2566,34 @@ exports[`Portfolio Page should render correctly 1`] = `
                     </div>
                   </div>
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1965tq6-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
                   >
                     Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.
                   </p>
                   <div
-                    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1yvsbrk-MuiGrid-root"
+                    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
                   >
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           Python
                         </span>
                       </div>
                     </div>
                     <div
-                      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
+                      class="MuiGrid-root css-vj1n65-MuiGrid-root"
                     >
                       <div
-                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-ehbftw-MuiChip-root"
+                        class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
                       >
                         <span
-                          class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
+                          class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
                         >
                           React Native
                         </span>

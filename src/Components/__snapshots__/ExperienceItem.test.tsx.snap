@@ -10,7 +10,7 @@ exports[`Resume Items should render a Backend Software Engineer (Global Payments
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -20,7 +20,7 @@ exports[`Resume Items should render a Backend Software Engineer (Global Payments
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Jun 2023 - Dec 2024
       </p>
@@ -40,17 +40,17 @@ exports[`Resume Items should render a Backend Software Engineer (Global Payments
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         Backend Software Engineer (Global Payments)
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         Bytedance Pte Ltd
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.
       </p>
@@ -69,7 +69,7 @@ exports[`Resume Items should render a Backend Software Engineer II (Global Payme
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -79,7 +79,7 @@ exports[`Resume Items should render a Backend Software Engineer II (Global Payme
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Jan 2025 - Present
       </p>
@@ -99,17 +99,17 @@ exports[`Resume Items should render a Backend Software Engineer II (Global Payme
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         Backend Software Engineer II (Global Payments)
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         Bytedance Pte Ltd
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.
       </p>
@@ -128,7 +128,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -138,7 +138,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         May 2022
       </p>
@@ -158,17 +158,17 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         CP2106 (Orbital Project) Teaching Assistant
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         National University of Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.
       </p>
@@ -187,7 +187,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
               data-testid="GitHubIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -214,7 +214,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -224,7 +224,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         May 2021
       </p>
@@ -244,17 +244,17 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         CP2106 (Orbital Project) Teaching Assistant
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         National University of Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106.
       </p>
@@ -273,7 +273,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ikiakn-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-blm8ym-MuiSvgIcon-root"
               data-testid="YouTubeIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -296,7 +296,7 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
               data-testid="GitHubIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -323,7 +323,7 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Sen
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -333,7 +333,7 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Sen
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Aug 2021 - Nov 2021
       </p>
@@ -353,17 +353,17 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Sen
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         CS2103T (Software Engineering Project) Senior Student Mentor
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         National University of Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         In this role, my responsibilities include guiding students on technical difficulties encountered within their assignments and creating solutions.
       </p>
@@ -382,7 +382,7 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Stu
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -392,7 +392,7 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Stu
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Jan 2021 - Apr 2021
       </p>
@@ -412,17 +412,17 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Stu
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         CS2103T (Software Engineering Project) Student Mentor
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         National University of Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         In this role, my responsibilities include guiding students on technical difficulties encountered within their assignments and creating solutions.
       </p>
@@ -441,7 +441,7 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -451,7 +451,7 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Aug 2022 - May 2023
       </p>
@@ -471,17 +471,17 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         CS2107 (Introduction to Information Security) Assignment Teaching Assistant
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         National University of Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         In this role, my responsibilities includes creating CTF style assignments, holding CTF consultations, answering queries and marking assignments. We work closely with the professors to ensure that the assignment questions covers the scope of the lecture and bridge the theory taught with lecture with practical applications.
       </p>
@@ -500,7 +500,7 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -510,7 +510,7 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Jan 2021 - May 2021
       </p>
@@ -530,17 +530,17 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         CS2107 (Introduction to Information Security) Assignment Teaching Assistant
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         National University of Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         In this role, my responsibilities includes creating CTF style assignments, hold consultations and marking assignments.
       </p>
@@ -559,7 +559,7 @@ exports[`Resume Items should render a Part Time Fullstack Engineering Intern ite
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -569,7 +569,7 @@ exports[`Resume Items should render a Part Time Fullstack Engineering Intern ite
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         Aug 2021 - Nov 2021
       </p>
@@ -589,17 +589,17 @@ exports[`Resume Items should render a Part Time Fullstack Engineering Intern ite
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         Part Time Fullstack Engineering Intern
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         Forus Labs
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.
       </p>
@@ -618,7 +618,7 @@ exports[`Resume Items should render a Part Time Fullstack Engineering Intern ite
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
               data-testid="GoogleIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -645,7 +645,7 @@ exports[`Resume Items should render a Security Research Intern item 1`] = `
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -655,7 +655,7 @@ exports[`Resume Items should render a Security Research Intern item 1`] = `
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         May 2022 - Aug 2022
       </p>
@@ -675,17 +675,17 @@ exports[`Resume Items should render a Security Research Intern item 1`] = `
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         Security Research Intern
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         DSO National Laboratories
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         During my internship, I research on tools for automated vulnerability discovery and analysis. I also developed a proof of concept for finding vulnerabilities in binary code. These tools are useful in automatic vulnerability discovery and analysis. As this is not a commercial product, I am unable to disclose the details of the project.
       </p>
@@ -704,7 +704,7 @@ exports[`Resume Items should render a Software Engineering Intern (Backend) item
     >
       <svg
         aria-hidden="true"
-        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1dn964h-MuiSvgIcon-root"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
         data-testid="CircleIcon"
         focusable="false"
         viewBox="0 0 24 24"
@@ -714,7 +714,7 @@ exports[`Resume Items should render a Software Engineering Intern (Backend) item
         />
       </svg>
       <p
-        class="MuiTypography-root MuiTypography-body2 css-1j0kf8-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
       >
         May 2021 - Jul 2021
       </p>
@@ -734,17 +734,17 @@ exports[`Resume Items should render a Software Engineering Intern (Backend) item
         width="100"
       />
       <h5
-        class="MuiTypography-root MuiTypography-h5 css-162x5dn-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
       >
         Software Engineering Intern (Backend)
       </h5>
       <h6
-        class="MuiTypography-root MuiTypography-h6 css-1n3anpe-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
       >
         Shopee Singapore
       </h6>
       <p
-        class="MuiTypography-root MuiTypography-body1 css-1pyw024-MuiTypography-root"
+        class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
       >
         During my internship, I worked on projects related to the backend of Shopee's e-commerce platform. This includes the usage of Golang, Python2, Django and MySQL.
       </p>
