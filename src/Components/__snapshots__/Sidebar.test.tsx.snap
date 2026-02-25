@@ -37,7 +37,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3tkmz-MuiTypography-root"
               >
                 HOME
               </p>
@@ -55,7 +55,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3tkmz-MuiTypography-root"
               >
                 EXPERIENCE
               </p>
@@ -73,7 +73,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3tkmz-MuiTypography-root"
               >
                 PROJECTS
               </p>
@@ -91,7 +91,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-3tkmz-MuiTypography-root"
               >
                 ABOUT
               </p>
@@ -112,7 +112,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yu14x3-MuiSvgIcon-root"
               data-testid="GitHubIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -129,7 +129,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-7vund7-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-is5ks7-MuiSvgIcon-root"
               data-testid="LinkedInIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -146,7 +146,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ctlwwp-MuiSvgIcon-root"
               data-testid="LinkIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -161,7 +161,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           class="MuiBox-root css-8okr7e"
         >
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1pd022d-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-ewn9zp-MuiTypography-root"
           >
             @2026 
             <b>

@@ -27,7 +27,7 @@ exports[`InterestCard should render correctly 1`] = `
           width="100"
         />
         <h6
-          class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h6 css-14fccv3-MuiTypography-root"
         >
           School Blog
         </h6>
