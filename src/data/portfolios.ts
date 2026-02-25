@@ -19,9 +19,27 @@ import go_builder_gen from "../img/projects/buildergen.jpg";
 import lox_interpreter from "../img/projects/lox_interpreter.jpg";
 import hysa_calculator from "../img/projects/hysa.jpg";
 import browser_telebot from "../img/projects/browser_telebot.jpg";
+import data_tool from "../img/projects/data-tool.png";
 import type { PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
+  {
+    title: "Data Tool",
+    text: "A Click Optimized Data Tool to convert between JSON, CSV and TSV.",
+    categories: ["TypeScript", "React", "Web Development"],
+    stack: ["TypeScript", "React"],
+    image: data_tool,
+    links: {
+      github: {
+        link: "https://github.com/Jh123x/data-tool",
+        tooltip: "GitHub Repository",
+      },
+      link: {
+        link: "https://data.jh123x.com",
+        tooltip: "Website",
+      },
+    },
+  },
   {
     title: "Lox Interpreter",
     text: "A interpreter for Lox in Golang",
