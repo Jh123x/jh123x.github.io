@@ -2,7 +2,8 @@ import DSO_Logo from "../img/logos/dso_logo.jpeg";
 import NUS_LOGO from "../img/logos/nus_logo_full.svg";
 import FORUS_LABS_LOGO from "../img/logos/forus_labs.svg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.svg";
-import BYTEDANCE_LOGO from "../img/logos/bytedance.svg";
+import BYTEDANCE_LOGO from "../img/logos/bytedance.svg"
+import ENSIGN_LOGO from "../img/logos/ensign_logo.jpeg";
 import type { Entry } from "./types";
 
 /**
@@ -10,7 +11,14 @@ import type { Entry } from "./types";
  */
 const workExperience: Entry[] = [
   {
-    year: "Jan 2025 - Present",
+    year: "March 2026 - Present",
+    logo: ENSIGN_LOGO,
+    title: "Software Engineer, AI Engineering (Engineer III)",
+    subTitle: "Ensign Infosecurity Pte Ltd",
+    text: "Software engineer for Cybersecurity Tooling.",
+  },
+  {
+    year: "Jan 2025 - March 2026",
     logo: BYTEDANCE_LOGO,
     title: "Backend Software Engineer II (Global Payments)",
     subTitle: "Bytedance Pte Ltd",
