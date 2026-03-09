@@ -16,13 +16,10 @@ export enum IconTypes {
 
 export type Icon = OverridableComponent<SvgIconTypeMap<{}, "svg">>;
 
-export interface PortfolioLink {
+export interface LinkTypes {
+  iconType: IconTypes;
   link: string;
   tooltip?: string;
-}
-
-export type LinkTypes = {
-  [key in IconTypes]?: PortfolioLink;
 };
 
 export interface Entry {
@@ -31,7 +28,7 @@ export interface Entry {
   title: string;
   subTitle: string;
   text: string;
-  link?: LinkTypes;
+  link?: LinkTypes[];
 }
 
 export interface PortfolioEntry {
@@ -40,7 +37,7 @@ export interface PortfolioEntry {
   categories: string[];
   stack: string[];
   image: StaticImageData;
-  links: LinkTypes;
+  links: LinkTypes[];
 }
 
 export interface SchoolExperienceEntry {

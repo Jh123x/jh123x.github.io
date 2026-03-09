@@ -20,7 +20,7 @@ import lox_interpreter from "../img/projects/lox_interpreter.jpg";
 import hysa_calculator from "../img/projects/hysa.jpg";
 import browser_telebot from "../img/projects/browser_telebot.jpg";
 import data_tool from "../img/projects/data-tool.png";
-import type { PortfolioEntry } from "./types";
+import { IconTypes, type PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
   {
@@ -29,16 +29,23 @@ const portfolios: PortfolioEntry[] = [
     categories: ["TypeScript", "React", "Web Development"],
     stack: ["TypeScript", "React"],
     image: data_tool,
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/data-tool",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github
       },
-      link: {
+      {
         link: "https://data.jh123x.com",
         tooltip: "Website",
+        iconType: IconTypes.link
       },
-    },
+      {
+        link: "https://jh123x.com/blog/2026/building-a-data-converter/",
+        tooltip: "Blog Post",
+        iconType: IconTypes.link,
+      }
+    ]
   },
   {
     title: "Lox Interpreter",
@@ -46,12 +53,14 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Golang", "CodeCrafter"],
     stack: ["Golang"],
     image: lox_interpreter,
-    links: {
-      github: {
+    links: [
+      {
+
         link: "https://github.com/Jh123x/codecrafters-interpreter-go",
         tooltip: "Github Repository",
+        iconType: IconTypes.github,
       },
-    },
+    ],
   },
   {
     title: "HYSA Calculator",
@@ -59,16 +68,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["TypeScript", "React"],
     stack: ["TypeScript", "React"],
     image: hysa_calculator,
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/SG-HYSA-Calculator",
         tooltip: "Github",
+        iconType: IconTypes.github
       },
-      link: {
+      {
         link: "https://hysa.jh123x.com/",
         tooltip: "Official Website",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Browser Telebot",
@@ -76,16 +87,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["TypeScript", "React", "Telegram"],
     stack: ["TypeScript", "React"],
     image: browser_telebot,
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/telegram-bot-on-browser",
         tooltip: "Github",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://telebot.jh123x.com/",
         tooltip: "Official Website",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "BuilderGen",
@@ -93,16 +106,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Golang"],
     stack: ["Golang"],
     image: go_builder_gen,
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/buildergen/",
         tooltip: "Github Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://portfolio.jh123x.com/buildergen/",
         tooltip: "Official Documentation",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Go Test",
@@ -110,16 +125,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Golang"],
     stack: ["Golang"],
     image: go_test,
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/GoTest",
         tooltip: "Github Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://portfolio.jh123x.com/GoTest/",
         tooltip: "Official Documentation",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "NUS Website",
@@ -127,31 +144,40 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Hugo", "Markdown"],
     stack: ["Hugo", "Markdown"],
     image: nus_jh123x,
-    links: {
-      link: {
+    links: [
+      {
         link: "https://nus.jh123x.com/",
         tooltip: "Website",
+        iconType: IconTypes.link,
       },
-    },
+      {
+        link: "https://jh123x.com/blog/2024/new-nus-subdomain/",
+        tooltip: "Blog Post",
+        iconType: IconTypes.link,
+      }
+    ],
   },
   {
     categories: ["Golang"],
     image: go_validate,
     stack: ["Golang"],
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/go-validate",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      docs: {
+      {
         link: "https://portfolio.jh123x.com/go-validate/",
         tooltip: "Official Documentation",
+        iconType: IconTypes.docs
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/go-validate/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
     title: "Go Validate",
     text: "A simple library for validations in Pure Go.",
   },
@@ -159,9 +185,13 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Hugo", "Markdown"],
     stack: ["Hugo", "Markdown"],
     image: jh123x,
-    links: {
-      link: { link: "https://jh123x.com", tooltip: "Website" },
-    },
+    links: [
+      {
+        link: "https://jh123x.com",
+        tooltip: "Website",
+        iconType: IconTypes.link,
+      },
+    ],
     title: "Blog Website",
     text: "Created using Hugo",
   },
@@ -177,16 +207,18 @@ const portfolios: PortfolioEntry[] = [
       "Judge0",
     ],
     image: fyp,
-    links: {
-      link: {
-        link: "https://python.jh123x.com",
-        tooltip: "Sample of the Project",
+    links: [
+      {
+        link: "#",
+        tooltip: "Official Website (Removed)",
+        iconType: IconTypes.link,
       },
-      docs: {
+      {
         link: "https://jh123x.com/projects/visualpython/",
         tooltip: "Project Page",
+        iconType: IconTypes.link,
       },
-    },
+    ],
     title: "VisualPython",
     text: "A Visual Programming Platform for learning Python for my Final Year Project.",
   },
@@ -196,16 +228,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Go", "Shell"],
     stack: ["Golang"],
     text: "A simple shell written in Go, complete with unit tests and github actions pipelines.",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/go-shell",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/go-shell/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Orderonus",
@@ -213,16 +247,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Django", "React", "Python"],
     stack: ["Python", "Django", "React", "JavaScript"],
     text: "It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Orderonus",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://devpost.com/software/orderonus",
         tooltip: "Devpost",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "JioU",
@@ -230,16 +266,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["React", "NodeJs", "JavaScript", "Django"],
     stack: ["React", "JavaScript", "Python", "Django"],
     image: jiou,
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/KTV-Capoos",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.link,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/lifehack2022/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Typeracer Bot",
@@ -247,16 +285,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Python", "PyAutoGui", "OCR"],
     stack: ["Python"],
     text: "A bot that plays typeracer for you.",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/Typeracer-bot",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/typeracer-bot/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "PDF Combiner",
@@ -264,16 +304,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Python", "PyPDF2"],
     stack: ["Python"],
     text: "A CLI application that combines multiple PDF files into one",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/PDF-Combiner",
         tooltip: "Github Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/pdf-combiner/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Overwatch Toolkit",
@@ -281,16 +323,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["React", "NodeJs", "JavaScript"],
     stack: ["React", "JavaScript"],
     text: "A toolkit for Overwatch players.",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/overwatch-tools",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/overwatch-tools/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Reversi Bot",
@@ -298,16 +342,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Python", "Alpha-Beta Pruning", "Minimax", "Monte Carlo"],
     stack: ["Python"],
     text: "A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/Jh123x/Reversi-Simulator",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/reversi-simulator/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "COMP562 Project: Political Leaning Predictor",
@@ -315,16 +361,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Python", "PyTorch", "Deep Learning"],
     stack: ["Python", "PyTorch"],
     text: "A Machine learning project that learns about a user's political leaning in the United States based on a series of questions. A project for COMP562: Introduction to Machine Learning.",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/COMP562-2022-Group-1",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://comp562-2022-group-1.github.io/",
         tooltip: "Project Page",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "Code2Gather",
@@ -340,12 +388,13 @@ const portfolios: PortfolioEntry[] = [
     ],
     stack: ["React", "TypeScript", "Golang", "Python", "Docker", "Kubernetes"],
     text: "A platform for developers to conduct mock interviews. This was completed as a CS3219 Project",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/CodeToGather/",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-    },
+    ],
   },
   {
     title: "McGymmy",
@@ -353,12 +402,13 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Java", "Maven", "Software Engineering"],
     stack: ["Java", "Maven", "JavaFx"],
     text: "McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/AY2021S1-CS2103T-W17-3",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-    },
+    ],
   },
   {
     title: "Research Project on Server Side Request Forgery (SSRF)",
@@ -366,16 +416,18 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Python", "Flask", "Docker", "Server Side Request Forgery"],
     stack: ["Python", "Flask", "Docker"],
     text: "A research project on Server Side Request Forgery. This was completed as a CS4239 Project",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/orgs/CS4239-U6",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/ssrf-research/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
   {
     title: "NOT Schrödinger's Box",
@@ -383,20 +435,23 @@ const portfolios: PortfolioEntry[] = [
     categories: ["Python", "React Native", "IoT"],
     stack: ["Python", "React Native"],
     text: "Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.",
-    links: {
-      github: {
+    links: [
+      {
         link: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
         tooltip: "GitHub Repository",
+        iconType: IconTypes.github,
       },
-      docs: {
+      {
         link: "https://devpost.com/software/not-schrodinger-s-box",
         tooltip: "Devpost",
+        iconType: IconTypes.docs,
       },
-      link: {
+      {
         link: "https://jh123x.com/projects/hacknroll2022/",
         tooltip: "Project Details",
+        iconType: IconTypes.link,
       },
-    },
+    ],
   },
 ];
 

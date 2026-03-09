@@ -9,14 +9,14 @@ import {
   Stack,
   Grid,
 } from "@mui/material";
-import type { IconTypes, LinkTypes } from "src/data/types";
+import type { LinkTypes } from "src/data/types";
 import mapItem from "src/data/iconMap";
 
 interface ProjectProps {
   Title: string;
   Description: string;
   ImageSrc: string;
-  Icons: LinkTypes;
+  Icons: LinkTypes[];
   TechStack: string[];
   ImageAlt?: string;
 }
@@ -29,6 +29,7 @@ export const ProjectCard = ({
   Icons,
   TechStack,
 }: ProjectProps) => {
+  console.log(Icons);
   return (
     <Card
       sx={{
@@ -66,9 +67,7 @@ export const ProjectCard = ({
               {Title}
             </Typography>
             <Stack direction="row" spacing={1}>
-              {Object.entries(Icons).map(([iconType, links]) =>
-                mapItem([iconType as IconTypes, links]),
-              )}
+              {Icons.map((links) => mapItem(links))}
             </Stack>
           </Stack>
 

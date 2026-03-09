@@ -5,7 +5,7 @@ import Image from "next/image";
 import itemMap from "../data/iconMap";
 import { Circle } from "@mui/icons-material";
 import type { WithChildren } from "./types";
-import type { Entry, IconTypes } from "../data/types";
+import type { Entry } from "../data/types";
 import { Stack, Typography, Box, useTheme } from "@mui/material";
 
 const ExperienceItem = ({
@@ -85,9 +85,7 @@ const ExperienceItem = ({
         </Typography>
         {link ? (
           <Stack direction="row" spacing={1}>
-            {Object.entries(link).map(([iconType, link]) =>
-              itemMap([iconType as IconTypes, link]),
-            )}
+            {link.map((iconType) => itemMap(iconType))}
           </Stack>
         ) : (
           <></>

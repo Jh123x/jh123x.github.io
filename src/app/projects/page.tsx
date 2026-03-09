@@ -11,13 +11,14 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 };
 
-const PortfoliosPage = () => (
-  <MainLayout>
+const PortfoliosPage = () => {
+  console.log(projects)
+  return <MainLayout>
     <InnerLayout>
       <Title title="Projects" />
       <ProjectsMenu menuItem={projects} />
     </InnerLayout>
   </MainLayout>
-);
+};
 
 export default PortfoliosPage;

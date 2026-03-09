@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Tooltip } from "@mui/material";
-import { type PortfolioLink, IconTypes } from "./types";
+import { IconTypes, LinkTypes } from "./types";
 import type { IconElement } from "src/Components/icons/types";
 import { ReactElement } from "react";
 import { LinkedinIcon } from "src/Components/icons/linkedin";
@@ -21,16 +21,15 @@ const iconMap: Map<IconTypes, IconElement> = new Map<IconTypes, IconElement>([
   [IconTypes.docs, DocumentScannerIcon],
 ]);
 
-const mapItem = ([name, link]: [IconTypes, PortfolioLink]): ReactElement<
+const mapItem = ({ iconType, link, tooltip }: LinkTypes): ReactElement<
   any,
   any
 > => {
-  const Icon = iconMap.get(name) ?? LinkIcon;
-  const tooltip = link.tooltip ?? "";
-  const url = link.link ?? "";
+  const Icon = iconMap.get(iconType) ?? LinkIcon;
+  const url = link ?? "";
 
   return (
-    <Tooltip title={tooltip} key={name + link.link + tooltip}>
+    <Tooltip title={tooltip} key={iconType + link + tooltip}>
       <span>
         <Icon href={url} />
       </span>
