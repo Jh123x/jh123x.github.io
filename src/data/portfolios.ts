@@ -43,7 +43,7 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://jh123x.com/blog/2026/building-a-data-converter/",
         tooltip: "Blog Post",
-        iconType: IconType.link,
+        iconType: IconType.docs,
       }
     ]
   },
