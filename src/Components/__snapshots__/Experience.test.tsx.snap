@@ -68,7 +68,61 @@ exports[`Resume should render correctly 1`] = `
         <p
           class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
         >
-          Jan 2025 - Present
+          March 2026 - Present
+        </p>
+      </div>
+      <div
+        class="MuiBox-root css-pfs1j3"
+      >
+        <img
+          alt="Ensign Infosecurity Pte Ltd"
+          data-nimg="1"
+          decoding="async"
+          height="100"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+          style="color: transparent;"
+          width="100"
+        />
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+        >
+          Software Engineer, AI Engineering (Engineer III)
+        </h5>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+        >
+          Ensign Infosecurity Pte Ltd
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+        >
+          Software engineer for Cybersecurity Tooling using AI.
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiStack-root css-16kpevi-MuiStack-root"
+    >
+      <div
+        class="MuiBox-root css-4acb8i"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+          data-testid="CircleIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+          />
+        </svg>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+        >
+          Jan 2025 - March 2026
         </p>
       </div>
       <div

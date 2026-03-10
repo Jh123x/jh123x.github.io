@@ -3,14 +3,22 @@ import NUS_LOGO from "../img/logos/nus_logo_full.svg";
 import FORUS_LABS_LOGO from "../img/logos/forus_labs.svg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.svg";
 import BYTEDANCE_LOGO from "../img/logos/bytedance.svg";
-import type { Entry } from "./types";
+import ENSIGN_LOGO from "../img/logos/ensign_logo.jpeg";
+import { Entry, IconType } from "./types";
 
 /**
  * Latest experience at the front of the array
  */
 const workExperience: Entry[] = [
   {
-    year: "Jan 2025 - Present",
+    year: "March 2026 - Present",
+    logo: ENSIGN_LOGO,
+    title: "Software Engineer, AI Engineering (Engineer III)",
+    subTitle: "Ensign Infosecurity Pte Ltd",
+    text: "Software engineer for Cybersecurity Tooling using AI.",
+  },
+  {
+    year: "Jan 2025 - March 2026",
     logo: BYTEDANCE_LOGO,
     title: "Backend Software Engineer II (Global Payments)",
     subTitle: "Bytedance Pte Ltd",
@@ -44,12 +52,14 @@ const workExperience: Entry[] = [
     logo: NUS_LOGO,
     subTitle: "National University of Singapore",
     text: "Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.",
-    link: {
-      github: {
+    link: [
+      {
+
         link: "https://github.com/NUSGreyhats/Orbital-2022",
         tooltip: "GitHub Repository",
+        iconType: IconType.github,
       },
-    },
+    ],
   },
   {
     year: "Aug 2021 - Nov 2021",
@@ -57,12 +67,14 @@ const workExperience: Entry[] = [
     subTitle: "Forus Labs",
     logo: FORUS_LABS_LOGO,
     text: "During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.",
-    link: {
-      google: {
+    link: [
+      {
+        iconType: IconType.google,
         link: "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
         tooltip: "Google Play Store",
+
       },
-    },
+    ]
   },
   {
     year: "Aug 2021 - Nov 2021",
@@ -84,16 +96,18 @@ const workExperience: Entry[] = [
     logo: NUS_LOGO,
     subTitle: "National University of Singapore",
     text: "Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106.",
-    link: {
-      youtube: {
+    link: [
+      {
         link: "https://www.youtube.com/watch?v=yUs9zKqGJDU",
         tooltip: "YouTube Video",
+        iconType: IconType.youtube,
       },
-      github: {
+      {
         link: "https://github.com/NUSGreyhats/Orbital-2021",
         tooltip: "GitHub Repository",
+        iconType: IconType.github,
       },
-    },
+    ],
   },
   {
     year: "Jan 2021 - May 2021",
