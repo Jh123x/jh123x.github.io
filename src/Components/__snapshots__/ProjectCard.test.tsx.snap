@@ -3,43 +3,44 @@
 exports[`ProjectCard should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
   >
     <img
-      class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+      class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
       loading="lazy"
       src="/img.jpg"
     />
     <div
-      class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
     >
       <div
-        class="MuiStack-root css-oxmadn-MuiStack-root"
+        class="MuiStack-root css-11z4fno-MuiStack-root"
       >
         <div
           class="MuiStack-root css-gmwslw-MuiStack-root"
         >
           <h6
-            class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
           >
             Test
           </h6>
           <div
-            class="MuiStack-root css-niqf4j-MuiStack-root"
+            class="MuiStack-root css-p7v9gj-MuiStack-root"
           >
             <span
-              aria-label="GitHub Repository"
+              aria-label="Test GitHub"
               class=""
               data-mui-internal-clone-element="true"
             >
               <a
                 aria-label="Github"
-                href="https://github.com/Jh123x/data-tool"
+                href="https://github.com/test"
                 target="_blank"
               >
                 <svg
                   aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                   data-testid="GitHubIcon"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -50,83 +51,37 @@ exports[`ProjectCard should render correctly 1`] = `
                 </svg>
               </a>
             </span>
-            <span
-              aria-label="Website"
-              class=""
-              data-mui-internal-clone-element="true"
-            >
-              <a
-                aria-label="Link"
-                href="https://data.jh123x.com"
-                target="_blank"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
-                  data-testid="LinkIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1M8 13h8v-2H8zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5"
-                  />
-                </svg>
-              </a>
-            </span>
-            <span
-              aria-label="Blog Post"
-              class=""
-              data-mui-internal-clone-element="true"
-            >
-              <a
-                aria-label="Blog"
-                href="https://jh123x.com/blog/2026/building-a-data-converter/"
-                target="_blank"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
-                  data-testid="DocumentScannerOutlinedIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M7 3H4v3H2V1h5zm15 3V1h-5v2h3v3zM7 21H4v-3H2v5h5zm13-3v3h-3v2h5v-5zM17 6H7v12h10zm2 12c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2zM15 8H9v2h6zm0 3H9v2h6zm0 3H9v2h6z"
-                  />
-                </svg>
-              </a>
-            </span>
           </div>
         </div>
         <p
-          class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
         >
           Test Description
         </p>
         <div
-          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
         >
           <div
-            class="MuiGrid-root css-vj1n65-MuiGrid-root"
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
           >
             <div
-              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
             >
               <span
-                class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
               >
                 Stack1
               </span>
             </div>
           </div>
           <div
-            class="MuiGrid-root css-vj1n65-MuiGrid-root"
+            class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
           >
             <div
-              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+              class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
             >
               <span
-                class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
               >
                 Stack2
               </span>

@@ -17,7 +17,7 @@ exports[`itemMap should render a apple icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1gosquu-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1eq57b1-MuiSvgIcon-root"
           data-testid="AppleIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -49,7 +49,7 @@ exports[`itemMap should render a docs icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1nd6c2p-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1mgjksc-MuiSvgIcon-root"
           data-testid="DocumentScannerOutlinedIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -81,7 +81,7 @@ exports[`itemMap should render a github icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-3iujcx-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1rbqpd8-MuiSvgIcon-root"
           data-testid="GitHubIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -113,7 +113,7 @@ exports[`itemMap should render a google icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1nd6c2p-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1mgjksc-MuiSvgIcon-root"
           data-testid="GoogleIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -145,7 +145,7 @@ exports[`itemMap should render a link icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1nd6c2p-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1mgjksc-MuiSvgIcon-root"
           data-testid="LinkIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -177,7 +177,7 @@ exports[`itemMap should render a linkedin icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1r3rg64-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-185ufmo-MuiSvgIcon-root"
           data-testid="LinkedInIcon"
           focusable="false"
           viewBox="0 0 24 24"
@@ -209,7 +209,7 @@ exports[`itemMap should render a youtube icon 1`] = `
       >
         <svg
           aria-hidden="true"
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-w8jcz1-MuiSvgIcon-root"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-w1n8og-MuiSvgIcon-root"
           data-testid="YouTubeIcon"
           focusable="false"
           viewBox="0 0 24 24"

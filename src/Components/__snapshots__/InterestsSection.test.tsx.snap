@@ -3,10 +3,10 @@
 exports[`InterestSection should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-container css-ynvr9n-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-w50q5u-MuiGrid-root"
   >
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
         class="MuiBox-root css-1hu5f36"
@@ -33,19 +33,19 @@ exports[`InterestSection should render correctly 1`] = `
               width="100"
             />
             <h6
-              class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
             >
               Software Development
             </h6>
             <div
-              class="MuiBox-root css-1nmxpgi"
+              class="MuiBox-root css-1lyraj2"
             />
           </a>
         </div>
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
         class="MuiBox-root css-1hu5f36"
@@ -72,19 +72,19 @@ exports[`InterestSection should render correctly 1`] = `
               width="100"
             />
             <h6
-              class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
             >
               Home Lab
             </h6>
             <div
-              class="MuiBox-root css-1nmxpgi"
+              class="MuiBox-root css-1lyraj2"
             />
           </a>
         </div>
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
         class="MuiBox-root css-1hu5f36"
@@ -111,19 +111,19 @@ exports[`InterestSection should render correctly 1`] = `
               width="100"
             />
             <h6
-              class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
             >
               CTFs
             </h6>
             <div
-              class="MuiBox-root css-1nmxpgi"
+              class="MuiBox-root css-1lyraj2"
             />
           </a>
         </div>
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
         class="MuiBox-root css-1hu5f36"
@@ -150,19 +150,19 @@ exports[`InterestSection should render correctly 1`] = `
               width="100"
             />
             <h6
-              class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
             >
               Tech Blog
             </h6>
             <div
-              class="MuiBox-root css-1nmxpgi"
+              class="MuiBox-root css-1lyraj2"
             />
           </a>
         </div>
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
         class="MuiBox-root css-1hu5f36"
@@ -189,12 +189,12 @@ exports[`InterestSection should render correctly 1`] = `
               width="100"
             />
             <h6
-              class="MuiTypography-root MuiTypography-h6 css-1qrb8t5-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h6 css-6vb8h3-MuiTypography-root"
             >
               School Blog
             </h6>
             <div
-              class="MuiBox-root css-1nmxpgi"
+              class="MuiBox-root css-1lyraj2"
             />
           </a>
         </div>

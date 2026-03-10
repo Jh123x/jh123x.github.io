@@ -3,37 +3,38 @@
 exports[`Menu should render correctly portfolio 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
     style="padding: 0px; margin: 0px; width: 100%; justify-content: space-evenly; font-size: 0px;"
   >
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Data Tool"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Data Tool
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -47,7 +48,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -70,7 +71,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -93,7 +94,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="DocumentScannerOutlinedIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -107,34 +108,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A Click Optimized Data Tool to convert between JSON, CSV and TSV.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     TypeScript
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
@@ -146,33 +147,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Lox Interpreter"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Lox Interpreter
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Github Repository"
@@ -186,7 +188,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -200,21 +202,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A interpreter for Lox in Golang
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Golang
                   </span>
@@ -226,33 +228,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="HYSA Calculator"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 HYSA Calculator
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Github"
@@ -266,7 +269,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -289,7 +292,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -303,34 +306,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A high yield savings account calculator for Singapore Banks
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     TypeScript
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
@@ -342,33 +345,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Browser Telebot"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Browser Telebot
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Github"
@@ -382,7 +386,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -405,7 +409,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -419,34 +423,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               Running a Telegram bot from within a browser
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     TypeScript
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
@@ -458,33 +462,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="BuilderGen"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 BuilderGen
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Github Repository"
@@ -498,7 +503,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -521,7 +526,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -535,21 +540,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A code generation tools to build builders in Golang
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Golang
                   </span>
@@ -561,33 +566,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Go Test"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Go Test
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Github Repository"
@@ -601,7 +607,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -624,7 +630,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -638,21 +644,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A simple validation library in Pure Go
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Golang
                   </span>
@@ -664,33 +670,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="NUS Website"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 NUS Website
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Website"
@@ -704,7 +711,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -727,7 +734,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -741,34 +748,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A website for NUS students to find useful links, resources and module reviews.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Hugo
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Markdown
                   </span>
@@ -780,33 +787,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Go Validate"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Go Validate
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -820,7 +828,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -843,7 +851,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="DocumentScannerOutlinedIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -866,7 +874,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -880,21 +888,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A simple library for validations in Pure Go.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Golang
                   </span>
@@ -906,33 +914,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Blog Website"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Blog Website
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Website"
@@ -946,7 +955,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -960,34 +969,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               Created using Hugo
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Hugo
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Markdown
                   </span>
@@ -999,33 +1008,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="VisualPython"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 VisualPython
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Official Website (Removed)"
@@ -1039,7 +1049,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1062,7 +1072,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1076,99 +1086,99 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A Visual Programming Platform for learning Python for my Final Year Project.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     JavaScript
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Django
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     PostgreSQL
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Docker
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Judge0
                   </span>
@@ -1180,33 +1190,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Go Shell"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Go Shell
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -1220,7 +1231,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1243,7 +1254,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1257,21 +1268,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A simple shell written in Go, complete with unit tests and github actions pipelines.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Golang
                   </span>
@@ -1283,33 +1294,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Orderonus"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Orderonus
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -1323,7 +1335,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1346,7 +1358,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1360,60 +1372,60 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               It offers a queue management platform for all food & beverages admins running stalls. This was a project for Hack&Roll 2023
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Django
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     JavaScript
                   </span>
@@ -1425,33 +1437,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="JioU"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 JioU
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -1465,7 +1478,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1488,7 +1501,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1502,60 +1515,60 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               JioU is a simple, yet powerful, way to connect with others. Everyone can participate in events to help others.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     JavaScript
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Django
                   </span>
@@ -1567,33 +1580,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Typeracer Bot"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Typeracer Bot
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -1607,7 +1621,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1630,7 +1644,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1644,21 +1658,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A bot that plays typeracer for you.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
@@ -1670,33 +1684,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="PDF Combiner"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 PDF Combiner
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="Github Repository"
@@ -1710,7 +1725,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1733,7 +1748,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1747,21 +1762,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A CLI application that combines multiple PDF files into one
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
@@ -1773,33 +1788,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Overwatch Toolkit"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Overwatch Toolkit
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -1813,7 +1829,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1836,7 +1852,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1850,34 +1866,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A toolkit for Overwatch players.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     JavaScript
                   </span>
@@ -1889,33 +1905,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Reversi Bot"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Reversi Bot
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -1929,7 +1946,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1952,7 +1969,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -1966,21 +1983,21 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A game of reversi which includes a bot that plays Reversi (Othello) using Alpha-Beta Pruning, Minimax, and Monte Carlo.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
@@ -1992,33 +2009,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="COMP562 Project: Political Leaning Predictor"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 COMP562 Project: Political Leaning Predictor
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -2032,7 +2050,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2055,7 +2073,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2069,34 +2087,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A Machine learning project that learns about a user's political leaning in the United States based on a series of questions. A project for COMP562: Introduction to Machine Learning.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     PyTorch
                   </span>
@@ -2108,33 +2126,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Code2Gather"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Code2Gather
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -2148,7 +2167,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2162,86 +2181,86 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A platform for developers to conduct mock interviews. This was completed as a CS3219 Project
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     TypeScript
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Golang
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Docker
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Kubernetes
                   </span>
@@ -2253,33 +2272,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="McGymmy"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 McGymmy
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -2293,7 +2313,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2307,47 +2327,47 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               McGymmy is a CLI based application for sedentary software engineers to manage their diet and stay healthy. This is completed as a CS2103T Project
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Java
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Maven
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     JavaFx
                   </span>
@@ -2359,33 +2379,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="Research Project on Server Side Request Forgery (SSRF)"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 Research Project on Server Side Request Forgery (SSRF)
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -2399,7 +2420,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2422,7 +2443,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2436,47 +2457,47 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               A research project on Server Side Request Forgery. This was completed as a CS4239 Project
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Flask
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Docker
                   </span>
@@ -2488,33 +2509,34 @@ exports[`Menu should render correctly portfolio 1`] = `
       </div>
     </div>
     <div
-      class="MuiGrid-root css-vj1n65-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
     >
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1efv9mk-MuiPaper-root-MuiCard-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vgzygk-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: var(--mui-shadows-1); --Paper-overlay: var(--mui-overlays-1);"
       >
         <img
           alt="NOT Schrödinger's Box"
-          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-1n57yg-MuiCardMedia-root"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-mllaj1-MuiCardMedia-root"
           loading="lazy"
           src="/img.jpg"
         />
         <div
-          class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
         >
           <div
-            class="MuiStack-root css-oxmadn-MuiStack-root"
+            class="MuiStack-root css-11z4fno-MuiStack-root"
           >
             <div
               class="MuiStack-root css-gmwslw-MuiStack-root"
             >
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-l2pi1x-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-1melhzp-MuiTypography-root"
               >
                 NOT Schrödinger's Box
               </h6>
               <div
-                class="MuiStack-root css-niqf4j-MuiStack-root"
+                class="MuiStack-root css-p7v9gj-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -2528,7 +2550,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2551,7 +2573,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="DocumentScannerOutlinedIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2574,7 +2596,7 @@ exports[`Menu should render correctly portfolio 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
                       data-testid="LinkIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -2588,34 +2610,34 @@ exports[`Menu should render correctly portfolio 1`] = `
               </div>
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body1 css-t73383-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-nk3wid-MuiTypography-root"
             >
               Ever had a problem with having too many items? Sometimes we do not know where everything is and they have become Schrödinger's items. NOT Schrödinger's Box is our way of tackling this issue. A project for Hack&Roll 2021.
             </p>
             <div
-              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row MuiGrid-spacing-xs-1 css-1qx9tnw-MuiGrid-root"
             >
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     Python
                   </span>
                 </div>
               </div>
               <div
-                class="MuiGrid-root css-vj1n65-MuiGrid-root"
+                class="MuiGrid-root MuiGrid-direction-xs-row css-17fpwt7-MuiGrid-root"
               >
                 <div
-                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-niokh9-MuiChip-root"
+                  class="MuiChip-root MuiChip-filled MuiChip-sizeSmall MuiChip-colorDefault MuiChip-filledDefault css-abpc0k-MuiChip-root"
                 >
                   <span
-                    class="MuiChip-label MuiChip-labelSmall css-wjsjww-MuiChip-label"
+                    class="MuiChip-label MuiChip-labelSmall css-eccknh-MuiChip-label"
                   >
                     React Native
                   </span>

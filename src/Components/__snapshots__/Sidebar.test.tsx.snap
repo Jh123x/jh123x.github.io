@@ -6,7 +6,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
     class="MuiBox-root css-zbm6ut"
   >
     <div
-      class="MuiStack-root css-dj2dlc-MuiStack-root"
+      class="MuiStack-root css-qeyblv-MuiStack-root"
     >
       <div
         class="avatar MuiBox-root css-14y874c"
@@ -27,7 +27,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
         class="MuiStack-root css-doxyf8-MuiStack-root"
       >
         <div
-          class="MuiBox-root css-19pitgr"
+          class="MuiBox-root css-15pwtrr"
         >
           <a
             href="/"
@@ -37,7 +37,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
               >
                 HOME
               </p>
@@ -45,7 +45,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           </a>
         </div>
         <div
-          class="MuiBox-root css-19pitgr"
+          class="MuiBox-root css-15pwtrr"
         >
           <a
             href="/experience"
@@ -55,7 +55,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
               >
                 EXPERIENCE
               </p>
@@ -63,7 +63,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           </a>
         </div>
         <div
-          class="MuiBox-root css-19pitgr"
+          class="MuiBox-root css-15pwtrr"
         >
           <a
             href="/projects"
@@ -73,7 +73,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
               >
                 PROJECTS
               </p>
@@ -81,7 +81,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           </a>
         </div>
         <div
-          class="MuiBox-root css-19pitgr"
+          class="MuiBox-root css-15pwtrr"
         >
           <a
             href="/about"
@@ -91,7 +91,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
               class="MuiBox-root css-8atqhb"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
               >
                 ABOUT
               </p>
@@ -103,7 +103,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
         class="MuiBox-root css-0"
       >
         <div
-          class="MuiStack-root css-1qpr3v8-MuiStack-root"
+          class="MuiStack-root css-f4j71-MuiStack-root"
         >
           <a
             aria-label="Github"
@@ -112,7 +112,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
               data-testid="GitHubIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -129,7 +129,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-7vund7-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1cs1kht-MuiSvgIcon-root"
               data-testid="LinkedInIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -146,7 +146,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
               data-testid="LinkIcon"
               focusable="false"
               viewBox="0 0 24 24"
@@ -161,7 +161,7 @@ exports[`Sidebar should render correctly toggled 1`] = `
           class="MuiBox-root css-8okr7e"
         >
           <p
-            class="MuiTypography-root MuiTypography-body1 css-1pd022d-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-body1 css-ewn9zp-MuiTypography-root"
           >
             @2026 
             <b>
