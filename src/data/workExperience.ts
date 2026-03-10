@@ -2,7 +2,7 @@ import DSO_Logo from "../img/logos/dso_logo.jpeg";
 import NUS_LOGO from "../img/logos/nus_logo_full.svg";
 import FORUS_LABS_LOGO from "../img/logos/forus_labs.svg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.svg";
-import BYTEDANCE_LOGO from "../img/logos/bytedance.svg"
+import BYTEDANCE_LOGO from "../img/logos/bytedance.svg";
 import ENSIGN_LOGO from "../img/logos/ensign_logo.jpeg";
 import { Entry, IconType } from "./types";
 
@@ -67,12 +67,14 @@ const workExperience: Entry[] = [
     subTitle: "Forus Labs",
     logo: FORUS_LABS_LOGO,
     text: "During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.",
-    link: [{
-      iconType: IconType.google,
-      link: "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
-      tooltip: "Google Play Store",
+    link: [
+      {
+        iconType: IconType.google,
+        link: "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
+        tooltip: "Google Play Store",
 
-    },]
+      },
+    ]
   },
   {
     year: "Aug 2021 - Nov 2021",
