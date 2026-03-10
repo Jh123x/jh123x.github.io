@@ -1,50 +1,25 @@
 import * as React from "react";
 import itemMap from "./iconMap";
-import { IconTypes, LinkTypes } from "./types";
+import { IconType, LinkType } from "./types";
 import { describe, expect, test } from "@jest/globals";
 import { Box } from "@mui/material";
 import { render } from "@testing-library/react";
 
-type testCase = [IconTypes, LinkTypes];
 
 describe("itemMap", () => {
-  const tests: testCase[] = [
-    [
-      IconTypes.github,
-      { github: { link: "https://github.com", tooltip: "Github" } },
-    ],
-    [
-      IconTypes.google,
-      { google: { link: "https://google.com", tooltip: "Google" } },
-    ],
-    [
-      IconTypes.apple,
-      { apple: { link: "https://apple.com", tooltip: "Apple" } },
-    ],
-    [
-      IconTypes.linkedin,
-      { linkedin: { link: "https://linkedin.com", tooltip: "LinkedIn" } },
-    ],
-    [
-      IconTypes.link,
-      {
-        link: { link: "https://google.com", tooltip: "Link" },
-      },
-    ],
-    [
-      IconTypes.youtube,
-      { youtube: { link: "https://youtube.com", tooltip: "YouTube" } },
-    ],
-    [IconTypes.docs, { docs: { link: "https://docs.com", tooltip: "Docs" } }],
+  const tests: LinkType[] = [
+    { link: "https://github.com", tooltip: "Github", iconType: IconType.github, },
+    { link: "https://google.com", tooltip: "Google", iconType: IconType.google },
+    { link: "https://apple.com", tooltip: "Apple", iconType: IconType.apple },
+    { link: "https://google.com", tooltip: "Link", iconType: IconType.link },
+    { link: "https://linkedin.com", tooltip: "LinkedIn", iconType: IconType.linkedin },
+    { link: "https://youtube.com", tooltip: "YouTube", iconType: IconType.youtube },
+    { link: "https://docs.com", tooltip: "Docs", iconType: IconType.docs },
   ];
 
-  for (const [icon, links] of tests) {
-    test(`should render a ${icon} icon`, () => {
-      const wrapper = render(
-        <Box>
-          {Object.entries(links).map(([key, link]) => itemMap([icon, link]))}
-        </Box>,
-      );
+  for (const link of tests) {
+    test(`should render a ${link.iconType} icon`, () => {
+      const wrapper = render(<Box>{itemMap(link)}</Box>,);
       expect(wrapper.asFragment()).toMatchSnapshot();
     });
   }

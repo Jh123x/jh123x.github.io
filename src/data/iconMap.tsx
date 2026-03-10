@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Tooltip } from "@mui/material";
-import { IconTypes, LinkTypes } from "./types";
+import { IconType, type LinkType } from "./types";
 import type { IconElement } from "src/Components/icons/types";
 import { ReactElement } from "react";
 import { LinkedinIcon } from "src/Components/icons/linkedin";
@@ -11,17 +11,17 @@ import { AppleIcon } from "src/Components/icons/apple";
 import { DocumentScannerIcon } from "src/Components/icons/scanner";
 import { YoutubeIcon } from "src/Components/icons/youtube";
 
-const iconMap: Map<IconTypes, IconElement> = new Map<IconTypes, IconElement>([
-  [IconTypes.github, GithubIcon],
-  [IconTypes.google, GoogleIcon],
-  [IconTypes.apple, AppleIcon],
-  [IconTypes.linkedin, LinkedinIcon],
-  [IconTypes.link, LinkIcon],
-  [IconTypes.youtube, YoutubeIcon],
-  [IconTypes.docs, DocumentScannerIcon],
+const iconMap: Map<IconType, IconElement> = new Map<IconType, IconElement>([
+  [IconType.github, GithubIcon],
+  [IconType.google, GoogleIcon],
+  [IconType.apple, AppleIcon],
+  [IconType.linkedin, LinkedinIcon],
+  [IconType.link, LinkIcon],
+  [IconType.youtube, YoutubeIcon],
+  [IconType.docs, DocumentScannerIcon],
 ]);
 
-const mapItem = ({ iconType, link, tooltip }: LinkTypes): ReactElement<
+const mapItem = ({ iconType, link, tooltip }: LinkType): ReactElement<
   any,
   any
 > => {

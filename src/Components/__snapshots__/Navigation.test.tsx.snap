@@ -3,7 +3,7 @@
 exports[`Navigation should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="MuiStack-root css-qeyblv-MuiStack-root"
+    class="MuiStack-root css-dj2dlc-MuiStack-root"
   >
     <div
       class="avatar MuiBox-root css-14y874c"
@@ -24,7 +24,7 @@ exports[`Navigation should render correctly 1`] = `
       class="MuiStack-root css-doxyf8-MuiStack-root"
     >
       <div
-        class="MuiBox-root css-15pwtrr"
+        class="MuiBox-root css-19pitgr"
       >
         <a
           href="/"
@@ -34,7 +34,7 @@ exports[`Navigation should render correctly 1`] = `
             class="MuiBox-root css-8atqhb"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
             >
               HOME
             </p>
@@ -42,7 +42,7 @@ exports[`Navigation should render correctly 1`] = `
         </a>
       </div>
       <div
-        class="MuiBox-root css-15pwtrr"
+        class="MuiBox-root css-19pitgr"
       >
         <a
           href="/experience"
@@ -52,7 +52,7 @@ exports[`Navigation should render correctly 1`] = `
             class="MuiBox-root css-8atqhb"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
             >
               EXPERIENCE
             </p>
@@ -60,7 +60,7 @@ exports[`Navigation should render correctly 1`] = `
         </a>
       </div>
       <div
-        class="MuiBox-root css-15pwtrr"
+        class="MuiBox-root css-19pitgr"
       >
         <a
           href="/projects"
@@ -70,7 +70,7 @@ exports[`Navigation should render correctly 1`] = `
             class="MuiBox-root css-8atqhb"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
             >
               PROJECTS
             </p>
@@ -78,7 +78,7 @@ exports[`Navigation should render correctly 1`] = `
         </a>
       </div>
       <div
-        class="MuiBox-root css-15pwtrr"
+        class="MuiBox-root css-19pitgr"
       >
         <a
           href="/about"
@@ -88,7 +88,7 @@ exports[`Navigation should render correctly 1`] = `
             class="MuiBox-root css-8atqhb"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-1sjwuj8-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-grg6cd-MuiTypography-root"
             >
               ABOUT
             </p>
@@ -100,7 +100,7 @@ exports[`Navigation should render correctly 1`] = `
       class="MuiBox-root css-0"
     >
       <div
-        class="MuiStack-root css-f4j71-MuiStack-root"
+        class="MuiStack-root css-1qpr3v8-MuiStack-root"
       >
         <a
           aria-label="Github"
@@ -109,7 +109,7 @@ exports[`Navigation should render correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
             data-testid="GitHubIcon"
             focusable="false"
             viewBox="0 0 24 24"
@@ -126,7 +126,7 @@ exports[`Navigation should render correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1cs1kht-MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-7vund7-MuiSvgIcon-root"
             data-testid="LinkedInIcon"
             focusable="false"
             viewBox="0 0 24 24"
@@ -143,7 +143,7 @@ exports[`Navigation should render correctly 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
             data-testid="LinkIcon"
             focusable="false"
             viewBox="0 0 24 24"
@@ -158,7 +158,7 @@ exports[`Navigation should render correctly 1`] = `
         class="MuiBox-root css-8okr7e"
       >
         <p
-          class="MuiTypography-root MuiTypography-body1 css-ewn9zp-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-body1 css-1pd022d-MuiTypography-root"
         >
           @2026 
           <b>

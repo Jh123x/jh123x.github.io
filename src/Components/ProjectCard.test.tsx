@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCard";
 import Icon from "../img/blog.svg";
 import { render } from "@testing-library/react";
 import { ThemeProvider } from "@mui/material";
-import { darkTheme } from "src/app/app";
+import { darkTheme } from "../app/app";
+import portfolios from "../data/portfolios";
 
 describe("ProjectCard", () => {
   test("should render correctly", () => {
@@ -14,7 +15,7 @@ describe("ProjectCard", () => {
           Title="Test"
           Description="Test Description"
           ImageSrc={Icon.src}
-          Icons={{}}
+          Icons={portfolios[0].links}
           TechStack={["Stack1", "Stack2"]}
         />
       </ThemeProvider>,

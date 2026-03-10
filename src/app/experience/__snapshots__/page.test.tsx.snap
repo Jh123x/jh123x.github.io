@@ -3,13 +3,13 @@
 exports[`ResumePage Page should render correctly 1`] = `
 <DocumentFragment>
   <div
-    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-1wf2p09-MuiGrid-root"
+    class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-aldfg4-MuiGrid-root"
   >
     <div
-      class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row css-d64g0g-MuiGrid-root"
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
     >
       <div
-        class="MuiGrid-root MuiGrid-direction-xs-row MuiGrid-grid-xs-12 css-yqiqnf-MuiGrid-root"
+        class="MuiGrid-root css-vj1n65-MuiGrid-root"
       >
         <div
           class="MuiBox-root css-1rwyitq"
@@ -18,7 +18,7 @@ exports[`ResumePage Page should render correctly 1`] = `
             class="MuiBox-root css-16fue1n"
           />
           <h2
-            class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h2 css-15jw5o5-MuiTypography-root"
           >
             Work & Education
           </h2>
@@ -37,7 +37,7 @@ exports[`ResumePage Page should render correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-z3zv7j-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1e4dt4r-MuiSvgIcon-root"
                 data-testid="BusinessCenterIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ exports[`ResumePage Page should render correctly 1`] = `
               </svg>
             </div>
             <h3
-              class="MuiTypography-root MuiTypography-h3 css-1rjdojz-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h3 css-1ftrxke-MuiTypography-root"
             >
               Working Experience
             </h3>
@@ -58,14 +58,14 @@ exports[`ResumePage Page should render correctly 1`] = `
           class="MuiBox-root css-0"
         >
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -75,9 +75,63 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
-                Jan 2025 - Present
+                March 2026 - Present
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-pfs1j3"
+            >
+              <img
+                alt="Ensign Infosecurity Pte Ltd"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
+                srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
+              >
+                Software Engineer, AI Engineering (Engineer III)
+              </h5>
+              <h6
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
+              >
+                Ensign Infosecurity Pte Ltd
+              </h6>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
+              >
+                Software engineer for Cybersecurity Tooling using AI.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiStack-root css-js1qw7-MuiStack-root"
+          >
+            <div
+              class="MuiBox-root css-4acb8i"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
+                data-testid="CircleIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
+              >
+                Jan 2025 - March 2026
               </p>
             </div>
             <div
@@ -95,31 +149,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Backend Software Engineer II (Global Payments)
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 Bytedance Pte Ltd
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -129,7 +183,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Jun 2023 - Dec 2024
               </p>
@@ -149,31 +203,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Backend Software Engineer (Global Payments)
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 Bytedance Pte Ltd
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 Creating and managing user payment information for Bytedance products, maintaining APIs for payment processing, and ensuring the security of payment information.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -183,7 +237,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Aug 2022 - May 2023
               </p>
@@ -203,31 +257,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 CS2107 (Introduction to Information Security) Assignment Teaching Assistant
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 In this role, my responsibilities includes creating CTF style assignments, holding CTF consultations, answering queries and marking assignments. We work closely with the professors to ensure that the assignment questions covers the scope of the lecture and bridge the theory taught with lecture with practical applications.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -237,7 +291,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 May 2022 - Aug 2022
               </p>
@@ -257,31 +311,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Security Research Intern
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 DSO National Laboratories
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 During my internship, I research on tools for automated vulnerability discovery and analysis. I also developed a proof of concept for finding vulnerabilities in binary code. These tools are useful in automatic vulnerability discovery and analysis. As this is not a commercial product, I am unable to disclose the details of the project.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -291,7 +345,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 May 2022
               </p>
@@ -311,22 +365,22 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 CP2106 (Orbital Project) Teaching Assistant
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106. It covers concepts ranging from SQL injection to XSS. We also include the source code for the CTF. It aims to promote better security in the projects by the students.
               </p>
               <div
-                class="MuiStack-root css-p7v9gj-MuiStack-root"
+                class="MuiStack-root css-niqf4j-MuiStack-root"
               >
                 <span
                   aria-label="GitHub Repository"
@@ -340,7 +394,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -355,14 +409,14 @@ exports[`ResumePage Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -372,7 +426,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Aug 2021 - Nov 2021
               </p>
@@ -392,22 +446,22 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Part Time Fullstack Engineering Intern
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 Forus Labs
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.
               </p>
               <div
-                class="MuiStack-root css-p7v9gj-MuiStack-root"
+                class="MuiStack-root css-niqf4j-MuiStack-root"
               >
                 <span
                   aria-label="Google Play Store"
@@ -421,7 +475,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1kkoq0v-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ucy5bc-MuiSvgIcon-root"
                       data-testid="GoogleIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -436,14 +490,14 @@ exports[`ResumePage Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -453,7 +507,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Aug 2021 - Nov 2021
               </p>
@@ -473,31 +527,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 CS2103T (Software Engineering Project) Senior Student Mentor
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 In this role, my responsibilities include guiding students on technical difficulties encountered within their assignments and creating solutions.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -507,7 +561,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 May 2021 - Jul 2021
               </p>
@@ -527,31 +581,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Software Engineering Intern (Backend)
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 Shopee Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 During my internship, I worked on projects related to the backend of Shopee's e-commerce platform. This includes the usage of Golang, Python2, Django and MySQL.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -561,7 +615,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 May 2021
               </p>
@@ -581,22 +635,22 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 CP2106 (Orbital Project) Teaching Assistant
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 Together with my team from NUS Greyhats, we conducted a web security workshop for the students of CP2106.
               </p>
               <div
-                class="MuiStack-root css-p7v9gj-MuiStack-root"
+                class="MuiStack-root css-niqf4j-MuiStack-root"
               >
                 <span
                   aria-label="YouTube Video"
@@ -610,7 +664,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1rqhx9f-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-blm8ym-MuiSvgIcon-root"
                       data-testid="YouTubeIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -633,7 +687,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                   >
                     <svg
                       aria-hidden="true"
-                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2gfz6s-MuiSvgIcon-root"
+                      class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-ebqy1y-MuiSvgIcon-root"
                       data-testid="GitHubIcon"
                       focusable="false"
                       viewBox="0 0 24 24"
@@ -648,14 +702,14 @@ exports[`ResumePage Page should render correctly 1`] = `
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -665,7 +719,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Jan 2021 - May 2021
               </p>
@@ -685,31 +739,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 CS2107 (Introduction to Information Security) Assignment Teaching Assistant
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 In this role, my responsibilities includes creating CTF style assignments, hold consultations and marking assignments.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -719,7 +773,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Jan 2021 - Apr 2021
               </p>
@@ -739,17 +793,17 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 CS2103T (Software Engineering Project) Student Mentor
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 In this role, my responsibilities include guiding students on technical difficulties encountered within their assignments and creating solutions.
               </p>
@@ -757,7 +811,7 @@ exports[`ResumePage Page should render correctly 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1yjk3jq"
+          class="MuiBox-root css-ljrlhj"
         >
           <div
             class="MuiStack-root css-10mmyjl-MuiStack-root"
@@ -767,7 +821,7 @@ exports[`ResumePage Page should render correctly 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-z3zv7j-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1e4dt4r-MuiSvgIcon-root"
                 data-testid="SchoolIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -778,7 +832,7 @@ exports[`ResumePage Page should render correctly 1`] = `
               </svg>
             </div>
             <h3
-              class="MuiTypography-root MuiTypography-h3 css-1rjdojz-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h3 css-1ftrxke-MuiTypography-root"
             >
               Educational Qualifications
             </h3>
@@ -788,14 +842,14 @@ exports[`ResumePage Page should render correctly 1`] = `
           class="MuiBox-root css-0"
         >
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -805,7 +859,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Aug 2019 - May 2023
               </p>
@@ -825,31 +879,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Bachelor of Computing (Honours) in Computer Science
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 Studied Computer Science at the National University of Singapore. I am currently in my final year of my undergraduate studies.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -859,7 +913,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Jan 2022 - May 2022
               </p>
@@ -879,31 +933,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Exchange Programme
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 University of North Carolina at Chapel Hill
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 I went on exchange at the University of North Carolina at Chapel Hill. I am taking courses in Computer Science.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -913,7 +967,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Feb 2019 - May 2019
               </p>
@@ -933,31 +987,31 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 iBlocs for CS1010X & CS2030
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 National University of Singapore
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 I was a student under the iBlocs programme for CS1010X Programming Methodology and CS2030 Programming Methodology II.
               </p>
             </div>
           </div>
           <div
-            class="MuiStack-root css-16kpevi-MuiStack-root"
+            class="MuiStack-root css-js1qw7-MuiStack-root"
           >
             <div
               class="MuiBox-root css-4acb8i"
             >
               <svg
                 aria-hidden="true"
-                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1yo6b6f-MuiSvgIcon-root"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vg8inl-MuiSvgIcon-root"
                 data-testid="CircleIcon"
                 focusable="false"
                 viewBox="0 0 24 24"
@@ -967,7 +1021,7 @@ exports[`ResumePage Page should render correctly 1`] = `
                 />
               </svg>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-1ivoj0a-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-1ahdcj5-MuiTypography-root"
               >
                 Jan 2015 - Dec 2016
               </p>
@@ -987,17 +1041,17 @@ exports[`ResumePage Page should render correctly 1`] = `
                 width="100"
               />
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1b89f5z-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-oeo9x4-MuiTypography-root"
               >
                 Science Course
               </h5>
               <h6
-                class="MuiTypography-root MuiTypography-h6 css-98vonp-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h6 css-csaz0r-MuiTypography-root"
               >
                 Jurong Junior College
               </h6>
               <p
-                class="MuiTypography-root MuiTypography-body1 css-zwzx9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-jrd4we-MuiTypography-root"
               >
                 I studied Science at Jurong Junior College. I took the A Level H2 Mathematics, H2 Physics, H2 Chemistry, H1 Economics, H1 General Paper, H1 Mother Tongue (Chinese) and H1 Project work.
               </p>

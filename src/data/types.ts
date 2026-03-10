@@ -1,10 +1,8 @@
-"use client";
-
 import { OverridableComponent } from "@mui/material/OverridableComponent";
 import { SvgIconTypeMap } from "@mui/material";
 import { StaticImageData } from "next/image";
 
-export enum IconTypes {
+export enum IconType {
   github = "github",
   link = "link",
   google = "google",
@@ -16,8 +14,8 @@ export enum IconTypes {
 
 export type Icon = OverridableComponent<SvgIconTypeMap<{}, "svg">>;
 
-export interface LinkTypes {
-  iconType: IconTypes;
+export interface LinkType {
+  iconType: IconType;
   link: string;
   tooltip?: string;
 };
@@ -28,7 +26,7 @@ export interface Entry {
   title: string;
   subTitle: string;
   text: string;
-  link?: LinkTypes[];
+  link?: LinkType[];
 }
 
 export interface PortfolioEntry {
@@ -37,7 +35,7 @@ export interface PortfolioEntry {
   categories: string[];
   stack: string[];
   image: StaticImageData;
-  links: LinkTypes[];
+  links: LinkType[];
 }
 
 export interface SchoolExperienceEntry {

@@ -20,7 +20,7 @@ import lox_interpreter from "../img/projects/lox_interpreter.jpg";
 import hysa_calculator from "../img/projects/hysa.jpg";
 import browser_telebot from "../img/projects/browser_telebot.jpg";
 import data_tool from "../img/projects/data-tool.png";
-import { IconTypes, type PortfolioEntry } from "./types";
+import { IconType, type PortfolioEntry } from "./types";
 
 const portfolios: PortfolioEntry[] = [
   {
@@ -33,17 +33,17 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/data-tool",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github
+        iconType: IconType.github
       },
       {
         link: "https://data.jh123x.com",
         tooltip: "Website",
-        iconType: IconTypes.link
+        iconType: IconType.link
       },
       {
         link: "https://jh123x.com/blog/2026/building-a-data-converter/",
         tooltip: "Blog Post",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       }
     ]
   },
@@ -58,7 +58,7 @@ const portfolios: PortfolioEntry[] = [
 
         link: "https://github.com/Jh123x/codecrafters-interpreter-go",
         tooltip: "Github Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
     ],
   },
@@ -72,12 +72,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/SG-HYSA-Calculator",
         tooltip: "Github",
-        iconType: IconTypes.github
+        iconType: IconType.github
       },
       {
         link: "https://hysa.jh123x.com/",
         tooltip: "Official Website",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -91,12 +91,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/telegram-bot-on-browser",
         tooltip: "Github",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://telebot.jh123x.com/",
         tooltip: "Official Website",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -110,12 +110,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/buildergen/",
         tooltip: "Github Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://portfolio.jh123x.com/buildergen/",
         tooltip: "Official Documentation",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -129,12 +129,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/GoTest",
         tooltip: "Github Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://portfolio.jh123x.com/GoTest/",
         tooltip: "Official Documentation",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -148,12 +148,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://nus.jh123x.com/",
         tooltip: "Website",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
       {
         link: "https://jh123x.com/blog/2024/new-nus-subdomain/",
         tooltip: "Blog Post",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       }
     ],
   },
@@ -165,17 +165,17 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/go-validate",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://portfolio.jh123x.com/go-validate/",
         tooltip: "Official Documentation",
-        iconType: IconTypes.docs
+        iconType: IconType.docs
       },
       {
         link: "https://jh123x.com/projects/go-validate/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
     title: "Go Validate",
@@ -189,7 +189,7 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://jh123x.com",
         tooltip: "Website",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
     title: "Blog Website",
@@ -211,12 +211,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "#",
         tooltip: "Official Website (Removed)",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
       {
         link: "https://jh123x.com/projects/visualpython/",
         tooltip: "Project Page",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
     title: "VisualPython",
@@ -232,12 +232,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/go-shell",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://jh123x.com/projects/go-shell/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -251,12 +251,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Orderonus",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://devpost.com/software/orderonus",
         tooltip: "Devpost",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -270,12 +270,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/KTV-Capoos",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
       {
         link: "https://jh123x.com/projects/lifehack2022/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -289,12 +289,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/Typeracer-bot",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://jh123x.com/projects/typeracer-bot/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -308,12 +308,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/PDF-Combiner",
         tooltip: "Github Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://jh123x.com/projects/pdf-combiner/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -327,12 +327,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/overwatch-tools",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://jh123x.com/projects/overwatch-tools/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -346,12 +346,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/Jh123x/Reversi-Simulator",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://jh123x.com/projects/reversi-simulator/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -365,12 +365,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/COMP562-2022-Group-1",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://comp562-2022-group-1.github.io/",
         tooltip: "Project Page",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -392,7 +392,7 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/CodeToGather/",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
     ],
   },
@@ -406,7 +406,7 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/AY2021S1-CS2103T-W17-3",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
     ],
   },
@@ -420,12 +420,12 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/orgs/CS4239-U6",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://jh123x.com/projects/ssrf-research/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },
@@ -439,17 +439,17 @@ const portfolios: PortfolioEntry[] = [
       {
         link: "https://github.com/tinyurl-com-ItsBigBrainTimeXD",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
       {
         link: "https://devpost.com/software/not-schrodinger-s-box",
         tooltip: "Devpost",
-        iconType: IconTypes.docs,
+        iconType: IconType.docs,
       },
       {
         link: "https://jh123x.com/projects/hacknroll2022/",
         tooltip: "Project Details",
-        iconType: IconTypes.link,
+        iconType: IconType.link,
       },
     ],
   },

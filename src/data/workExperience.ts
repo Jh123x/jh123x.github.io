@@ -4,7 +4,7 @@ import FORUS_LABS_LOGO from "../img/logos/forus_labs.svg";
 import SHOPEE_LOGO from "../img/logos/shopee_logo.svg";
 import BYTEDANCE_LOGO from "../img/logos/bytedance.svg"
 import ENSIGN_LOGO from "../img/logos/ensign_logo.jpeg";
-import { Entry, IconTypes } from "./types";
+import { Entry, IconType } from "./types";
 
 /**
  * Latest experience at the front of the array
@@ -15,7 +15,7 @@ const workExperience: Entry[] = [
     logo: ENSIGN_LOGO,
     title: "Software Engineer, AI Engineering (Engineer III)",
     subTitle: "Ensign Infosecurity Pte Ltd",
-    text: "Software engineer for Cybersecurity Tooling.",
+    text: "Software engineer for Cybersecurity Tooling using AI.",
   },
   {
     year: "Jan 2025 - March 2026",
@@ -57,7 +57,7 @@ const workExperience: Entry[] = [
 
         link: "https://github.com/NUSGreyhats/Orbital-2022",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
     ],
   },
@@ -68,7 +68,7 @@ const workExperience: Entry[] = [
     logo: FORUS_LABS_LOGO,
     text: "During my internship, I worked on CI/CD Pipelines and flutter development for the Checkist application. The application is available in the Google Play Store.",
     link: [{
-      iconType: IconTypes.google,
+      iconType: IconType.google,
       link: "https://play.google.com/store/apps/details?id=com.foruslabs.checkist&hl=en_SG&gl=US&pli=1",
       tooltip: "Google Play Store",
 
@@ -98,12 +98,12 @@ const workExperience: Entry[] = [
       {
         link: "https://www.youtube.com/watch?v=yUs9zKqGJDU",
         tooltip: "YouTube Video",
-        iconType: IconTypes.youtube,
+        iconType: IconType.youtube,
       },
       {
         link: "https://github.com/NUSGreyhats/Orbital-2021",
         tooltip: "GitHub Repository",
-        iconType: IconTypes.github,
+        iconType: IconType.github,
       },
     ],
   },

@@ -1,8 +1,8 @@
 import * as React from "react";
 import { InnerLayout, MainLayout } from "../../styles/Layouts";
 import Title from "../../Components/Title";
-import projects from "../../data/portfolios";
-import ProjectsMenu from "../../Components/Projects";
+import portfolios from "../../data/portfolios";
+import Projects from "../../Components/Projects";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,11 +12,10 @@ export const metadata: Metadata = {
 };
 
 const PortfoliosPage = () => {
-  console.log(projects)
   return <MainLayout>
     <InnerLayout>
       <Title title="Projects" />
-      <ProjectsMenu menuItem={projects} />
+      <Projects menuItem={portfolios} />
     </InnerLayout>
   </MainLayout>
 };

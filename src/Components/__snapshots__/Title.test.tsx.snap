@@ -9,7 +9,7 @@ exports[`Title should render correctly 1`] = `
       class="MuiBox-root css-16fue1n"
     />
     <h2
-      class="MuiTypography-root MuiTypography-h2 css-1c9fscq-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h2 css-15jw5o5-MuiTypography-root"
     >
       Test Title
     </h2>
