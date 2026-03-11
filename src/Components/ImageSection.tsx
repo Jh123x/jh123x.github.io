@@ -43,10 +43,9 @@ const AboutDescription = () => {
             p: "1rem 0",
           }}
         >
-          I specialize in in Backend Development. Beyond development, I am also
-          interested in upcoming technologies such as <b>Machine Learning</b>{" "}
-          and <b>Artificial Intelligence</b>. I participate in <b>CTFs</b> and
-          run my <b>Home Lab</b> and <b>blogs</b> during my free time.
+          I specialize in in Backend Development. Beyond development, I also
+          explore <b>Cybersecurity</b> and <b>Artificial Intelligence</b>.
+          I participate in <b>CTFs</b>, run my <b>Home Lab</b> and <b>make blogs posts</b> during my free time.
         </Typography>
         <Stack
           direction="column"
