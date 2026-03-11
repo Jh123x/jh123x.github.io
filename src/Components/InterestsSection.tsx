@@ -46,7 +46,7 @@ const InterestsSection = () => (
       <InterestCard
         image={gamedev}
         title="School Blog"
-        href="https://nus.jh123x.com"
+        href="https://nus-guide.com"
       />
     </Grid>
   </Grid>
