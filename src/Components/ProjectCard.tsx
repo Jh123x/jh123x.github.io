@@ -56,7 +56,7 @@ export const ProjectCard = ({
         <Stack
           direction="column"
           spacing={2}
-          height="200px"
+          height="250px"
           sx={{
             justifyContent: "space-between",
           }}

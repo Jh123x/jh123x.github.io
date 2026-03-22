@@ -15,7 +15,7 @@ exports[`ProjectCard should render correctly 1`] = `
       class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
     >
       <div
-        class="MuiStack-root css-11z4fno-MuiStack-root"
+        class="MuiStack-root css-iunff2-MuiStack-root"
       >
         <div
           class="MuiStack-root css-gmwslw-MuiStack-root"

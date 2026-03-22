@@ -34,11 +34,11 @@ const HomePage = () => {
             color: theme.palette.text.primary,
           }}
         >
-          I am currently a <b>Backend Software Engineer</b> at Bytedance based
-          in <b>Singapore</b>. I have {new Date().getFullYear() - 2023} years of
+          I am currently an <b>AI Engineer</b> at Ensign Infosecurity based in{" "}
+          <b>Singapore</b>. I have {new Date().getFullYear() - 2023} years of
           experiences. On the side, I run a blog about my technical and personal
           adventures and work on side projects on my Github. I mainly work with
-          Golang (for work), Python and TypeScript (for side projects).
+          Golang, Python and TypeScript (for side projects).
         </Typography>
       </Box>
     </MainLayout>

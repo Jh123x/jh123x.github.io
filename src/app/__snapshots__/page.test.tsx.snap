@@ -21,15 +21,15 @@ exports[`Render HomePage renders HomePage component 1`] = `
       <p
         class="MuiTypography-root MuiTypography-body1 css-7419o1-MuiTypography-root"
       >
-        I am currently a 
+        I am currently an 
         <b>
-          Backend Software Engineer
+          AI Engineer
         </b>
-         at Bytedance based in 
+         at Ensign Infosecurity based in 
         <b>
           Singapore
         </b>
-        . I have 3 years of experiences. On the side, I run a blog about my technical and personal adventures and work on side projects on my Github. I mainly work with Golang (for work), Python and TypeScript (for side projects).
+        . I have 3 years of experiences. On the side, I run a blog about my technical and personal adventures and work on side projects on my Github. I mainly work with Golang, Python and TypeScript (for side projects).
       </p>
     </div>
   </div>
