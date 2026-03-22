@@ -42,7 +42,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
           <h6
             class="MuiTypography-root MuiTypography-h6 css-1hmf6w3-MuiTypography-root"
           >
-            I specialize in in Backend Development. Beyond development, I also explore 
+            I specialize in Backend Development. Beyond development, I also explore 
             <b>
               Cybersecurity
             </b>
@@ -60,7 +60,7 @@ exports[`Render AboutPage renders AboutPage component 1`] = `
             </b>
              and 
             <b>
-              make blogs posts
+              make blog posts
             </b>
              during my free time.
           </h6>
