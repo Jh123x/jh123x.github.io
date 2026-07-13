@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "outDir": "./built",
     "allowJs": true,
     "target": "es5",
@@ -16,7 +16,7 @@
     "incremental": true,
     "module": "esnext",
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "baseUrl": "./",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -33,10 +33,11 @@
     }
   },
   "include": [
-    "./build/types/**/*.ts",
-    "./next-env.d.ts",
-    "./src/**/*",
-    ".next/types/**/*.ts"
+    "build/types/**/*.ts",
+    "next-env.d.ts",
+    "src/**/*",
+    ".next/types/**/*.ts",
+    "build/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

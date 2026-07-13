@@ -21,9 +21,8 @@ exports[`InterestCard should render correctly 1`] = `
           decoding="async"
           height="100"
           loading="lazy"
-          src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-          srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-          style="color: transparent;"
+          src="/img.jpg"
+          style="color: transparent; max-width: 100%; height: auto;"
           width="100"
         />
         <h6

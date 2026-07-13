@@ -37,7 +37,15 @@ const InterestCard = ({ image, title, href }: InterestDescription) => {
             textDecoration: "none",
           }}
         >
-          <Image src={image.src} width={100} height={100} alt={title} />
+          <Image
+            src={image.src}
+            width={100}
+            height={100}
+            alt={title}
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
           <Typography
             variant="h6"
             sx={{
