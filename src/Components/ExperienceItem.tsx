@@ -53,7 +53,15 @@ const ExperienceItem = ({
         </Typography>
       </Box>
       <Box width="70%" marginLeft="10%">
-        <Image src={logo.src} width={100} height={100} alt={subTitle} />
+        <Image
+          src={logo.src}
+          width={100}
+          height={100}
+          alt={subTitle}
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <Typography
           variant="h5"
           sx={{
