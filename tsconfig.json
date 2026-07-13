@@ -33,11 +33,10 @@
     }
   },
   "include": [
-    "./build/types/**/*.ts",
-    "./next-env.d.ts",
-    "./src/**/*",
-    ".next/types/**/*.ts",
     "build/types/**/*.ts",
+    "next-env.d.ts",
+    "src/**/*",
+    ".next/types/**/*.ts",
     "build/dev/types/**/*.ts"
   ],
   "exclude": [
