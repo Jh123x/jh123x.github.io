@@ -34,9 +34,8 @@ exports[`Resume Items should render a Backend Software Engineer (Global Payments
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -93,9 +92,8 @@ exports[`Resume Items should render a Backend Software Engineer II (Global Payme
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -152,9 +150,8 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -238,9 +235,8 @@ exports[`Resume Items should render a CP2106 (Orbital Project) Teaching Assistan
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -347,9 +343,8 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Sen
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -406,9 +401,8 @@ exports[`Resume Items should render a CS2103T (Software Engineering Project) Stu
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -465,9 +459,8 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -524,9 +517,8 @@ exports[`Resume Items should render a CS2107 (Introduction to Information Securi
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -583,9 +575,8 @@ exports[`Resume Items should render a Part Time Fullstack Engineering Intern ite
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -669,9 +660,8 @@ exports[`Resume Items should render a Security Research Intern item 1`] = `
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -728,9 +718,8 @@ exports[`Resume Items should render a Software Engineer, AI Engineering (Enginee
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
@@ -787,9 +776,8 @@ exports[`Resume Items should render a Software Engineering Intern (Backend) item
         decoding="async"
         height="100"
         loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=256&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=128&q=75 1x, /_next/image?url=%2Fimg.jpg&w=256&q=75 2x"
-        style="color: transparent;"
+        src="/img.jpg"
+        style="color: transparent; max-width: 100%; height: auto;"
         width="100"
       />
       <h5
