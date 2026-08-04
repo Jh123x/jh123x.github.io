@@ -83,20 +83,25 @@ const portfolios: PortfolioEntry[] = [
   },
   {
     title: "Browser Telebot",
-    text: "Running a Telegram bot from within a browser",
+    text: "A Telegram bot that runs entirely in your browser, with a visual flow editor.",
     categories: ["TypeScript", "React", "Telegram"],
-    stack: ["TypeScript", "React"],
+    stack: ["TypeScript", "React", "Redux"],
     image: browser_telebot,
     links: [
       {
         link: "https://github.com/Jh123x/telegram-bot-on-browser",
-        tooltip: "Github",
+        tooltip: "GitHub Repository",
         iconType: IconType.github,
       },
       {
         link: "https://telebot.jh123x.com/",
-        tooltip: "Official Website",
+        tooltip: "Website",
         iconType: IconType.link,
+      },
+      {
+        link: "https://jh123x.com/blog/2026/what-i-learnt-revamping-the-telegram-bot-on-a-browser/",
+        tooltip: "Blog Post",
+        iconType: IconType.docs,
       },
     ],
   },
